@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grpBoxInputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txtList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 19</value>
+  </data>
+  <data name="txtList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtList.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtList.Text" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="&gt;&gt;txtList.Name" xml:space="preserve">
+    <value>txtList</value>
+  </data>
+  <data name="&gt;&gt;txtList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtList.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;txtList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="lblHL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 48</value>
+  </data>
+  <data name="lblHL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblHL.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblHL.Text" xml:space="preserve">
+    <value>(Language flag)</value>
+  </data>
+  <data name="&gt;&gt;lblHL.Name" xml:space="preserve">
+    <value>lblHL</value>
+  </data>
+  <data name="&gt;&gt;lblHL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHL.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblHL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkHL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 46</value>
+  </data>
+  <data name="chkHL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="chkHL.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkHL.Text" xml:space="preserve">
+    <value>Use hl=en</value>
+  </data>
+  <data name="&gt;&gt;chkHL.Name" xml:space="preserve">
+    <value>chkHL</value>
+  </data>
+  <data name="&gt;&gt;chkHL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHL.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkHL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFeather.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFeather.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="lblFeather.LinkArea" type="System.Windows.Forms.LinkArea, System.Windows.Forms">
+    <value>17, 4</value>
+  </data>
+  <data name="lblFeather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 48</value>
+  </data>
+  <data name="lblFeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 15</value>
+  </data>
+  <data name="lblFeather.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblFeather.Text" xml:space="preserve">
+    <value>(Sign up for YTF here)</value>
+  </data>
+  <data name="&gt;&gt;lblFeather.Name" xml:space="preserve">
+    <value>lblFeather</value>
+  </data>
+  <data name="&gt;&gt;lblFeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFeather.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblFeather.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkFeather.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkFeather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 46</value>
+  </data>
+  <data name="chkFeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="chkFeather.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkFeather.Text" xml:space="preserve">
+    <value>Use noFeather</value>
+  </data>
+  <data name="&gt;&gt;chkFeather.Name" xml:space="preserve">
+    <value>chkFeather</value>
+  </data>
+  <data name="&gt;&gt;chkFeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkFeather.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkFeather.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 19</value>
+  </data>
+  <data name="txtTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtTime.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;txtTime.Name" xml:space="preserve">
+    <value>txtTime</value>
+  </data>
+  <data name="&gt;&gt;txtTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTime.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;txtTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtComboVID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="txtComboVID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="txtComboVID.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtComboVID.Text" xml:space="preserve">
+    <value>Video ID</value>
+  </data>
+  <data name="&gt;&gt;txtComboVID.Name" xml:space="preserve">
+    <value>txtComboVID</value>
+  </data>
+  <data name="&gt;&gt;txtComboVID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtComboVID.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;txtComboVID.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpBoxInputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grpBoxInputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 67</value>
+  </data>
+  <data name="grpBoxInputs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpBoxInputs.Text" xml:space="preserve">
+    <value>Inputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxInputs.Name" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxInputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxInputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
+    <value>btnEmbed</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
+    <value>btnVideoInfo</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
+    <value>btnComments</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
+    <value>btnVideo</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 85</value>
+  </data>
+  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 47</value>
+  </data>
+  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpBoxOutputs.Text" xml:space="preserve">
+    <value>Outputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="LinkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LinkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 20</value>
+  </data>
+  <data name="LinkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="LinkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LinkLabel1.Text" xml:space="preserve">
+    <value>Developed by Walkman</value>
+  </data>
+  <data name="&gt;&gt;LinkLabel1.Name" xml:space="preserve">
+    <value>LinkLabel1</value>
+  </data>
+  <data name="&gt;&gt;LinkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LinkLabel1.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;LinkLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lnkReleases.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkReleases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 20</value>
+  </data>
+  <data name="lnkReleases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lnkReleases.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lnkReleases.Text" xml:space="preserve">
+    <value>Releases</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Name" xml:space="preserve">
+    <value>lnkReleases</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lnkReportProblem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkReportProblem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="lnkReportProblem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="lnkReportProblem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lnkReportProblem.Text" xml:space="preserve">
+    <value>Report a problem</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Name" xml:space="preserve">
+    <value>lnkReportProblem</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lnkSourceCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkSourceCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="lnkSourceCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lnkSourceCode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lnkSourceCode.Text" xml:space="preserve">
+    <value>Source Code</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Name" xml:space="preserve">
+    <value>lnkSourceCode</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lnkOriginalPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkOriginalPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="lnkOriginalPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lnkOriginalPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lnkOriginalPage.Text" xml:space="preserve">
+    <value>Original Page</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Name" xml:space="preserve">
+    <value>lnkOriginalPage</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 138</value>
+  </data>
+  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 42</value>
+  </data>
+  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpBoxAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnVideo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnVideo.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
+    <value>btnVideo</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnComments.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnComments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 19</value>
+  </data>
+  <data name="btnComments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnComments.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnComments.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
+    <value>btnComments</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnVideoInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnVideoInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 19</value>
+  </data>
+  <data name="btnVideoInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnVideoInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnVideoInfo.Text" xml:space="preserve">
+    <value>Video Info</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
+    <value>btnVideoInfo</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnEmbed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnEmbed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 19</value>
+  </data>
+  <data name="btnEmbed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 23</value>
+  </data>
+  <data name="btnEmbed.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnEmbed.Text" xml:space="preserve">
+    <value>Embed Page Handler</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
+    <value>btnEmbed</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnReset.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 19</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>490, 193</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAD///8AEiP//xIj//8SI///EyP//xIj//8SI///EiP//xIj//8SI///EyP//xIj//8SI///EiP//xIj
+        //////8AEiP//wAc7v8AHO7/AB3v/wAc7v8AHO7/ABzu/wAc7v8AHO7/ABzu/wAd7/8AHe//ABzu/wAc
+        7/8AHe//EiP//xIj//8SI////////09V//+6uv////////////9PVf//z87///////+ysv//EiP//5ub
+        ////////0tH//xIj//8SI///EiP///////9PVf///////xIj////////T1X///////8SI////////5qZ
+        ////////EiP//xIj//8TI///EiP//xIj////////T1X///////8TI////////09V////////EiP/////
+        //+amf/////////////S0f//EiP//xIj//8SI////////09V////////EiL///////9PVf//////////
+        //+6uv//EiP//7q6///v8P//0tH//xIj//8SI///EyP///////8SI///EiP//xIj//8SI///EiP/////
+        //8SI///EiP//xIj//8SI///EiP//xIj//8SI///EiP//////////////////xIj//8SI///EiP//xMj
+        ////////EiP//xIj//8SI///EiP//xIj//8SI///EiP//9nZ//8SI///EiP//xMj//8SI///EiP//xIj
+        //8SI///EiP//xIj//8SI///EiP//xIj//8SI///EiL//9na////////////////////////////////
+        //////////////////////////////////////////////////////////////////+r5/b/AAAA//37
+        2P//////R5K5/wAAAP/IiWb//////26v1f8AAAD/rGZE////////////////////////////qub1/wAA
+        AP/+/Nj/qub2/wAAAP//////AAAA//782P8TcJ3//vzY/wAAAP///////////////////////////6rm
+        9f8AAAD//vzY/6rm9v8AAAD//////wAAAP/+/Nj/AAAA//////8AAAD/////////////////////////
+        //9ur9b/AAAA/+PFov//////R5K6/wAAAP/JiWb//////wAAAP//////AAAA////////////////////
+        ////////AAAA//+p7/8AAAD/////////////////////////////////////////////////////////
+        ////////bq7V/wxKf///////rGZE/+PFov//////////////////////////////////////////////
+        ////////gAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>YTVL</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>YTVL</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
