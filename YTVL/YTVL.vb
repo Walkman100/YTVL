@@ -1,8 +1,8 @@
 ﻿Public Class YTVL
     Dim Vars As String
     Private Sub LoadYTVL() Handles Me.Load
-        chkShowNotification.Checked = My.Settings.ShowNotification
-        NotifyIcon.Visible = My.Settings.ShowNotification
+        chkShowNotification.Checked = My.Settings.ShowNotification.ToString
+        NotifyIcon.Visible = My.Settings.ShowNotification.ToString
     End Sub
 
     'Buttons
