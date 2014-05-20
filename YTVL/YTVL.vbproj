@@ -104,6 +104,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="YTVL.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="YTVL.resx">
       <DependentUpon>YTVL.vb</DependentUpon>
     </EmbeddedResource>
@@ -139,6 +148,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -168,6 +178,7 @@
     <None Include="Resources\1387147104_video-display.png" />
     <None Include="Resources\1387139872_window-new.png" />
     <None Include="Resources\Exit2.png" />
+    <None Include="Resources\1400410566_application-pgp-signature.png" />
     <Content Include="youtube.ico" />
   </ItemGroup>
   <ItemGroup>
