@@ -139,6 +139,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\facebook_messages.png" />
+    <None Include="Icons\android_app.png" />
+    <None Include="Icons\android_app.ico" />
+    <None Include="Icons\youtube.ico" />
+    <None Include="Icons\YouTube_Back.ico" />
+    <None Include="Icons\YouTube_Front.ico" />
+    <None Include="Icons\YouTube_Shipping.ico" />
+    <None Include="Icons\YouTube-dl.ico" />
+    <None Include="Icons\YouTubeDownloader.ico" />
+    <None Include="Icons\android_app_20x14.png" />
+    <None Include="Resources\documentinfo.png" />
+    <None Include="Resources\1371833577_view-refresh.png" />
     <Content Include="youtube.ico" />
   </ItemGroup>
   <ItemGroup>

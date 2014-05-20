@@ -195,8 +195,11 @@
   <data name="lblHL.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7pt</value>
   </data>
+  <data name="lblHL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblHL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 48</value>
+    <value>276, 48</value>
   </data>
   <data name="lblHL.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 13</value>
@@ -222,8 +225,11 @@
   <data name="chkHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="chkHL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="chkHL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 46</value>
+    <value>196, 46</value>
   </data>
   <data name="chkHL.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 17</value>
@@ -252,20 +258,23 @@
   <data name="lblFeather.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7pt</value>
   </data>
+  <data name="lblFeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblFeather.LinkArea" type="System.Windows.Forms.LinkArea, System.Windows.Forms">
-    <value>17, 4</value>
+    <value>12, 4</value>
   </data>
   <data name="lblFeather.Location" type="System.Drawing.Point, System.Drawing">
     <value>108, 48</value>
   </data>
   <data name="lblFeather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 15</value>
+    <value>82, 15</value>
   </data>
   <data name="lblFeather.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="lblFeather.Text" xml:space="preserve">
-    <value>(Sign up for YTF here)</value>
+    <value>(Enable YTF here)</value>
   </data>
   <data name="&gt;&gt;lblFeather.Name" xml:space="preserve">
     <value>lblFeather</value>
@@ -281,6 +290,9 @@
   </data>
   <data name="chkFeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="chkFeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="chkFeather.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 46</value>
@@ -316,7 +328,7 @@
     <value>1</value>
   </data>
   <data name="txtTime.Text" xml:space="preserve">
-    <value>Time</value>
+    <value>Time (e.g. 1m5s)</value>
   </data>
   <data name="&gt;&gt;txtTime.Name" xml:space="preserve">
     <value>txtTime</value>
@@ -385,25 +397,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
-  </data>
-  <data name="btnReset.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 19</value>
-  </data>
-  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnReset.Text" xml:space="preserve">
-    <value>Reset</value>
   </data>
   <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
     <value>btnReset</value>
@@ -417,21 +414,6 @@
   <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnEmbed.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnEmbed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 19</value>
-  </data>
-  <data name="btnEmbed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
-  </data>
-  <data name="btnEmbed.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnEmbed.Text" xml:space="preserve">
-    <value>Embed Page Handler</value>
-  </data>
   <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
     <value>btnEmbed</value>
   </data>
@@ -443,21 +425,6 @@
   </data>
   <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="btnVideoInfo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnVideoInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 19</value>
-  </data>
-  <data name="btnVideoInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnVideoInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnVideoInfo.Text" xml:space="preserve">
-    <value>Video Info</value>
   </data>
   <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
     <value>btnVideoInfo</value>
@@ -471,21 +438,6 @@
   <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btnComments.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnComments.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 19</value>
-  </data>
-  <data name="btnComments.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnComments.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnComments.Text" xml:space="preserve">
-    <value>Comments</value>
-  </data>
   <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
     <value>btnComments</value>
   </data>
@@ -497,21 +449,6 @@
   </data>
   <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="btnVideo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnVideo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="btnVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnVideo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnVideo.Text" xml:space="preserve">
-    <value>Video</value>
   </data>
   <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
     <value>btnVideo</value>
@@ -547,25 +484,178 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnReset.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 19</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnReset.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnEmbed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnEmbed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEmbed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 19</value>
+  </data>
+  <data name="btnEmbed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="btnEmbed.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnEmbed.Text" xml:space="preserve">
+    <value>Embed Page Handler</value>
+  </data>
+  <data name="btnEmbed.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
+    <value>btnEmbed</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="btnVideoInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnVideoInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnVideoInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 19</value>
+  </data>
+  <data name="btnVideoInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="btnVideoInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnVideoInfo.Text" xml:space="preserve">
+    <value>Video Info</value>
+  </data>
+  <data name="btnVideoInfo.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
+    <value>btnVideoInfo</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnComments.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="btnComments.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnComments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 19</value>
+  </data>
+  <data name="btnComments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="btnComments.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnComments.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="btnComments.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
+    <value>btnComments</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnVideo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnVideo.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="btnVideo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnVideo.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="btnVideo.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
+    <value>btnVideo</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
-  </data>
-  <data name="lnkWalkman.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lnkWalkman.Location" type="System.Drawing.Point, System.Drawing">
-    <value>309, 20</value>
-  </data>
-  <data name="lnkWalkman.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 13</value>
-  </data>
-  <data name="lnkWalkman.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lnkWalkman.Text" xml:space="preserve">
-    <value>Developed by Walkman</value>
   </data>
   <data name="&gt;&gt;lnkWalkman.Name" xml:space="preserve">
     <value>lnkWalkman</value>
@@ -579,21 +669,6 @@
   <data name="&gt;&gt;lnkWalkman.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lnkReleases.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lnkReleases.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 20</value>
-  </data>
-  <data name="lnkReleases.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
-  </data>
-  <data name="lnkReleases.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lnkReleases.Text" xml:space="preserve">
-    <value>Releases</value>
-  </data>
   <data name="&gt;&gt;lnkReleases.Name" xml:space="preserve">
     <value>lnkReleases</value>
   </data>
@@ -605,21 +680,6 @@
   </data>
   <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="lnkReportProblem.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lnkReportProblem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 20</value>
-  </data>
-  <data name="lnkReportProblem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 13</value>
-  </data>
-  <data name="lnkReportProblem.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lnkReportProblem.Text" xml:space="preserve">
-    <value>Report a problem</value>
   </data>
   <data name="&gt;&gt;lnkReportProblem.Name" xml:space="preserve">
     <value>lnkReportProblem</value>
@@ -633,21 +693,6 @@
   <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="lnkSourceCode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lnkSourceCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 20</value>
-  </data>
-  <data name="lnkSourceCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 13</value>
-  </data>
-  <data name="lnkSourceCode.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lnkSourceCode.Text" xml:space="preserve">
-    <value>Source Code</value>
-  </data>
   <data name="&gt;&gt;lnkSourceCode.Name" xml:space="preserve">
     <value>lnkSourceCode</value>
   </data>
@@ -659,21 +704,6 @@
   </data>
   <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="lnkOriginalPage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lnkOriginalPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 20</value>
-  </data>
-  <data name="lnkOriginalPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 13</value>
-  </data>
-  <data name="lnkOriginalPage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lnkOriginalPage.Text" xml:space="preserve">
-    <value>Original Page</value>
   </data>
   <data name="&gt;&gt;lnkOriginalPage.Name" xml:space="preserve">
     <value>lnkOriginalPage</value>
@@ -709,6 +739,189 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lnkWalkman.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkWalkman.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkWalkman.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 20</value>
+  </data>
+  <data name="lnkWalkman.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="lnkWalkman.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lnkWalkman.Text" xml:space="preserve">
+    <value>Developed by Walkman</value>
+  </data>
+  <data name="&gt;&gt;lnkWalkman.Name" xml:space="preserve">
+    <value>lnkWalkman</value>
+  </data>
+  <data name="&gt;&gt;lnkWalkman.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkWalkman.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkWalkman.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lnkReleases.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkReleases.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkReleases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 20</value>
+  </data>
+  <data name="lnkReleases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="lnkReleases.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lnkReleases.Text" xml:space="preserve">
+    <value>Latest Release</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Name" xml:space="preserve">
+    <value>lnkReleases</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lnkReportProblem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkReportProblem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkReportProblem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="lnkReportProblem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="lnkReportProblem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lnkReportProblem.Text" xml:space="preserve">
+    <value>Report a problem</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Name" xml:space="preserve">
+    <value>lnkReportProblem</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lnkSourceCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkSourceCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkSourceCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="lnkSourceCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lnkSourceCode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lnkSourceCode.Text" xml:space="preserve">
+    <value>Source Code</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Name" xml:space="preserve">
+    <value>lnkSourceCode</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lnkOriginalPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkOriginalPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkOriginalPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="lnkOriginalPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lnkOriginalPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lnkOriginalPage.Text" xml:space="preserve">
+    <value>Original Page</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Name" xml:space="preserve">
+    <value>lnkOriginalPage</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblCurrentVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblCurrentVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCurrentVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.5pt</value>
+  </data>
+  <data name="lblCurrentVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 172</value>
+  </data>
+  <data name="lblCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 12</value>
+  </data>
+  <data name="lblCurrentVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCurrentVersion.Text" xml:space="preserve">
+    <value>Current: v1.0.1</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersion.Name" xml:space="preserve">
+    <value>lblCurrentVersion</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersion.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -748,7 +961,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>YTVL</value>
+    <value>YouTube Video Linker</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>

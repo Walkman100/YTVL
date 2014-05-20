@@ -44,6 +44,7 @@ Partial Class YTVL
         Me.lnkReportProblem = New System.Windows.Forms.LinkLabel()
         Me.lnkSourceCode = New System.Windows.Forms.LinkLabel()
         Me.lnkOriginalPage = New System.Windows.Forms.LinkLabel()
+        Me.lblCurrentVersion = New System.Windows.Forms.Label()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -127,6 +128,7 @@ Partial Class YTVL
         'btnReset
         '
         resources.ApplyResources(Me.btnReset, "btnReset")
+        Me.btnReset.Image = Global.YTVL.My.Resources.Resources._1371833577_view_refresh
         Me.btnReset.Name = "btnReset"
         Me.btnReset.UseVisualStyleBackColor = True
         '
@@ -139,11 +141,13 @@ Partial Class YTVL
         'btnVideoInfo
         '
         resources.ApplyResources(Me.btnVideoInfo, "btnVideoInfo")
+        Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
         Me.btnVideoInfo.Name = "btnVideoInfo"
         Me.btnVideoInfo.UseVisualStyleBackColor = True
         '
         'btnComments
         '
+        Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         resources.ApplyResources(Me.btnComments, "btnComments")
         Me.btnComments.Name = "btnComments"
         Me.btnComments.UseVisualStyleBackColor = True
@@ -151,6 +155,7 @@ Partial Class YTVL
         'btnVideo
         '
         resources.ApplyResources(Me.btnVideo, "btnVideo")
+        Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         Me.btnVideo.Name = "btnVideo"
         Me.btnVideo.UseVisualStyleBackColor = True
         '
@@ -197,11 +202,19 @@ Partial Class YTVL
         Me.lnkOriginalPage.Name = "lnkOriginalPage"
         Me.lnkOriginalPage.TabStop = True
         '
+        'lblCurrentVersion
+        '
+        resources.ApplyResources(Me.lblCurrentVersion, "lblCurrentVersion")
+        Me.lblCurrentVersion.BackColor = System.Drawing.Color.Transparent
+        Me.lblCurrentVersion.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblCurrentVersion.Name = "lblCurrentVersion"
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.lblCurrentVersion)
         Me.Controls.Add(Me.grpBoxAbout)
         Me.Controls.Add(Me.grpBoxOutputs)
         Me.Controls.Add(Me.grpBoxInputs)
@@ -214,6 +227,7 @@ Partial Class YTVL
         Me.grpBoxAbout.ResumeLayout(False)
         Me.grpBoxAbout.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents grpBoxInputs As System.Windows.Forms.GroupBox
@@ -237,5 +251,6 @@ Partial Class YTVL
     Friend WithEvents lnkOriginalPage As System.Windows.Forms.LinkLabel
     Friend WithEvents lnkWalkman As System.Windows.Forms.LinkLabel
     Friend WithEvents btnAdvanced As System.Windows.Forms.Button
+    Friend WithEvents lblCurrentVersion As System.Windows.Forms.Label
 
 End Class

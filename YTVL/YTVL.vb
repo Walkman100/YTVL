@@ -11,7 +11,7 @@
         If chkHL.Checked = True Then
             Vars = Vars & "&hl=en"
         End If
-        If txtTime.Text <> "" And txtTime.Text <> "Time" Then
+        If txtTime.Text <> "" And txtTime.Text <> "Time (e.g. 1m5s)" Then
             Vars = Vars & "&t=" & txtTime.Text
         End If
         If txtList.Text <> "" And txtList.Text <> "List" Then
@@ -30,7 +30,7 @@
 
     Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
+        Process.Start("http://www.youtube.com/get_video_info?v=" & Vars)
     End Sub
 
     Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click
@@ -40,7 +40,7 @@
 
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
         txtComboVID.Text = "Video ID"
-        txtTime.Text = "Time"
+        txtTime.Text = "Time (e.g. 1m5s)"
         txtList.Text = "List"
         chkFeather.Checked = False
         chkHL.Checked = False
@@ -108,7 +108,7 @@
     End Sub
 
     Private Sub txtTime_Enter(sender As Object, e As EventArgs) Handles txtTime.Click
-        If txtTime.Text = "Time" Then
+        If txtTime.Text = "Time (e.g. 1m5s)" Then
             txtTime.Text = ""
         Else
             txtTime.SelectAll()
@@ -117,7 +117,7 @@
 
     Private Sub txtTime_Leave(sender As Object, e As EventArgs) Handles txtTime.Leave
         If txtTime.Text = "" Then
-            txtTime.Text = "Time"
+            txtTime.Text = "Time (e.g. 1m5s)"
         End If
     End Sub
 
@@ -134,4 +134,5 @@
             txtList.Text = "List"
         End If
     End Sub
+
 End Class
