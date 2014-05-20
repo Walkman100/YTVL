@@ -5,5 +5,8 @@
     <Setting Name="ShowNotification" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="Updates_DownloadUpdaterConnectionTimeout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20000</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -1,7 +1,6 @@
 ﻿Public Class About
     Private Sub About_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Me.Text = "About " & My.Application.Info.ProductName
-        Label4.Text = Label4.Text = My.Application.Info.Version.ToString
+        Label4.Text = My.Application.Info.Version.ToString
         WebBrowser1.Navigate("https://Walkman100.github.io/YTVL/changelog.txt")
         WebBrowser2.Navigate("https://Walkman100.github.io/YTVL/credits.txt")
         WebBrowser3.Navigate("https://Walkman100.github.io/YTVL/licenses.txt")
