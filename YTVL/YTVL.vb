@@ -10,16 +10,16 @@
     Private Sub BuildVars()
         Vars = txtComboVID.Text.ToString
         If chkFeather.Checked = True Then
-            Vars = Vars & "&noFeather=True"
+            Vars = Vars.ToString & "&noFeather=True"
         End If
         If chkHL.Checked = True Then
-            Vars = Vars & "&hl=en"
+            Vars = Vars.ToString & "&hl=en"
         End If
         If txtTime.Text.ToString <> "" And txtTime.Text.ToString <> "Time (e.g. 1m5s)" Then
-            Vars = Vars & "&t=" & txtTime.Text.ToString
+            Vars = Vars.ToString & "&t=" & txtTime.Text.ToString
         End If
         If txtList.Text.ToString <> "" And txtList.Text.ToString <> "List" Then
-            Vars = Vars & "&list=" & txtList.Text.ToString
+            Vars = Vars.ToString & "&list=" & txtList.Text.ToString
         End If
     End Sub
     Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, VideoToolStripMenuItem.Click
@@ -119,7 +119,7 @@
         If txtComboVID.Text = "" Then
             txtComboVID.Text = "Video ID"
         ElseIf txtComboVID.Text <> "Video ID" Then
-            If txtComboVID.Items.Contains(txtComboVID.Text) Then
+            If txtComboVID.Items.Contains(txtComboVID.Text.ToString) Then
 
             Else
                 txtComboVID.Items.Add(txtComboVID.Text.ToString)
