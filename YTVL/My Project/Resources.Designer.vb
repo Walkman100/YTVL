@@ -73,6 +73,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _1387139872_window_new() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("1387139872_window-new", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _1387147104_video_display() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("1387147104_video-display", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property android_app() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("android_app", resourceCulture)
@@ -106,6 +126,16 @@ Namespace My.Resources
         Friend ReadOnly Property documentinfo() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("documentinfo", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Exit2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Exit2", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

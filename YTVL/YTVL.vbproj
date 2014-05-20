@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.1.0</ApplicationVersion>
+    <ApplicationVersion>1.1.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -165,6 +165,9 @@
     <None Include="Icons\android_app_20x14.png" />
     <None Include="Resources\documentinfo.png" />
     <None Include="Resources\1371833577_view-refresh.png" />
+    <None Include="Resources\1387147104_video-display.png" />
+    <None Include="Resources\1387139872_window-new.png" />
+    <None Include="Resources\Exit2.png" />
     <Content Include="youtube.ico" />
   </ItemGroup>
   <ItemGroup>

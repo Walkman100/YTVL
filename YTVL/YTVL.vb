@@ -1,5 +1,9 @@
 ﻿Public Class YTVL
     Dim Vars As String
+    Private Sub LoadYTVL() Handles Me.Load
+        chkShowNotification.Checked = My.Settings.ShowNotification
+        NotifyIcon.Visible = My.Settings.ShowNotification
+    End Sub
 
     'Buttons
 
@@ -18,22 +22,22 @@
             Vars = Vars & "&list=" & txtList.Text
         End If
     End Sub
-    Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click
+    Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, VideoToolStripMenuItem.Click
         BuildVars()
         Process.Start("http://www.youtube.com/watch?v=" & Vars)
     End Sub
 
-    Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click
+    Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click, CommentsToolStripMenuItem.Click
         BuildVars()
         Process.Start("http://www.youtube.com/all_comments?v=" & Vars)
     End Sub
 
-    Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click
+    Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click, VideoInfoToolStripMenuItem.Click
         BuildVars()
         Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
     End Sub
 
-    Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click
+    Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click, EmbedToolStripMenuItem.Click
         BuildVars()
         Process.Start("http://www.youtube.com/embed/" & Vars)
     End Sub
@@ -57,6 +61,21 @@
             Me.Height = 400
             btnAdvanced.Text = "Less ↑"
         End If
+    End Sub
+
+    Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
+        Application.Exit()
+    End Sub
+
+    Private Sub ShowYTVL(sender As Object, e As EventArgs) Handles ShowYTVLToolStripMenuItem.Click, NotifyIcon.DoubleClick
+        Me.Show()
+        Me.BringToFront()
+        Me.Activate()
+    End Sub
+
+    Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.CheckedChanged
+        My.Settings.ShowNotification = chkShowNotification.Checked
+        NotifyIcon.Visible = My.Settings.ShowNotification
     End Sub
 
     'Links

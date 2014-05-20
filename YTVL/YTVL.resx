@@ -397,94 +397,37 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
-    <value>btnReset</value>
+  <data name="chkShowNotification.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="chkShowNotification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, -1</value>
   </data>
-  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+  <data name="chkShowNotification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 17</value>
+  </data>
+  <data name="chkShowNotification.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkShowNotification.Text" xml:space="preserve">
+    <value>Show Notification Icon</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Name" xml:space="preserve">
+    <value>chkShowNotification</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Parent" xml:space="preserve">
     <value>grpBoxOutputs</value>
   </data>
-  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
-    <value>btnEmbed</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
-    <value>btnVideoInfo</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
-    <value>btnComments</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
-    <value>btnVideo</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 85</value>
-  </data>
-  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 47</value>
-  </data>
-  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grpBoxOutputs.Text" xml:space="preserve">
-    <value>Outputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="btnReset.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -517,7 +460,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btnEmbed.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -550,7 +493,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnVideoInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -583,7 +526,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btnComments.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -616,7 +559,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="btnVideo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -652,94 +595,34 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
+  </data>
+  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 85</value>
+  </data>
+  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 47</value>
+  </data>
+  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpBoxOutputs.Text" xml:space="preserve">
+    <value>Outputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;lnkWalkman.Name" xml:space="preserve">
-    <value>lnkWalkman</value>
-  </data>
-  <data name="&gt;&gt;lnkWalkman.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkWalkman.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkWalkman.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.Name" xml:space="preserve">
-    <value>lnkReleases</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Name" xml:space="preserve">
-    <value>lnkReportProblem</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Name" xml:space="preserve">
-    <value>lnkSourceCode</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Name" xml:space="preserve">
-    <value>lnkOriginalPage</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 138</value>
-  </data>
-  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 42</value>
-  </data>
-  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="grpBoxAbout.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="lnkWalkman.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -891,6 +774,30 @@
   <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 138</value>
+  </data>
+  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 42</value>
+  </data>
+  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpBoxAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="lblCurrentVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -904,13 +811,13 @@
     <value>268, 172</value>
   </data>
   <data name="lblCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 12</value>
+    <value>60, 12</value>
   </data>
   <data name="lblCurrentVersion.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="lblCurrentVersion.Text" xml:space="preserve">
-    <value>Current: v1.0.1</value>
+    <value>Current: v1.1</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.Name" xml:space="preserve">
     <value>lblCurrentVersion</value>
@@ -922,7 +829,96 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
+  </data>
+  <metadata name="NotifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 17</value>
+  </metadata>
+  <data name="ShowYTVLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="ShowYTVLToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show YTVL</value>
+  </data>
+  <data name="ToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 6</value>
+  </data>
+  <data name="VideoToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="VideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="VideoToolStripMenuItem.Text" xml:space="preserve">
+    <value>» Video</value>
+  </data>
+  <data name="CommentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="CommentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>» Comments</value>
+  </data>
+  <data name="VideoInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="VideoInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>» Video Info</value>
+  </data>
+  <data name="EmbedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="EmbedToolStripMenuItem.Text" xml:space="preserve">
+    <value>» Embedded</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 6</value>
+  </data>
+  <data name="CloseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 148</value>
+  </data>
+  <data name="NotificationMenuStrip.Text" xml:space="preserve">
+    <value>YTVL Context Menu</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStrip.Name" xml:space="preserve">
+    <value>NotificationMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NotifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBEAAAEAGACcAwAAFgAAACgAAAAQAAAAIgAAAAEAGAAAAAAAdAMAAAAAAAAAAAAAAAAAAAAA
+        AAD///8SI/8SI/8SI/8TI/8SI/8SI/8SI//MaAPSeR/SeR/SeR/RdhuFTGASI/////8SI/8AHO4AHO4A
+        He8AHO4AHO4AHO4AHO7SeR//////8+f/yqb4699/SlkAHe8SI/8SI/8SI/////9PVf+6uv////////9P
+        Vf/SeR//8+frv5P7pmL4mFPfn2DPu68gLO8SI/8SI/////9PVf////8SI/////9PVf/SeR//yqb7pmL+
+        8ub+tHXvYgzTgkfdZCcSI/8SI/////9PVf////8TI/////9PVf/Rdhv469/4mFP+tHX/8+juwYTu3bz/
+        eR8SI/8SI/////9PVf////8SIv////9PVf/fn2Dfn2DFhWDvYgzuwYT/////////eR8SI/8TI/////8S
+        I/8SI/8SI/8SI/8SI/////8SI/9aUa/Tgkfu3bz/////////eR8SI/////////////8SI/8SI/8SI/8T
+        I/////8SI/8gLO/dZCf/eR//eR//eR//aAPZ2f8SI/8SI/8TI/8SI/8SI/8SI/8SI/8SI/8SI/8SI/8S
+        I/8SI/8SI/8SIv/Z2v//////////////////////////////////////////////////////////////
+        //////////+r5/YAAAD9+9j///9HkrkAAADIiWb///9ur9UAAACsZkT///////////////////+q5vUA
+        AAD+/Niq5vYAAAD///8AAAD+/NgTcJ3+/NgAAAD///////////////////+q5vUAAAD+/Niq5vYAAAD/
+        //8AAAD+/NgAAAD///8AAAD///////////////////9ur9YAAADjxaL///9HkroAAADJiWb///8AAAD/
+        //8AAAD///////////////////8AAAD/qe8AAAD/////////////////////////////////////////
+        //////9urtUMSn////+sZkTjxaL/////////////////////////////////////////////////////
+        //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="NotifyIcon.Text" xml:space="preserve">
+    <value>NotifyIcon</value>
+  </data>
+  <data name="NotifyIcon.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -935,26 +931,22 @@
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
-        AAD///8AEiP//xIj//8SI///EyP//xIj//8SI///EiP//xIj//8SI///EyP//xIj//8SI///EiP//xIj
-        //////8AEiP//wAc7v8AHO7/AB3v/wAc7v8AHO7/ABzu/wAc7v8AHO7/ABzu/wAd7/8AHe//ABzu/wAc
-        7/8AHe//EiP//xIj//8SI////////09V//+6uv////////////9PVf//z87///////+ysv//EiP//5ub
-        ////////0tH//xIj//8SI///EiP///////9PVf///////xIj////////T1X///////8SI////////5qZ
-        ////////EiP//xIj//8TI///EiP//xIj////////T1X///////8TI////////09V////////EiP/////
-        //+amf/////////////S0f//EiP//xIj//8SI////////09V////////EiL///////9PVf//////////
-        //+6uv//EiP//7q6///v8P//0tH//xIj//8SI///EyP///////8SI///EiP//xIj//8SI///EiP/////
-        //8SI///EiP//xIj//8SI///EiP//xIj//8SI///EiP//////////////////xIj//8SI///EiP//xMj
-        ////////EiP//xIj//8SI///EiP//xIj//8SI///EiP//9nZ//8SI///EiP//xMj//8SI///EiP//xIj
-        //8SI///EiP//xIj//8SI///EiP//xIj//8SI///EiL//9na////////////////////////////////
-        //////////////////////////////////////////////////////////////////+r5/b/AAAA//37
-        2P//////R5K5/wAAAP/IiWb//////26v1f8AAAD/rGZE////////////////////////////qub1/wAA
-        AP/+/Nj/qub2/wAAAP//////AAAA//782P8TcJ3//vzY/wAAAP///////////////////////////6rm
-        9f8AAAD//vzY/6rm9v8AAAD//////wAAAP/+/Nj/AAAA//////8AAAD/////////////////////////
-        //9ur9b/AAAA/+PFov//////R5K6/wAAAP/JiWb//////wAAAP//////AAAA////////////////////
-        ////////AAAA//+p7/8AAAD/////////////////////////////////////////////////////////
-        ////////bq7V/wxKf///////rGZE/+PFov//////////////////////////////////////////////
-        ////////gAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAA==
+        AAABAAEAEBEAAAEAGACcAwAAFgAAACgAAAAQAAAAIgAAAAEAGAAAAAAAdAMAAAAAAAAAAAAAAAAAAAAA
+        AAD///8SI/8SI/8SI/8TI/8SI/8SI/8SI//MaAPSeR/SeR/SeR/RdhuFTGASI/////8SI/8AHO4AHO4A
+        He8AHO4AHO4AHO4AHO7SeR//////8+f/yqb4699/SlkAHe8SI/8SI/8SI/////9PVf+6uv////////9P
+        Vf/SeR//8+frv5P7pmL4mFPfn2DPu68gLO8SI/8SI/////9PVf////8SI/////9PVf/SeR//yqb7pmL+
+        8ub+tHXvYgzTgkfdZCcSI/8SI/////9PVf////8TI/////9PVf/Rdhv469/4mFP+tHX/8+juwYTu3bz/
+        eR8SI/8SI/////9PVf////8SIv////9PVf/fn2Dfn2DFhWDvYgzuwYT/////////eR8SI/8TI/////8S
+        I/8SI/8SI/8SI/8SI/////8SI/9aUa/Tgkfu3bz/////////eR8SI/////////////8SI/8SI/8SI/8T
+        I/////8SI/8gLO/dZCf/eR//eR//eR//aAPZ2f8SI/8SI/8TI/8SI/8SI/8SI/8SI/8SI/8SI/8SI/8S
+        I/8SI/8SI/8SIv/Z2v//////////////////////////////////////////////////////////////
+        //////////+r5/YAAAD9+9j///9HkrkAAADIiWb///9ur9UAAACsZkT///////////////////+q5vUA
+        AAD+/Niq5vYAAAD///8AAAD+/NgTcJ3+/NgAAAD///////////////////+q5vUAAAD+/Niq5vYAAAD/
+        //8AAAD+/NgAAAD///8AAAD///////////////////9ur9YAAADjxaL///9HkroAAADJiWb///8AAAD/
+        //8AAAD///////////////////8AAAD/qe8AAAD/////////////////////////////////////////
+        //////9urtUMSn////+sZkTjxaL/////////////////////////////////////////////////////
+        //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
@@ -962,6 +954,60 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>YouTube Video Linker</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon.Name" xml:space="preserve">
+    <value>NotifyIcon</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowYTVLToolStripMenuItem.Name" xml:space="preserve">
+    <value>ShowYTVLToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ShowYTVLToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator.Name" xml:space="preserve">
+    <value>ToolStripSeparator</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VideoToolStripMenuItem.Name" xml:space="preserve">
+    <value>VideoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;VideoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CommentsToolStripMenuItem.Name" xml:space="preserve">
+    <value>CommentsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CommentsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VideoInfoToolStripMenuItem.Name" xml:space="preserve">
+    <value>VideoInfoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;VideoInfoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmbedToolStripMenuItem.Name" xml:space="preserve">
+    <value>EmbedToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;EmbedToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseToolStripMenuItem.Name" xml:space="preserve">
+    <value>CloseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CloseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>
