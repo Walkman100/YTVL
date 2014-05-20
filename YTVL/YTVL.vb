@@ -24,6 +24,7 @@
     End Sub
     Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, VideoToolStripMenuItem.Click
         BuildVars()
+        'Want to put code here that checks if all text fileds are filled in so that if not, we can give a MsgBox error.
         Process.Start("http://www.youtube.com/watch?v=" & Vars.ToString)
     End Sub
 
