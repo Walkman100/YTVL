@@ -57,6 +57,7 @@ Partial Class YTVL
         Me.EmbedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -142,8 +143,9 @@ Partial Class YTVL
         'chkShowNotification
         '
         resources.ApplyResources(Me.chkShowNotification, "chkShowNotification")
+        Me.chkShowNotification.BackColor = System.Drawing.SystemColors.Control
         Me.chkShowNotification.Name = "chkShowNotification"
-        Me.chkShowNotification.UseVisualStyleBackColor = True
+        Me.chkShowNotification.UseVisualStyleBackColor = False
         '
         'btnReset
         '
@@ -286,11 +288,18 @@ Partial Class YTVL
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
         resources.ApplyResources(Me.CloseToolStripMenuItem, "CloseToolStripMenuItem")
         '
+        'chkUpdate
+        '
+        resources.ApplyResources(Me.chkUpdate, "chkUpdate")
+        Me.chkUpdate.Name = "chkUpdate"
+        Me.chkUpdate.UseVisualStyleBackColor = True
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.chkUpdate)
         Me.Controls.Add(Me.lblCurrentVersion)
         Me.Controls.Add(Me.grpBoxAbout)
         Me.Controls.Add(Me.grpBoxOutputs)
@@ -341,5 +350,6 @@ Partial Class YTVL
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents CloseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents chkShowNotification As System.Windows.Forms.CheckBox
+    Friend WithEvents chkUpdate As System.Windows.Forms.CheckBox
 
 End Class
