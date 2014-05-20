@@ -30,7 +30,7 @@
 
     Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/get_video_info?v=" & Vars)
+        Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
     End Sub
 
     Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click
