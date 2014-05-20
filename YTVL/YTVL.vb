@@ -8,38 +8,38 @@
     'Buttons
 
     Private Sub BuildVars()
-        Vars = txtComboVID.Text
+        Vars = txtComboVID.Text.ToString
         If chkFeather.Checked = True Then
             Vars = Vars & "&noFeather=True"
         End If
         If chkHL.Checked = True Then
             Vars = Vars & "&hl=en"
         End If
-        If txtTime.Text <> "" And txtTime.Text <> "Time (e.g. 1m5s)" Then
-            Vars = Vars & "&t=" & txtTime.Text
+        If txtTime.Text.ToString <> "" And txtTime.Text.ToString <> "Time (e.g. 1m5s)" Then
+            Vars = Vars & "&t=" & txtTime.Text.ToString
         End If
-        If txtList.Text <> "" And txtList.Text <> "List" Then
-            Vars = Vars & "&list=" & txtList.Text
+        If txtList.Text.ToString <> "" And txtList.Text.ToString <> "List" Then
+            Vars = Vars & "&list=" & txtList.Text.ToString
         End If
     End Sub
     Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, VideoToolStripMenuItem.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/watch?v=" & Vars)
+        Process.Start("http://www.youtube.com/watch?v=" & Vars.ToString)
     End Sub
 
     Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click, CommentsToolStripMenuItem.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/all_comments?v=" & Vars)
+        Process.Start("http://www.youtube.com/all_comments?v=" & Vars.ToString)
     End Sub
 
     Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click, VideoInfoToolStripMenuItem.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
+        Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars.ToString & "&fmt=18")
     End Sub
 
     Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click, EmbedToolStripMenuItem.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/embed/" & Vars)
+        Process.Start("http://www.youtube.com/embed/" & Vars.ToString)
     End Sub
 
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
@@ -74,7 +74,7 @@
     End Sub
 
     Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.CheckedChanged
-        My.Settings.ShowNotification = chkShowNotification.Checked
+        My.Settings.ShowNotification.ToString = chkShowNotification.Checked
         NotifyIcon.Visible = My.Settings.ShowNotification
     End Sub
 
@@ -121,7 +121,7 @@
             If txtComboVID.Items.Contains(txtComboVID.Text) Then
 
             Else
-                txtComboVID.Items.Add(txtComboVID.Text)
+                txtComboVID.Items.Add(txtComboVID.Text.ToString)
             End If
         End If
     End Sub
