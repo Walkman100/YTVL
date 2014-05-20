@@ -75,8 +75,8 @@
     End Sub
 
     Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.CheckedChanged
-        My.Settings.ShowNotification.ToString = chkShowNotification.Checked
-        NotifyIcon.Visible = My.Settings.ShowNotification
+        My.Settings.ShowNotification = chkShowNotification.Checked
+        NotifyIcon.Visible = My.Settings.ShowNotification.ToString
     End Sub
 
     'Links
