@@ -1,46 +1,46 @@
 ﻿Public Class YTVL
     Dim Vars As String
     Private Sub LoadYTVL() Handles Me.Load
-        chkShowNotification.Checked = My.Settings.ShowNotification.ToString
-        NotifyIcon.Visible = My.Settings.ShowNotification.ToString
+        chkShowNotification.Checked = My.Settings.ShowNotification
+        NotifyIcon.Visible = My.Settings.ShowNotification
     End Sub
 
     'Buttons
 
     Private Sub BuildVars()
-        Vars = txtComboVID.Text.ToString
+        Vars = txtComboVID.Text
         If chkFeather.Checked = True Then
-            Vars = Vars.ToString & "&noFeather=True"
+            Vars = Vars & "&noFeather=True"
         End If
         If chkHL.Checked = True Then
-            Vars = Vars.ToString & "&hl=en"
+            Vars = Vars & "&hl=en"
         End If
-        If txtTime.Text.ToString <> "" And txtTime.Text.ToString <> "Time (e.g. 1m5s)" Then
-            Vars = Vars.ToString & "&t=" & txtTime.Text.ToString
+        If txtTime.Text <> "" And txtTime.Text <> "Time (e.g. 1m5s)" Then
+            Vars = Vars & "&t=" & txtTime.Text
         End If
-        If txtList.Text.ToString <> "" And txtList.Text.ToString <> "List" Then
-            Vars = Vars.ToString & "&list=" & txtList.Text.ToString
+        If txtList.Text <> "" And txtList.Text <> "List" Then
+            Vars = Vars & "&list=" & txtList.Text
         End If
     End Sub
     Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, VideoToolStripMenuItem.Click
         BuildVars()
         'Want to put code here that checks if all text fileds are filled in so that if not, we can give a MsgBox error.
-        Process.Start("http://www.youtube.com/watch?v=" & Vars.ToString)
+        Process.Start("http://www.youtube.com/watch?v=" & Vars)
     End Sub
 
     Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click, CommentsToolStripMenuItem.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/all_comments?v=" & Vars.ToString)
+        Process.Start("http://www.youtube.com/all_comments?v=" & Vars)
     End Sub
 
     Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click, VideoInfoToolStripMenuItem.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars.ToString & "&fmt=18")
+        Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
     End Sub
 
     Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click, EmbedToolStripMenuItem.Click
         BuildVars()
-        Process.Start("http://www.youtube.com/embed/" & Vars.ToString)
+        Process.Start("http://www.youtube.com/embed/" & Vars)
     End Sub
 
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
@@ -76,7 +76,7 @@
 
     Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.CheckedChanged
         My.Settings.ShowNotification = chkShowNotification.Checked
-        NotifyIcon.Visible = My.Settings.ShowNotification.ToString
+        NotifyIcon.Visible = My.Settings.ShowNotification
     End Sub
 
     'Links
@@ -119,10 +119,10 @@
         If txtComboVID.Text = "" Then
             txtComboVID.Text = "Video ID"
         ElseIf txtComboVID.Text <> "Video ID" Then
-            If txtComboVID.Items.Contains(txtComboVID.Text.ToString) Then
+            If txtComboVID.Items.Contains(txtComboVID.Text) Then
 
             Else
-                txtComboVID.Items.Add(txtComboVID.Text.ToString)
+                txtComboVID.Items.Add(txtComboVID.Text)
             End If
         End If
     End Sub
