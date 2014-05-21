@@ -119,11 +119,13 @@
 
     Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.Click
         My.Settings.ShowNotification = chkShowNotification.Checked
+        My.Settings.Save()
         NotifyIcon.Visible = My.Settings.ShowNotification
     End Sub
 
     Private Sub HideIconToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HideIconToolStripMenuItem.Click
         My.Settings.ShowNotification = False
+        My.Settings.Save()
         chkShowNotification.Checked = False
         NotifyIcon.Visible = False
     End Sub
