@@ -211,4 +211,13 @@
         End If
     End Sub
 
+    Private Sub chkUpdate_CheckedChanged_1(sender As Object, e As EventArgs) Handles chkUpdate.CheckedChanged
+        If chkUpdate.Checked = True Then
+            My.Settings.AutoUpdateCheck = False
+            My.Settings.Save()
+        Else
+            My.Settings.AutoUpdateCheck = True
+            My.Settings.Save()
+        End If
+    End Sub
 End Class

@@ -943,10 +943,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 212</value>
+    <value>411, 212</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 23</value>
+    <value>49, 23</value>
   </data>
   <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1705,58 +1705,58 @@
     <value>126, 17</value>
   </metadata>
   <data name="ShowYTVLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="ShowYTVLToolStripMenuItem.Text" xml:space="preserve">
     <value>Show YTVL</value>
   </data>
   <data name="ToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 6</value>
+    <value>143, 6</value>
   </data>
   <data name="VideoToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="VideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="VideoToolStripMenuItem.Text" xml:space="preserve">
     <value>» Video</value>
   </data>
   <data name="CommentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="CommentsToolStripMenuItem.Text" xml:space="preserve">
     <value>» Comments</value>
   </data>
   <data name="VideoInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="VideoInfoToolStripMenuItem.Text" xml:space="preserve">
     <value>» Video Info</value>
   </data>
   <data name="EmbedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="EmbedToolStripMenuItem.Text" xml:space="preserve">
     <value>» Embedded</value>
   </data>
   <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 6</value>
+    <value>143, 6</value>
   </data>
   <data name="HideIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="HideIconToolStripMenuItem.Text" xml:space="preserve">
     <value>Hide Icon</value>
   </data>
   <data name="CloseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
     <value>Close</value>
   </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 170</value>
+    <value>147, 170</value>
   </data>
   <data name="NotificationMenuStrip.Text" xml:space="preserve">
     <value>YTVL Context Menu</value>
