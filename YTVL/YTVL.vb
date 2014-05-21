@@ -4,7 +4,7 @@
         chkShowNotification.Checked = My.Settings.ShowNotification
         chkUpdate.Checked = My.Settings.AutoUpdateCheck
         NotifyIcon.Visible = My.Settings.ShowNotification
-        lblCurrentVersion.Text = "Current: " & My.Application.Info.Version.ToString
+        lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.ToString
         If My.Settings.AutoUpdateCheck = True Then
             'load latest version
             WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
