@@ -128,8 +128,9 @@
         NotifyIcon.Visible = False
     End Sub
 
-    Private Sub chkUpdate_CheckedChanged(sender As Object, e As EventArgs) Handles chkUpdate.Click
+    Private Sub chkUpdate_Click(sender As Object, e As EventArgs) Handles chkUpdate.Click
         My.Settings.AutoUpdateCheck = chkUpdate.Checked
+        My.Settings.Save()
         If chkUpdate.Checked = True Then
             WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
         End If
@@ -208,16 +209,6 @@
     Private Sub txtList_Leave(sender As Object, e As EventArgs) Handles txtList.Leave
         If txtList.Text = "" Then
             txtList.Text = "List"
-        End If
-    End Sub
-
-    Private Sub chkUpdate_CheckedChanged_1(sender As Object, e As EventArgs) Handles chkUpdate.CheckedChanged
-        If chkUpdate.Checked = True Then
-            My.Settings.AutoUpdateCheck = False
-            My.Settings.Save()
-        Else
-            My.Settings.AutoUpdateCheck = True
-            My.Settings.Save()
         End If
     End Sub
 End Class
