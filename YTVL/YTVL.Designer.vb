@@ -42,6 +42,7 @@ Partial Class YTVL
         Me.btnComments = New System.Windows.Forms.Button()
         Me.btnVideo = New System.Windows.Forms.Button()
         Me.grpBoxAbout = New System.Windows.Forms.GroupBox()
+        Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
         Me.lnkWalkman = New System.Windows.Forms.LinkLabel()
         Me.lnkReleases = New System.Windows.Forms.LinkLabel()
         Me.lnkReportProblem = New System.Windows.Forms.LinkLabel()
@@ -60,7 +61,9 @@ Partial Class YTVL
         Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
-        Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
+        Me.optQuality360 = New System.Windows.Forms.RadioButton()
+        Me.optQuality720 = New System.Windows.Forms.RadioButton()
+        Me.chkFeature = New System.Windows.Forms.CheckBox()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -70,6 +73,9 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
+        Me.grpBoxInputs.Controls.Add(Me.chkFeature)
+        Me.grpBoxInputs.Controls.Add(Me.optQuality720)
+        Me.grpBoxInputs.Controls.Add(Me.optQuality360)
         Me.grpBoxInputs.Controls.Add(Me.btnAdvanced)
         Me.grpBoxInputs.Controls.Add(Me.txtList)
         Me.grpBoxInputs.Controls.Add(Me.lblHL)
@@ -205,6 +211,16 @@ Partial Class YTVL
         Me.grpBoxAbout.Name = "grpBoxAbout"
         Me.grpBoxAbout.TabStop = False
         '
+        'WebBrowserVersionCheck
+        '
+        resources.ApplyResources(Me.WebBrowserVersionCheck, "WebBrowserVersionCheck")
+        Me.WebBrowserVersionCheck.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
+        Me.WebBrowserVersionCheck.IsWebBrowserContextMenuEnabled = False
+        Me.WebBrowserVersionCheck.Name = "WebBrowserVersionCheck"
+        Me.WebBrowserVersionCheck.ScrollBarsEnabled = False
+        Me.WebBrowserVersionCheck.TabStop = False
+        Me.WebBrowserVersionCheck.WebBrowserShortcutsEnabled = False
+        '
         'lnkWalkman
         '
         resources.ApplyResources(Me.lnkWalkman, "lnkWalkman")
@@ -313,15 +329,25 @@ Partial Class YTVL
         Me.chkUpdate.Name = "chkUpdate"
         Me.chkUpdate.UseVisualStyleBackColor = True
         '
-        'WebBrowserVersionCheck
+        'optQuality360
         '
-        resources.ApplyResources(Me.WebBrowserVersionCheck, "WebBrowserVersionCheck")
-        Me.WebBrowserVersionCheck.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
-        Me.WebBrowserVersionCheck.IsWebBrowserContextMenuEnabled = False
-        Me.WebBrowserVersionCheck.Name = "WebBrowserVersionCheck"
-        Me.WebBrowserVersionCheck.ScrollBarsEnabled = False
-        Me.WebBrowserVersionCheck.TabStop = False
-        Me.WebBrowserVersionCheck.WebBrowserShortcutsEnabled = False
+        resources.ApplyResources(Me.optQuality360, "optQuality360")
+        Me.optQuality360.Name = "optQuality360"
+        Me.optQuality360.TabStop = True
+        Me.optQuality360.UseVisualStyleBackColor = True
+        '
+        'optQuality720
+        '
+        resources.ApplyResources(Me.optQuality720, "optQuality720")
+        Me.optQuality720.Name = "optQuality720"
+        Me.optQuality720.TabStop = True
+        Me.optQuality720.UseVisualStyleBackColor = True
+        '
+        'chkFeature
+        '
+        resources.ApplyResources(Me.chkFeature, "chkFeature")
+        Me.chkFeature.Name = "chkFeature"
+        Me.chkFeature.UseVisualStyleBackColor = True
         '
         'YTVL
         '
@@ -384,5 +410,8 @@ Partial Class YTVL
     Friend WithEvents HideIconToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents WebBrowserVersionCheck As System.Windows.Forms.WebBrowser
+    Friend WithEvents chkFeature As System.Windows.Forms.CheckBox
+    Friend WithEvents optQuality720 As System.Windows.Forms.RadioButton
+    Friend WithEvents optQuality360 As System.Windows.Forms.RadioButton
 
 End Class

@@ -121,10 +121,92 @@
   <data name="grpBoxInputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkFeature.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkFeature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 115</value>
+  </data>
+  <data name="chkFeature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 17</value>
+  </data>
+  <data name="chkFeature.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chkFeature.Text" xml:space="preserve">
+    <value>Use feature=player_embedded </value>
+  </data>
+  <data name="&gt;&gt;chkFeature.Name" xml:space="preserve">
+    <value>chkFeature</value>
+  </data>
+  <data name="&gt;&gt;chkFeature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkFeature.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkFeature.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optQuality720.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optQuality720.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 92</value>
+  </data>
+  <data name="optQuality720.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="optQuality720.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="optQuality720.Text" xml:space="preserve">
+    <value>Use 720p (if available)</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Name" xml:space="preserve">
+    <value>optQuality720</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optQuality360.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optQuality360.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 69</value>
+  </data>
+  <data name="optQuality360.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="optQuality360.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="optQuality360.Text" xml:space="preserve">
+    <value>Use 360p</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Name" xml:space="preserve">
+    <value>optQuality360</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="btnAdvanced.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAdvanced.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -134,9 +216,8 @@
   <data name="btnAdvanced.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 42</value>
+    <value>404, 212</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 23</value>
@@ -146,9 +227,6 @@
   </data>
   <data name="btnAdvanced.Text" xml:space="preserve">
     <value>More ↓</value>
-  </data>
-  <data name="btnAdvanced.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;btnAdvanced.Name" xml:space="preserve">
     <value>btnAdvanced</value>
@@ -160,7 +238,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="txtList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -187,7 +265,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtList.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="lblHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -220,7 +298,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblHL.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="chkHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -250,7 +328,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkHL.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="lblFeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -286,7 +364,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblFeather.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="chkFeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -316,7 +394,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkFeather.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="txtTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 19</value>
@@ -340,7 +418,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtTime.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="txtComboVID.Items" xml:space="preserve">
     <value>tKNhPpUR0Pg</value>
@@ -373,13 +451,13 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtComboVID.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="grpBoxInputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
   <data name="grpBoxInputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 67</value>
+    <value>466, 237</value>
   </data>
   <data name="grpBoxInputs.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -628,7 +706,7 @@
     <value>6</value>
   </data>
   <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 85</value>
+    <value>12, 255</value>
   </data>
   <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 47</value>
@@ -838,7 +916,7 @@
     <value>5</value>
   </data>
   <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 138</value>
+    <value>12, 308</value>
   </data>
   <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 42</value>
@@ -871,7 +949,7 @@
     <value>Microsoft Sans Serif, 6.5pt</value>
   </data>
   <data name="lblCurrentVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 173</value>
+    <value>316, 343</value>
   </data>
   <data name="lblCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 12</value>
@@ -880,7 +958,7 @@
     <value>3</value>
   </data>
   <data name="lblCurrentVersion.Text" xml:space="preserve">
-    <value>Current: v1.2</value>
+    <value>Current: v1.3</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.Name" xml:space="preserve">
     <value>lblCurrentVersion</value>
@@ -993,7 +1071,7 @@
     <value>True</value>
   </data>
   <data name="chkUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 172</value>
+    <value>132, 342</value>
   </data>
   <data name="chkUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 17</value>
@@ -1023,7 +1101,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>490, 193</value>
+    <value>490, 363</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

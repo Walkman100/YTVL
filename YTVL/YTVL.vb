@@ -39,9 +39,17 @@
             Vars = Vars & "&list=" & txtList.Text
         End If
     End Sub
+
+    Sub MsgNoVID()
+        MsgBox("Please fill in a video ID!", , "No Video ID entered")
+        WindowState = FormWindowState.Normal
+        Me.BringToFront()
+        txtComboVID.SelectAll()
+    End Sub
+
     Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, VideoToolStripMenuItem.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
-            MsgBox("Please fill in a video ID")
+            MsgNoVID()
         Else
             BuildVars()
             Process.Start("http://www.youtube.com/watch?v=" & Vars)
@@ -50,7 +58,7 @@
 
     Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click, CommentsToolStripMenuItem.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
-            MsgBox("Please fill in a video ID")
+            MsgNoVID()
         Else
             BuildVars()
             Process.Start("http://www.youtube.com/all_comments?v=" & Vars)
@@ -59,7 +67,7 @@
 
     Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click, VideoInfoToolStripMenuItem.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
-            MsgBox("Please fill in a video ID")
+            MsgNoVID()
         Else
             BuildVars()
             Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
@@ -68,7 +76,7 @@
 
     Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click, EmbedToolStripMenuItem.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
-            MsgBox("Please fill in a video ID")
+            MsgNoVID()
         Else
             BuildVars()
             Process.Start("http://www.youtube.com/embed/" & Vars)
@@ -86,16 +94,6 @@
         btnAdvanced.Text = "More ↓"
     End Sub
 
-    Private Sub MoreLess(sender As Object, e As EventArgs) Handles btnAdvanced.Click
-        If Me.Height = 400 Then
-            Me.Height = 230
-            btnAdvanced.Text = "More ↓"
-        Else
-            Me.Height = 400
-            btnAdvanced.Text = "Less ↑"
-        End If
-    End Sub
-
     Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click, btnExit.Click
         Application.Exit()
     End Sub
@@ -105,6 +103,18 @@
         'Me.Show()
         Me.BringToFront()
         'Me.Activate()
+    End Sub
+
+    'Changes e.g. settings
+
+    Private Sub MoreLess(sender As Object, e As EventArgs) Handles btnAdvanced.Click
+        If Me.Height = 400 Then
+            Me.Height = 230
+            btnAdvanced.Text = "More ↓"
+        Else
+            Me.Height = 400
+            btnAdvanced.Text = "Less ↑"
+        End If
     End Sub
 
     Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.Click
