@@ -25,6 +25,9 @@ Partial Class YTVL
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(YTVL))
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
+        Me.chkFeature = New System.Windows.Forms.CheckBox()
+        Me.optQuality720 = New System.Windows.Forms.RadioButton()
+        Me.optQuality360 = New System.Windows.Forms.RadioButton()
         Me.btnAdvanced = New System.Windows.Forms.Button()
         Me.txtList = New System.Windows.Forms.TextBox()
         Me.lblHL = New System.Windows.Forms.Label()
@@ -61,9 +64,32 @@ Partial Class YTVL
         Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
-        Me.optQuality360 = New System.Windows.Forms.RadioButton()
-        Me.optQuality720 = New System.Windows.Forms.RadioButton()
-        Me.chkFeature = New System.Windows.Forms.CheckBox()
+        Me.lblAutoplay = New System.Windows.Forms.Label()
+        Me.optAutoplay0 = New System.Windows.Forms.RadioButton()
+        Me.optAutoplay1 = New System.Windows.Forms.RadioButton()
+        Me.lblFs = New System.Windows.Forms.Label()
+        Me.optFs0 = New System.Windows.Forms.RadioButton()
+        Me.optFs1 = New System.Windows.Forms.RadioButton()
+        Me.lblAutohide = New System.Windows.Forms.Label()
+        Me.optAutohide0 = New System.Windows.Forms.RadioButton()
+        Me.optAutohide1 = New System.Windows.Forms.RadioButton()
+        Me.lblEnableJsApi = New System.Windows.Forms.Label()
+        Me.optEnableJsApi0 = New System.Windows.Forms.RadioButton()
+        Me.optEnableJsApi1 = New System.Windows.Forms.RadioButton()
+        Me.lblIvLP = New System.Windows.Forms.Label()
+        Me.optIvLP = New System.Windows.Forms.ComboBox()
+        Me.lblMdstBrndng = New System.Windows.Forms.Label()
+        Me.optMdstBrndng0 = New System.Windows.Forms.RadioButton()
+        Me.optMdstBrndng1 = New System.Windows.Forms.RadioButton()
+        Me.lblRel = New System.Windows.Forms.Label()
+        Me.optRel0 = New System.Windows.Forms.RadioButton()
+        Me.optRel1 = New System.Windows.Forms.RadioButton()
+        Me.lblShowinfo = New System.Windows.Forms.Label()
+        Me.optShowinfo0 = New System.Windows.Forms.RadioButton()
+        Me.optShowinfo1 = New System.Windows.Forms.RadioButton()
+        Me.lblShowSearch = New System.Windows.Forms.Label()
+        Me.optShowsearch0 = New System.Windows.Forms.RadioButton()
+        Me.optShowsearch1 = New System.Windows.Forms.RadioButton()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -73,6 +99,32 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
+        Me.grpBoxInputs.Controls.Add(Me.optShowsearch1)
+        Me.grpBoxInputs.Controls.Add(Me.optShowsearch0)
+        Me.grpBoxInputs.Controls.Add(Me.lblShowSearch)
+        Me.grpBoxInputs.Controls.Add(Me.optShowinfo1)
+        Me.grpBoxInputs.Controls.Add(Me.optShowinfo0)
+        Me.grpBoxInputs.Controls.Add(Me.lblShowinfo)
+        Me.grpBoxInputs.Controls.Add(Me.optRel1)
+        Me.grpBoxInputs.Controls.Add(Me.optRel0)
+        Me.grpBoxInputs.Controls.Add(Me.lblRel)
+        Me.grpBoxInputs.Controls.Add(Me.optMdstBrndng1)
+        Me.grpBoxInputs.Controls.Add(Me.optMdstBrndng0)
+        Me.grpBoxInputs.Controls.Add(Me.lblMdstBrndng)
+        Me.grpBoxInputs.Controls.Add(Me.optIvLP)
+        Me.grpBoxInputs.Controls.Add(Me.lblIvLP)
+        Me.grpBoxInputs.Controls.Add(Me.optEnableJsApi1)
+        Me.grpBoxInputs.Controls.Add(Me.optEnableJsApi0)
+        Me.grpBoxInputs.Controls.Add(Me.lblEnableJsApi)
+        Me.grpBoxInputs.Controls.Add(Me.optAutohide1)
+        Me.grpBoxInputs.Controls.Add(Me.optAutohide0)
+        Me.grpBoxInputs.Controls.Add(Me.lblAutohide)
+        Me.grpBoxInputs.Controls.Add(Me.optFs1)
+        Me.grpBoxInputs.Controls.Add(Me.optFs0)
+        Me.grpBoxInputs.Controls.Add(Me.lblFs)
+        Me.grpBoxInputs.Controls.Add(Me.optAutoplay1)
+        Me.grpBoxInputs.Controls.Add(Me.optAutoplay0)
+        Me.grpBoxInputs.Controls.Add(Me.lblAutoplay)
         Me.grpBoxInputs.Controls.Add(Me.chkFeature)
         Me.grpBoxInputs.Controls.Add(Me.optQuality720)
         Me.grpBoxInputs.Controls.Add(Me.optQuality360)
@@ -86,6 +138,26 @@ Partial Class YTVL
         Me.grpBoxInputs.Controls.Add(Me.txtComboVID)
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = False
+        '
+        'chkFeature
+        '
+        resources.ApplyResources(Me.chkFeature, "chkFeature")
+        Me.chkFeature.Name = "chkFeature"
+        Me.chkFeature.UseVisualStyleBackColor = True
+        '
+        'optQuality720
+        '
+        resources.ApplyResources(Me.optQuality720, "optQuality720")
+        Me.optQuality720.Name = "optQuality720"
+        Me.optQuality720.TabStop = True
+        Me.optQuality720.UseVisualStyleBackColor = True
+        '
+        'optQuality360
+        '
+        resources.ApplyResources(Me.optQuality360, "optQuality360")
+        Me.optQuality360.Name = "optQuality360"
+        Me.optQuality360.TabStop = True
+        Me.optQuality360.UseVisualStyleBackColor = True
         '
         'btnAdvanced
         '
@@ -329,25 +401,169 @@ Partial Class YTVL
         Me.chkUpdate.Name = "chkUpdate"
         Me.chkUpdate.UseVisualStyleBackColor = True
         '
-        'optQuality360
+        'lblAutoplay
         '
-        resources.ApplyResources(Me.optQuality360, "optQuality360")
-        Me.optQuality360.Name = "optQuality360"
-        Me.optQuality360.TabStop = True
-        Me.optQuality360.UseVisualStyleBackColor = True
+        resources.ApplyResources(Me.lblAutoplay, "lblAutoplay")
+        Me.lblAutoplay.Name = "lblAutoplay"
         '
-        'optQuality720
+        'optAutoplay0
         '
-        resources.ApplyResources(Me.optQuality720, "optQuality720")
-        Me.optQuality720.Name = "optQuality720"
-        Me.optQuality720.TabStop = True
-        Me.optQuality720.UseVisualStyleBackColor = True
+        resources.ApplyResources(Me.optAutoplay0, "optAutoplay0")
+        Me.optAutoplay0.Name = "optAutoplay0"
+        Me.optAutoplay0.TabStop = True
+        Me.optAutoplay0.UseVisualStyleBackColor = True
         '
-        'chkFeature
+        'optAutoplay1
         '
-        resources.ApplyResources(Me.chkFeature, "chkFeature")
-        Me.chkFeature.Name = "chkFeature"
-        Me.chkFeature.UseVisualStyleBackColor = True
+        resources.ApplyResources(Me.optAutoplay1, "optAutoplay1")
+        Me.optAutoplay1.Name = "optAutoplay1"
+        Me.optAutoplay1.TabStop = True
+        Me.optAutoplay1.UseVisualStyleBackColor = True
+        '
+        'lblFs
+        '
+        resources.ApplyResources(Me.lblFs, "lblFs")
+        Me.lblFs.Name = "lblFs"
+        '
+        'optFs0
+        '
+        resources.ApplyResources(Me.optFs0, "optFs0")
+        Me.optFs0.Name = "optFs0"
+        Me.optFs0.TabStop = True
+        Me.optFs0.UseVisualStyleBackColor = True
+        '
+        'optFs1
+        '
+        resources.ApplyResources(Me.optFs1, "optFs1")
+        Me.optFs1.Name = "optFs1"
+        Me.optFs1.TabStop = True
+        Me.optFs1.UseVisualStyleBackColor = True
+        '
+        'lblAutohide
+        '
+        resources.ApplyResources(Me.lblAutohide, "lblAutohide")
+        Me.lblAutohide.Name = "lblAutohide"
+        '
+        'optAutohide0
+        '
+        resources.ApplyResources(Me.optAutohide0, "optAutohide0")
+        Me.optAutohide0.Name = "optAutohide0"
+        Me.optAutohide0.TabStop = True
+        Me.optAutohide0.UseVisualStyleBackColor = True
+        '
+        'optAutohide1
+        '
+        resources.ApplyResources(Me.optAutohide1, "optAutohide1")
+        Me.optAutohide1.Name = "optAutohide1"
+        Me.optAutohide1.TabStop = True
+        Me.optAutohide1.UseVisualStyleBackColor = True
+        '
+        'lblEnableJsApi
+        '
+        resources.ApplyResources(Me.lblEnableJsApi, "lblEnableJsApi")
+        Me.lblEnableJsApi.Name = "lblEnableJsApi"
+        '
+        'optEnableJsApi0
+        '
+        resources.ApplyResources(Me.optEnableJsApi0, "optEnableJsApi0")
+        Me.optEnableJsApi0.Name = "optEnableJsApi0"
+        Me.optEnableJsApi0.TabStop = True
+        Me.optEnableJsApi0.UseVisualStyleBackColor = True
+        '
+        'optEnableJsApi1
+        '
+        resources.ApplyResources(Me.optEnableJsApi1, "optEnableJsApi1")
+        Me.optEnableJsApi1.Name = "optEnableJsApi1"
+        Me.optEnableJsApi1.TabStop = True
+        Me.optEnableJsApi1.UseVisualStyleBackColor = True
+        '
+        'lblIvLP
+        '
+        resources.ApplyResources(Me.lblIvLP, "lblIvLP")
+        Me.lblIvLP.Name = "lblIvLP"
+        '
+        'optIvLP
+        '
+        Me.optIvLP.FormattingEnabled = True
+        Me.optIvLP.Items.AddRange(New Object() {resources.GetString("optIvLP.Items"), resources.GetString("optIvLP.Items1"), resources.GetString("optIvLP.Items2"), resources.GetString("optIvLP.Items3"), resources.GetString("optIvLP.Items4"), resources.GetString("optIvLP.Items5"), resources.GetString("optIvLP.Items6"), resources.GetString("optIvLP.Items7")})
+        resources.ApplyResources(Me.optIvLP, "optIvLP")
+        Me.optIvLP.Name = "optIvLP"
+        '
+        'lblMdstBrndng
+        '
+        resources.ApplyResources(Me.lblMdstBrndng, "lblMdstBrndng")
+        Me.lblMdstBrndng.Name = "lblMdstBrndng"
+        '
+        'optMdstBrndng0
+        '
+        resources.ApplyResources(Me.optMdstBrndng0, "optMdstBrndng0")
+        Me.optMdstBrndng0.Name = "optMdstBrndng0"
+        Me.optMdstBrndng0.TabStop = True
+        Me.optMdstBrndng0.UseVisualStyleBackColor = True
+        '
+        'optMdstBrndng1
+        '
+        resources.ApplyResources(Me.optMdstBrndng1, "optMdstBrndng1")
+        Me.optMdstBrndng1.Name = "optMdstBrndng1"
+        Me.optMdstBrndng1.TabStop = True
+        Me.optMdstBrndng1.UseVisualStyleBackColor = True
+        '
+        'lblRel
+        '
+        resources.ApplyResources(Me.lblRel, "lblRel")
+        Me.lblRel.Name = "lblRel"
+        '
+        'optRel0
+        '
+        resources.ApplyResources(Me.optRel0, "optRel0")
+        Me.optRel0.Name = "optRel0"
+        Me.optRel0.TabStop = True
+        Me.optRel0.UseVisualStyleBackColor = True
+        '
+        'optRel1
+        '
+        resources.ApplyResources(Me.optRel1, "optRel1")
+        Me.optRel1.Name = "optRel1"
+        Me.optRel1.TabStop = True
+        Me.optRel1.UseVisualStyleBackColor = True
+        '
+        'lblShowinfo
+        '
+        resources.ApplyResources(Me.lblShowinfo, "lblShowinfo")
+        Me.lblShowinfo.Name = "lblShowinfo"
+        '
+        'optShowinfo0
+        '
+        resources.ApplyResources(Me.optShowinfo0, "optShowinfo0")
+        Me.optShowinfo0.Name = "optShowinfo0"
+        Me.optShowinfo0.TabStop = True
+        Me.optShowinfo0.UseVisualStyleBackColor = True
+        '
+        'optShowinfo1
+        '
+        resources.ApplyResources(Me.optShowinfo1, "optShowinfo1")
+        Me.optShowinfo1.Name = "optShowinfo1"
+        Me.optShowinfo1.TabStop = True
+        Me.optShowinfo1.UseVisualStyleBackColor = True
+        '
+        'lblShowSearch
+        '
+        resources.ApplyResources(Me.lblShowSearch, "lblShowSearch")
+        Me.lblShowSearch.Name = "lblShowSearch"
+        '
+        'optShowsearch0
+        '
+        resources.ApplyResources(Me.optShowsearch0, "optShowsearch0")
+        Me.optShowsearch0.Name = "optShowsearch0"
+        Me.optShowsearch0.TabStop = True
+        Me.optShowsearch0.UseVisualStyleBackColor = True
+        '
+        'optShowsearch1
+        '
+        resources.ApplyResources(Me.optShowsearch1, "optShowsearch1")
+        Me.optShowsearch1.Name = "optShowsearch1"
+        Me.optShowsearch1.TabStop = True
+        Me.optShowsearch1.UseVisualStyleBackColor = True
         '
         'YTVL
         '
@@ -413,5 +629,31 @@ Partial Class YTVL
     Friend WithEvents chkFeature As System.Windows.Forms.CheckBox
     Friend WithEvents optQuality720 As System.Windows.Forms.RadioButton
     Friend WithEvents optQuality360 As System.Windows.Forms.RadioButton
+    Friend WithEvents optEnableJsApi1 As System.Windows.Forms.RadioButton
+    Friend WithEvents optEnableJsApi0 As System.Windows.Forms.RadioButton
+    Friend WithEvents lblEnableJsApi As System.Windows.Forms.Label
+    Friend WithEvents optAutohide1 As System.Windows.Forms.RadioButton
+    Friend WithEvents optAutohide0 As System.Windows.Forms.RadioButton
+    Friend WithEvents lblAutohide As System.Windows.Forms.Label
+    Friend WithEvents optFs1 As System.Windows.Forms.RadioButton
+    Friend WithEvents optFs0 As System.Windows.Forms.RadioButton
+    Friend WithEvents lblFs As System.Windows.Forms.Label
+    Friend WithEvents optAutoplay1 As System.Windows.Forms.RadioButton
+    Friend WithEvents optAutoplay0 As System.Windows.Forms.RadioButton
+    Friend WithEvents lblAutoplay As System.Windows.Forms.Label
+    Friend WithEvents optIvLP As System.Windows.Forms.ComboBox
+    Friend WithEvents lblIvLP As System.Windows.Forms.Label
+    Friend WithEvents optMdstBrndng1 As System.Windows.Forms.RadioButton
+    Friend WithEvents optMdstBrndng0 As System.Windows.Forms.RadioButton
+    Friend WithEvents lblMdstBrndng As System.Windows.Forms.Label
+    Friend WithEvents optShowsearch1 As System.Windows.Forms.RadioButton
+    Friend WithEvents optShowsearch0 As System.Windows.Forms.RadioButton
+    Friend WithEvents lblShowSearch As System.Windows.Forms.Label
+    Friend WithEvents optShowinfo1 As System.Windows.Forms.RadioButton
+    Friend WithEvents optShowinfo0 As System.Windows.Forms.RadioButton
+    Friend WithEvents lblShowinfo As System.Windows.Forms.Label
+    Friend WithEvents optRel1 As System.Windows.Forms.RadioButton
+    Friend WithEvents optRel0 As System.Windows.Forms.RadioButton
+    Friend WithEvents lblRel As System.Windows.Forms.Label
 
 End Class
