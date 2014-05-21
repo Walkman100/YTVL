@@ -41,7 +41,7 @@
     End Sub
 
     Sub MsgNoVID()
-        MsgBox("Please fill in a video ID!", , "No Video ID entered")
+        MsgBox("Please fill in a video ID!", MsgBoxStyle.Critical, "No Video ID entered")
         WindowState = FormWindowState.Normal
         Me.BringToFront()
         txtComboVID.SelectAll()
