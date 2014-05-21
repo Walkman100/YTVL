@@ -135,6 +135,9 @@
   <data name="txtOrigin.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
   </data>
+  <data name="txtOrigin.Text" xml:space="preserve">
+    <value>(e.g. http://9gag.tv)</value>
+  </data>
   <data name="&gt;&gt;txtOrigin.Name" xml:space="preserve">
     <value>txtOrigin</value>
   </data>
@@ -1084,7 +1087,7 @@
     <value>2</value>
   </data>
   <data name="txtList.Text" xml:space="preserve">
-    <value>List</value>
+    <value>List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)</value>
   </data>
   <data name="&gt;&gt;txtList.Name" xml:space="preserve">
     <value>txtList</value>

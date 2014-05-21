@@ -38,7 +38,7 @@
         If txtTime.Text <> "" And txtTime.Text <> "Time (e.g. 1m5s)" Then
             Vars = Vars & "&t=" & txtTime.Text
         End If
-        If txtList.Text <> "" And txtList.Text <> "List" Then
+        If txtList.Text <> "" And txtList.Text <> "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)" Then
             Vars = Vars & "&list=" & txtList.Text
         End If
     End Sub
@@ -89,7 +89,7 @@
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
         txtComboVID.Text = "Video ID"
         txtTime.Text = "Time (e.g. 1m5s)"
-        txtList.Text = "List"
+        txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)"
         chkFeather.Checked = False
         chkHL.Checked = False
         Me.Height = 230
@@ -169,7 +169,7 @@
 
     'Text control
 
-    Private Sub txtComboVID_Enter(sender As Object, e As EventArgs) Handles txtComboVID.Click
+    Private Sub txtComboVID_Enter(sender As Object, e As EventArgs) Handles txtComboVID.MouseDown
         If txtComboVID.Text = "Video ID" Then
             txtComboVID.Text = ""
         Else
@@ -189,7 +189,7 @@
         End If
     End Sub
 
-    Private Sub txtTime_Enter(sender As Object, e As EventArgs) Handles txtTime.Click
+    Private Sub txtTime_Enter(sender As Object, e As EventArgs) Handles txtTime.MouseDown
         If txtTime.Text = "Time (e.g. 1m5s)" Then
             txtTime.Text = ""
         Else
@@ -203,8 +203,8 @@
         End If
     End Sub
 
-    Private Sub txtList_Enter(sender As Object, e As EventArgs) Handles txtList.Click
-        If txtList.Text = "List" Then
+    Private Sub txtList_Enter(sender As Object, e As EventArgs) Handles txtList.MouseDown
+        If txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)" Then
             txtList.Text = ""
         Else
             txtList.SelectAll()
@@ -213,7 +213,22 @@
 
     Private Sub txtList_Leave(sender As Object, e As EventArgs) Handles txtList.Leave
         If txtList.Text = "" Then
-            txtList.Text = "List"
+            txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)"
         End If
     End Sub
+
+    Private Sub txtOrigin_Enter(sender As Object, e As EventArgs) Handles txtOrigin.MouseDown
+        If txtOrigin.Text = "(e.g. http://9gag.tv)" Then
+            txtOrigin.Text = ""
+        Else
+            txtOrigin.SelectAll()
+        End If
+    End Sub
+
+    Private Sub txtOrigin_Leave(sender As Object, e As EventArgs) Handles txtOrigin.Leave
+        If txtOrigin.Text = "" Then
+            txtOrigin.Text = "(e.g. http://9gag.tv)"
+        End If
+    End Sub
+
 End Class
