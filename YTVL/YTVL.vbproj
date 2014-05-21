@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.1.1.0</ApplicationVersion>
+    <ApplicationVersion>1.2.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -62,8 +62,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>Icons\youtube_withLink.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -105,18 +104,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.Designer.vb">
-      <DependentUpon>About.vb</DependentUpon>
-    </Compile>
-    <Compile Include="About.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Updates.Designer.vb">
-      <DependentUpon>Updates.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Updates.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="YTVL.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -141,12 +128,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="About.resx">
-      <DependentUpon>About.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Updates.resx">
-      <DependentUpon>Updates.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="YTVL.resx">
       <DependentUpon>YTVL.vb</DependentUpon>
     </EmbeddedResource>
@@ -186,7 +167,6 @@
     <None Include="Resources\1387147104_video-display.png" />
     <None Include="Resources\1387139872_window-new.png" />
     <None Include="Resources\Exit2.png" />
-    <Content Include="youtube.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -204,6 +184,10 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\youtube_withLink.ico" />
+    <None Include="Resources\1387140136_process-stop.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

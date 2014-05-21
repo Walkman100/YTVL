@@ -34,6 +34,7 @@ Partial Class YTVL
         Me.txtTime = New System.Windows.Forms.TextBox()
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnEmbed = New System.Windows.Forms.Button()
@@ -56,8 +57,10 @@ Partial Class YTVL
         Me.VideoInfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EmbedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
+        Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -131,6 +134,7 @@ Partial Class YTVL
         'grpBoxOutputs
         '
         resources.ApplyResources(Me.grpBoxOutputs, "grpBoxOutputs")
+        Me.grpBoxOutputs.Controls.Add(Me.btnExit)
         Me.grpBoxOutputs.Controls.Add(Me.chkShowNotification)
         Me.grpBoxOutputs.Controls.Add(Me.btnReset)
         Me.grpBoxOutputs.Controls.Add(Me.btnEmbed)
@@ -139,6 +143,14 @@ Partial Class YTVL
         Me.grpBoxOutputs.Controls.Add(Me.btnVideo)
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
         Me.grpBoxOutputs.TabStop = False
+        '
+        'btnExit
+        '
+        Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnExit.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
+        resources.ApplyResources(Me.btnExit, "btnExit")
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.UseVisualStyleBackColor = True
         '
         'chkShowNotification
         '
@@ -184,6 +196,7 @@ Partial Class YTVL
         'grpBoxAbout
         '
         resources.ApplyResources(Me.grpBoxAbout, "grpBoxAbout")
+        Me.grpBoxAbout.Controls.Add(Me.WebBrowserVersionCheck)
         Me.grpBoxAbout.Controls.Add(Me.lnkWalkman)
         Me.grpBoxAbout.Controls.Add(Me.lnkReleases)
         Me.grpBoxAbout.Controls.Add(Me.lnkReportProblem)
@@ -227,7 +240,7 @@ Partial Class YTVL
         'lblCurrentVersion
         '
         resources.ApplyResources(Me.lblCurrentVersion, "lblCurrentVersion")
-        Me.lblCurrentVersion.BackColor = System.Drawing.Color.Transparent
+        Me.lblCurrentVersion.BackColor = System.Drawing.SystemColors.Control
         Me.lblCurrentVersion.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lblCurrentVersion.Name = "lblCurrentVersion"
         '
@@ -238,7 +251,7 @@ Partial Class YTVL
         '
         'NotificationMenuStrip
         '
-        Me.NotificationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShowYTVLToolStripMenuItem, Me.ToolStripSeparator, Me.VideoToolStripMenuItem, Me.CommentsToolStripMenuItem, Me.VideoInfoToolStripMenuItem, Me.EmbedToolStripMenuItem, Me.ToolStripSeparator1, Me.CloseToolStripMenuItem})
+        Me.NotificationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShowYTVLToolStripMenuItem, Me.ToolStripSeparator, Me.VideoToolStripMenuItem, Me.CommentsToolStripMenuItem, Me.VideoInfoToolStripMenuItem, Me.EmbedToolStripMenuItem, Me.ToolStripSeparator1, Me.HideIconToolStripMenuItem, Me.CloseToolStripMenuItem})
         Me.NotificationMenuStrip.Name = "NotificationMenuStrip"
         resources.ApplyResources(Me.NotificationMenuStrip, "NotificationMenuStrip")
         '
@@ -282,9 +295,15 @@ Partial Class YTVL
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
         resources.ApplyResources(Me.ToolStripSeparator1, "ToolStripSeparator1")
         '
+        'HideIconToolStripMenuItem
+        '
+        Me.HideIconToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources.Exit2
+        Me.HideIconToolStripMenuItem.Name = "HideIconToolStripMenuItem"
+        resources.ApplyResources(Me.HideIconToolStripMenuItem, "HideIconToolStripMenuItem")
+        '
         'CloseToolStripMenuItem
         '
-        Me.CloseToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources.Exit2
+        Me.CloseToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
         Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
         resources.ApplyResources(Me.CloseToolStripMenuItem, "CloseToolStripMenuItem")
         '
@@ -294,11 +313,22 @@ Partial Class YTVL
         Me.chkUpdate.Name = "chkUpdate"
         Me.chkUpdate.UseVisualStyleBackColor = True
         '
+        'WebBrowserVersionCheck
+        '
+        resources.ApplyResources(Me.WebBrowserVersionCheck, "WebBrowserVersionCheck")
+        Me.WebBrowserVersionCheck.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
+        Me.WebBrowserVersionCheck.IsWebBrowserContextMenuEnabled = False
+        Me.WebBrowserVersionCheck.Name = "WebBrowserVersionCheck"
+        Me.WebBrowserVersionCheck.ScrollBarsEnabled = False
+        Me.WebBrowserVersionCheck.TabStop = False
+        Me.WebBrowserVersionCheck.WebBrowserShortcutsEnabled = False
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnExit
         Me.Controls.Add(Me.chkUpdate)
         Me.Controls.Add(Me.lblCurrentVersion)
         Me.Controls.Add(Me.grpBoxAbout)
@@ -351,5 +381,8 @@ Partial Class YTVL
     Friend WithEvents CloseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents chkShowNotification As System.Windows.Forms.CheckBox
     Friend WithEvents chkUpdate As System.Windows.Forms.CheckBox
+    Friend WithEvents HideIconToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents WebBrowserVersionCheck As System.Windows.Forms.WebBrowser
 
 End Class

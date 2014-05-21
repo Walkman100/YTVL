@@ -2,7 +2,24 @@
     Dim Vars As String
     Private Sub LoadYTVL() Handles Me.Load
         chkShowNotification.Checked = My.Settings.ShowNotification
+        chkUpdate.Checked = My.Settings.AutoUpdateCheck
         NotifyIcon.Visible = My.Settings.ShowNotification
+
+        If My.Settings.AutoUpdateCheck = True Then
+            'load latest version
+            WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
+        End If
+    End Sub
+
+    Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
+        If My.Settings.AutoUpdateCheck = True Then
+            'check if this version is latest
+            If My.Application.Info.Version.ToString < WebBrowserVersionCheck.Document.Body.InnerText.ToString Then
+                If MsgBox("Current version: " & My.Application.Info.Version.ToString & " - Latest version: " & WebBrowserVersionCheck.Document.Body.InnerText.ToString & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") = MsgBoxResult.Ok Then
+                    Process.Start("https://github.com/Walkman100/YTVL/releases/latest")
+                End If
+            End If
+        End If
     End Sub
 
     'Buttons
@@ -23,24 +40,39 @@
         End If
     End Sub
     Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, VideoToolStripMenuItem.Click
-        BuildVars()
-        'Want to put code here that checks if all text fileds are filled in so that if not, we can give a MsgBox error.
-        Process.Start("http://www.youtube.com/watch?v=" & Vars)
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgBox("Please fill in a video ID")
+        Else
+            BuildVars()
+            Process.Start("http://www.youtube.com/watch?v=" & Vars)
+        End If
     End Sub
 
     Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click, CommentsToolStripMenuItem.Click
-        BuildVars()
-        Process.Start("http://www.youtube.com/all_comments?v=" & Vars)
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgBox("Please fill in a video ID")
+        Else
+            BuildVars()
+            Process.Start("http://www.youtube.com/all_comments?v=" & Vars)
+        End If
     End Sub
 
     Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click, VideoInfoToolStripMenuItem.Click
-        BuildVars()
-        Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgBox("Please fill in a video ID")
+        Else
+            BuildVars()
+            Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
+        End If
     End Sub
 
     Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click, EmbedToolStripMenuItem.Click
-        BuildVars()
-        Process.Start("http://www.youtube.com/embed/" & Vars)
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgBox("Please fill in a video ID")
+        Else
+            BuildVars()
+            Process.Start("http://www.youtube.com/embed/" & Vars)
+        End If
     End Sub
 
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
@@ -64,19 +96,33 @@
         End If
     End Sub
 
-    Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click
+    Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click, btnExit.Click
         Application.Exit()
     End Sub
 
     Private Sub ShowYTVL(sender As Object, e As EventArgs) Handles ShowYTVLToolStripMenuItem.Click, NotifyIcon.DoubleClick
-        Me.Show()
+        WindowState = FormWindowState.Normal
+        'Me.Show()
         Me.BringToFront()
-        Me.Activate()
+        'Me.Activate()
     End Sub
 
-    Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.CheckedChanged
+    Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.Click
         My.Settings.ShowNotification = chkShowNotification.Checked
         NotifyIcon.Visible = My.Settings.ShowNotification
+    End Sub
+
+    Private Sub HideIconToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HideIconToolStripMenuItem.Click
+        My.Settings.ShowNotification = False
+        chkShowNotification.Checked = False
+        NotifyIcon.Visible = False
+    End Sub
+
+    Private Sub chkUpdate_CheckedChanged(sender As Object, e As EventArgs) Handles chkUpdate.Click
+        My.Settings.AutoUpdateCheck = chkUpdate.Checked
+        If chkUpdate.Checked = True Then
+            WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
+        End If
     End Sub
 
     'Links
