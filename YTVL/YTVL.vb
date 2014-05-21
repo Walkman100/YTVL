@@ -1,10 +1,13 @@
 ﻿Public Class YTVL
     Dim Vars As String
     Private Sub LoadYTVL() Handles Me.Load
+        'apply settings to where they are changed
         chkShowNotification.Checked = My.Settings.ShowNotification
         chkUpdate.Checked = My.Settings.AutoUpdateCheck
-        NotifyIcon.Visible = My.Settings.ShowNotification
         lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.ToString
+
+        'apply settings to where they effect
+        NotifyIcon.Visible = My.Settings.ShowNotification
         If My.Settings.AutoUpdateCheck = True Then
             'load latest version
             WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
@@ -117,7 +120,7 @@
         End If
     End Sub
 
-    Private Sub ShowNotification_Changed(sender As Object, e As EventArgs) Handles chkShowNotification.Click
+    Private Sub ShowNotification_Click(sender As Object, e As EventArgs) Handles chkShowNotification.Click
         My.Settings.ShowNotification = chkShowNotification.Checked
         My.Settings.Save()
         NotifyIcon.Visible = My.Settings.ShowNotification
@@ -160,7 +163,7 @@
         Process.Start("https://github.com/Walkman100/YTVL/releases/latest")
     End Sub
 
-    Private Sub OpenWalkmanPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkWalkman.LinkClicked
+    Private Sub OpenDeveloperPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkDeveloper.LinkClicked
         Process.Start("http://twitter.com/Walkman100")
     End Sub
 

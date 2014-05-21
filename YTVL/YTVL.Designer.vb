@@ -72,7 +72,7 @@ Partial Class YTVL
         Me.btnVideo = New System.Windows.Forms.Button()
         Me.grpBoxAbout = New System.Windows.Forms.GroupBox()
         Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
-        Me.lnkWalkman = New System.Windows.Forms.LinkLabel()
+        Me.lnkDeveloper = New System.Windows.Forms.LinkLabel()
         Me.lnkReleases = New System.Windows.Forms.LinkLabel()
         Me.lnkReportProblem = New System.Windows.Forms.LinkLabel()
         Me.lnkSourceCode = New System.Windows.Forms.LinkLabel()
@@ -90,6 +90,10 @@ Partial Class YTVL
         Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
+        Me.chkThemeDark = New System.Windows.Forms.CheckBox()
+        Me.chkWmode = New System.Windows.Forms.CheckBox()
+        Me.chkOrigin = New System.Windows.Forms.CheckBox()
+        Me.txtOrigin = New System.Windows.Forms.TextBox()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -99,6 +103,10 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
+        Me.grpBoxInputs.Controls.Add(Me.txtOrigin)
+        Me.grpBoxInputs.Controls.Add(Me.chkOrigin)
+        Me.grpBoxInputs.Controls.Add(Me.chkWmode)
+        Me.grpBoxInputs.Controls.Add(Me.chkThemeDark)
         Me.grpBoxInputs.Controls.Add(Me.optShowsearch1)
         Me.grpBoxInputs.Controls.Add(Me.optShowsearch0)
         Me.grpBoxInputs.Controls.Add(Me.lblShowSearch)
@@ -439,7 +447,7 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.grpBoxAbout, "grpBoxAbout")
         Me.grpBoxAbout.Controls.Add(Me.WebBrowserVersionCheck)
-        Me.grpBoxAbout.Controls.Add(Me.lnkWalkman)
+        Me.grpBoxAbout.Controls.Add(Me.lnkDeveloper)
         Me.grpBoxAbout.Controls.Add(Me.lnkReleases)
         Me.grpBoxAbout.Controls.Add(Me.lnkReportProblem)
         Me.grpBoxAbout.Controls.Add(Me.lnkSourceCode)
@@ -457,13 +465,13 @@ Partial Class YTVL
         Me.WebBrowserVersionCheck.TabStop = False
         Me.WebBrowserVersionCheck.WebBrowserShortcutsEnabled = False
         '
-        'lnkWalkman
+        'lnkDeveloper
         '
-        resources.ApplyResources(Me.lnkWalkman, "lnkWalkman")
-        Me.lnkWalkman.LinkColor = System.Drawing.Color.Silver
-        Me.lnkWalkman.Name = "lnkWalkman"
-        Me.lnkWalkman.TabStop = True
-        Me.lnkWalkman.VisitedLinkColor = System.Drawing.Color.Gray
+        resources.ApplyResources(Me.lnkDeveloper, "lnkDeveloper")
+        Me.lnkDeveloper.LinkColor = System.Drawing.Color.Silver
+        Me.lnkDeveloper.Name = "lnkDeveloper"
+        Me.lnkDeveloper.TabStop = True
+        Me.lnkDeveloper.VisitedLinkColor = System.Drawing.Color.Gray
         '
         'lnkReleases
         '
@@ -565,6 +573,29 @@ Partial Class YTVL
         Me.chkUpdate.Name = "chkUpdate"
         Me.chkUpdate.UseVisualStyleBackColor = True
         '
+        'chkThemeDark
+        '
+        resources.ApplyResources(Me.chkThemeDark, "chkThemeDark")
+        Me.chkThemeDark.Name = "chkThemeDark"
+        Me.chkThemeDark.UseVisualStyleBackColor = True
+        '
+        'chkWmode
+        '
+        resources.ApplyResources(Me.chkWmode, "chkWmode")
+        Me.chkWmode.Name = "chkWmode"
+        Me.chkWmode.UseVisualStyleBackColor = True
+        '
+        'chkOrigin
+        '
+        resources.ApplyResources(Me.chkOrigin, "chkOrigin")
+        Me.chkOrigin.Name = "chkOrigin"
+        Me.chkOrigin.UseVisualStyleBackColor = True
+        '
+        'txtOrigin
+        '
+        resources.ApplyResources(Me.txtOrigin, "txtOrigin")
+        Me.txtOrigin.Name = "txtOrigin"
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
@@ -608,7 +639,7 @@ Partial Class YTVL
     Friend WithEvents lnkReportProblem As System.Windows.Forms.LinkLabel
     Friend WithEvents lnkSourceCode As System.Windows.Forms.LinkLabel
     Friend WithEvents lnkOriginalPage As System.Windows.Forms.LinkLabel
-    Friend WithEvents lnkWalkman As System.Windows.Forms.LinkLabel
+    Friend WithEvents lnkDeveloper As System.Windows.Forms.LinkLabel
     Friend WithEvents btnAdvanced As System.Windows.Forms.Button
     Friend WithEvents lblCurrentVersion As System.Windows.Forms.Label
     Friend WithEvents NotifyIcon As System.Windows.Forms.NotifyIcon
@@ -655,5 +686,9 @@ Partial Class YTVL
     Friend WithEvents optRel1 As System.Windows.Forms.RadioButton
     Friend WithEvents optRel0 As System.Windows.Forms.RadioButton
     Friend WithEvents lblRel As System.Windows.Forms.Label
+    Friend WithEvents txtOrigin As System.Windows.Forms.TextBox
+    Friend WithEvents chkOrigin As System.Windows.Forms.CheckBox
+    Friend WithEvents chkWmode As System.Windows.Forms.CheckBox
+    Friend WithEvents chkThemeDark As System.Windows.Forms.CheckBox
 
 End Class

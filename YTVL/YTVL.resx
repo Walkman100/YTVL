@@ -121,11 +121,116 @@
   <data name="grpBoxInputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="txtOrigin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtOrigin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 147</value>
+  </data>
+  <data name="txtOrigin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 20</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtOrigin.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;txtOrigin.Name" xml:space="preserve">
+    <value>txtOrigin</value>
+  </data>
+  <data name="&gt;&gt;txtOrigin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOrigin.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;txtOrigin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkOrigin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkOrigin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 150</value>
+  </data>
+  <data name="chkOrigin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="chkOrigin.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="chkOrigin.Text" xml:space="preserve">
+    <value>Use origin=</value>
+  </data>
+  <data name="&gt;&gt;chkOrigin.Name" xml:space="preserve">
+    <value>chkOrigin</value>
+  </data>
+  <data name="&gt;&gt;chkOrigin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOrigin.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkOrigin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkWmode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWmode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 133</value>
+  </data>
+  <data name="chkWmode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="chkWmode.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="chkWmode.Text" xml:space="preserve">
+    <value>Use wmode=transparent</value>
+  </data>
+  <data name="&gt;&gt;chkWmode.Name" xml:space="preserve">
+    <value>chkWmode</value>
+  </data>
+  <data name="&gt;&gt;chkWmode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWmode.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkWmode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkThemeDark.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkThemeDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 117</value>
+  </data>
+  <data name="chkThemeDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="chkThemeDark.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="chkThemeDark.Text" xml:space="preserve">
+    <value>Use theme=dark</value>
+  </data>
+  <data name="&gt;&gt;chkThemeDark.Name" xml:space="preserve">
+    <value>chkThemeDark</value>
+  </data>
+  <data name="&gt;&gt;chkThemeDark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkThemeDark.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkThemeDark.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="optShowsearch1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="optShowsearch1.Location" type="System.Drawing.Point, System.Drawing">
     <value>328, 99</value>
   </data>
@@ -148,7 +253,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optShowsearch1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="optShowsearch0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -175,7 +280,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optShowsearch0.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="lblShowSearch.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -202,7 +307,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblShowSearch.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="optShowinfo1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -229,7 +334,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optShowinfo1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="optShowinfo0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -256,7 +361,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optShowinfo0.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="lblShowinfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -283,7 +388,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblShowinfo.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="optRel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -310,7 +415,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optRel1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
   </data>
   <data name="optRel0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -340,7 +445,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optRel0.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="lblRel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -367,7 +472,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblRel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>12</value>
   </data>
   <data name="optMdstBrndng1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -394,7 +499,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optMdstBrndng1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>13</value>
   </data>
   <data name="optMdstBrndng0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -421,7 +526,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optMdstBrndng0.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>14</value>
   </data>
   <data name="lblMdstBrndng.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -451,7 +556,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblMdstBrndng.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>15</value>
   </data>
   <data name="optIvLP.Items" xml:space="preserve">
     <value>0</value>
@@ -496,7 +601,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optIvLP.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>16</value>
   </data>
   <data name="lblIvLP.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -523,7 +628,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblIvLP.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>17</value>
   </data>
   <data name="optEnableJsApi1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -550,7 +655,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optEnableJsApi1.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>18</value>
   </data>
   <data name="optEnableJsApi0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -577,7 +682,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optEnableJsApi0.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>19</value>
   </data>
   <data name="lblEnableJsApi.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -604,7 +709,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblEnableJsApi.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>20</value>
   </data>
   <data name="optAutohide1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -631,7 +736,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optAutohide1.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>21</value>
   </data>
   <data name="optAutohide0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -658,7 +763,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optAutohide0.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>22</value>
   </data>
   <data name="lblAutohide.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -685,7 +790,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblAutohide.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>23</value>
   </data>
   <data name="optFs1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -712,7 +817,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optFs1.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>24</value>
   </data>
   <data name="optFs0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -739,7 +844,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optFs0.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>25</value>
   </data>
   <data name="lblFs.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -766,7 +871,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblFs.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>26</value>
   </data>
   <data name="optAutoplay1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -793,7 +898,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optAutoplay1.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>27</value>
   </data>
   <data name="optAutoplay0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -820,7 +925,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optAutoplay0.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>28</value>
   </data>
   <data name="lblAutoplay.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -847,7 +952,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblAutoplay.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>29</value>
   </data>
   <data name="chkFeature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -874,7 +979,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkFeature.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>30</value>
   </data>
   <data name="optQuality720.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -901,7 +1006,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optQuality720.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>31</value>
   </data>
   <data name="optQuality360.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -928,7 +1033,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optQuality360.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>32</value>
   </data>
   <data name="btnAdvanced.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -943,10 +1048,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>411, 212</value>
+    <value>404, 212</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 23</value>
+    <value>56, 23</value>
   </data>
   <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -964,7 +1069,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>33</value>
   </data>
   <data name="txtList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -991,7 +1096,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtList.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>34</value>
   </data>
   <data name="lblHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1024,7 +1129,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblHL.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>35</value>
   </data>
   <data name="chkHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1054,7 +1159,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkHL.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>36</value>
   </data>
   <data name="lblFeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1090,7 +1195,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblFeather.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>37</value>
   </data>
   <data name="chkFeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1120,7 +1225,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkFeather.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>38</value>
   </data>
   <data name="txtTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 19</value>
@@ -1144,7 +1249,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtTime.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>39</value>
   </data>
   <data name="txtComboVID.Items" xml:space="preserve">
     <value>tKNhPpUR0Pg</value>
@@ -1177,7 +1282,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtComboVID.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>40</value>
   </data>
   <data name="grpBoxInputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
@@ -1491,34 +1596,34 @@
   <data name="&gt;&gt;WebBrowserVersionCheck.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lnkWalkman.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lnkDeveloper.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lnkWalkman.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lnkDeveloper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lnkWalkman.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lnkDeveloper.Location" type="System.Drawing.Point, System.Drawing">
     <value>336, 20</value>
   </data>
-  <data name="lnkWalkman.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lnkDeveloper.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 13</value>
   </data>
-  <data name="lnkWalkman.TabIndex" type="System.Int32, mscorlib">
+  <data name="lnkDeveloper.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="lnkWalkman.Text" xml:space="preserve">
+  <data name="lnkDeveloper.Text" xml:space="preserve">
     <value>Developed by Walkman</value>
   </data>
-  <data name="&gt;&gt;lnkWalkman.Name" xml:space="preserve">
-    <value>lnkWalkman</value>
+  <data name="&gt;&gt;lnkDeveloper.Name" xml:space="preserve">
+    <value>lnkDeveloper</value>
   </data>
-  <data name="&gt;&gt;lnkWalkman.Type" xml:space="preserve">
+  <data name="&gt;&gt;lnkDeveloper.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lnkWalkman.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lnkDeveloper.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
   </data>
-  <data name="&gt;&gt;lnkWalkman.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lnkDeveloper.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="lnkReleases.AutoSize" type="System.Boolean, mscorlib">
@@ -1705,58 +1810,58 @@
     <value>126, 17</value>
   </metadata>
   <data name="ShowYTVLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="ShowYTVLToolStripMenuItem.Text" xml:space="preserve">
     <value>Show YTVL</value>
   </data>
   <data name="ToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 6</value>
+    <value>148, 6</value>
   </data>
   <data name="VideoToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="VideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="VideoToolStripMenuItem.Text" xml:space="preserve">
     <value>» Video</value>
   </data>
   <data name="CommentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="CommentsToolStripMenuItem.Text" xml:space="preserve">
     <value>» Comments</value>
   </data>
   <data name="VideoInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="VideoInfoToolStripMenuItem.Text" xml:space="preserve">
     <value>» Video Info</value>
   </data>
   <data name="EmbedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="EmbedToolStripMenuItem.Text" xml:space="preserve">
     <value>» Embedded</value>
   </data>
   <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 6</value>
+    <value>148, 6</value>
   </data>
   <data name="HideIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="HideIconToolStripMenuItem.Text" xml:space="preserve">
     <value>Hide Icon</value>
   </data>
   <data name="CloseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
     <value>Close</value>
   </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 170</value>
+    <value>152, 170</value>
   </data>
   <data name="NotificationMenuStrip.Text" xml:space="preserve">
     <value>YTVL Context Menu</value>
