@@ -4,7 +4,8 @@
         'apply settings to where they are changed
         chkShowNotification.Checked = My.Settings.ShowNotification
         chkUpdate.Checked = My.Settings.AutoUpdateCheck
-        lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.ToString
+
+        lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor
 
         'apply settings to where they effect
         NotifyIcon.Visible = My.Settings.ShowNotification
@@ -111,11 +112,11 @@
     'Changes e.g. settings
 
     Private Sub MoreLess(sender As Object, e As EventArgs) Handles btnAdvanced.Click
-        If Me.Height = 400 Then
+        If Me.Height = 362 Then
             Me.Height = 230
             btnAdvanced.Text = "More ↓"
         Else
-            Me.Height = 400
+            Me.Height = 362
             btnAdvanced.Text = "Less ↑"
         End If
     End Sub

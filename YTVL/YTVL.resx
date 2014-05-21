@@ -126,7 +126,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txtOrigin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 147</value>
+    <value>276, 154</value>
   </data>
   <data name="txtOrigin.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 20</value>
@@ -154,7 +154,7 @@
     <value>True</value>
   </data>
   <data name="chkOrigin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 150</value>
+    <value>196, 154</value>
   </data>
   <data name="chkOrigin.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 17</value>
@@ -181,7 +181,7 @@
     <value>True</value>
   </data>
   <data name="chkWmode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 133</value>
+    <value>196, 140</value>
   </data>
   <data name="chkWmode.Size" type="System.Drawing.Size, System.Drawing">
     <value>141, 17</value>
@@ -208,7 +208,7 @@
     <value>True</value>
   </data>
   <data name="chkThemeDark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 117</value>
+    <value>196, 126</value>
   </data>
   <data name="chkThemeDark.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
@@ -235,7 +235,7 @@
     <value>True</value>
   </data>
   <data name="optShowsearch1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 99</value>
+    <value>328, 111</value>
   </data>
   <data name="optShowsearch1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -262,7 +262,7 @@
     <value>True</value>
   </data>
   <data name="optShowsearch0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 99</value>
+    <value>291, 111</value>
   </data>
   <data name="optShowsearch0.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -289,7 +289,7 @@
     <value>True</value>
   </data>
   <data name="lblShowSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 101</value>
+    <value>193, 113</value>
   </data>
   <data name="lblShowSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 13</value>
@@ -316,7 +316,7 @@
     <value>True</value>
   </data>
   <data name="optShowinfo1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 84</value>
+    <value>313, 96</value>
   </data>
   <data name="optShowinfo1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -343,7 +343,7 @@
     <value>True</value>
   </data>
   <data name="optShowinfo0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 84</value>
+    <value>276, 96</value>
   </data>
   <data name="optShowinfo0.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -370,7 +370,7 @@
     <value>True</value>
   </data>
   <data name="lblShowinfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 86</value>
+    <value>193, 98</value>
   </data>
   <data name="lblShowinfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 13</value>
@@ -397,7 +397,7 @@
     <value>True</value>
   </data>
   <data name="optRel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>282, 69</value>
+    <value>282, 81</value>
   </data>
   <data name="optRel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -427,7 +427,7 @@
     <value>NoControl</value>
   </data>
   <data name="optRel0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 69</value>
+    <value>245, 81</value>
   </data>
   <data name="optRel0.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -454,7 +454,7 @@
     <value>True</value>
   </data>
   <data name="lblRel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 71</value>
+    <value>193, 83</value>
   </data>
   <data name="lblRel.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 13</value>
@@ -481,7 +481,7 @@
     <value>True</value>
   </data>
   <data name="optMdstBrndng1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 214</value>
+    <value>346, 67</value>
   </data>
   <data name="optMdstBrndng1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -508,7 +508,7 @@
     <value>True</value>
   </data>
   <data name="optMdstBrndng0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 214</value>
+    <value>309, 67</value>
   </data>
   <data name="optMdstBrndng0.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -538,7 +538,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblMdstBrndng.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 216</value>
+    <value>193, 69</value>
   </data>
   <data name="lblMdstBrndng.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 13</value>
@@ -586,7 +586,7 @@
     <value>7</value>
   </data>
   <data name="optIvLP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 193</value>
+    <value>111, 171</value>
   </data>
   <data name="optIvLP.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 21</value>
@@ -610,7 +610,7 @@
     <value>True</value>
   </data>
   <data name="lblIvLP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 196</value>
+    <value>3, 174</value>
   </data>
   <data name="lblIvLP.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 13</value>
@@ -637,7 +637,7 @@
     <value>True</value>
   </data>
   <data name="optEnableJsApi1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 178</value>
+    <value>134, 156</value>
   </data>
   <data name="optEnableJsApi1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -664,7 +664,7 @@
     <value>True</value>
   </data>
   <data name="optEnableJsApi0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>97, 178</value>
+    <value>97, 156</value>
   </data>
   <data name="optEnableJsApi0.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -691,7 +691,7 @@
     <value>True</value>
   </data>
   <data name="lblEnableJsApi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 180</value>
+    <value>3, 158</value>
   </data>
   <data name="lblEnableJsApi.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 13</value>
@@ -718,7 +718,7 @@
     <value>True</value>
   </data>
   <data name="optAutohide1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 163</value>
+    <value>122, 141</value>
   </data>
   <data name="optAutohide1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -745,7 +745,7 @@
     <value>True</value>
   </data>
   <data name="optAutohide0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 163</value>
+    <value>85, 141</value>
   </data>
   <data name="optAutohide0.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -772,7 +772,7 @@
     <value>True</value>
   </data>
   <data name="lblAutohide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 165</value>
+    <value>3, 143</value>
   </data>
   <data name="lblAutohide.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 13</value>
@@ -799,7 +799,7 @@
     <value>True</value>
   </data>
   <data name="optFs1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 148</value>
+    <value>89, 126</value>
   </data>
   <data name="optFs1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -826,7 +826,7 @@
     <value>True</value>
   </data>
   <data name="optFs0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 148</value>
+    <value>52, 126</value>
   </data>
   <data name="optFs0.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -853,7 +853,7 @@
     <value>True</value>
   </data>
   <data name="lblFs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 150</value>
+    <value>3, 128</value>
   </data>
   <data name="lblFs.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 13</value>
@@ -880,7 +880,7 @@
     <value>True</value>
   </data>
   <data name="optAutoplay1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 133</value>
+    <value>120, 111</value>
   </data>
   <data name="optAutoplay1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -907,7 +907,7 @@
     <value>True</value>
   </data>
   <data name="optAutoplay0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 133</value>
+    <value>84, 111</value>
   </data>
   <data name="optAutoplay0.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -934,7 +934,7 @@
     <value>True</value>
   </data>
   <data name="lblAutoplay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 135</value>
+    <value>3, 113</value>
   </data>
   <data name="lblAutoplay.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 13</value>
@@ -961,7 +961,7 @@
     <value>True</value>
   </data>
   <data name="chkFeature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 115</value>
+    <value>6, 97</value>
   </data>
   <data name="chkFeature.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 17</value>
@@ -988,7 +988,7 @@
     <value>True</value>
   </data>
   <data name="optQuality720.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 92</value>
+    <value>6, 82</value>
   </data>
   <data name="optQuality720.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 17</value>
@@ -1015,7 +1015,7 @@
     <value>True</value>
   </data>
   <data name="optQuality360.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 69</value>
+    <value>6, 67</value>
   </data>
   <data name="optQuality360.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 17</value>
@@ -1051,7 +1051,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 212</value>
+    <value>404, 174</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 23</value>
@@ -1291,7 +1291,7 @@
     <value>12, 12</value>
   </data>
   <data name="grpBoxInputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 237</value>
+    <value>466, 199</value>
   </data>
   <data name="grpBoxInputs.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1313,6 +1313,114 @@
   </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Name" xml:space="preserve">
+    <value>chkShowNotification</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
+    <value>btnEmbed</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
+    <value>btnVideoInfo</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
+    <value>btnComments</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
+    <value>btnVideo</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 217</value>
+  </data>
+  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 47</value>
+  </data>
+  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpBoxOutputs.Text" xml:space="preserve">
+    <value>Outputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
     <value>466, 19</value>
@@ -1539,32 +1647,104 @@
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 255</value>
-  </data>
-  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 47</value>
-  </data>
-  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grpBoxOutputs.Text" xml:space="preserve">
-    <value>Outputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVersionCheck.Name" xml:space="preserve">
+    <value>WebBrowserVersionCheck</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVersionCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVersionCheck.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVersionCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lnkDeveloper.Name" xml:space="preserve">
+    <value>lnkDeveloper</value>
+  </data>
+  <data name="&gt;&gt;lnkDeveloper.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkDeveloper.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkDeveloper.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Name" xml:space="preserve">
+    <value>lnkReleases</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Name" xml:space="preserve">
+    <value>lnkReportProblem</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Name" xml:space="preserve">
+    <value>lnkSourceCode</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Name" xml:space="preserve">
+    <value>lnkOriginalPage</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 270</value>
+  </data>
+  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 42</value>
+  </data>
+  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpBoxAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="WebBrowserVersionCheck.AccessibleDescription" xml:space="preserve">
     <value>Version Checker</value>
@@ -1749,30 +1929,6 @@
   <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 308</value>
-  </data>
-  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 42</value>
-  </data>
-  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="grpBoxAbout.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="lblCurrentVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -1783,16 +1939,16 @@
     <value>Microsoft Sans Serif, 6.5pt</value>
   </data>
   <data name="lblCurrentVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 343</value>
+    <value>316, 305</value>
   </data>
   <data name="lblCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 12</value>
+    <value>52, 12</value>
   </data>
   <data name="lblCurrentVersion.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="lblCurrentVersion.Text" xml:space="preserve">
-    <value>Current: v1.3</value>
+    <value>Current: v1</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.Name" xml:space="preserve">
     <value>lblCurrentVersion</value>
@@ -1812,6 +1968,41 @@
   <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>126, 17</value>
   </metadata>
+  <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 170</value>
+  </data>
+  <data name="NotificationMenuStrip.Text" xml:space="preserve">
+    <value>YTVL Context Menu</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStrip.Name" xml:space="preserve">
+    <value>NotificationMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NotifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBEAAAEAGACcAwAAFgAAACgAAAAQAAAAIgAAAAEAGAAAAAAAdAMAAAAAAAAAAAAAAAAAAAAA
+        AAD///8SI/8SI/8SI/8TI/8SI/8SI/8SI//MaAPSeR/SeR/SeR/RdhuFTGASI/////8SI/8AHO4AHO4A
+        He8AHO4AHO4AHO4AHO7SeR//////8+f/yqb4699/SlkAHe8SI/8SI/8SI/////9PVf+6uv////////9P
+        Vf/SeR//8+frv5P7pmL4mFPfn2DPu68gLO8SI/8SI/////9PVf////8SI/////9PVf/SeR//yqb7pmL+
+        8ub+tHXvYgzTgkfdZCcSI/8SI/////9PVf////8TI/////9PVf/Rdhv469/4mFP+tHX/8+juwYTu3bz/
+        eR8SI/8SI/////9PVf////8SIv////9PVf/fn2Dfn2DFhWDvYgzuwYT/////////eR8SI/8TI/////8S
+        I/8SI/8SI/8SI/8SI/////8SI/9aUa/Tgkfu3bz/////////eR8SI/////////////8SI/8SI/8SI/8T
+        I/////8SI/8gLO/dZCf/eR//eR//eR//aAPZ2f8SI/8SI/8TI/8SI/8SI/8SI/8SI/8SI/8SI/8SI/8S
+        I/8SI/8SI/8SIv/Z2v//////////////////////////////////////////////////////////////
+        //////////+r5/YAAAD9+9j///9HkrkAAADIiWb///9ur9UAAACsZkT///////////////////+q5vUA
+        AAD+/Niq5vYAAAD///8AAAD+/NgTcJ3+/NgAAAD///////////////////+q5vUAAAD+/Niq5vYAAAD/
+        //8AAAD+/NgAAAD///8AAAD///////////////////9ur9YAAADjxaL///9HkroAAADJiWb///8AAAD/
+        //8AAAD///////////////////8AAAD/qe8AAAD/////////////////////////////////////////
+        //////9urtUMSn////+sZkTjxaL/////////////////////////////////////////////////////
+        //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="NotifyIcon.Text" xml:space="preserve">
+    <value>NotifyIcon</value>
+  </data>
   <data name="ShowYTVLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 22</value>
   </data>
@@ -1863,41 +2054,6 @@
   <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
     <value>Close</value>
   </data>
-  <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 170</value>
-  </data>
-  <data name="NotificationMenuStrip.Text" xml:space="preserve">
-    <value>YTVL Context Menu</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStrip.Name" xml:space="preserve">
-    <value>NotificationMenuStrip</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NotifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAEBEAAAEAGACcAwAAFgAAACgAAAAQAAAAIgAAAAEAGAAAAAAAdAMAAAAAAAAAAAAAAAAAAAAA
-        AAD///8SI/8SI/8SI/8TI/8SI/8SI/8SI//MaAPSeR/SeR/SeR/RdhuFTGASI/////8SI/8AHO4AHO4A
-        He8AHO4AHO4AHO4AHO7SeR//////8+f/yqb4699/SlkAHe8SI/8SI/8SI/////9PVf+6uv////////9P
-        Vf/SeR//8+frv5P7pmL4mFPfn2DPu68gLO8SI/8SI/////9PVf////8SI/////9PVf/SeR//yqb7pmL+
-        8ub+tHXvYgzTgkfdZCcSI/8SI/////9PVf////8TI/////9PVf/Rdhv469/4mFP+tHX/8+juwYTu3bz/
-        eR8SI/8SI/////9PVf////8SIv////9PVf/fn2Dfn2DFhWDvYgzuwYT/////////eR8SI/8TI/////8S
-        I/8SI/8SI/8SI/8SI/////8SI/9aUa/Tgkfu3bz/////////eR8SI/////////////8SI/8SI/8SI/8T
-        I/////8SI/8gLO/dZCf/eR//eR//eR//aAPZ2f8SI/8SI/8TI/8SI/8SI/8SI/8SI/8SI/8SI/8SI/8S
-        I/8SI/8SI/8SIv/Z2v//////////////////////////////////////////////////////////////
-        //////////+r5/YAAAD9+9j///9HkrkAAADIiWb///9ur9UAAACsZkT///////////////////+q5vUA
-        AAD+/Niq5vYAAAD///8AAAD+/NgTcJ3+/NgAAAD///////////////////+q5vUAAAD+/Niq5vYAAAD/
-        //8AAAD+/NgAAAD///8AAAD///////////////////9ur9YAAADjxaL///9HkroAAADJiWb///8AAAD/
-        //8AAAD///////////////////8AAAD/qe8AAAD/////////////////////////////////////////
-        //////9urtUMSn////+sZkTjxaL/////////////////////////////////////////////////////
-        //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-</value>
-  </data>
-  <data name="NotifyIcon.Text" xml:space="preserve">
-    <value>NotifyIcon</value>
-  </data>
   <data name="chkUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -1905,7 +2061,7 @@
     <value>True</value>
   </data>
   <data name="chkUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 342</value>
+    <value>132, 304</value>
   </data>
   <data name="chkUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 17</value>
@@ -1935,7 +2091,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>490, 363</value>
+    <value>490, 325</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

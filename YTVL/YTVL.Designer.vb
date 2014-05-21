@@ -25,6 +25,10 @@ Partial Class YTVL
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(YTVL))
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
+        Me.txtOrigin = New System.Windows.Forms.TextBox()
+        Me.chkOrigin = New System.Windows.Forms.CheckBox()
+        Me.chkWmode = New System.Windows.Forms.CheckBox()
+        Me.chkThemeDark = New System.Windows.Forms.CheckBox()
         Me.optShowsearch1 = New System.Windows.Forms.RadioButton()
         Me.optShowsearch0 = New System.Windows.Forms.RadioButton()
         Me.lblShowSearch = New System.Windows.Forms.Label()
@@ -90,10 +94,6 @@ Partial Class YTVL
         Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
-        Me.chkThemeDark = New System.Windows.Forms.CheckBox()
-        Me.chkWmode = New System.Windows.Forms.CheckBox()
-        Me.chkOrigin = New System.Windows.Forms.CheckBox()
-        Me.txtOrigin = New System.Windows.Forms.TextBox()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -146,6 +146,29 @@ Partial Class YTVL
         Me.grpBoxInputs.Controls.Add(Me.txtComboVID)
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = False
+        '
+        'txtOrigin
+        '
+        resources.ApplyResources(Me.txtOrigin, "txtOrigin")
+        Me.txtOrigin.Name = "txtOrigin"
+        '
+        'chkOrigin
+        '
+        resources.ApplyResources(Me.chkOrigin, "chkOrigin")
+        Me.chkOrigin.Name = "chkOrigin"
+        Me.chkOrigin.UseVisualStyleBackColor = True
+        '
+        'chkWmode
+        '
+        resources.ApplyResources(Me.chkWmode, "chkWmode")
+        Me.chkWmode.Name = "chkWmode"
+        Me.chkWmode.UseVisualStyleBackColor = True
+        '
+        'chkThemeDark
+        '
+        resources.ApplyResources(Me.chkThemeDark, "chkThemeDark")
+        Me.chkThemeDark.Name = "chkThemeDark"
+        Me.chkThemeDark.UseVisualStyleBackColor = True
         '
         'optShowsearch1
         '
@@ -572,29 +595,6 @@ Partial Class YTVL
         resources.ApplyResources(Me.chkUpdate, "chkUpdate")
         Me.chkUpdate.Name = "chkUpdate"
         Me.chkUpdate.UseVisualStyleBackColor = True
-        '
-        'chkThemeDark
-        '
-        resources.ApplyResources(Me.chkThemeDark, "chkThemeDark")
-        Me.chkThemeDark.Name = "chkThemeDark"
-        Me.chkThemeDark.UseVisualStyleBackColor = True
-        '
-        'chkWmode
-        '
-        resources.ApplyResources(Me.chkWmode, "chkWmode")
-        Me.chkWmode.Name = "chkWmode"
-        Me.chkWmode.UseVisualStyleBackColor = True
-        '
-        'chkOrigin
-        '
-        resources.ApplyResources(Me.chkOrigin, "chkOrigin")
-        Me.chkOrigin.Name = "chkOrigin"
-        Me.chkOrigin.UseVisualStyleBackColor = True
-        '
-        'txtOrigin
-        '
-        resources.ApplyResources(Me.txtOrigin, "txtOrigin")
-        Me.txtOrigin.Name = "txtOrigin"
         '
         'YTVL
         '
