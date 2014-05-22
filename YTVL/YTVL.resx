@@ -1051,10 +1051,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 174</value>
+    <value>411, 174</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 23</value>
+    <value>49, 23</value>
   </data>
   <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1314,114 +1314,6 @@
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
-    <value>btnExit</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;chkShowNotification.Name" xml:space="preserve">
-    <value>chkShowNotification</value>
-  </data>
-  <data name="&gt;&gt;chkShowNotification.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkShowNotification.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
-    <value>btnReset</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
-    <value>btnEmbed</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
-    <value>btnVideoInfo</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
-    <value>btnComments</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
-    <value>btnVideo</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 217</value>
-  </data>
-  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 47</value>
-  </data>
-  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grpBoxOutputs.Text" xml:space="preserve">
-    <value>Outputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
     <value>466, 19</value>
   </data>
@@ -1647,104 +1539,32 @@
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 217</value>
   </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Name" xml:space="preserve">
-    <value>WebBrowserVersionCheck</value>
+  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 47</value>
   </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lnkDeveloper.Name" xml:space="preserve">
-    <value>lnkDeveloper</value>
-  </data>
-  <data name="&gt;&gt;lnkDeveloper.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkDeveloper.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkDeveloper.ZOrder" xml:space="preserve">
+  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;lnkReleases.Name" xml:space="preserve">
-    <value>lnkReleases</value>
+  <data name="grpBoxOutputs.Text" xml:space="preserve">
+    <value>Outputs</value>
   </data>
-  <data name="&gt;&gt;lnkReleases.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
+    <value>grpBoxOutputs</value>
   </data>
-  <data name="&gt;&gt;lnkReleases.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Name" xml:space="preserve">
-    <value>lnkReportProblem</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Name" xml:space="preserve">
-    <value>lnkSourceCode</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Name" xml:space="preserve">
-    <value>lnkOriginalPage</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 270</value>
-  </data>
-  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 42</value>
-  </data>
-  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="grpBoxAbout.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
+  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
+  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
   <data name="WebBrowserVersionCheck.AccessibleDescription" xml:space="preserve">
     <value>Version Checker</value>
@@ -1929,6 +1749,30 @@
   <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 270</value>
+  </data>
+  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 42</value>
+  </data>
+  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpBoxAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="lblCurrentVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -1968,8 +1812,65 @@
   <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>126, 17</value>
   </metadata>
+  <data name="ShowYTVLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="ShowYTVLToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Show YTVL</value>
+  </data>
+  <data name="ShowYTVLToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Show YTVL</value>
+  </data>
+  <data name="ToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 6</value>
+  </data>
+  <data name="VideoToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="VideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="VideoToolStripMenuItem.Text" xml:space="preserve">
+    <value>» &amp;Video</value>
+  </data>
+  <data name="CommentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="CommentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>» &amp;Comments</value>
+  </data>
+  <data name="VideoInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="VideoInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>» Video &amp;Info</value>
+  </data>
+  <data name="EmbedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="EmbedToolStripMenuItem.Text" xml:space="preserve">
+    <value>» Embedded</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 6</value>
+  </data>
+  <data name="HideIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="HideIconToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Hide Icon</value>
+  </data>
+  <data name="HideIconToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Hide the taskbar icon</value>
+  </data>
+  <data name="CloseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cl&amp;ose</value>
+  </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 170</value>
+    <value>157, 192</value>
   </data>
   <data name="NotificationMenuStrip.Text" xml:space="preserve">
     <value>YTVL Context Menu</value>
@@ -2002,57 +1903,6 @@
   </data>
   <data name="NotifyIcon.Text" xml:space="preserve">
     <value>NotifyIcon</value>
-  </data>
-  <data name="ShowYTVLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="ShowYTVLToolStripMenuItem.Text" xml:space="preserve">
-    <value>Show YTVL</value>
-  </data>
-  <data name="ToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 6</value>
-  </data>
-  <data name="VideoToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="VideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="VideoToolStripMenuItem.Text" xml:space="preserve">
-    <value>» Video</value>
-  </data>
-  <data name="CommentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="CommentsToolStripMenuItem.Text" xml:space="preserve">
-    <value>» Comments</value>
-  </data>
-  <data name="VideoInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="VideoInfoToolStripMenuItem.Text" xml:space="preserve">
-    <value>» Video Info</value>
-  </data>
-  <data name="EmbedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="EmbedToolStripMenuItem.Text" xml:space="preserve">
-    <value>» Embedded</value>
-  </data>
-  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 6</value>
-  </data>
-  <data name="HideIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="HideIconToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hide Icon</value>
-  </data>
-  <data name="CloseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
-    <value>Close</value>
   </data>
   <data name="chkUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
