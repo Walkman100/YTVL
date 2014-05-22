@@ -233,8 +233,8 @@
         End If
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.Click
-        If CheckBox1.Checked = True Then
+    Private Sub chkHttps_Click(sender As Object, e As EventArgs) Handles chkHttps.Click
+        If chkHttps.Checked = True Then
             usehttps = "https://"
         Else
             usehttps = "http://"

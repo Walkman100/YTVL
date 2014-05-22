@@ -122,35 +122,35 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CheckBox1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="chkHttps.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="CheckBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chkHttps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="CheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chkHttps.Location" type="System.Drawing.Point, System.Drawing">
     <value>196, 175</value>
   </data>
-  <data name="CheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chkHttps.Size" type="System.Drawing.Size, System.Drawing">
     <value>164, 17</value>
   </data>
-  <data name="CheckBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="chkHttps.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
   </data>
-  <data name="CheckBox1.Text" xml:space="preserve">
+  <data name="chkHttps.Text" xml:space="preserve">
     <value>Use https (Secure connetion)</value>
   </data>
-  <data name="&gt;&gt;CheckBox1.Name" xml:space="preserve">
-    <value>CheckBox1</value>
+  <data name="&gt;&gt;chkHttps.Name" xml:space="preserve">
+    <value>chkHttps</value>
   </data>
-  <data name="&gt;&gt;CheckBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;chkHttps.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;CheckBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chkHttps.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
   </data>
-  <data name="&gt;&gt;CheckBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;chkHttps.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="txtOrigin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">

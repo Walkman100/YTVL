@@ -25,6 +25,7 @@ Partial Class YTVL
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(YTVL))
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
+        Me.chkHttps = New System.Windows.Forms.CheckBox()
         Me.txtOrigin = New System.Windows.Forms.TextBox()
         Me.chkOrigin = New System.Windows.Forms.CheckBox()
         Me.chkWmode = New System.Windows.Forms.CheckBox()
@@ -94,7 +95,6 @@ Partial Class YTVL
         Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -104,7 +104,7 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
-        Me.grpBoxInputs.Controls.Add(Me.CheckBox1)
+        Me.grpBoxInputs.Controls.Add(Me.chkHttps)
         Me.grpBoxInputs.Controls.Add(Me.txtOrigin)
         Me.grpBoxInputs.Controls.Add(Me.chkOrigin)
         Me.grpBoxInputs.Controls.Add(Me.chkWmode)
@@ -148,6 +148,12 @@ Partial Class YTVL
         Me.grpBoxInputs.Controls.Add(Me.txtComboVID)
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = False
+        '
+        'chkHttps
+        '
+        resources.ApplyResources(Me.chkHttps, "chkHttps")
+        Me.chkHttps.Name = "chkHttps"
+        Me.chkHttps.UseVisualStyleBackColor = True
         '
         'txtOrigin
         '
@@ -598,12 +604,6 @@ Partial Class YTVL
         Me.chkUpdate.Name = "chkUpdate"
         Me.chkUpdate.UseVisualStyleBackColor = True
         '
-        'CheckBox1
-        '
-        resources.ApplyResources(Me.CheckBox1, "CheckBox1")
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
@@ -698,6 +698,6 @@ Partial Class YTVL
     Friend WithEvents chkOrigin As System.Windows.Forms.CheckBox
     Friend WithEvents chkWmode As System.Windows.Forms.CheckBox
     Friend WithEvents chkThemeDark As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents chkHttps As System.Windows.Forms.CheckBox
 
 End Class
