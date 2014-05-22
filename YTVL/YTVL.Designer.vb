@@ -182,14 +182,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optShowsearch1, "optShowsearch1")
         Me.optShowsearch1.Name = "optShowsearch1"
-        Me.optShowsearch1.TabStop = True
         Me.optShowsearch1.UseVisualStyleBackColor = True
         '
         'optShowsearch0
         '
         resources.ApplyResources(Me.optShowsearch0, "optShowsearch0")
         Me.optShowsearch0.Name = "optShowsearch0"
-        Me.optShowsearch0.TabStop = True
         Me.optShowsearch0.UseVisualStyleBackColor = True
         '
         'lblShowSearch
@@ -201,14 +199,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optShowinfo1, "optShowinfo1")
         Me.optShowinfo1.Name = "optShowinfo1"
-        Me.optShowinfo1.TabStop = True
         Me.optShowinfo1.UseVisualStyleBackColor = True
         '
         'optShowinfo0
         '
         resources.ApplyResources(Me.optShowinfo0, "optShowinfo0")
         Me.optShowinfo0.Name = "optShowinfo0"
-        Me.optShowinfo0.TabStop = True
         Me.optShowinfo0.UseVisualStyleBackColor = True
         '
         'lblShowinfo
@@ -220,14 +216,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optRel1, "optRel1")
         Me.optRel1.Name = "optRel1"
-        Me.optRel1.TabStop = True
         Me.optRel1.UseVisualStyleBackColor = True
         '
         'optRel0
         '
         resources.ApplyResources(Me.optRel0, "optRel0")
         Me.optRel0.Name = "optRel0"
-        Me.optRel0.TabStop = True
         Me.optRel0.UseVisualStyleBackColor = True
         '
         'lblRel
@@ -239,14 +233,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optMdstBrndng1, "optMdstBrndng1")
         Me.optMdstBrndng1.Name = "optMdstBrndng1"
-        Me.optMdstBrndng1.TabStop = True
         Me.optMdstBrndng1.UseVisualStyleBackColor = True
         '
         'optMdstBrndng0
         '
         resources.ApplyResources(Me.optMdstBrndng0, "optMdstBrndng0")
         Me.optMdstBrndng0.Name = "optMdstBrndng0"
-        Me.optMdstBrndng0.TabStop = True
         Me.optMdstBrndng0.UseVisualStyleBackColor = True
         '
         'lblMdstBrndng
@@ -270,14 +262,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optEnableJsApi1, "optEnableJsApi1")
         Me.optEnableJsApi1.Name = "optEnableJsApi1"
-        Me.optEnableJsApi1.TabStop = True
         Me.optEnableJsApi1.UseVisualStyleBackColor = True
         '
         'optEnableJsApi0
         '
         resources.ApplyResources(Me.optEnableJsApi0, "optEnableJsApi0")
         Me.optEnableJsApi0.Name = "optEnableJsApi0"
-        Me.optEnableJsApi0.TabStop = True
         Me.optEnableJsApi0.UseVisualStyleBackColor = True
         '
         'lblEnableJsApi
@@ -289,14 +279,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optAutohide1, "optAutohide1")
         Me.optAutohide1.Name = "optAutohide1"
-        Me.optAutohide1.TabStop = True
         Me.optAutohide1.UseVisualStyleBackColor = True
         '
         'optAutohide0
         '
         resources.ApplyResources(Me.optAutohide0, "optAutohide0")
         Me.optAutohide0.Name = "optAutohide0"
-        Me.optAutohide0.TabStop = True
         Me.optAutohide0.UseVisualStyleBackColor = True
         '
         'lblAutohide
@@ -308,14 +296,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optFs1, "optFs1")
         Me.optFs1.Name = "optFs1"
-        Me.optFs1.TabStop = True
         Me.optFs1.UseVisualStyleBackColor = True
         '
         'optFs0
         '
         resources.ApplyResources(Me.optFs0, "optFs0")
         Me.optFs0.Name = "optFs0"
-        Me.optFs0.TabStop = True
         Me.optFs0.UseVisualStyleBackColor = True
         '
         'lblFs
@@ -327,14 +313,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optAutoplay1, "optAutoplay1")
         Me.optAutoplay1.Name = "optAutoplay1"
-        Me.optAutoplay1.TabStop = True
         Me.optAutoplay1.UseVisualStyleBackColor = True
         '
         'optAutoplay0
         '
         resources.ApplyResources(Me.optAutoplay0, "optAutoplay0")
         Me.optAutoplay0.Name = "optAutoplay0"
-        Me.optAutoplay0.TabStop = True
         Me.optAutoplay0.UseVisualStyleBackColor = True
         '
         'lblAutoplay
@@ -352,14 +336,12 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optQuality720, "optQuality720")
         Me.optQuality720.Name = "optQuality720"
-        Me.optQuality720.TabStop = True
         Me.optQuality720.UseVisualStyleBackColor = True
         '
         'optQuality360
         '
         resources.ApplyResources(Me.optQuality360, "optQuality360")
         Me.optQuality360.Name = "optQuality360"
-        Me.optQuality360.TabStop = True
         Me.optQuality360.UseVisualStyleBackColor = True
         '
         'btnAdvanced
