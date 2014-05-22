@@ -1,5 +1,6 @@
 ﻿Public Class YTVL
     Dim Vars As String
+    Dim usehttps As String
     Private Sub LoadYTVL() Handles Me.Load
         'apply settings to where they are changed
         chkShowNotification.Checked = My.Settings.ShowNotification
@@ -56,7 +57,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start("http://www.youtube.com/watch?v=" & Vars)
+            Process.Start(usehttps & "www.youtube.com/watch?v=" & Vars)
         End If
     End Sub
 
@@ -65,7 +66,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start("http://www.youtube.com/all_comments?v=" & Vars)
+            Process.Start(usehttps & "www.youtube.com/all_comments?v=" & Vars)
         End If
     End Sub
 
@@ -74,7 +75,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start("http://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
+            Process.Start(usehttps & "www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
         End If
     End Sub
 
@@ -83,7 +84,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start("http://www.youtube.com/embed/" & Vars)
+            Process.Start(usehttps & "www.youtube.com/embed/" & Vars)
         End If
     End Sub
 
@@ -232,4 +233,11 @@
         End If
     End Sub
 
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.Click
+        If CheckBox1.Checked = True Then
+            usehttps = "https://"
+        Else
+            usehttps = "http://"
+        End If
+    End Sub
 End Class
