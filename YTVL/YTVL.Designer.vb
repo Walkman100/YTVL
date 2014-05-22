@@ -94,6 +94,7 @@ Partial Class YTVL
         Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.grpBoxInputs.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
@@ -103,6 +104,7 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
+        Me.grpBoxInputs.Controls.Add(Me.CheckBox1)
         Me.grpBoxInputs.Controls.Add(Me.txtOrigin)
         Me.grpBoxInputs.Controls.Add(Me.chkOrigin)
         Me.grpBoxInputs.Controls.Add(Me.chkWmode)
@@ -596,6 +598,12 @@ Partial Class YTVL
         Me.chkUpdate.Name = "chkUpdate"
         Me.chkUpdate.UseVisualStyleBackColor = True
         '
+        'CheckBox1
+        '
+        resources.ApplyResources(Me.CheckBox1, "CheckBox1")
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
@@ -690,5 +698,6 @@ Partial Class YTVL
     Friend WithEvents chkOrigin As System.Windows.Forms.CheckBox
     Friend WithEvents chkWmode As System.Windows.Forms.CheckBox
     Friend WithEvents chkThemeDark As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 
 End Class
