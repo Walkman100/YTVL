@@ -5,9 +5,16 @@ YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io
 
 Many thanks to [Deavmi](http://github.com/Deavmi) for his code, quite a bit of the code used in this project I learnt from his projects
 
+Jump to:  
+•<a href="#how-to-use">How to use</a> 
+•<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
+•<a href="#future-releasesideas">Future releases/ideas</a> 
+•<a href="#what-the-links--flags do">What the Links & Flags do</a> 
+•<a href="#debugging">Debugging</a>
+
 How to use
 ====
-It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you use YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup>); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweght than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup>; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which has been hidden since it allows you to press <kbd>Esc</kbd> to close the program.
+It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you use YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup>); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweght than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup>; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
 
 There is an option to the right of the `Outputs` group box that shows the notification icon. This icon can be useful if you want to open multiple pages without having to open the program again, it has all the options from the `Outputs` group box in it's context menu (when you right-click). It has an option to show the program, to hide the icon (same as unchecking the option in the main program) and to exit the program completely - which also removes the icon until you open the program again.
 
@@ -26,9 +33,7 @@ Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as lo
 
 Future releases/ideas
 ====
-Currently I am working on getting the advanced options (shown under `Flags that don't seem to do anything` [here](http://walkman100.github.io/Walkman/youtube-video-stuff.htm)) to work, they have all been added to the interface, but currently don't do anything. That will be the focus of `v1.3`.
-
-`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or BB code.
+`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or BB code which will be copied to the clipboard. A context menu for when you right-click on any of the `outputs` buttons that allows you to generate the URL and copy it will also be in this release.
 
 `v1.5` will probably have buttons to open the download pages for FullRip.net; MP3, Video or Video(alternative); KeepVid e.t.c.
 
@@ -44,4 +49,11 @@ Links:
 Generally, the name of the flag speaks for itself, but here is a short description:
 * **NoFeather**<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup>: this flag temporarily (for the page it's on) disables YouTube Feather
 
+Other than noFeather, the advanced options are mostly useful for embedded videos
+* **AutoPlay** if this is set to `1`, the video will automatically begin playing when the page loads
+
 ***_<kbd>`WIP`</kbd>_***
+
+Debugging
+====
+Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser window to the right of the `Developed by...` link, this shows the page that is loaded to show the current version. If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
