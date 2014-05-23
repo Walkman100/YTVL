@@ -121,14 +121,419 @@
   <data name="grpBoxInputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="&gt;&gt;optMdstBrndng0.Name" xml:space="preserve">
+    <value>optMdstBrndng0</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng0.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng1.Name" xml:space="preserve">
+    <value>optMdstBrndng1</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 67</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optRel0.Name" xml:space="preserve">
+    <value>optRel0</value>
+  </data>
+  <data name="&gt;&gt;optRel0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optRel0.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;optRel0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optRel1.Name" xml:space="preserve">
+    <value>optRel1</value>
+  </data>
+  <data name="&gt;&gt;optRel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optRel1.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;optRel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 82</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo0.Name" xml:space="preserve">
+    <value>optShowinfo0</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo0.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo1.Name" xml:space="preserve">
+    <value>optShowinfo1</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo1.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 97</value>
+  </data>
+  <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Name" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel3.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch0.Name" xml:space="preserve">
+    <value>optShowsearch0</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch0.Parent" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch1.Name" xml:space="preserve">
+    <value>optShowsearch1</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch1.Parent" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 112</value>
+  </data>
+  <data name="Panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="Panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Name" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel4.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;Panel4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi0.Name" xml:space="preserve">
+    <value>optEnableJsApi0</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi0.Parent" xml:space="preserve">
+    <value>pnlEnableJsApi</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi1.Name" xml:space="preserve">
+    <value>optEnableJsApi1</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi1.Parent" xml:space="preserve">
+    <value>pnlEnableJsApi</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlEnableJsApi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 156</value>
+  </data>
+  <data name="pnlEnableJsApi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlEnableJsApi.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;pnlEnableJsApi.Name" xml:space="preserve">
+    <value>pnlEnableJsApi</value>
+  </data>
+  <data name="&gt;&gt;pnlEnableJsApi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlEnableJsApi.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlEnableJsApi.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay0.Name" xml:space="preserve">
+    <value>optAutoplay0</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay0.Parent" xml:space="preserve">
+    <value>pnlAutoplay</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay1.Name" xml:space="preserve">
+    <value>optAutoplay1</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay1.Parent" xml:space="preserve">
+    <value>pnlAutoplay</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlAutoplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 111</value>
+  </data>
+  <data name="pnlAutoplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlAutoplay.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;pnlAutoplay.Name" xml:space="preserve">
+    <value>pnlAutoplay</value>
+  </data>
+  <data name="&gt;&gt;pnlAutoplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAutoplay.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlAutoplay.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;optAutohide0.Name" xml:space="preserve">
+    <value>optAutohide0</value>
+  </data>
+  <data name="&gt;&gt;optAutohide0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optAutohide0.Parent" xml:space="preserve">
+    <value>pnlAutohide</value>
+  </data>
+  <data name="&gt;&gt;optAutohide0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optAutohide1.Name" xml:space="preserve">
+    <value>optAutohide1</value>
+  </data>
+  <data name="&gt;&gt;optAutohide1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optAutohide1.Parent" xml:space="preserve">
+    <value>pnlAutohide</value>
+  </data>
+  <data name="&gt;&gt;optAutohide1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlAutohide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 141</value>
+  </data>
+  <data name="pnlAutohide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlAutohide.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;pnlAutohide.Name" xml:space="preserve">
+    <value>pnlAutohide</value>
+  </data>
+  <data name="&gt;&gt;pnlAutohide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAutohide.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlAutohide.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;optFs0.Name" xml:space="preserve">
+    <value>optFs0</value>
+  </data>
+  <data name="&gt;&gt;optFs0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFs0.Parent" xml:space="preserve">
+    <value>pnlFs</value>
+  </data>
+  <data name="&gt;&gt;optFs0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optFs1.Name" xml:space="preserve">
+    <value>optFs1</value>
+  </data>
+  <data name="&gt;&gt;optFs1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFs1.Parent" xml:space="preserve">
+    <value>pnlFs</value>
+  </data>
+  <data name="&gt;&gt;optFs1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlFs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 126</value>
+  </data>
+  <data name="pnlFs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlFs.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;pnlFs.Name" xml:space="preserve">
+    <value>pnlFs</value>
+  </data>
+  <data name="&gt;&gt;pnlFs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlFs.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlFs.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Name" xml:space="preserve">
+    <value>optQuality360</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Parent" xml:space="preserve">
+    <value>pnlQuality</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Name" xml:space="preserve">
+    <value>optQuality720</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Parent" xml:space="preserve">
+    <value>pnlQuality</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 66</value>
+  </data>
+  <data name="pnlQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 29</value>
+  </data>
+  <data name="pnlQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;pnlQuality.Name" xml:space="preserve">
+    <value>pnlQuality</value>
+  </data>
+  <data name="&gt;&gt;pnlQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlQuality.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlQuality.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="chkHttps.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="chkHttps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="chkHttps.Location" type="System.Drawing.Point, System.Drawing">
     <value>196, 175</value>
   </data>
@@ -151,7 +556,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkHttps.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>9</value>
   </data>
   <data name="txtOrigin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -178,7 +583,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtOrigin.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>10</value>
   </data>
   <data name="chkOrigin.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -205,7 +610,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkOrigin.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>11</value>
   </data>
   <data name="chkWmode.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -232,7 +637,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkWmode.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>12</value>
   </data>
   <data name="chkThemeDark.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -259,61 +664,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkThemeDark.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="optShowsearch1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optShowsearch1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 111</value>
-  </data>
-  <data name="optShowsearch1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optShowsearch1.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="optShowsearch1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch1.Name" xml:space="preserve">
-    <value>optShowsearch1</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="optShowsearch0.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optShowsearch0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 111</value>
-  </data>
-  <data name="optShowsearch0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optShowsearch0.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="optShowsearch0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch0.Name" xml:space="preserve">
-    <value>optShowsearch0</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch0.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch0.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>13</value>
   </data>
   <data name="lblShowSearch.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -340,61 +691,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblShowSearch.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="optShowinfo1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optShowinfo1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 96</value>
-  </data>
-  <data name="optShowinfo1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optShowinfo1.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="optShowinfo1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo1.Name" xml:space="preserve">
-    <value>optShowinfo1</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="optShowinfo0.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optShowinfo0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 96</value>
-  </data>
-  <data name="optShowinfo0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optShowinfo0.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="optShowinfo0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo0.Name" xml:space="preserve">
-    <value>optShowinfo0</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo0.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo0.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>14</value>
   </data>
   <data name="lblShowinfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -421,64 +718,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblShowinfo.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="optRel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optRel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>282, 81</value>
-  </data>
-  <data name="optRel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optRel1.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="optRel1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;optRel1.Name" xml:space="preserve">
-    <value>optRel1</value>
-  </data>
-  <data name="&gt;&gt;optRel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optRel1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optRel1.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="optRel0.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optRel0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="optRel0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 81</value>
-  </data>
-  <data name="optRel0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optRel0.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="optRel0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optRel0.Name" xml:space="preserve">
-    <value>optRel0</value>
-  </data>
-  <data name="&gt;&gt;optRel0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optRel0.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optRel0.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="lblRel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -505,61 +745,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblRel.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="optMdstBrndng1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optMdstBrndng1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>346, 67</value>
-  </data>
-  <data name="optMdstBrndng1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optMdstBrndng1.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="optMdstBrndng1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng1.Name" xml:space="preserve">
-    <value>optMdstBrndng1</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng1.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="optMdstBrndng0.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optMdstBrndng0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>309, 67</value>
-  </data>
-  <data name="optMdstBrndng0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optMdstBrndng0.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="optMdstBrndng0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng0.Name" xml:space="preserve">
-    <value>optMdstBrndng0</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng0.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng0.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="lblMdstBrndng.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -589,7 +775,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblMdstBrndng.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="optIvLP.Items" xml:space="preserve">
     <value>0</value>
@@ -634,7 +820,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;optIvLP.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="lblIvLP.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -661,61 +847,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblIvLP.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="optEnableJsApi1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optEnableJsApi1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 156</value>
-  </data>
-  <data name="optEnableJsApi1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optEnableJsApi1.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="optEnableJsApi1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi1.Name" xml:space="preserve">
-    <value>optEnableJsApi1</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi1.ZOrder" xml:space="preserve">
     <value>19</value>
-  </data>
-  <data name="optEnableJsApi0.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optEnableJsApi0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>97, 156</value>
-  </data>
-  <data name="optEnableJsApi0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optEnableJsApi0.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="optEnableJsApi0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi0.Name" xml:space="preserve">
-    <value>optEnableJsApi0</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi0.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi0.ZOrder" xml:space="preserve">
-    <value>20</value>
   </data>
   <data name="lblEnableJsApi.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -742,61 +874,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblEnableJsApi.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="optAutohide1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optAutohide1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 141</value>
-  </data>
-  <data name="optAutohide1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optAutohide1.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="optAutohide1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;optAutohide1.Name" xml:space="preserve">
-    <value>optAutohide1</value>
-  </data>
-  <data name="&gt;&gt;optAutohide1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optAutohide1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optAutohide1.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="optAutohide0.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optAutohide0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 141</value>
-  </data>
-  <data name="optAutohide0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optAutohide0.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="optAutohide0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optAutohide0.Name" xml:space="preserve">
-    <value>optAutohide0</value>
-  </data>
-  <data name="&gt;&gt;optAutohide0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optAutohide0.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optAutohide0.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>20</value>
   </data>
   <data name="lblAutohide.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -823,61 +901,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblAutohide.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="optFs1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optFs1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 126</value>
-  </data>
-  <data name="optFs1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optFs1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="optFs1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;optFs1.Name" xml:space="preserve">
-    <value>optFs1</value>
-  </data>
-  <data name="&gt;&gt;optFs1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optFs1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optFs1.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="optFs0.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optFs0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 126</value>
-  </data>
-  <data name="optFs0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optFs0.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="optFs0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optFs0.Name" xml:space="preserve">
-    <value>optFs0</value>
-  </data>
-  <data name="&gt;&gt;optFs0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optFs0.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optFs0.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>21</value>
   </data>
   <data name="lblFs.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -904,61 +928,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblFs.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="optAutoplay1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optAutoplay1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 111</value>
-  </data>
-  <data name="optAutoplay1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optAutoplay1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="optAutoplay1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay1.Name" xml:space="preserve">
-    <value>optAutoplay1</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay1.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="optAutoplay0.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optAutoplay0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 111</value>
-  </data>
-  <data name="optAutoplay0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="optAutoplay0.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="optAutoplay0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay0.Name" xml:space="preserve">
-    <value>optAutoplay0</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay0.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay0.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>22</value>
   </data>
   <data name="lblAutoplay.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -985,7 +955,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblAutoplay.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>23</value>
   </data>
   <data name="chkFeature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1012,61 +982,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkFeature.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="optQuality720.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optQuality720.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 82</value>
-  </data>
-  <data name="optQuality720.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 17</value>
-  </data>
-  <data name="optQuality720.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="optQuality720.Text" xml:space="preserve">
-    <value>Use 720p (if available)</value>
-  </data>
-  <data name="&gt;&gt;optQuality720.Name" xml:space="preserve">
-    <value>optQuality720</value>
-  </data>
-  <data name="&gt;&gt;optQuality720.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optQuality720.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optQuality720.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="optQuality360.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optQuality360.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 67</value>
-  </data>
-  <data name="optQuality360.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 17</value>
-  </data>
-  <data name="optQuality360.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="optQuality360.Text" xml:space="preserve">
-    <value>Use 360p</value>
-  </data>
-  <data name="&gt;&gt;optQuality360.Name" xml:space="preserve">
-    <value>optQuality360</value>
-  </data>
-  <data name="&gt;&gt;optQuality360.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optQuality360.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optQuality360.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>24</value>
   </data>
   <data name="btnAdvanced.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -1081,7 +997,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 174</value>
+    <value>404, 42</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 23</value>
@@ -1102,7 +1018,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>25</value>
   </data>
   <data name="txtList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -1129,7 +1045,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtList.ZOrder" xml:space="preserve">
-    <value>35</value>
+    <value>26</value>
   </data>
   <data name="lblHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1162,7 +1078,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblHL.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>27</value>
   </data>
   <data name="chkHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1180,7 +1096,7 @@
     <value>5</value>
   </data>
   <data name="chkHL.Text" xml:space="preserve">
-    <value>Use hl=en</value>
+    <value>Use &amp;hl=en</value>
   </data>
   <data name="&gt;&gt;chkHL.Name" xml:space="preserve">
     <value>chkHL</value>
@@ -1192,7 +1108,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkHL.ZOrder" xml:space="preserve">
-    <value>37</value>
+    <value>28</value>
   </data>
   <data name="lblFeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1228,7 +1144,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblFeather.ZOrder" xml:space="preserve">
-    <value>38</value>
+    <value>29</value>
   </data>
   <data name="chkFeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1246,7 +1162,7 @@
     <value>3</value>
   </data>
   <data name="chkFeather.Text" xml:space="preserve">
-    <value>Use noFeather</value>
+    <value>Use no&amp;Feather</value>
   </data>
   <data name="&gt;&gt;chkFeather.Name" xml:space="preserve">
     <value>chkFeather</value>
@@ -1258,7 +1174,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;chkFeather.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>30</value>
   </data>
   <data name="txtTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 19</value>
@@ -1282,7 +1198,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtTime.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>31</value>
   </data>
   <data name="txtComboVID.Items" xml:space="preserve">
     <value>tKNhPpUR0Pg</value>
@@ -1315,13 +1231,13 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtComboVID.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>32</value>
   </data>
   <data name="grpBoxInputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
   <data name="grpBoxInputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 199</value>
+    <value>466, 67</value>
   </data>
   <data name="grpBoxInputs.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1341,8 +1257,605 @@
   <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="optMdstBrndng0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optMdstBrndng0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optMdstBrndng0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optMdstBrndng0.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="optMdstBrndng0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng0.Name" xml:space="preserve">
+    <value>optMdstBrndng0</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng0.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optMdstBrndng1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optMdstBrndng1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 0</value>
+  </data>
+  <data name="optMdstBrndng1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optMdstBrndng1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="optMdstBrndng1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng1.Name" xml:space="preserve">
+    <value>optMdstBrndng1</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;optMdstBrndng1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optRel0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optRel0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="optRel0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optRel0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optRel0.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="optRel0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optRel0.Name" xml:space="preserve">
+    <value>optRel0</value>
+  </data>
+  <data name="&gt;&gt;optRel0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optRel0.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;optRel0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optRel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optRel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 0</value>
+  </data>
+  <data name="optRel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optRel1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="optRel1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optRel1.Name" xml:space="preserve">
+    <value>optRel1</value>
+  </data>
+  <data name="&gt;&gt;optRel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optRel1.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;optRel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optShowinfo0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optShowinfo0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optShowinfo0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optShowinfo0.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="optShowinfo0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo0.Name" xml:space="preserve">
+    <value>optShowinfo0</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo0.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optShowinfo1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optShowinfo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 0</value>
+  </data>
+  <data name="optShowinfo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optShowinfo1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="optShowinfo1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo1.Name" xml:space="preserve">
+    <value>optShowinfo1</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo1.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;optShowinfo1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optShowsearch0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optShowsearch0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optShowsearch0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optShowsearch0.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="optShowsearch0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch0.Name" xml:space="preserve">
+    <value>optShowsearch0</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch0.Parent" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optShowsearch1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optShowsearch1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 0</value>
+  </data>
+  <data name="optShowsearch1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optShowsearch1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="optShowsearch1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch1.Name" xml:space="preserve">
+    <value>optShowsearch1</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch1.Parent" xml:space="preserve">
+    <value>Panel4</value>
+  </data>
+  <data name="&gt;&gt;optShowsearch1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optEnableJsApi0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optEnableJsApi0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optEnableJsApi0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optEnableJsApi0.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="optEnableJsApi0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi0.Name" xml:space="preserve">
+    <value>optEnableJsApi0</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi0.Parent" xml:space="preserve">
+    <value>pnlEnableJsApi</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optEnableJsApi1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optEnableJsApi1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 0</value>
+  </data>
+  <data name="optEnableJsApi1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optEnableJsApi1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="optEnableJsApi1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi1.Name" xml:space="preserve">
+    <value>optEnableJsApi1</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi1.Parent" xml:space="preserve">
+    <value>pnlEnableJsApi</value>
+  </data>
+  <data name="&gt;&gt;optEnableJsApi1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optAutoplay0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optAutoplay0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optAutoplay0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optAutoplay0.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="optAutoplay0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay0.Name" xml:space="preserve">
+    <value>optAutoplay0</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay0.Parent" xml:space="preserve">
+    <value>pnlAutoplay</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optAutoplay1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optAutoplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 0</value>
+  </data>
+  <data name="optAutoplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optAutoplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="optAutoplay1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay1.Name" xml:space="preserve">
+    <value>optAutoplay1</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay1.Parent" xml:space="preserve">
+    <value>pnlAutoplay</value>
+  </data>
+  <data name="&gt;&gt;optAutoplay1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optAutohide0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optAutohide0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optAutohide0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optAutohide0.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="optAutohide0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optAutohide0.Name" xml:space="preserve">
+    <value>optAutohide0</value>
+  </data>
+  <data name="&gt;&gt;optAutohide0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optAutohide0.Parent" xml:space="preserve">
+    <value>pnlAutohide</value>
+  </data>
+  <data name="&gt;&gt;optAutohide0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optAutohide1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optAutohide1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 0</value>
+  </data>
+  <data name="optAutohide1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optAutohide1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="optAutohide1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optAutohide1.Name" xml:space="preserve">
+    <value>optAutohide1</value>
+  </data>
+  <data name="&gt;&gt;optAutohide1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optAutohide1.Parent" xml:space="preserve">
+    <value>pnlAutohide</value>
+  </data>
+  <data name="&gt;&gt;optAutohide1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optFs0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optFs0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optFs0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optFs0.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="optFs0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optFs0.Name" xml:space="preserve">
+    <value>optFs0</value>
+  </data>
+  <data name="&gt;&gt;optFs0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFs0.Parent" xml:space="preserve">
+    <value>pnlFs</value>
+  </data>
+  <data name="&gt;&gt;optFs0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optFs1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optFs1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 0</value>
+  </data>
+  <data name="optFs1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="optFs1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="optFs1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optFs1.Name" xml:space="preserve">
+    <value>optFs1</value>
+  </data>
+  <data name="&gt;&gt;optFs1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFs1.Parent" xml:space="preserve">
+    <value>pnlFs</value>
+  </data>
+  <data name="&gt;&gt;optFs1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optQuality360.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optQuality360.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="optQuality360.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="optQuality360.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="optQuality360.Text" xml:space="preserve">
+    <value>Use 360p</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Name" xml:space="preserve">
+    <value>optQuality360</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.Parent" xml:space="preserve">
+    <value>pnlQuality</value>
+  </data>
+  <data name="&gt;&gt;optQuality360.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optQuality720.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optQuality720.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 14</value>
+  </data>
+  <data name="optQuality720.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="optQuality720.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="optQuality720.Text" xml:space="preserve">
+    <value>Use 720p (if available)</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Name" xml:space="preserve">
+    <value>optQuality720</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.Parent" xml:space="preserve">
+    <value>pnlQuality</value>
+  </data>
+  <data name="&gt;&gt;optQuality720.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Name" xml:space="preserve">
+    <value>chkShowNotification</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
+    <value>btnEmbed</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
+    <value>btnVideoInfo</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
+    <value>btnComments</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
+    <value>btnVideo</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 85</value>
+  </data>
+  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 47</value>
+  </data>
+  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpBoxOutputs.Text" xml:space="preserve">
+    <value>Outputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
     <value>466, 19</value>
@@ -1387,7 +1900,7 @@
     <value>5</value>
   </data>
   <data name="chkShowNotification.Text" xml:space="preserve">
-    <value>Show Notification Icon</value>
+    <value>Show &amp;Notification Icon</value>
   </data>
   <data name="&gt;&gt;chkShowNotification.Name" xml:space="preserve">
     <value>chkShowNotification</value>
@@ -1401,6 +1914,9 @@
   <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>299, 17</value>
+  </metadata>
   <data name="btnReset.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1421,6 +1937,9 @@
   </data>
   <data name="btnReset.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
+  </data>
+  <data name="btnReset.ToolTip" xml:space="preserve">
+    <value>Resets all form objects, including the size of the form but not options.</value>
   </data>
   <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
     <value>btnReset</value>
@@ -1450,7 +1969,7 @@
     <value>3</value>
   </data>
   <data name="btnEmbed.Text" xml:space="preserve">
-    <value>Embed Page Handler</value>
+    <value>&amp;Embed Page Handler</value>
   </data>
   <data name="btnEmbed.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
@@ -1569,32 +2088,41 @@
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 217</value>
-  </data>
-  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 47</value>
-  </data>
-  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grpBoxOutputs.Text" xml:space="preserve">
-    <value>Outputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
+  <data name="btnDebug.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnDebug.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDebug.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnDebug.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 13</value>
+  </data>
+  <data name="btnDebug.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="btnDebug.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnDebug.Text" xml:space="preserve">
+    <value>&amp;D</value>
+  </data>
+  <data name="&gt;&gt;btnDebug.Name" xml:space="preserve">
+    <value>btnDebug</value>
+  </data>
+  <data name="&gt;&gt;btnDebug.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDebug.Parent" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;btnDebug.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="WebBrowserVersionCheck.AccessibleDescription" xml:space="preserve">
     <value>Version Checker</value>
@@ -1602,8 +2130,14 @@
   <data name="WebBrowserVersionCheck.AccessibleName" xml:space="preserve">
     <value>Version Checker</value>
   </data>
+  <data name="WebBrowserVersionCheck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
   <data name="WebBrowserVersionCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>552, 13</value>
+    <value>470, 13</value>
+  </data>
+  <data name="WebBrowserVersionCheck.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 0</value>
   </data>
   <data name="WebBrowserVersionCheck.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>20, 20</value>
@@ -1613,6 +2147,12 @@
   </data>
   <data name="WebBrowserVersionCheck.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>299, 17</value>
+  </metadata>
+  <data name="WebBrowserVersionCheck.ToolTip" xml:space="preserve">
+    <value>Latest Version as reported by the server</value>
   </data>
   <data name="WebBrowserVersionCheck.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1627,7 +2167,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;WebBrowserVersionCheck.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="lnkDeveloper.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1657,7 +2197,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkDeveloper.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="lnkReleases.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1687,7 +2227,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="lnkReportProblem.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1717,7 +2257,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="lnkSourceCode.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1747,7 +2287,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="lnkOriginalPage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1777,10 +2317,10 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 270</value>
+    <value>12, 138</value>
   </data>
   <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 42</value>
@@ -1813,7 +2353,7 @@
     <value>Microsoft Sans Serif, 6.5pt</value>
   </data>
   <data name="lblCurrentVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 305</value>
+    <value>316, 173</value>
   </data>
   <data name="lblCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 12</value>
@@ -1842,63 +2382,6 @@
   <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>126, 17</value>
   </metadata>
-  <data name="ShowYTVLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="ShowYTVLToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Show YTVL</value>
-  </data>
-  <data name="ShowYTVLToolStripMenuItem.ToolTipText" xml:space="preserve">
-    <value>Show YTVL</value>
-  </data>
-  <data name="ToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 6</value>
-  </data>
-  <data name="VideoToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="VideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="VideoToolStripMenuItem.Text" xml:space="preserve">
-    <value>» &amp;Video</value>
-  </data>
-  <data name="CommentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="CommentsToolStripMenuItem.Text" xml:space="preserve">
-    <value>» &amp;Comments</value>
-  </data>
-  <data name="VideoInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="VideoInfoToolStripMenuItem.Text" xml:space="preserve">
-    <value>» Video &amp;Info</value>
-  </data>
-  <data name="EmbedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="EmbedToolStripMenuItem.Text" xml:space="preserve">
-    <value>» Embedded</value>
-  </data>
-  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 6</value>
-  </data>
-  <data name="HideIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="HideIconToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Hide Icon</value>
-  </data>
-  <data name="HideIconToolStripMenuItem.ToolTipText" xml:space="preserve">
-    <value>Hide the taskbar icon</value>
-  </data>
-  <data name="CloseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cl&amp;ose</value>
-  </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 170</value>
   </data>
@@ -1932,7 +2415,80 @@
 </value>
   </data>
   <data name="NotifyIcon.Text" xml:space="preserve">
-    <value>NotifyIcon</value>
+    <value>YouTube Video Linker
+</value>
+  </data>
+  <data name="ShowYTVLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="ShowYTVLToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Show YTVL</value>
+  </data>
+  <data name="ShowYTVLToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Show YTVL</value>
+  </data>
+  <data name="ToolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 6</value>
+  </data>
+  <data name="VideoToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="VideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="VideoToolStripMenuItem.Text" xml:space="preserve">
+    <value>» &amp;Video</value>
+  </data>
+  <data name="VideoToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Open the Video for selected ID</value>
+  </data>
+  <data name="CommentsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="CommentsToolStripMenuItem.Text" xml:space="preserve">
+    <value>» &amp;Comments</value>
+  </data>
+  <data name="CommentsToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Open Comments for selected ID</value>
+  </data>
+  <data name="VideoInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="VideoInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>» Video &amp;Info</value>
+  </data>
+  <data name="VideoInfoToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Open Video Info for selected ID</value>
+  </data>
+  <data name="EmbedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="EmbedToolStripMenuItem.Text" xml:space="preserve">
+    <value>» &amp;Embedded</value>
+  </data>
+  <data name="EmbedToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Open Embedded Video for selected ID</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 6</value>
+  </data>
+  <data name="HideIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="HideIconToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Hide Icon</value>
+  </data>
+  <data name="HideIconToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Hide the taskbar icon</value>
+  </data>
+  <data name="CloseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="CloseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cl&amp;ose</value>
+  </data>
+  <data name="CloseToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Close the program</value>
   </data>
   <data name="chkUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -1941,7 +2497,7 @@
     <value>True</value>
   </data>
   <data name="chkUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 304</value>
+    <value>132, 172</value>
   </data>
   <data name="chkUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 17</value>
@@ -1950,7 +2506,7 @@
     <value>4</value>
   </data>
   <data name="chkUpdate.Text" xml:space="preserve">
-    <value>Check for updates automatically</value>
+    <value>Check for &amp;updates automatically</value>
   </data>
   <data name="&gt;&gt;chkUpdate.Name" xml:space="preserve">
     <value>chkUpdate</value>
@@ -1971,7 +2527,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>490, 325</value>
+    <value>490, 193</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1992,6 +2548,9 @@
         //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -2058,6 +2617,12 @@
   </data>
   <data name="&gt;&gt;CloseToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>

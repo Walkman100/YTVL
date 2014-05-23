@@ -25,40 +25,49 @@ Partial Class YTVL
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(YTVL))
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.optMdstBrndng0 = New System.Windows.Forms.RadioButton()
+        Me.optMdstBrndng1 = New System.Windows.Forms.RadioButton()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.optRel0 = New System.Windows.Forms.RadioButton()
+        Me.optRel1 = New System.Windows.Forms.RadioButton()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.optShowinfo0 = New System.Windows.Forms.RadioButton()
+        Me.optShowinfo1 = New System.Windows.Forms.RadioButton()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.optShowsearch0 = New System.Windows.Forms.RadioButton()
+        Me.optShowsearch1 = New System.Windows.Forms.RadioButton()
+        Me.pnlEnableJsApi = New System.Windows.Forms.Panel()
+        Me.optEnableJsApi0 = New System.Windows.Forms.RadioButton()
+        Me.optEnableJsApi1 = New System.Windows.Forms.RadioButton()
+        Me.pnlAutoplay = New System.Windows.Forms.Panel()
+        Me.optAutoplay0 = New System.Windows.Forms.RadioButton()
+        Me.optAutoplay1 = New System.Windows.Forms.RadioButton()
+        Me.pnlAutohide = New System.Windows.Forms.Panel()
+        Me.optAutohide0 = New System.Windows.Forms.RadioButton()
+        Me.optAutohide1 = New System.Windows.Forms.RadioButton()
+        Me.pnlFs = New System.Windows.Forms.Panel()
+        Me.optFs0 = New System.Windows.Forms.RadioButton()
+        Me.optFs1 = New System.Windows.Forms.RadioButton()
+        Me.pnlQuality = New System.Windows.Forms.Panel()
+        Me.optQuality360 = New System.Windows.Forms.RadioButton()
+        Me.optQuality720 = New System.Windows.Forms.RadioButton()
         Me.chkHttps = New System.Windows.Forms.CheckBox()
         Me.txtOrigin = New System.Windows.Forms.TextBox()
         Me.chkOrigin = New System.Windows.Forms.CheckBox()
         Me.chkWmode = New System.Windows.Forms.CheckBox()
         Me.chkThemeDark = New System.Windows.Forms.CheckBox()
-        Me.optShowsearch1 = New System.Windows.Forms.RadioButton()
-        Me.optShowsearch0 = New System.Windows.Forms.RadioButton()
         Me.lblShowSearch = New System.Windows.Forms.Label()
-        Me.optShowinfo1 = New System.Windows.Forms.RadioButton()
-        Me.optShowinfo0 = New System.Windows.Forms.RadioButton()
         Me.lblShowinfo = New System.Windows.Forms.Label()
-        Me.optRel1 = New System.Windows.Forms.RadioButton()
-        Me.optRel0 = New System.Windows.Forms.RadioButton()
         Me.lblRel = New System.Windows.Forms.Label()
-        Me.optMdstBrndng1 = New System.Windows.Forms.RadioButton()
-        Me.optMdstBrndng0 = New System.Windows.Forms.RadioButton()
         Me.lblMdstBrndng = New System.Windows.Forms.Label()
         Me.optIvLP = New System.Windows.Forms.ComboBox()
         Me.lblIvLP = New System.Windows.Forms.Label()
-        Me.optEnableJsApi1 = New System.Windows.Forms.RadioButton()
-        Me.optEnableJsApi0 = New System.Windows.Forms.RadioButton()
         Me.lblEnableJsApi = New System.Windows.Forms.Label()
-        Me.optAutohide1 = New System.Windows.Forms.RadioButton()
-        Me.optAutohide0 = New System.Windows.Forms.RadioButton()
         Me.lblAutohide = New System.Windows.Forms.Label()
-        Me.optFs1 = New System.Windows.Forms.RadioButton()
-        Me.optFs0 = New System.Windows.Forms.RadioButton()
         Me.lblFs = New System.Windows.Forms.Label()
-        Me.optAutoplay1 = New System.Windows.Forms.RadioButton()
-        Me.optAutoplay0 = New System.Windows.Forms.RadioButton()
         Me.lblAutoplay = New System.Windows.Forms.Label()
         Me.chkFeature = New System.Windows.Forms.CheckBox()
-        Me.optQuality720 = New System.Windows.Forms.RadioButton()
-        Me.optQuality360 = New System.Windows.Forms.RadioButton()
         Me.btnAdvanced = New System.Windows.Forms.Button()
         Me.txtList = New System.Windows.Forms.TextBox()
         Me.lblHL = New System.Windows.Forms.Label()
@@ -76,6 +85,7 @@ Partial Class YTVL
         Me.btnComments = New System.Windows.Forms.Button()
         Me.btnVideo = New System.Windows.Forms.Button()
         Me.grpBoxAbout = New System.Windows.Forms.GroupBox()
+        Me.btnDebug = New System.Windows.Forms.Button()
         Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
         Me.lnkDeveloper = New System.Windows.Forms.LinkLabel()
         Me.lnkReleases = New System.Windows.Forms.LinkLabel()
@@ -95,7 +105,17 @@ Partial Class YTVL
         Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
+        Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.grpBoxInputs.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        Me.pnlEnableJsApi.SuspendLayout()
+        Me.pnlAutoplay.SuspendLayout()
+        Me.pnlAutohide.SuspendLayout()
+        Me.pnlFs.SuspendLayout()
+        Me.pnlQuality.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
         Me.NotificationMenuStrip.SuspendLayout()
@@ -104,40 +124,31 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
+        Me.grpBoxInputs.Controls.Add(Me.Panel1)
+        Me.grpBoxInputs.Controls.Add(Me.Panel2)
+        Me.grpBoxInputs.Controls.Add(Me.Panel3)
+        Me.grpBoxInputs.Controls.Add(Me.Panel4)
+        Me.grpBoxInputs.Controls.Add(Me.pnlEnableJsApi)
+        Me.grpBoxInputs.Controls.Add(Me.pnlAutoplay)
+        Me.grpBoxInputs.Controls.Add(Me.pnlAutohide)
+        Me.grpBoxInputs.Controls.Add(Me.pnlFs)
+        Me.grpBoxInputs.Controls.Add(Me.pnlQuality)
         Me.grpBoxInputs.Controls.Add(Me.chkHttps)
         Me.grpBoxInputs.Controls.Add(Me.txtOrigin)
         Me.grpBoxInputs.Controls.Add(Me.chkOrigin)
         Me.grpBoxInputs.Controls.Add(Me.chkWmode)
         Me.grpBoxInputs.Controls.Add(Me.chkThemeDark)
-        Me.grpBoxInputs.Controls.Add(Me.optShowsearch1)
-        Me.grpBoxInputs.Controls.Add(Me.optShowsearch0)
         Me.grpBoxInputs.Controls.Add(Me.lblShowSearch)
-        Me.grpBoxInputs.Controls.Add(Me.optShowinfo1)
-        Me.grpBoxInputs.Controls.Add(Me.optShowinfo0)
         Me.grpBoxInputs.Controls.Add(Me.lblShowinfo)
-        Me.grpBoxInputs.Controls.Add(Me.optRel1)
-        Me.grpBoxInputs.Controls.Add(Me.optRel0)
         Me.grpBoxInputs.Controls.Add(Me.lblRel)
-        Me.grpBoxInputs.Controls.Add(Me.optMdstBrndng1)
-        Me.grpBoxInputs.Controls.Add(Me.optMdstBrndng0)
         Me.grpBoxInputs.Controls.Add(Me.lblMdstBrndng)
         Me.grpBoxInputs.Controls.Add(Me.optIvLP)
         Me.grpBoxInputs.Controls.Add(Me.lblIvLP)
-        Me.grpBoxInputs.Controls.Add(Me.optEnableJsApi1)
-        Me.grpBoxInputs.Controls.Add(Me.optEnableJsApi0)
         Me.grpBoxInputs.Controls.Add(Me.lblEnableJsApi)
-        Me.grpBoxInputs.Controls.Add(Me.optAutohide1)
-        Me.grpBoxInputs.Controls.Add(Me.optAutohide0)
         Me.grpBoxInputs.Controls.Add(Me.lblAutohide)
-        Me.grpBoxInputs.Controls.Add(Me.optFs1)
-        Me.grpBoxInputs.Controls.Add(Me.optFs0)
         Me.grpBoxInputs.Controls.Add(Me.lblFs)
-        Me.grpBoxInputs.Controls.Add(Me.optAutoplay1)
-        Me.grpBoxInputs.Controls.Add(Me.optAutoplay0)
         Me.grpBoxInputs.Controls.Add(Me.lblAutoplay)
         Me.grpBoxInputs.Controls.Add(Me.chkFeature)
-        Me.grpBoxInputs.Controls.Add(Me.optQuality720)
-        Me.grpBoxInputs.Controls.Add(Me.optQuality360)
         Me.grpBoxInputs.Controls.Add(Me.btnAdvanced)
         Me.grpBoxInputs.Controls.Add(Me.txtList)
         Me.grpBoxInputs.Controls.Add(Me.lblHL)
@@ -149,11 +160,208 @@ Partial Class YTVL
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = False
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.Controls.Add(Me.optMdstBrndng0)
+        Me.Panel1.Controls.Add(Me.optMdstBrndng1)
+        resources.ApplyResources(Me.Panel1, "Panel1")
+        Me.Panel1.Name = "Panel1"
+        '
+        'optMdstBrndng0
+        '
+        resources.ApplyResources(Me.optMdstBrndng0, "optMdstBrndng0")
+        Me.optMdstBrndng0.BackColor = System.Drawing.Color.Transparent
+        Me.optMdstBrndng0.Name = "optMdstBrndng0"
+        Me.optMdstBrndng0.UseVisualStyleBackColor = False
+        '
+        'optMdstBrndng1
+        '
+        resources.ApplyResources(Me.optMdstBrndng1, "optMdstBrndng1")
+        Me.optMdstBrndng1.BackColor = System.Drawing.Color.Transparent
+        Me.optMdstBrndng1.Name = "optMdstBrndng1"
+        Me.optMdstBrndng1.UseVisualStyleBackColor = False
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Panel2.Controls.Add(Me.optRel0)
+        Me.Panel2.Controls.Add(Me.optRel1)
+        resources.ApplyResources(Me.Panel2, "Panel2")
+        Me.Panel2.Name = "Panel2"
+        '
+        'optRel0
+        '
+        resources.ApplyResources(Me.optRel0, "optRel0")
+        Me.optRel0.BackColor = System.Drawing.Color.Transparent
+        Me.optRel0.Name = "optRel0"
+        Me.optRel0.UseVisualStyleBackColor = False
+        '
+        'optRel1
+        '
+        resources.ApplyResources(Me.optRel1, "optRel1")
+        Me.optRel1.BackColor = System.Drawing.Color.Transparent
+        Me.optRel1.Name = "optRel1"
+        Me.optRel1.UseVisualStyleBackColor = False
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.Transparent
+        Me.Panel3.Controls.Add(Me.optShowinfo0)
+        Me.Panel3.Controls.Add(Me.optShowinfo1)
+        resources.ApplyResources(Me.Panel3, "Panel3")
+        Me.Panel3.Name = "Panel3"
+        '
+        'optShowinfo0
+        '
+        resources.ApplyResources(Me.optShowinfo0, "optShowinfo0")
+        Me.optShowinfo0.BackColor = System.Drawing.Color.Transparent
+        Me.optShowinfo0.Name = "optShowinfo0"
+        Me.optShowinfo0.UseVisualStyleBackColor = False
+        '
+        'optShowinfo1
+        '
+        resources.ApplyResources(Me.optShowinfo1, "optShowinfo1")
+        Me.optShowinfo1.BackColor = System.Drawing.Color.Transparent
+        Me.optShowinfo1.Name = "optShowinfo1"
+        Me.optShowinfo1.UseVisualStyleBackColor = False
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.Transparent
+        Me.Panel4.Controls.Add(Me.optShowsearch0)
+        Me.Panel4.Controls.Add(Me.optShowsearch1)
+        resources.ApplyResources(Me.Panel4, "Panel4")
+        Me.Panel4.Name = "Panel4"
+        '
+        'optShowsearch0
+        '
+        resources.ApplyResources(Me.optShowsearch0, "optShowsearch0")
+        Me.optShowsearch0.BackColor = System.Drawing.Color.Transparent
+        Me.optShowsearch0.Name = "optShowsearch0"
+        Me.optShowsearch0.UseVisualStyleBackColor = False
+        '
+        'optShowsearch1
+        '
+        resources.ApplyResources(Me.optShowsearch1, "optShowsearch1")
+        Me.optShowsearch1.BackColor = System.Drawing.Color.Transparent
+        Me.optShowsearch1.Name = "optShowsearch1"
+        Me.optShowsearch1.UseVisualStyleBackColor = False
+        '
+        'pnlEnableJsApi
+        '
+        Me.pnlEnableJsApi.BackColor = System.Drawing.Color.Transparent
+        Me.pnlEnableJsApi.Controls.Add(Me.optEnableJsApi0)
+        Me.pnlEnableJsApi.Controls.Add(Me.optEnableJsApi1)
+        resources.ApplyResources(Me.pnlEnableJsApi, "pnlEnableJsApi")
+        Me.pnlEnableJsApi.Name = "pnlEnableJsApi"
+        '
+        'optEnableJsApi0
+        '
+        resources.ApplyResources(Me.optEnableJsApi0, "optEnableJsApi0")
+        Me.optEnableJsApi0.BackColor = System.Drawing.Color.Transparent
+        Me.optEnableJsApi0.Name = "optEnableJsApi0"
+        Me.optEnableJsApi0.UseVisualStyleBackColor = False
+        '
+        'optEnableJsApi1
+        '
+        resources.ApplyResources(Me.optEnableJsApi1, "optEnableJsApi1")
+        Me.optEnableJsApi1.BackColor = System.Drawing.Color.Transparent
+        Me.optEnableJsApi1.Name = "optEnableJsApi1"
+        Me.optEnableJsApi1.UseVisualStyleBackColor = False
+        '
+        'pnlAutoplay
+        '
+        Me.pnlAutoplay.BackColor = System.Drawing.Color.Transparent
+        Me.pnlAutoplay.Controls.Add(Me.optAutoplay0)
+        Me.pnlAutoplay.Controls.Add(Me.optAutoplay1)
+        resources.ApplyResources(Me.pnlAutoplay, "pnlAutoplay")
+        Me.pnlAutoplay.Name = "pnlAutoplay"
+        '
+        'optAutoplay0
+        '
+        resources.ApplyResources(Me.optAutoplay0, "optAutoplay0")
+        Me.optAutoplay0.BackColor = System.Drawing.Color.Transparent
+        Me.optAutoplay0.Name = "optAutoplay0"
+        Me.optAutoplay0.UseVisualStyleBackColor = False
+        '
+        'optAutoplay1
+        '
+        resources.ApplyResources(Me.optAutoplay1, "optAutoplay1")
+        Me.optAutoplay1.BackColor = System.Drawing.Color.Transparent
+        Me.optAutoplay1.Name = "optAutoplay1"
+        Me.optAutoplay1.UseVisualStyleBackColor = False
+        '
+        'pnlAutohide
+        '
+        Me.pnlAutohide.BackColor = System.Drawing.Color.Transparent
+        Me.pnlAutohide.Controls.Add(Me.optAutohide0)
+        Me.pnlAutohide.Controls.Add(Me.optAutohide1)
+        resources.ApplyResources(Me.pnlAutohide, "pnlAutohide")
+        Me.pnlAutohide.Name = "pnlAutohide"
+        '
+        'optAutohide0
+        '
+        resources.ApplyResources(Me.optAutohide0, "optAutohide0")
+        Me.optAutohide0.BackColor = System.Drawing.Color.Transparent
+        Me.optAutohide0.Name = "optAutohide0"
+        Me.optAutohide0.UseVisualStyleBackColor = False
+        '
+        'optAutohide1
+        '
+        resources.ApplyResources(Me.optAutohide1, "optAutohide1")
+        Me.optAutohide1.BackColor = System.Drawing.Color.Transparent
+        Me.optAutohide1.Name = "optAutohide1"
+        Me.optAutohide1.UseVisualStyleBackColor = False
+        '
+        'pnlFs
+        '
+        Me.pnlFs.BackColor = System.Drawing.Color.Transparent
+        Me.pnlFs.Controls.Add(Me.optFs0)
+        Me.pnlFs.Controls.Add(Me.optFs1)
+        resources.ApplyResources(Me.pnlFs, "pnlFs")
+        Me.pnlFs.Name = "pnlFs"
+        '
+        'optFs0
+        '
+        resources.ApplyResources(Me.optFs0, "optFs0")
+        Me.optFs0.BackColor = System.Drawing.Color.Transparent
+        Me.optFs0.Name = "optFs0"
+        Me.optFs0.UseVisualStyleBackColor = False
+        '
+        'optFs1
+        '
+        resources.ApplyResources(Me.optFs1, "optFs1")
+        Me.optFs1.BackColor = System.Drawing.Color.Transparent
+        Me.optFs1.Name = "optFs1"
+        Me.optFs1.UseVisualStyleBackColor = False
+        '
+        'pnlQuality
+        '
+        Me.pnlQuality.BackColor = System.Drawing.Color.Transparent
+        Me.pnlQuality.Controls.Add(Me.optQuality360)
+        Me.pnlQuality.Controls.Add(Me.optQuality720)
+        resources.ApplyResources(Me.pnlQuality, "pnlQuality")
+        Me.pnlQuality.Name = "pnlQuality"
+        '
+        'optQuality360
+        '
+        resources.ApplyResources(Me.optQuality360, "optQuality360")
+        Me.optQuality360.Name = "optQuality360"
+        Me.optQuality360.UseVisualStyleBackColor = True
+        '
+        'optQuality720
+        '
+        resources.ApplyResources(Me.optQuality720, "optQuality720")
+        Me.optQuality720.Name = "optQuality720"
+        Me.optQuality720.UseVisualStyleBackColor = True
+        '
         'chkHttps
         '
         resources.ApplyResources(Me.chkHttps, "chkHttps")
+        Me.chkHttps.BackColor = System.Drawing.Color.Transparent
         Me.chkHttps.Name = "chkHttps"
-        Me.chkHttps.UseVisualStyleBackColor = True
+        Me.chkHttps.UseVisualStyleBackColor = False
         '
         'txtOrigin
         '
@@ -163,87 +371,46 @@ Partial Class YTVL
         'chkOrigin
         '
         resources.ApplyResources(Me.chkOrigin, "chkOrigin")
+        Me.chkOrigin.BackColor = System.Drawing.Color.Transparent
         Me.chkOrigin.Name = "chkOrigin"
-        Me.chkOrigin.UseVisualStyleBackColor = True
+        Me.chkOrigin.UseVisualStyleBackColor = False
         '
         'chkWmode
         '
         resources.ApplyResources(Me.chkWmode, "chkWmode")
+        Me.chkWmode.BackColor = System.Drawing.Color.Transparent
         Me.chkWmode.Name = "chkWmode"
-        Me.chkWmode.UseVisualStyleBackColor = True
+        Me.chkWmode.UseVisualStyleBackColor = False
         '
         'chkThemeDark
         '
         resources.ApplyResources(Me.chkThemeDark, "chkThemeDark")
+        Me.chkThemeDark.BackColor = System.Drawing.Color.Transparent
         Me.chkThemeDark.Name = "chkThemeDark"
-        Me.chkThemeDark.UseVisualStyleBackColor = True
-        '
-        'optShowsearch1
-        '
-        resources.ApplyResources(Me.optShowsearch1, "optShowsearch1")
-        Me.optShowsearch1.Name = "optShowsearch1"
-        Me.optShowsearch1.UseVisualStyleBackColor = True
-        '
-        'optShowsearch0
-        '
-        resources.ApplyResources(Me.optShowsearch0, "optShowsearch0")
-        Me.optShowsearch0.Name = "optShowsearch0"
-        Me.optShowsearch0.UseVisualStyleBackColor = True
+        Me.chkThemeDark.UseVisualStyleBackColor = False
         '
         'lblShowSearch
         '
         resources.ApplyResources(Me.lblShowSearch, "lblShowSearch")
+        Me.lblShowSearch.BackColor = System.Drawing.Color.Transparent
         Me.lblShowSearch.Name = "lblShowSearch"
-        '
-        'optShowinfo1
-        '
-        resources.ApplyResources(Me.optShowinfo1, "optShowinfo1")
-        Me.optShowinfo1.Name = "optShowinfo1"
-        Me.optShowinfo1.UseVisualStyleBackColor = True
-        '
-        'optShowinfo0
-        '
-        resources.ApplyResources(Me.optShowinfo0, "optShowinfo0")
-        Me.optShowinfo0.Name = "optShowinfo0"
-        Me.optShowinfo0.UseVisualStyleBackColor = True
         '
         'lblShowinfo
         '
         resources.ApplyResources(Me.lblShowinfo, "lblShowinfo")
+        Me.lblShowinfo.BackColor = System.Drawing.Color.Transparent
         Me.lblShowinfo.Name = "lblShowinfo"
-        '
-        'optRel1
-        '
-        resources.ApplyResources(Me.optRel1, "optRel1")
-        Me.optRel1.Name = "optRel1"
-        Me.optRel1.UseVisualStyleBackColor = True
-        '
-        'optRel0
-        '
-        resources.ApplyResources(Me.optRel0, "optRel0")
-        Me.optRel0.Name = "optRel0"
-        Me.optRel0.UseVisualStyleBackColor = True
         '
         'lblRel
         '
         resources.ApplyResources(Me.lblRel, "lblRel")
+        Me.lblRel.BackColor = System.Drawing.Color.Transparent
         Me.lblRel.Name = "lblRel"
-        '
-        'optMdstBrndng1
-        '
-        resources.ApplyResources(Me.optMdstBrndng1, "optMdstBrndng1")
-        Me.optMdstBrndng1.Name = "optMdstBrndng1"
-        Me.optMdstBrndng1.UseVisualStyleBackColor = True
-        '
-        'optMdstBrndng0
-        '
-        resources.ApplyResources(Me.optMdstBrndng0, "optMdstBrndng0")
-        Me.optMdstBrndng0.Name = "optMdstBrndng0"
-        Me.optMdstBrndng0.UseVisualStyleBackColor = True
         '
         'lblMdstBrndng
         '
         resources.ApplyResources(Me.lblMdstBrndng, "lblMdstBrndng")
+        Me.lblMdstBrndng.BackColor = System.Drawing.Color.Transparent
         Me.lblMdstBrndng.Name = "lblMdstBrndng"
         '
         'optIvLP
@@ -256,99 +423,46 @@ Partial Class YTVL
         'lblIvLP
         '
         resources.ApplyResources(Me.lblIvLP, "lblIvLP")
+        Me.lblIvLP.BackColor = System.Drawing.Color.Transparent
         Me.lblIvLP.Name = "lblIvLP"
-        '
-        'optEnableJsApi1
-        '
-        resources.ApplyResources(Me.optEnableJsApi1, "optEnableJsApi1")
-        Me.optEnableJsApi1.Name = "optEnableJsApi1"
-        Me.optEnableJsApi1.UseVisualStyleBackColor = True
-        '
-        'optEnableJsApi0
-        '
-        resources.ApplyResources(Me.optEnableJsApi0, "optEnableJsApi0")
-        Me.optEnableJsApi0.Name = "optEnableJsApi0"
-        Me.optEnableJsApi0.UseVisualStyleBackColor = True
         '
         'lblEnableJsApi
         '
         resources.ApplyResources(Me.lblEnableJsApi, "lblEnableJsApi")
+        Me.lblEnableJsApi.BackColor = System.Drawing.Color.Transparent
         Me.lblEnableJsApi.Name = "lblEnableJsApi"
-        '
-        'optAutohide1
-        '
-        resources.ApplyResources(Me.optAutohide1, "optAutohide1")
-        Me.optAutohide1.Name = "optAutohide1"
-        Me.optAutohide1.UseVisualStyleBackColor = True
-        '
-        'optAutohide0
-        '
-        resources.ApplyResources(Me.optAutohide0, "optAutohide0")
-        Me.optAutohide0.Name = "optAutohide0"
-        Me.optAutohide0.UseVisualStyleBackColor = True
         '
         'lblAutohide
         '
         resources.ApplyResources(Me.lblAutohide, "lblAutohide")
+        Me.lblAutohide.BackColor = System.Drawing.Color.Transparent
         Me.lblAutohide.Name = "lblAutohide"
-        '
-        'optFs1
-        '
-        resources.ApplyResources(Me.optFs1, "optFs1")
-        Me.optFs1.Name = "optFs1"
-        Me.optFs1.UseVisualStyleBackColor = True
-        '
-        'optFs0
-        '
-        resources.ApplyResources(Me.optFs0, "optFs0")
-        Me.optFs0.Name = "optFs0"
-        Me.optFs0.UseVisualStyleBackColor = True
         '
         'lblFs
         '
         resources.ApplyResources(Me.lblFs, "lblFs")
+        Me.lblFs.BackColor = System.Drawing.Color.Transparent
         Me.lblFs.Name = "lblFs"
-        '
-        'optAutoplay1
-        '
-        resources.ApplyResources(Me.optAutoplay1, "optAutoplay1")
-        Me.optAutoplay1.Name = "optAutoplay1"
-        Me.optAutoplay1.UseVisualStyleBackColor = True
-        '
-        'optAutoplay0
-        '
-        resources.ApplyResources(Me.optAutoplay0, "optAutoplay0")
-        Me.optAutoplay0.Name = "optAutoplay0"
-        Me.optAutoplay0.UseVisualStyleBackColor = True
         '
         'lblAutoplay
         '
         resources.ApplyResources(Me.lblAutoplay, "lblAutoplay")
+        Me.lblAutoplay.BackColor = System.Drawing.Color.Transparent
         Me.lblAutoplay.Name = "lblAutoplay"
         '
         'chkFeature
         '
         resources.ApplyResources(Me.chkFeature, "chkFeature")
+        Me.chkFeature.BackColor = System.Drawing.Color.Transparent
         Me.chkFeature.Name = "chkFeature"
-        Me.chkFeature.UseVisualStyleBackColor = True
-        '
-        'optQuality720
-        '
-        resources.ApplyResources(Me.optQuality720, "optQuality720")
-        Me.optQuality720.Name = "optQuality720"
-        Me.optQuality720.UseVisualStyleBackColor = True
-        '
-        'optQuality360
-        '
-        resources.ApplyResources(Me.optQuality360, "optQuality360")
-        Me.optQuality360.Name = "optQuality360"
-        Me.optQuality360.UseVisualStyleBackColor = True
+        Me.chkFeature.UseVisualStyleBackColor = False
         '
         'btnAdvanced
         '
         resources.ApplyResources(Me.btnAdvanced, "btnAdvanced")
+        Me.btnAdvanced.BackColor = System.Drawing.Color.Transparent
         Me.btnAdvanced.Name = "btnAdvanced"
-        Me.btnAdvanced.UseVisualStyleBackColor = True
+        Me.btnAdvanced.UseVisualStyleBackColor = False
         '
         'txtList
         '
@@ -359,17 +473,20 @@ Partial Class YTVL
         'lblHL
         '
         resources.ApplyResources(Me.lblHL, "lblHL")
+        Me.lblHL.BackColor = System.Drawing.Color.Transparent
         Me.lblHL.Name = "lblHL"
         '
         'chkHL
         '
         resources.ApplyResources(Me.chkHL, "chkHL")
+        Me.chkHL.BackColor = System.Drawing.Color.Transparent
         Me.chkHL.Name = "chkHL"
-        Me.chkHL.UseVisualStyleBackColor = True
+        Me.chkHL.UseVisualStyleBackColor = False
         '
         'lblFeather
         '
         resources.ApplyResources(Me.lblFeather, "lblFeather")
+        Me.lblFeather.BackColor = System.Drawing.Color.Transparent
         Me.lblFeather.Name = "lblFeather"
         Me.lblFeather.TabStop = True
         Me.lblFeather.UseCompatibleTextRendering = True
@@ -377,8 +494,9 @@ Partial Class YTVL
         'chkFeather
         '
         resources.ApplyResources(Me.chkFeather, "chkFeather")
+        Me.chkFeather.BackColor = System.Drawing.Color.Transparent
         Me.chkFeather.Name = "chkFeather"
-        Me.chkFeather.UseVisualStyleBackColor = True
+        Me.chkFeather.UseVisualStyleBackColor = False
         '
         'txtTime
         '
@@ -425,40 +543,47 @@ Partial Class YTVL
         'btnReset
         '
         resources.ApplyResources(Me.btnReset, "btnReset")
+        Me.btnReset.BackColor = System.Drawing.Color.Transparent
         Me.btnReset.Image = Global.YTVL.My.Resources.Resources._1371833577_view_refresh
         Me.btnReset.Name = "btnReset"
-        Me.btnReset.UseVisualStyleBackColor = True
+        Me.ToolTip.SetToolTip(Me.btnReset, resources.GetString("btnReset.ToolTip"))
+        Me.btnReset.UseVisualStyleBackColor = False
         '
         'btnEmbed
         '
         resources.ApplyResources(Me.btnEmbed, "btnEmbed")
+        Me.btnEmbed.BackColor = System.Drawing.Color.Transparent
         Me.btnEmbed.Name = "btnEmbed"
-        Me.btnEmbed.UseVisualStyleBackColor = True
+        Me.btnEmbed.UseVisualStyleBackColor = False
         '
         'btnVideoInfo
         '
         resources.ApplyResources(Me.btnVideoInfo, "btnVideoInfo")
+        Me.btnVideoInfo.BackColor = System.Drawing.Color.Transparent
         Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
         Me.btnVideoInfo.Name = "btnVideoInfo"
-        Me.btnVideoInfo.UseVisualStyleBackColor = True
+        Me.btnVideoInfo.UseVisualStyleBackColor = False
         '
         'btnComments
         '
+        Me.btnComments.BackColor = System.Drawing.Color.Transparent
         Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         resources.ApplyResources(Me.btnComments, "btnComments")
         Me.btnComments.Name = "btnComments"
-        Me.btnComments.UseVisualStyleBackColor = True
+        Me.btnComments.UseVisualStyleBackColor = False
         '
         'btnVideo
         '
         resources.ApplyResources(Me.btnVideo, "btnVideo")
+        Me.btnVideo.BackColor = System.Drawing.Color.Transparent
         Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         Me.btnVideo.Name = "btnVideo"
-        Me.btnVideo.UseVisualStyleBackColor = True
+        Me.btnVideo.UseVisualStyleBackColor = False
         '
         'grpBoxAbout
         '
         resources.ApplyResources(Me.grpBoxAbout, "grpBoxAbout")
+        Me.grpBoxAbout.Controls.Add(Me.btnDebug)
         Me.grpBoxAbout.Controls.Add(Me.WebBrowserVersionCheck)
         Me.grpBoxAbout.Controls.Add(Me.lnkDeveloper)
         Me.grpBoxAbout.Controls.Add(Me.lnkReleases)
@@ -468,19 +593,27 @@ Partial Class YTVL
         Me.grpBoxAbout.Name = "grpBoxAbout"
         Me.grpBoxAbout.TabStop = False
         '
+        'btnDebug
+        '
+        resources.ApplyResources(Me.btnDebug, "btnDebug")
+        Me.btnDebug.Name = "btnDebug"
+        Me.btnDebug.UseVisualStyleBackColor = True
+        '
         'WebBrowserVersionCheck
         '
         resources.ApplyResources(Me.WebBrowserVersionCheck, "WebBrowserVersionCheck")
         Me.WebBrowserVersionCheck.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
         Me.WebBrowserVersionCheck.IsWebBrowserContextMenuEnabled = False
         Me.WebBrowserVersionCheck.Name = "WebBrowserVersionCheck"
-        Me.WebBrowserVersionCheck.ScrollBarsEnabled = False
+        Me.WebBrowserVersionCheck.ScriptErrorsSuppressed = True
         Me.WebBrowserVersionCheck.TabStop = False
+        Me.ToolTip.SetToolTip(Me.WebBrowserVersionCheck, resources.GetString("WebBrowserVersionCheck.ToolTip"))
         Me.WebBrowserVersionCheck.WebBrowserShortcutsEnabled = False
         '
         'lnkDeveloper
         '
         resources.ApplyResources(Me.lnkDeveloper, "lnkDeveloper")
+        Me.lnkDeveloper.BackColor = System.Drawing.Color.Transparent
         Me.lnkDeveloper.LinkColor = System.Drawing.Color.Silver
         Me.lnkDeveloper.Name = "lnkDeveloper"
         Me.lnkDeveloper.TabStop = True
@@ -489,24 +622,28 @@ Partial Class YTVL
         'lnkReleases
         '
         resources.ApplyResources(Me.lnkReleases, "lnkReleases")
+        Me.lnkReleases.BackColor = System.Drawing.Color.Transparent
         Me.lnkReleases.Name = "lnkReleases"
         Me.lnkReleases.TabStop = True
         '
         'lnkReportProblem
         '
         resources.ApplyResources(Me.lnkReportProblem, "lnkReportProblem")
+        Me.lnkReportProblem.BackColor = System.Drawing.Color.Transparent
         Me.lnkReportProblem.Name = "lnkReportProblem"
         Me.lnkReportProblem.TabStop = True
         '
         'lnkSourceCode
         '
         resources.ApplyResources(Me.lnkSourceCode, "lnkSourceCode")
+        Me.lnkSourceCode.BackColor = System.Drawing.Color.Transparent
         Me.lnkSourceCode.Name = "lnkSourceCode"
         Me.lnkSourceCode.TabStop = True
         '
         'lnkOriginalPage
         '
         resources.ApplyResources(Me.lnkOriginalPage, "lnkOriginalPage")
+        Me.lnkOriginalPage.BackColor = System.Drawing.Color.Transparent
         Me.lnkOriginalPage.Name = "lnkOriginalPage"
         Me.lnkOriginalPage.TabStop = True
         '
@@ -530,6 +667,7 @@ Partial Class YTVL
         '
         'ShowYTVLToolStripMenuItem
         '
+        Me.ShowYTVLToolStripMenuItem.AutoToolTip = True
         Me.ShowYTVLToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
         Me.ShowYTVLToolStripMenuItem.Name = "ShowYTVLToolStripMenuItem"
         resources.ApplyResources(Me.ShowYTVLToolStripMenuItem, "ShowYTVLToolStripMenuItem")
@@ -541,6 +679,7 @@ Partial Class YTVL
         '
         'VideoToolStripMenuItem
         '
+        Me.VideoToolStripMenuItem.AutoToolTip = True
         Me.VideoToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         resources.ApplyResources(Me.VideoToolStripMenuItem, "VideoToolStripMenuItem")
         Me.VideoToolStripMenuItem.Name = "VideoToolStripMenuItem"
@@ -583,8 +722,15 @@ Partial Class YTVL
         'chkUpdate
         '
         resources.ApplyResources(Me.chkUpdate, "chkUpdate")
+        Me.chkUpdate.BackColor = System.Drawing.Color.Transparent
         Me.chkUpdate.Name = "chkUpdate"
-        Me.chkUpdate.UseVisualStyleBackColor = True
+        Me.chkUpdate.UseVisualStyleBackColor = False
+        '
+        'ToolTip
+        '
+        Me.ToolTip.AutoPopDelay = 5000
+        Me.ToolTip.InitialDelay = 50
+        Me.ToolTip.ReshowDelay = 100
         '
         'YTVL
         '
@@ -601,6 +747,24 @@ Partial Class YTVL
         Me.Name = "YTVL"
         Me.grpBoxInputs.ResumeLayout(False)
         Me.grpBoxInputs.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
+        Me.pnlEnableJsApi.ResumeLayout(False)
+        Me.pnlEnableJsApi.PerformLayout()
+        Me.pnlAutoplay.ResumeLayout(False)
+        Me.pnlAutoplay.PerformLayout()
+        Me.pnlAutohide.ResumeLayout(False)
+        Me.pnlAutohide.PerformLayout()
+        Me.pnlFs.ResumeLayout(False)
+        Me.pnlFs.PerformLayout()
+        Me.pnlQuality.ResumeLayout(False)
+        Me.pnlQuality.PerformLayout()
         Me.grpBoxOutputs.ResumeLayout(False)
         Me.grpBoxOutputs.PerformLayout()
         Me.grpBoxAbout.ResumeLayout(False)
@@ -681,5 +845,16 @@ Partial Class YTVL
     Friend WithEvents chkWmode As System.Windows.Forms.CheckBox
     Friend WithEvents chkThemeDark As System.Windows.Forms.CheckBox
     Friend WithEvents chkHttps As System.Windows.Forms.CheckBox
+    Friend WithEvents pnlQuality As System.Windows.Forms.Panel
+    Friend WithEvents pnlEnableJsApi As System.Windows.Forms.Panel
+    Friend WithEvents pnlAutoplay As System.Windows.Forms.Panel
+    Friend WithEvents pnlAutohide As System.Windows.Forms.Panel
+    Friend WithEvents pnlFs As System.Windows.Forms.Panel
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents Panel3 As System.Windows.Forms.Panel
+    Friend WithEvents Panel4 As System.Windows.Forms.Panel
+    Friend WithEvents ToolTip As System.Windows.Forms.ToolTip
+    Friend WithEvents btnDebug As System.Windows.Forms.Button
 
 End Class

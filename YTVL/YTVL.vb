@@ -1,8 +1,8 @@
 ﻿Public Class YTVL
-    Dim Vars As String
+    Dim Vars As String = ""
     Dim usehttps As String = "https"
 
-    Private Sub LoadYTVL() Handles Me.Load
+    Private Sub LoadYTVL() Handles Me.Load, MyBase.Load
         'apply settings to where they are changed
         chkShowNotification.Checked = My.Settings.ShowNotification
         chkUpdate.Checked = My.Settings.AutoUpdateCheck
@@ -17,6 +17,7 @@
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
+        NotifyIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.ToString & " Latest ver: " & WebBrowserVersionCheck.Document.Body.InnerText.ToString
         If My.Settings.AutoUpdateCheck = True Then
             'check if this version is latest
             If My.Application.Info.Version.ToString < WebBrowserVersionCheck.Document.Body.InnerText.ToString Then
@@ -30,7 +31,7 @@
     'Buttons
 
     Private Sub BuildVars()         'they are built in order of the form
-        Vars = txtComboVID.Text
+        Vars = ""
         If txtTime.Text <> "" And txtTime.Text <> "Time (e.g. 1m5s)" Then
             Vars = Vars & "&t=" & txtTime.Text
         End If
@@ -78,7 +79,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start(usehttps & "://www.youtube.com/watch?v=" & Vars)
+            Process.Start(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars)
         End If
     End Sub
 
@@ -87,7 +88,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start(usehttps & "://www.youtube.com/all_comments?v=" & Vars)
+            Process.Start(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
         End If
     End Sub
 
@@ -96,7 +97,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start(usehttps & "://www.youtube.com/get_video_info?video_id=" & Vars & "&fmt=18")
+            Process.Start(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
         End If
     End Sub
 
@@ -105,7 +106,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start(usehttps & "://www.youtube.com/embed/" & Vars)
+            Process.Start(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
         End If
     End Sub
 
@@ -162,6 +163,10 @@
         'Me.Show()
         Me.BringToFront()
         'Me.Activate()
+    End Sub
+
+    Private Sub DEBUG(sender As Object, e As EventArgs) Handles btnDebug.Click
+        WebBrowserVersionCheck.Visible = True
     End Sub
 
     'Changes e.g. settings
