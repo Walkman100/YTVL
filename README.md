@@ -1,4 +1,4 @@
-YouTube Video Linker
+﻿YouTube Video Linker
 ====
 
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/youtube-video-stuff.htm)
@@ -9,7 +9,7 @@ Jump to:
 •<a href="#how-to-use">How to use</a> 
 •<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
 •<a href="#future-releasesideas">Future releases/ideas</a> 
-•<a href="#what-the-links--flags do">What the Links & Flags do</a> 
+•<a href="#what-the-links--flags-do">What the Links & Flags do</a> 
 •<a href="#debugging">Debugging</a>
 
 How to use
