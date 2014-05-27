@@ -61,4 +61,6 @@ Screenshots available <a href="http://walkman100.github.io/Walkman/YTVL/">here</
 
 Debugging
 ====
-Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser window to the right of the `Developed by...` link, this shows the page that is loaded to show the current version. If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
+Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser window to the right of the `Developed by...` link, this shows the page that is loaded to show the current version.
+![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")
+If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
