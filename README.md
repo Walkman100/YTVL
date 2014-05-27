@@ -10,6 +10,7 @@ Jump to:
 •<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
 •<a href="#future-releasesideas">Future releases/ideas</a> 
 •<a href="#what-the-links--flags-do">What the Links & Flags do</a> 
+•<a href="http://walkman100.github.io/Walkman/YTVL/" target="_blank">Screenshots</a> 
 •<a href="#debugging">Debugging</a>
 
 How to use
@@ -53,6 +54,10 @@ Other than noFeather, the advanced options are mostly useful for embedded videos
 * **AutoPlay** if this is set to `1`, the video will automatically begin playing when the page loads
 
 ***_<kbd>`WIP`</kbd>_***
+
+Screenshots
+====
+Screenshots available <a href="http://walkman100.github.io/Walkman/YTVL/">here</a>.
 
 Debugging
 ====
