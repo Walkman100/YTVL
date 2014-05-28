@@ -25,16 +25,16 @@ Partial Class YTVL
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(YTVL))
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.pnlRight1 = New System.Windows.Forms.Panel()
         Me.optMdstBrndng0 = New System.Windows.Forms.RadioButton()
         Me.optMdstBrndng1 = New System.Windows.Forms.RadioButton()
-        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.pnlRight2 = New System.Windows.Forms.Panel()
         Me.optRel0 = New System.Windows.Forms.RadioButton()
         Me.optRel1 = New System.Windows.Forms.RadioButton()
-        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.pnlRight3 = New System.Windows.Forms.Panel()
         Me.optShowinfo0 = New System.Windows.Forms.RadioButton()
         Me.optShowinfo1 = New System.Windows.Forms.RadioButton()
-        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.pnlRight4 = New System.Windows.Forms.Panel()
         Me.optShowsearch0 = New System.Windows.Forms.RadioButton()
         Me.optShowsearch1 = New System.Windows.Forms.RadioButton()
         Me.pnlEnableJsApi = New System.Windows.Forms.Panel()
@@ -93,24 +93,24 @@ Partial Class YTVL
         Me.lnkSourceCode = New System.Windows.Forms.LinkLabel()
         Me.lnkOriginalPage = New System.Windows.Forms.LinkLabel()
         Me.lblCurrentVersion = New System.Windows.Forms.Label()
-        Me.NotifyIcon = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.NotificationIcon = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.NotificationMenuStrip = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ShowYTVLToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator = New System.Windows.Forms.ToolStripSeparator()
-        Me.VideoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CommentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VideoInfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EmbedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.HideIconToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripShowYTVL = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.NotificationMenuStripVideo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripComments = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripVideoInfo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripEmbed = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.NotificationMenuStripHideIcon = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.grpBoxInputs.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.Panel3.SuspendLayout()
-        Me.Panel4.SuspendLayout()
+        Me.pnlRight1.SuspendLayout()
+        Me.pnlRight2.SuspendLayout()
+        Me.pnlRight3.SuspendLayout()
+        Me.pnlRight4.SuspendLayout()
         Me.pnlEnableJsApi.SuspendLayout()
         Me.pnlAutoplay.SuspendLayout()
         Me.pnlAutohide.SuspendLayout()
@@ -124,10 +124,10 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
-        Me.grpBoxInputs.Controls.Add(Me.Panel1)
-        Me.grpBoxInputs.Controls.Add(Me.Panel2)
-        Me.grpBoxInputs.Controls.Add(Me.Panel3)
-        Me.grpBoxInputs.Controls.Add(Me.Panel4)
+        Me.grpBoxInputs.Controls.Add(Me.pnlRight1)
+        Me.grpBoxInputs.Controls.Add(Me.pnlRight2)
+        Me.grpBoxInputs.Controls.Add(Me.pnlRight3)
+        Me.grpBoxInputs.Controls.Add(Me.pnlRight4)
         Me.grpBoxInputs.Controls.Add(Me.pnlEnableJsApi)
         Me.grpBoxInputs.Controls.Add(Me.pnlAutoplay)
         Me.grpBoxInputs.Controls.Add(Me.pnlAutohide)
@@ -160,13 +160,13 @@ Partial Class YTVL
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = False
         '
-        'Panel1
+        'pnlRight1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.Transparent
-        Me.Panel1.Controls.Add(Me.optMdstBrndng0)
-        Me.Panel1.Controls.Add(Me.optMdstBrndng1)
-        resources.ApplyResources(Me.Panel1, "Panel1")
-        Me.Panel1.Name = "Panel1"
+        Me.pnlRight1.BackColor = System.Drawing.Color.Transparent
+        Me.pnlRight1.Controls.Add(Me.optMdstBrndng0)
+        Me.pnlRight1.Controls.Add(Me.optMdstBrndng1)
+        resources.ApplyResources(Me.pnlRight1, "pnlRight1")
+        Me.pnlRight1.Name = "pnlRight1"
         '
         'optMdstBrndng0
         '
@@ -182,13 +182,13 @@ Partial Class YTVL
         Me.optMdstBrndng1.Name = "optMdstBrndng1"
         Me.optMdstBrndng1.UseVisualStyleBackColor = False
         '
-        'Panel2
+        'pnlRight2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.Transparent
-        Me.Panel2.Controls.Add(Me.optRel0)
-        Me.Panel2.Controls.Add(Me.optRel1)
-        resources.ApplyResources(Me.Panel2, "Panel2")
-        Me.Panel2.Name = "Panel2"
+        Me.pnlRight2.BackColor = System.Drawing.Color.Transparent
+        Me.pnlRight2.Controls.Add(Me.optRel0)
+        Me.pnlRight2.Controls.Add(Me.optRel1)
+        resources.ApplyResources(Me.pnlRight2, "pnlRight2")
+        Me.pnlRight2.Name = "pnlRight2"
         '
         'optRel0
         '
@@ -204,13 +204,13 @@ Partial Class YTVL
         Me.optRel1.Name = "optRel1"
         Me.optRel1.UseVisualStyleBackColor = False
         '
-        'Panel3
+        'pnlRight3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.Transparent
-        Me.Panel3.Controls.Add(Me.optShowinfo0)
-        Me.Panel3.Controls.Add(Me.optShowinfo1)
-        resources.ApplyResources(Me.Panel3, "Panel3")
-        Me.Panel3.Name = "Panel3"
+        Me.pnlRight3.BackColor = System.Drawing.Color.Transparent
+        Me.pnlRight3.Controls.Add(Me.optShowinfo0)
+        Me.pnlRight3.Controls.Add(Me.optShowinfo1)
+        resources.ApplyResources(Me.pnlRight3, "pnlRight3")
+        Me.pnlRight3.Name = "pnlRight3"
         '
         'optShowinfo0
         '
@@ -226,13 +226,13 @@ Partial Class YTVL
         Me.optShowinfo1.Name = "optShowinfo1"
         Me.optShowinfo1.UseVisualStyleBackColor = False
         '
-        'Panel4
+        'pnlRight4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.Transparent
-        Me.Panel4.Controls.Add(Me.optShowsearch0)
-        Me.Panel4.Controls.Add(Me.optShowsearch1)
-        resources.ApplyResources(Me.Panel4, "Panel4")
-        Me.Panel4.Name = "Panel4"
+        Me.pnlRight4.BackColor = System.Drawing.Color.Transparent
+        Me.pnlRight4.Controls.Add(Me.optShowsearch0)
+        Me.pnlRight4.Controls.Add(Me.optShowsearch1)
+        resources.ApplyResources(Me.pnlRight4, "pnlRight4")
+        Me.pnlRight4.Name = "pnlRight4"
         '
         'optShowsearch0
         '
@@ -654,70 +654,70 @@ Partial Class YTVL
         Me.lblCurrentVersion.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lblCurrentVersion.Name = "lblCurrentVersion"
         '
-        'NotifyIcon
+        'NotificationIcon
         '
-        Me.NotifyIcon.ContextMenuStrip = Me.NotificationMenuStrip
-        resources.ApplyResources(Me.NotifyIcon, "NotifyIcon")
+        Me.NotificationIcon.ContextMenuStrip = Me.NotificationMenuStrip
+        resources.ApplyResources(Me.NotificationIcon, "NotificationIcon")
         '
         'NotificationMenuStrip
         '
-        Me.NotificationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShowYTVLToolStripMenuItem, Me.ToolStripSeparator, Me.VideoToolStripMenuItem, Me.CommentsToolStripMenuItem, Me.VideoInfoToolStripMenuItem, Me.EmbedToolStripMenuItem, Me.ToolStripSeparator1, Me.HideIconToolStripMenuItem, Me.CloseToolStripMenuItem})
+        Me.NotificationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NotificationMenuStripShowYTVL, Me.NotificationMenuStripSeparator1, Me.NotificationMenuStripVideo, Me.NotificationMenuStripComments, Me.NotificationMenuStripVideoInfo, Me.NotificationMenuStripEmbed, Me.NotificationMenuStripSeparator2, Me.NotificationMenuStripHideIcon, Me.NotificationMenuStripClose})
         Me.NotificationMenuStrip.Name = "NotificationMenuStrip"
         resources.ApplyResources(Me.NotificationMenuStrip, "NotificationMenuStrip")
         '
-        'ShowYTVLToolStripMenuItem
+        'NotificationMenuStripShowYTVL
         '
-        Me.ShowYTVLToolStripMenuItem.AutoToolTip = True
-        Me.ShowYTVLToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
-        Me.ShowYTVLToolStripMenuItem.Name = "ShowYTVLToolStripMenuItem"
-        resources.ApplyResources(Me.ShowYTVLToolStripMenuItem, "ShowYTVLToolStripMenuItem")
+        Me.NotificationMenuStripShowYTVL.AutoToolTip = True
+        Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
+        Me.NotificationMenuStripShowYTVL.Name = "NotificationMenuStripShowYTVL"
+        resources.ApplyResources(Me.NotificationMenuStripShowYTVL, "NotificationMenuStripShowYTVL")
         '
-        'ToolStripSeparator
+        'NotificationMenuStripSeparator1
         '
-        Me.ToolStripSeparator.Name = "ToolStripSeparator"
-        resources.ApplyResources(Me.ToolStripSeparator, "ToolStripSeparator")
+        Me.NotificationMenuStripSeparator1.Name = "NotificationMenuStripSeparator1"
+        resources.ApplyResources(Me.NotificationMenuStripSeparator1, "NotificationMenuStripSeparator1")
         '
-        'VideoToolStripMenuItem
+        'NotificationMenuStripVideo
         '
-        Me.VideoToolStripMenuItem.AutoToolTip = True
-        Me.VideoToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
-        resources.ApplyResources(Me.VideoToolStripMenuItem, "VideoToolStripMenuItem")
-        Me.VideoToolStripMenuItem.Name = "VideoToolStripMenuItem"
+        Me.NotificationMenuStripVideo.AutoToolTip = True
+        Me.NotificationMenuStripVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
+        resources.ApplyResources(Me.NotificationMenuStripVideo, "NotificationMenuStripVideo")
+        Me.NotificationMenuStripVideo.Name = "NotificationMenuStripVideo"
         '
-        'CommentsToolStripMenuItem
+        'NotificationMenuStripComments
         '
-        Me.CommentsToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources.facebook_messages
-        Me.CommentsToolStripMenuItem.Name = "CommentsToolStripMenuItem"
-        resources.ApplyResources(Me.CommentsToolStripMenuItem, "CommentsToolStripMenuItem")
+        Me.NotificationMenuStripComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
+        Me.NotificationMenuStripComments.Name = "NotificationMenuStripComments"
+        resources.ApplyResources(Me.NotificationMenuStripComments, "NotificationMenuStripComments")
         '
-        'VideoInfoToolStripMenuItem
+        'NotificationMenuStripVideoInfo
         '
-        Me.VideoInfoToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources.documentinfo
-        Me.VideoInfoToolStripMenuItem.Name = "VideoInfoToolStripMenuItem"
-        resources.ApplyResources(Me.VideoInfoToolStripMenuItem, "VideoInfoToolStripMenuItem")
+        Me.NotificationMenuStripVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
+        Me.NotificationMenuStripVideoInfo.Name = "NotificationMenuStripVideoInfo"
+        resources.ApplyResources(Me.NotificationMenuStripVideoInfo, "NotificationMenuStripVideoInfo")
         '
-        'EmbedToolStripMenuItem
+        'NotificationMenuStripEmbed
         '
-        Me.EmbedToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources._1387139872_window_new
-        Me.EmbedToolStripMenuItem.Name = "EmbedToolStripMenuItem"
-        resources.ApplyResources(Me.EmbedToolStripMenuItem, "EmbedToolStripMenuItem")
+        Me.NotificationMenuStripEmbed.Image = Global.YTVL.My.Resources.Resources._1387139872_window_new
+        Me.NotificationMenuStripEmbed.Name = "NotificationMenuStripEmbed"
+        resources.ApplyResources(Me.NotificationMenuStripEmbed, "NotificationMenuStripEmbed")
         '
-        'ToolStripSeparator1
+        'NotificationMenuStripSeparator2
         '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        resources.ApplyResources(Me.ToolStripSeparator1, "ToolStripSeparator1")
+        Me.NotificationMenuStripSeparator2.Name = "NotificationMenuStripSeparator2"
+        resources.ApplyResources(Me.NotificationMenuStripSeparator2, "NotificationMenuStripSeparator2")
         '
-        'HideIconToolStripMenuItem
+        'NotificationMenuStripHideIcon
         '
-        Me.HideIconToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources.Exit2
-        Me.HideIconToolStripMenuItem.Name = "HideIconToolStripMenuItem"
-        resources.ApplyResources(Me.HideIconToolStripMenuItem, "HideIconToolStripMenuItem")
+        Me.NotificationMenuStripHideIcon.Image = Global.YTVL.My.Resources.Resources.Exit2
+        Me.NotificationMenuStripHideIcon.Name = "NotificationMenuStripHideIcon"
+        resources.ApplyResources(Me.NotificationMenuStripHideIcon, "NotificationMenuStripHideIcon")
         '
-        'CloseToolStripMenuItem
+        'NotificationMenuStripClose
         '
-        Me.CloseToolStripMenuItem.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
-        Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-        resources.ApplyResources(Me.CloseToolStripMenuItem, "CloseToolStripMenuItem")
+        Me.NotificationMenuStripClose.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
+        Me.NotificationMenuStripClose.Name = "NotificationMenuStripClose"
+        resources.ApplyResources(Me.NotificationMenuStripClose, "NotificationMenuStripClose")
         '
         'chkUpdate
         '
@@ -747,14 +747,14 @@ Partial Class YTVL
         Me.Name = "YTVL"
         Me.grpBoxInputs.ResumeLayout(False)
         Me.grpBoxInputs.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
+        Me.pnlRight1.ResumeLayout(False)
+        Me.pnlRight1.PerformLayout()
+        Me.pnlRight2.ResumeLayout(False)
+        Me.pnlRight2.PerformLayout()
+        Me.pnlRight3.ResumeLayout(False)
+        Me.pnlRight3.PerformLayout()
+        Me.pnlRight4.ResumeLayout(False)
+        Me.pnlRight4.PerformLayout()
         Me.pnlEnableJsApi.ResumeLayout(False)
         Me.pnlEnableJsApi.PerformLayout()
         Me.pnlAutoplay.ResumeLayout(False)
@@ -796,19 +796,19 @@ Partial Class YTVL
     Friend WithEvents lnkDeveloper As System.Windows.Forms.LinkLabel
     Friend WithEvents btnAdvanced As System.Windows.Forms.Button
     Friend WithEvents lblCurrentVersion As System.Windows.Forms.Label
-    Friend WithEvents NotifyIcon As System.Windows.Forms.NotifyIcon
+    Friend WithEvents NotificationIcon As System.Windows.Forms.NotifyIcon
     Friend WithEvents NotificationMenuStrip As System.Windows.Forms.ContextMenuStrip
-    Friend WithEvents ShowYTVLToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripSeparator As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents VideoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CommentsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents VideoInfoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EmbedToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents CloseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NotificationMenuStripShowYTVL As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NotificationMenuStripSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents NotificationMenuStripVideo As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NotificationMenuStripComments As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NotificationMenuStripVideoInfo As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NotificationMenuStripEmbed As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NotificationMenuStripSeparator2 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents NotificationMenuStripClose As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents chkShowNotification As System.Windows.Forms.CheckBox
     Friend WithEvents chkUpdate As System.Windows.Forms.CheckBox
-    Friend WithEvents HideIconToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NotificationMenuStripHideIcon As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents WebBrowserVersionCheck As System.Windows.Forms.WebBrowser
     Friend WithEvents chkFeature As System.Windows.Forms.CheckBox
@@ -850,10 +850,10 @@ Partial Class YTVL
     Friend WithEvents pnlAutoplay As System.Windows.Forms.Panel
     Friend WithEvents pnlAutohide As System.Windows.Forms.Panel
     Friend WithEvents pnlFs As System.Windows.Forms.Panel
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents Panel2 As System.Windows.Forms.Panel
-    Friend WithEvents Panel3 As System.Windows.Forms.Panel
-    Friend WithEvents Panel4 As System.Windows.Forms.Panel
+    Friend WithEvents pnlRight1 As System.Windows.Forms.Panel
+    Friend WithEvents pnlRight2 As System.Windows.Forms.Panel
+    Friend WithEvents pnlRight3 As System.Windows.Forms.Panel
+    Friend WithEvents pnlRight4 As System.Windows.Forms.Panel
     Friend WithEvents ToolTip As System.Windows.Forms.ToolTip
     Friend WithEvents btnDebug As System.Windows.Forms.Button
 

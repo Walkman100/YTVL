@@ -9,7 +9,7 @@
 
         'apply settings to where they affect
         lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor
-        NotifyIcon.Visible = My.Settings.ShowNotification
+        NotificationIcon.Visible = My.Settings.ShowNotification
         If My.Settings.AutoUpdateCheck = True Then
             'load latest version
             WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
@@ -17,7 +17,7 @@
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
-        NotifyIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.ToString & " Latest ver: " & WebBrowserVersionCheck.Document.Body.InnerText.ToString
+        NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.ToString & " Latest ver: " & WebBrowserVersionCheck.Document.Body.InnerText.ToString
         If My.Settings.AutoUpdateCheck = True Then
             'check if this version is latest
             If My.Application.Info.Version.ToString < WebBrowserVersionCheck.Document.Body.InnerText.ToString Then
@@ -74,7 +74,7 @@
         txtComboVID.SelectAll()
     End Sub
 
-    Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, VideoToolStripMenuItem.Click
+    Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, NotificationMenuStripVideo.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -83,7 +83,7 @@
         End If
     End Sub
 
-    Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click, CommentsToolStripMenuItem.Click
+    Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click, NotificationMenuStripComments.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -92,7 +92,7 @@
         End If
     End Sub
 
-    Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click, VideoInfoToolStripMenuItem.Click
+    Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click, NotificationMenuStripVideoInfo.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -101,7 +101,7 @@
         End If
     End Sub
 
-    Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click, EmbedToolStripMenuItem.Click
+    Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click, NotificationMenuStripEmbed.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -154,11 +154,11 @@
         btnAdvanced.Text = "More ↓"
     End Sub
 
-    Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles CloseToolStripMenuItem.Click, btnExit.Click
+    Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles NotificationMenuStripClose.Click, btnExit.Click
         Application.Exit()
     End Sub
 
-    Private Sub ShowYTVL(sender As Object, e As EventArgs) Handles ShowYTVLToolStripMenuItem.Click, NotifyIcon.DoubleClick
+    Private Sub ShowYTVL(sender As Object, e As EventArgs) Handles NotificationMenuStripShowYTVL.Click, NotificationIcon.DoubleClick
         WindowState = FormWindowState.Normal
         'Me.Show()
         Me.BringToFront()
@@ -184,14 +184,14 @@
     Private Sub ShowNotification_Click(sender As Object, e As EventArgs) Handles chkShowNotification.Click
         My.Settings.ShowNotification = chkShowNotification.Checked
         My.Settings.Save()
-        NotifyIcon.Visible = My.Settings.ShowNotification
+        NotificationIcon.Visible = My.Settings.ShowNotification
     End Sub
 
-    Private Sub HideIconToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HideIconToolStripMenuItem.Click
+    Private Sub HideIconToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NotificationMenuStripHideIcon.Click
         My.Settings.ShowNotification = False
         My.Settings.Save()
         chkShowNotification.Checked = False
-        NotifyIcon.Visible = False
+        NotificationIcon.Visible = False
     End Sub
 
     Private Sub chkUpdate_Click(sender As Object, e As EventArgs) Handles chkUpdate.Click
