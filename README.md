@@ -10,7 +10,7 @@ Jump to:
 •<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
 •<a href="#future-releasesideas">Future releases/ideas</a> 
 •<a href="#what-the-links--flags-do">What the Links & Flags do</a> 
-•<a href="http://walkman100.github.io/Walkman/YTVL/" target="_blank">Screenshots</a> 
+•<a href="http://walkman100.github.io/Walkman/YTVL/">Screenshots</a> 
 •<a href="#debugging">Debugging</a>
 
 How to use
