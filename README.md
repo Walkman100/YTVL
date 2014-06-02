@@ -30,7 +30,7 @@ is `z9Uz1icjwrM`. This ID is found in any Page's URL containing a video, even em
 
 Want to suggest a feature?
 ====
-Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as long as the feature/addition doesn't make the program file size significantly bigger, or increases the time it takes to start.
+Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as long as the feature/addition doesn't make the program file size significantly bigger, or increases the time it takes to start. Also, keep in mind the KISS principle (Keep It Simple, Stupid). Notice I haven't added a settings window because there are only three settings, and my application interface has space for those settings without it looking too cluttered.
 
 Future releases/ideas
 ====
