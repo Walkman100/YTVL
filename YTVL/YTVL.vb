@@ -6,6 +6,8 @@
         'apply settings to where they are changed
         chkShowNotification.Checked = My.Settings.ShowNotification
         chkUpdate.Checked = My.Settings.AutoUpdateCheck
+        NotificationMenuStripKeepOnTop.Checked = My.Settings.KeepOnTop
+        chkKeepOnTop.Checked = My.Settings.KeepOnTop
 
         'apply settings to where they affect
         lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build
@@ -14,6 +16,7 @@
             'load latest version
             WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
         End If
+        Me.TopMost = My.Settings.KeepOnTop
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
@@ -187,7 +190,7 @@
         NotificationIcon.Visible = My.Settings.ShowNotification
     End Sub
 
-    Private Sub HideIconToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NotificationMenuStripHideIcon.Click
+    Private Sub HideIconNotificationMenuStrip_Click(sender As Object, e As EventArgs) Handles NotificationMenuStripHideIcon.Click
         My.Settings.ShowNotification = False
         My.Settings.Save()
         chkShowNotification.Checked = False
@@ -208,6 +211,18 @@
         Else
             usehttps = "http"
         End If
+    End Sub
+
+    Private Sub KeepOnTopFromNotification(sender As Object, e As EventArgs) Handles NotificationMenuStripKeepOnTop.Click
+        My.Settings.KeepOnTop = NotificationMenuStripKeepOnTop.Checked
+        Me.TopMost = My.Settings.KeepOnTop
+        chkKeepOnTop.Checked = My.Settings.KeepOnTop
+    End Sub
+
+    Private Sub KeepOnTopFromMain(sender As Object, e As EventArgs) Handles chkKeepOnTop.CheckedChanged
+        My.Settings.KeepOnTop = chkKeepOnTop.Checked
+        Me.TopMost = My.Settings.KeepOnTop
+        NotificationMenuStripKeepOnTop.Checked = My.Settings.KeepOnTop
     End Sub
 
     'Links
