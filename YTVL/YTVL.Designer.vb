@@ -77,6 +77,7 @@ Partial Class YTVL
         Me.txtTime = New System.Windows.Forms.TextBox()
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
+        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
         Me.btnReset = New System.Windows.Forms.Button()
@@ -107,7 +108,6 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -517,7 +517,6 @@ Partial Class YTVL
         'grpBoxOutputs
         '
         resources.ApplyResources(Me.grpBoxOutputs, "grpBoxOutputs")
-        Me.grpBoxOutputs.Controls.Add(Me.chkKeepOnTop)
         Me.grpBoxOutputs.Controls.Add(Me.btnExit)
         Me.grpBoxOutputs.Controls.Add(Me.chkShowNotification)
         Me.grpBoxOutputs.Controls.Add(Me.btnReset)
@@ -527,6 +526,14 @@ Partial Class YTVL
         Me.grpBoxOutputs.Controls.Add(Me.btnVideo)
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
         Me.grpBoxOutputs.TabStop = False
+        '
+        'chkKeepOnTop
+        '
+        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
+        Me.chkKeepOnTop.BackColor = System.Drawing.Color.Transparent
+        Me.chkKeepOnTop.Name = "chkKeepOnTop"
+        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
+        Me.chkKeepOnTop.UseVisualStyleBackColor = False
         '
         'btnExit
         '
@@ -742,19 +749,13 @@ Partial Class YTVL
         Me.ToolTip.InitialDelay = 50
         Me.ToolTip.ReshowDelay = 100
         '
-        'chkKeepOnTop
-        '
-        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
-        Me.chkKeepOnTop.Name = "chkKeepOnTop"
-        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
-        Me.chkKeepOnTop.UseVisualStyleBackColor = False
-        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnExit
+        Me.Controls.Add(Me.chkKeepOnTop)
         Me.Controls.Add(Me.chkUpdate)
         Me.Controls.Add(Me.lblCurrentVersion)
         Me.Controls.Add(Me.grpBoxAbout)
