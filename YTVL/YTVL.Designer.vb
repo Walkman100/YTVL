@@ -77,6 +77,7 @@ Partial Class YTVL
         Me.txtTime = New System.Windows.Forms.TextBox()
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
+        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
         Me.btnReset = New System.Windows.Forms.Button()
@@ -107,7 +108,7 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -528,6 +529,13 @@ Partial Class YTVL
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
         Me.grpBoxOutputs.TabStop = False
         '
+        'chkKeepOnTop
+        '
+        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
+        Me.chkKeepOnTop.Name = "chkKeepOnTop"
+        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
+        Me.chkKeepOnTop.UseVisualStyleBackColor = False
+        '
         'btnExit
         '
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
@@ -665,7 +673,7 @@ Partial Class YTVL
         '
         'NotificationMenuStrip
         '
-        Me.NotificationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NotificationMenuStripShowYTVL, Me.NotificationMenuStripKeepOnTop, Me.NotificationMenuStripSeparator1, Me.NotificationMenuStripVideo, Me.NotificationMenuStripComments, Me.NotificationMenuStripVideoInfo, Me.NotificationMenuStripEmbed, Me.NotificationMenuStripSeparator2, Me.NotificationMenuStripHideIcon, Me.NotificationMenuStripClose})
+        Me.NotificationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NotificationMenuStripShowYTVL, Me.NotificationMenuStripSeparator1, Me.NotificationMenuStripVideo, Me.NotificationMenuStripComments, Me.NotificationMenuStripVideoInfo, Me.NotificationMenuStripEmbed, Me.ToolStripSeparator1, Me.NotificationMenuStripKeepOnTop, Me.NotificationMenuStripSeparator2, Me.NotificationMenuStripHideIcon, Me.NotificationMenuStripClose})
         Me.NotificationMenuStrip.Name = "NotificationMenuStrip"
         resources.ApplyResources(Me.NotificationMenuStrip, "NotificationMenuStrip")
         '
@@ -742,12 +750,10 @@ Partial Class YTVL
         Me.ToolTip.InitialDelay = 50
         Me.ToolTip.ReshowDelay = 100
         '
-        'chkKeepOnTop
+        'ToolStripSeparator1
         '
-        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
-        Me.chkKeepOnTop.Name = "chkKeepOnTop"
-        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
-        Me.chkKeepOnTop.UseVisualStyleBackColor = False
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        resources.ApplyResources(Me.ToolStripSeparator1, "ToolStripSeparator1")
         '
         'YTVL
         '
@@ -875,5 +881,6 @@ Partial Class YTVL
     Friend WithEvents btnDebug As System.Windows.Forms.Button
     Friend WithEvents NotificationMenuStripKeepOnTop As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents chkKeepOnTop As System.Windows.Forms.CheckBox
+    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
 
 End Class

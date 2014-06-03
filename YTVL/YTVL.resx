@@ -997,10 +997,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 42</value>
+    <value>411, 42</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 23</value>
+    <value>49, 23</value>
   </data>
   <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1749,6 +1749,129 @@
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
+  <data name="&gt;&gt;chkKeepOnTop.Name" xml:space="preserve">
+    <value>chkKeepOnTop</value>
+  </data>
+  <data name="&gt;&gt;chkKeepOnTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkKeepOnTop.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;chkKeepOnTop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Name" xml:space="preserve">
+    <value>chkShowNotification</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
+    <value>btnEmbed</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
+    <value>btnVideoInfo</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
+    <value>btnComments</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
+    <value>btnVideo</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 85</value>
+  </data>
+  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 47</value>
+  </data>
+  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpBoxOutputs.Text" xml:space="preserve">
+    <value>Outputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>299, 17</value>
+  </metadata>
   <data name="chkKeepOnTop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -1767,9 +1890,6 @@
   <data name="chkKeepOnTop.Text" xml:space="preserve">
     <value>Keep window on &amp;top</value>
   </data>
-  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>299, 17</value>
-  </metadata>
   <data name="chkKeepOnTop.ToolTip" xml:space="preserve">
     <value>Keep window on top of all other windows</value>
   </data>
@@ -2015,30 +2135,6 @@
   </data>
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
     <value>7</value>
-  </data>
-  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 85</value>
-  </data>
-  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 47</value>
-  </data>
-  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grpBoxOutputs.Text" xml:space="preserve">
-    <value>Outputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -2415,8 +2511,92 @@
   <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>126, 17</value>
   </metadata>
+  <data name="NotificationMenuStripShowYTVL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NotificationMenuStripShowYTVL.Text" xml:space="preserve">
+    <value>&amp;Show YTVL</value>
+  </data>
+  <data name="NotificationMenuStripShowYTVL.ToolTipText" xml:space="preserve">
+    <value>Show YTVL</value>
+  </data>
+  <data name="NotificationMenuStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 6</value>
+  </data>
+  <data name="NotificationMenuStripVideo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="NotificationMenuStripVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NotificationMenuStripVideo.Text" xml:space="preserve">
+    <value>» &amp;Video</value>
+  </data>
+  <data name="NotificationMenuStripVideo.ToolTipText" xml:space="preserve">
+    <value>Open the Video for selected ID</value>
+  </data>
+  <data name="NotificationMenuStripComments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NotificationMenuStripComments.Text" xml:space="preserve">
+    <value>» &amp;Comments</value>
+  </data>
+  <data name="NotificationMenuStripComments.ToolTipText" xml:space="preserve">
+    <value>Open Comments for selected ID</value>
+  </data>
+  <data name="NotificationMenuStripVideoInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NotificationMenuStripVideoInfo.Text" xml:space="preserve">
+    <value>» Video &amp;Info</value>
+  </data>
+  <data name="NotificationMenuStripVideoInfo.ToolTipText" xml:space="preserve">
+    <value>Open Video Info for selected ID</value>
+  </data>
+  <data name="NotificationMenuStripEmbed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NotificationMenuStripEmbed.Text" xml:space="preserve">
+    <value>» &amp;Embedded</value>
+  </data>
+  <data name="NotificationMenuStripEmbed.ToolTipText" xml:space="preserve">
+    <value>Open Embedded Video for selected ID</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 6</value>
+  </data>
+  <data name="NotificationMenuStripKeepOnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NotificationMenuStripKeepOnTop.Text" xml:space="preserve">
+    <value>Keep YTVL on top</value>
+  </data>
+  <data name="NotificationMenuStripKeepOnTop.ToolTipText" xml:space="preserve">
+    <value>&amp;Keep YTVL on top of all other windows</value>
+  </data>
+  <data name="NotificationMenuStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 6</value>
+  </data>
+  <data name="NotificationMenuStripHideIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NotificationMenuStripHideIcon.Text" xml:space="preserve">
+    <value>&amp;Hide Icon</value>
+  </data>
+  <data name="NotificationMenuStripHideIcon.ToolTipText" xml:space="preserve">
+    <value>Hide the taskbar icon</value>
+  </data>
+  <data name="NotificationMenuStripClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 22</value>
+  </data>
+  <data name="NotificationMenuStripClose.Text" xml:space="preserve">
+    <value>&amp;Quit YTVL</value>
+  </data>
+  <data name="NotificationMenuStripClose.ToolTipText" xml:space="preserve">
+    <value>Close the program</value>
+  </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 192</value>
+    <value>173, 220</value>
   </data>
   <data name="NotificationMenuStrip.Text" xml:space="preserve">
     <value>YTVL Context Menu</value>
@@ -2451,87 +2631,6 @@
     <value>YouTube Video Linker
 </value>
   </data>
-  <data name="NotificationMenuStripShowYTVL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="NotificationMenuStripShowYTVL.Text" xml:space="preserve">
-    <value>&amp;Show YTVL</value>
-  </data>
-  <data name="NotificationMenuStripShowYTVL.ToolTipText" xml:space="preserve">
-    <value>Show YTVL</value>
-  </data>
-  <data name="NotificationMenuStripKeepOnTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="NotificationMenuStripKeepOnTop.Text" xml:space="preserve">
-    <value>Keep YTVL on top</value>
-  </data>
-  <data name="NotificationMenuStripKeepOnTop.ToolTipText" xml:space="preserve">
-    <value>Keep YTVL on top of all other windows</value>
-  </data>
-  <data name="NotificationMenuStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 6</value>
-  </data>
-  <data name="NotificationMenuStripVideo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="NotificationMenuStripVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="NotificationMenuStripVideo.Text" xml:space="preserve">
-    <value>» &amp;Video</value>
-  </data>
-  <data name="NotificationMenuStripVideo.ToolTipText" xml:space="preserve">
-    <value>Open the Video for selected ID</value>
-  </data>
-  <data name="NotificationMenuStripComments.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="NotificationMenuStripComments.Text" xml:space="preserve">
-    <value>» &amp;Comments</value>
-  </data>
-  <data name="NotificationMenuStripComments.ToolTipText" xml:space="preserve">
-    <value>Open Comments for selected ID</value>
-  </data>
-  <data name="NotificationMenuStripVideoInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="NotificationMenuStripVideoInfo.Text" xml:space="preserve">
-    <value>» Video &amp;Info</value>
-  </data>
-  <data name="NotificationMenuStripVideoInfo.ToolTipText" xml:space="preserve">
-    <value>Open Video Info for selected ID</value>
-  </data>
-  <data name="NotificationMenuStripEmbed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="NotificationMenuStripEmbed.Text" xml:space="preserve">
-    <value>» &amp;Embedded</value>
-  </data>
-  <data name="NotificationMenuStripEmbed.ToolTipText" xml:space="preserve">
-    <value>Open Embedded Video for selected ID</value>
-  </data>
-  <data name="NotificationMenuStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 6</value>
-  </data>
-  <data name="NotificationMenuStripHideIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="NotificationMenuStripHideIcon.Text" xml:space="preserve">
-    <value>&amp;Hide Icon</value>
-  </data>
-  <data name="NotificationMenuStripHideIcon.ToolTipText" xml:space="preserve">
-    <value>Hide the taskbar icon</value>
-  </data>
-  <data name="NotificationMenuStripClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
-  </data>
-  <data name="NotificationMenuStripClose.Text" xml:space="preserve">
-    <value>Cl&amp;ose</value>
-  </data>
-  <data name="NotificationMenuStripClose.ToolTipText" xml:space="preserve">
-    <value>Close the program</value>
-  </data>
   <data name="chkUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -2562,6 +2661,9 @@
   <data name="&gt;&gt;chkUpdate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>299, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2668,6 +2770,12 @@
   </data>
   <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>
