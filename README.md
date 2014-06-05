@@ -74,4 +74,3 @@ Minimum Requirements
 
 * .NET Framework (version goes here)
 * Windows (something or higher)
-* An Internet connection
