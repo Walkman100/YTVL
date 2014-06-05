@@ -24,18 +24,20 @@ Requirements
 
 How to use
 ====
-It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you use YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup>); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweght than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup>; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
+It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you watched the video in Embedded mode); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweght than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup> was; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
 
 There is an option to the right of the `Outputs` group box that shows the notification icon. This icon can be useful if you want to open multiple pages without having to open the program again, it has all the options from the `Outputs` group box in it's context menu (when you right-click). It has an option to show the program, to hide the icon (same as unchecking the option in the main program) and to exit the program completely - which also removes the icon until you open the program again.
+
+The `Keep window on top` checkbox at the top-right of the window makes the window stay on top of all other windows. This checkbox and the option in the notification context menu do the same thing.
 
 The `Check for updates automatically` checkbox & option loads the file at [Walkman.Github.io/ver.txt](http://walkman100.github.io/Walkman/YTVL/ver.txt) and checks the current version against the version listed in that file whenever you tick the option, or if the option is ticked when the program opens. I have future plans for it instead to load the url [here](http://github.com/Walkman100/YTVL/releases/latest) instead, since that is automatically redirected to the current version by GitHub, but that would return e.g. `https://github.com/Walkman100/YTVL/releases/tag/v1.2` and I don't currently know how to trim characters in VB to just get the `1.2` from it.
 ___
 <a name="f-note-1" id="f-note-1">1</a>. A YouTube Video ID is the random letters at the end of a YouTube video URL, e.g. the id of the URL
 > https://www.youtube.com/watch?v=z9Uz1icjwrM
 
-is `z9Uz1icjwrM`. This ID is found in any Page's URL containing a video, even embedded ones.<a href="#ref1" title="Jump back to footnote 1 above.">↩</a>
+is `z9Uz1icjwrM`. This ID is found in any Page's URL containing a video, even embedded ones.<a href="#ref1" title="Jump back to footnote 1 above">↩</a>
 
-<a name="f-note-2" id="f-note-2">2</a>. As the page on [their website](https://www.youtube.com/feather_beta) says, "The "Feather" project is intended to serve YouTube video watch pages with the lowest latency possible. It achieves this by severely limiting the features available to the viewer and making use of advanced web techniques for reducing the total amount of bytes downloaded by the browser. It is a work in progress and may not work for all videos." Enable it [here](https://www.youtube.com/feather_beta).<a href="#ref2" title="Jump back to footnote 2">↩</a>
+<a name="f-note-2" id="f-note-2">2</a>. As the page on [their website](https://www.youtube.com/feather_beta) says, "The "Feather" project is intended to serve YouTube video watch pages with the lowest latency possible. It achieves this by severely limiting the features available to the viewer and making use of advanced web techniques for reducing the total amount of bytes downloaded by the browser. It is a work in progress and may not work for all videos." Enable it [here](https://www.youtube.com/feather_beta). **Note**: YouTube Feather has been discontinued.<a href="#ref2" title="Jump back to footnote 2 above">↩</a>
 
 What the Links & Flags do
 ====
@@ -50,7 +52,7 @@ Generally, the name of the flag speaks for itself, but here is a short descripti
 * **NoFeather**<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup>: this flag temporarily (for the page it's on) disables YouTube Feather
 
 Other than noFeather, the advanced options are mostly useful for embedded videos
-* **AutoPlay** if this is set to `1`, the video will automatically begin playing when the page loads
+* **AutoPlay**: if this is set to `1`, the video will automatically begin playing when the page loads
 
 ***_<kbd>`WIP`</kbd>_***
 
