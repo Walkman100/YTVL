@@ -66,3 +66,8 @@ Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser window to the right of t
 ![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")
 
 If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
+
+Minimum Requirements
+====
+
+The minimu requirements for YTVL can be found on [this](https://github.com/Walkman100/YTVL/wiki/Minimum-Requirements) wiki page.
