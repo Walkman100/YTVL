@@ -20,11 +20,11 @@
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
-        NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " Latest ver: " & WebBrowserVersionCheck.Document.Body.InnerText.ToString
+        NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " Latest ver: " & WebBrowserVersionCheck.Document.Body.InnerText
         If My.Settings.AutoUpdateCheck = True Then
             'check if this version is latest
-            If My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < WebBrowserVersionCheck.Document.Body.InnerText.ToString Then
-                If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " & WebBrowserVersionCheck.Document.Body.InnerText.ToString & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") = MsgBoxResult.Ok Then
+            If My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < WebBrowserVersionCheck.Document.Body.InnerText Then
+                If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " & WebBrowserVersionCheck.Document.Body.InnerText & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") = MsgBoxResult.Ok Then
                     Process.Start("https://github.com/Walkman100/YTVL/releases/latest")
                 End If 'yes, this entire sub could be put on one line, but that line would be incredibly long
             End If
@@ -201,6 +201,7 @@
         My.Settings.AutoUpdateCheck = chkUpdate.Checked
         My.Settings.Save()
         If chkUpdate.Checked = True Then
+'Will be improving this as I think it will not be refreshed.
             WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
         End If
     End Sub
