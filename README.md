@@ -70,4 +70,4 @@ If this page does not show a valid version, then the program might give an error
 Minimum Requirements
 ====
 
-The minimu requirements for YTVL can be found on [this](https://github.com/Walkman100/YTVL/wiki/Minimum-Requirements) wiki page.
+The minimum requirements for YTVL can be found on [this](https://github.com/Walkman100/YTVL/wiki/Minimum-Requirements) page on the YTVL wiki.
