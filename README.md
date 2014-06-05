@@ -70,4 +70,8 @@ If this page does not show a valid version, then the program might give an error
 Minimum Requirements
 ====
 
-The minimum requirements for YTVL can be found on [this](https://github.com/Walkman100/YTVL/wiki/Minimum-Requirements) page on the YTVL wiki.
+**If all of the below minimum requirements are met then YTVL should run:**
+
+* .NET Framework (version goes here)
+* Windows (something or higher)
+* An Internet connection
