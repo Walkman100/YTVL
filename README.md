@@ -6,12 +6,21 @@ YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io
 Many thanks to [Deavmi](http://github.com/Deavmi) for his code, quite a bit of the code used in this project I learnt from his projects
 
 Jump to:  
+•<a href="#requirements">Requirements</a> 
 •<a href="#how-to-use">How to use</a> 
-•<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
-•<a href="#future-releasesideas">Future releases/ideas</a> 
 •<a href="#what-the-links--flags-do">What the Links & Flags do</a> 
 •<a href="http://walkman100.github.io/Walkman/YTVL/">Screenshots</a> 
-•<a href="#debugging">Debugging</a>
+•<a href="#future-releasesideas">Future releases/ideas</a> 
+•<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
+•<a href="#debugging">Debugging</a> 
+
+Requirements
+====
+
+**If all of these requirements are met then YTVL should run:**
+
+* [.NET Framework v2.0](http://www.microsoft.com/net/downloads) ([Direct](http://go.microsoft.com/?linkid=9831986))
+* Windows XP and up (not tested, but should work; only tested on Windows 7 HP SP1 64-bit)
 
 How to use
 ====
@@ -27,16 +36,6 @@ ___
 is `z9Uz1icjwrM`. This ID is found in any Page's URL containing a video, even embedded ones.<a href="#ref1" title="Jump back to footnote 1 above.">↩</a>
 
 <a name="f-note-2" id="f-note-2">2</a>. As the page on [their website](https://www.youtube.com/feather_beta) says, "The "Feather" project is intended to serve YouTube video watch pages with the lowest latency possible. It achieves this by severely limiting the features available to the viewer and making use of advanced web techniques for reducing the total amount of bytes downloaded by the browser. It is a work in progress and may not work for all videos." Enable it [here](https://www.youtube.com/feather_beta).<a href="#ref2" title="Jump back to footnote 2">↩</a>
-
-Want to suggest a feature?
-====
-Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as long as the feature/addition doesn't make the program file size significantly bigger, or increases the time it takes to start. Also, keep in mind the KISS principle (Keep It Simple, Stupid). Notice I haven't added a settings window because there are only three settings, and my application interface has space for those settings without it looking too cluttered.
-
-Future releases/ideas
-====
-`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or BB code which will be copied to the clipboard. A context menu for when you right-click on any of the `outputs` buttons that allows you to generate the URL and copy it will also be in this release.
-
-`v1.5` will probably have buttons to open the download pages for FullRip.net; MP3, Video or Video(alternative); KeepVid e.t.c.
 
 What the Links & Flags do
 ====
@@ -59,6 +58,16 @@ Screenshots
 ====
 Screenshots available <a href="http://walkman100.github.io/Walkman/YTVL/">here</a>.
 
+Future releases/ideas
+====
+`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or BB code which will be copied to the clipboard. A context menu for when you right-click on any of the `outputs` buttons that allows you to generate the URL and copy it will also be in this release.
+
+`v1.5` will probably have buttons to open the download pages for FullRip.net; MP3, Video or Video(alternative); KeepVid e.t.c.
+
+Want to suggest a feature?
+====
+Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as long as the feature/addition doesn't make the program file size significantly bigger, or increases the time it takes to start. Also, keep in mind the KISS principle (Keep It Simple, Stupid). Notice I haven't added a settings window because there are only three settings, and my application interface has space for those settings without it looking too cluttered.
+
 Debugging
 ====
 Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser window to the right of the `Developed by...` link, this shows the page that is loaded to show the current version.
@@ -66,11 +75,3 @@ Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser window to the right of t
 ![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")
 
 If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
-
-Minimum Requirements
-====
-
-**If all of the below minimum requirements are met then YTVL should run:**
-
-* .NET Framework (version goes here)
-* Windows (something or higher)
