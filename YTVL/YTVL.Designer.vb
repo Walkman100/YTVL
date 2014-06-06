@@ -108,6 +108,8 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.ContextClipboard = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ContextClipboardCopyButton = New System.Windows.Forms.ToolStripMenuItem()
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -121,6 +123,7 @@ Partial Class YTVL
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
         Me.NotificationMenuStrip.SuspendLayout()
+        Me.ContextClipboard.SuspendLayout()
         Me.SuspendLayout()
         '
         'grpBoxInputs
@@ -556,6 +559,7 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.btnEmbed, "btnEmbed")
         Me.btnEmbed.BackColor = System.Drawing.Color.Transparent
+        Me.btnEmbed.ContextMenuStrip = Me.ContextClipboard
         Me.btnEmbed.Name = "btnEmbed"
         Me.btnEmbed.UseVisualStyleBackColor = False
         '
@@ -563,6 +567,7 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.btnVideoInfo, "btnVideoInfo")
         Me.btnVideoInfo.BackColor = System.Drawing.Color.Transparent
+        Me.btnVideoInfo.ContextMenuStrip = Me.ContextClipboard
         Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
         Me.btnVideoInfo.Name = "btnVideoInfo"
         Me.btnVideoInfo.UseVisualStyleBackColor = False
@@ -570,6 +575,7 @@ Partial Class YTVL
         'btnComments
         '
         Me.btnComments.BackColor = System.Drawing.Color.Transparent
+        Me.btnComments.ContextMenuStrip = Me.ContextClipboard
         Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         resources.ApplyResources(Me.btnComments, "btnComments")
         Me.btnComments.Name = "btnComments"
@@ -579,6 +585,7 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.btnVideo, "btnVideo")
         Me.btnVideo.BackColor = System.Drawing.Color.Transparent
+        Me.btnVideo.ContextMenuStrip = Me.ContextClipboard
         Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         Me.btnVideo.Name = "btnVideo"
         Me.btnVideo.UseVisualStyleBackColor = False
@@ -747,6 +754,18 @@ Partial Class YTVL
         Me.ToolTip.InitialDelay = 50
         Me.ToolTip.ReshowDelay = 100
         '
+        'ContextClipboard
+        '
+        Me.ContextClipboard.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyButton})
+        Me.ContextClipboard.Name = "ContextClipboard"
+        resources.ApplyResources(Me.ContextClipboard, "ContextClipboard")
+        '
+        'ContextClipboardCopyButton
+        '
+        Me.ContextClipboardCopyButton.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextClipboardCopyButton.Name = "ContextClipboardCopyButton"
+        resources.ApplyResources(Me.ContextClipboardCopyButton, "ContextClipboardCopyButton")
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
@@ -786,6 +805,7 @@ Partial Class YTVL
         Me.grpBoxAbout.ResumeLayout(False)
         Me.grpBoxAbout.PerformLayout()
         Me.NotificationMenuStrip.ResumeLayout(False)
+        Me.ContextClipboard.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -874,5 +894,7 @@ Partial Class YTVL
     Friend WithEvents btnDebug As System.Windows.Forms.Button
     Friend WithEvents NotificationMenuStripKeepOnTop As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents chkKeepOnTop As System.Windows.Forms.CheckBox
+    Friend WithEvents ContextClipboard As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents ContextClipboardCopyButton As System.Windows.Forms.ToolStripMenuItem
 
 End Class

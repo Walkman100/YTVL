@@ -189,6 +189,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icons\youtube_withLink.ico" />
+    <None Include="Resources\EditCopy.bmp" />
     <None Include="Resources\1387140136_process-stop.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
