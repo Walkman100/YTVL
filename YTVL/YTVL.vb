@@ -121,37 +121,41 @@
     End Sub
 
     Private Sub ContextClipboardCopyButton_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyButton.Click
-        BuildVars()
-        If CopyWhat = "&Video" Then
-            Try
-                Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
-                MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
-            Catch ex As Exception
-                MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
-            End Try
-        ElseIf CopyWhat = "&Comments" Then
-            Try
-                Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
-                MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
-            Catch ex As Exception
-                MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
-            End Try
-        ElseIf CopyWhat = "Video &Info" Then
-            Try
-                Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18", TextDataFormat.UnicodeText)
-                MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
-            Catch ex As Exception
-                MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
-            End Try
-        ElseIf CopyWhat = "&Embed Page Handler" Then
-            Try
-                Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars, TextDataFormat.UnicodeText)
-                MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
-            Catch ex As Exception
-                MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
-            End Try
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgNoVID()
         Else
+            BuildVars()
+            If CopyWhat = "&Video" Then
+                Try
+                    Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
+                    MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                Catch ex As Exception
+                    MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
+                End Try
+            ElseIf CopyWhat = "&Comments" Then
+                Try
+                    Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
+                    MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                Catch ex As Exception
+                    MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
+                End Try
+            ElseIf CopyWhat = "Video &Info" Then
+                Try
+                    Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18", TextDataFormat.UnicodeText)
+                    MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                Catch ex As Exception
+                    MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
+                End Try
+            ElseIf CopyWhat = "&Embed Page Handler" Then
+                Try
+                    Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars, TextDataFormat.UnicodeText)
+                    MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                Catch ex As Exception
+                    MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
+                End Try
+            Else
                 MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" & CopyWhat & "'", , "Error")
+            End If
         End If
     End Sub
 
