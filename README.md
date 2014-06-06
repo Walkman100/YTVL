@@ -21,6 +21,7 @@ Requirements
 
 * [.NET Framework v2.0](http://www.microsoft.com/net/downloads) ([Direct](http://go.microsoft.com/?linkid=9831986))
 * Windows XP and up (not tested, but should work; only tested on Windows 7 HP SP1 64-bit)
+* In order for the update checker to work, you need an active internet connection and at least Internet Explorer 7 installed (even if you don't use it. ever.)
 
 How to use
 ====
