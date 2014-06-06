@@ -215,6 +215,7 @@
   </data>
   <data name="optRel0.Text" xml:space="preserve">
     <value>0</value>
+  </data>
   <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>299, 17</value>
   </metadata>
@@ -2143,6 +2144,7 @@
   </data>
   <data name="grpBoxInputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
+  </data>
   <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 139</value>
   </data>
@@ -2169,6 +2171,7 @@
   </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
   <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
@@ -2453,6 +2456,7 @@
   </data>
   <data name="chkKeepOnTop.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
@@ -2488,6 +2492,7 @@
   </data>
   <data name="&gt;&gt;chkKeepOnTop.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
   <data name="&gt;&gt;lnkDeveloper.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
   </data>
