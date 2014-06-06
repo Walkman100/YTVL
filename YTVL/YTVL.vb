@@ -13,10 +13,8 @@
         'apply settings to where they affect
         lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build
         NotificationIcon.Visible = My.Settings.ShowNotification
-        If My.Settings.AutoUpdateCheck = True Then
-            'load latest version
-            WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
-        End If
+        'load latest version
+        If My.Settings.AutoUpdateCheck = True Then WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
         Me.TopMost = My.Settings.KeepOnTop
     End Sub
 
@@ -115,6 +113,22 @@
         End If
     End Sub
 
+    Private Sub CopyVideoLinkToClipboard(sender As Object, e As EventArgs) Handles btnVideo.DoubleClick
+        Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
+    End Sub
+
+    Private Sub CopyCommentsLinkToClipboard(sender As Object, e As EventArgs) Handles btnComments.DoubleClick
+        Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
+    End Sub
+
+    Private Sub CopyVideoInfoLinkToClipboard(sender As Object, e As EventArgs) Handles btnVideoInfo.DoubleClick
+        Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
+    End Sub
+
+    Private Sub CopyEmbeddedObjectLinkToClipboard(sender As Object, e As EventArgs) Handles btnEmbed.DoubleClick
+        Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
+    End Sub
+
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
         'text boxes
         txtComboVID.Text = "Video ID"
@@ -176,13 +190,7 @@
     'Changes e.g. settings
 
     Private Sub MoreLess(sender As Object, e As EventArgs) Handles btnAdvanced.Click
-        If Me.Height = 362 Then
-            Me.Height = 230
-            btnAdvanced.Text = "More ↓"
-        Else
-            Me.Height = 362
-            btnAdvanced.Text = "Less ↑"
-        End If
+        If Me.Height = 362 Then Me.Height = 230 And btnAdvanced.Text = "More ↓" Else Me.Height = 362 And btnAdvanced.Text = "Less ↑"
     End Sub
 
     Private Sub ShowNotification_Click(sender As Object, e As EventArgs) Handles chkShowNotification.Click
@@ -201,17 +209,11 @@
     Private Sub chkUpdate_Click(sender As Object, e As EventArgs) Handles chkUpdate.Click
         My.Settings.AutoUpdateCheck = chkUpdate.Checked
         My.Settings.Save()
-        If chkUpdate.Checked = True Then
-            WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
-        End If
+        If chkUpdate.Checked = True Then WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
     End Sub
 
     Private Sub chkHttps_Click(sender As Object, e As EventArgs) Handles chkHttps.Click
-        If chkHttps.Checked = True Then
-            usehttps = "https"
-        Else
-            usehttps = "http"
-        End If
+        If chkHttps.Checked = True Then usehttps = "https" Else usehttps = "http"
     End Sub
 
     Private Sub KeepOnTopFromNotification(sender As Object, e As EventArgs) Handles NotificationMenuStripKeepOnTop.Click
@@ -255,11 +257,7 @@
     'Text control
 
     Private Sub txtComboVID_Enter(sender As Object, e As EventArgs) Handles txtComboVID.MouseDown
-        If txtComboVID.Text = "Video ID" Then
-            txtComboVID.Text = ""
-        Else
-            txtComboVID.SelectAll()
-        End If
+        If txtComboVID.Text = "Video ID" Then txtComboVID.Text = "" Else txtComboVID.SelectAll()
     End Sub
 
     Private Sub txtComboVID_Leave(sender As Object, e As EventArgs) Handles txtComboVID.Leave
@@ -275,45 +273,26 @@
     End Sub
 
     Private Sub txtTime_Enter(sender As Object, e As EventArgs) Handles txtTime.MouseDown
-        If txtTime.Text = "Time (e.g. 1m5s)" Then
-            txtTime.Text = ""
-        Else
-            txtTime.SelectAll()
-        End If
+        If txtTime.Text = "Time (e.g. 1m5s)" Then txtTime.Text = "" Else txtTime.SelectAll()
     End Sub
 
     Private Sub txtTime_Leave(sender As Object, e As EventArgs) Handles txtTime.Leave
-        If txtTime.Text = "" Then
-            txtTime.Text = "Time (e.g. 1m5s)"
-        End If
+        If txtTime.Text = "" Then txtTime.Text = "Time (e.g. 1m5s)"
     End Sub
 
     Private Sub txtList_Enter(sender As Object, e As EventArgs) Handles txtList.MouseDown
-        If txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)" Then
-            txtList.Text = ""
-        Else
-            txtList.SelectAll()
-        End If
+        If txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)" Then txtList.Text = "" Else txtList.SelectAll()
     End Sub
 
     Private Sub txtList_Leave(sender As Object, e As EventArgs) Handles txtList.Leave
-        If txtList.Text = "" Then
-            txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)"
-        End If
+        If txtList.Text = "" Then txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)"
     End Sub
 
     Private Sub txtOrigin_Enter(sender As Object, e As EventArgs) Handles txtOrigin.MouseDown
-        If txtOrigin.Text = "(e.g. http://9gag.tv)" Then
-            txtOrigin.Text = ""
-        Else
-            txtOrigin.SelectAll()
-        End If
+        If txtOrigin.Text = "(e.g. http://9gag.tv)" Then txtOrigin.Text = "" Else txtOrigin.SelectAll()
     End Sub
 
     Private Sub txtOrigin_Leave(sender As Object, e As EventArgs) Handles txtOrigin.Leave
-        If txtOrigin.Text = "" Then
-            txtOrigin.Text = "(e.g. http://9gag.tv)"
-        End If
+        If txtOrigin.Text = "" Then txtOrigin.Text = "(e.g. http://9gag.tv)"
     End Sub
-
 End Class
