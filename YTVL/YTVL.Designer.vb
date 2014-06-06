@@ -108,6 +108,9 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -121,12 +124,14 @@ Partial Class YTVL
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
         Me.NotificationMenuStrip.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
         Me.grpBoxInputs.Controls.Add(Me.pnlRight1)
+        Me.grpBoxInputs.Controls.Add(Me.chkKeepOnTop)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight2)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight3)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight4)
@@ -747,13 +752,32 @@ Partial Class YTVL
         Me.ToolTip.InitialDelay = 50
         Me.ToolTip.ReshowDelay = 100
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.YTVL.My.Resources.Resources.android_app
+        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.TabStop = False
+        '
+        'Label1
+        '
+        resources.ApplyResources(Me.Label1, "Label1")
+        Me.Label1.Name = "Label1"
+        '
+        'Label2
+        '
+        resources.ApplyResources(Me.Label2, "Label2")
+        Me.Label2.Name = "Label2"
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnExit
-        Me.Controls.Add(Me.chkKeepOnTop)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.chkUpdate)
         Me.Controls.Add(Me.lblCurrentVersion)
         Me.Controls.Add(Me.grpBoxAbout)
@@ -786,6 +810,7 @@ Partial Class YTVL
         Me.grpBoxAbout.ResumeLayout(False)
         Me.grpBoxAbout.PerformLayout()
         Me.NotificationMenuStrip.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -874,5 +899,8 @@ Partial Class YTVL
     Friend WithEvents btnDebug As System.Windows.Forms.Button
     Friend WithEvents NotificationMenuStripKeepOnTop As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents chkKeepOnTop As System.Windows.Forms.CheckBox
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class
