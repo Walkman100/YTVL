@@ -115,6 +115,22 @@
         End If
     End Sub
 
+    Private Sub CopyVideoLinkToClipboard(sender As Object, e As EventArgs) Handles btnVideo.DoubleClick
+        Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
+    End Sub
+
+    Private Sub CopyCommentsLinkToClipboard(sender As Object, e As EventArgs) Handles btnComments.DoubleClick
+        Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
+    End Sub
+
+    Private Sub CopyVideoInfoLinkToClipboard(sender As Object, e As EventArgs) Handles btnVideoInfo.DoubleClick
+        Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18", TextDataFormat.UnicodeText)
+    End Sub
+
+    Private Sub CopyEmbeddedObjectLinkToClipboard(sender As Object, e As EventArgs) Handles btnEmbed.DoubleClick
+        Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars, TextDataFormat.UnicodeText)
+    End Sub
+
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
         'text boxes
         txtComboVID.Text = "Video ID"
