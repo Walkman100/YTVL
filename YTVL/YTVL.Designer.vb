@@ -28,6 +28,7 @@ Partial Class YTVL
         Me.pnlRight1 = New System.Windows.Forms.Panel()
         Me.optMdstBrndng0 = New System.Windows.Forms.RadioButton()
         Me.optMdstBrndng1 = New System.Windows.Forms.RadioButton()
+        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.pnlRight2 = New System.Windows.Forms.Panel()
         Me.optRel0 = New System.Windows.Forms.RadioButton()
         Me.optRel1 = New System.Windows.Forms.RadioButton()
@@ -81,10 +82,11 @@ Partial Class YTVL
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnEmbed = New System.Windows.Forms.Button()
+        Me.ContextClipboard = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ContextClipboardCopyButton = New System.Windows.Forms.ToolStripMenuItem()
         Me.btnVideoInfo = New System.Windows.Forms.Button()
         Me.btnComments = New System.Windows.Forms.Button()
         Me.btnVideo = New System.Windows.Forms.Button()
-        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxAbout = New System.Windows.Forms.GroupBox()
         Me.btnDebug = New System.Windows.Forms.Button()
         Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
@@ -108,11 +110,6 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.ContextClipboard = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ContextClipboardCopyButton = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -124,17 +121,15 @@ Partial Class YTVL
         Me.pnlFs.SuspendLayout()
         Me.pnlQuality.SuspendLayout()
         Me.grpBoxOutputs.SuspendLayout()
+        Me.ContextClipboard.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
         Me.NotificationMenuStrip.SuspendLayout()
-        Me.ContextClipboard.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
         Me.grpBoxInputs.Controls.Add(Me.pnlRight1)
-        Me.grpBoxInputs.Controls.Add(Me.chkKeepOnTop)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight2)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight3)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight4)
@@ -191,6 +186,14 @@ Partial Class YTVL
         Me.optMdstBrndng1.BackColor = System.Drawing.Color.Transparent
         Me.optMdstBrndng1.Name = "optMdstBrndng1"
         Me.optMdstBrndng1.UseVisualStyleBackColor = False
+        '
+        'chkKeepOnTop
+        '
+        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
+        Me.chkKeepOnTop.BackColor = System.Drawing.Color.Transparent
+        Me.chkKeepOnTop.Name = "chkKeepOnTop"
+        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
+        Me.chkKeepOnTop.UseVisualStyleBackColor = False
         '
         'pnlRight2
         '
@@ -568,6 +571,18 @@ Partial Class YTVL
         Me.btnEmbed.Name = "btnEmbed"
         Me.btnEmbed.UseVisualStyleBackColor = False
         '
+        'ContextClipboard
+        '
+        Me.ContextClipboard.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyButton})
+        Me.ContextClipboard.Name = "ContextClipboard"
+        resources.ApplyResources(Me.ContextClipboard, "ContextClipboard")
+        '
+        'ContextClipboardCopyButton
+        '
+        Me.ContextClipboardCopyButton.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextClipboardCopyButton.Name = "ContextClipboardCopyButton"
+        resources.ApplyResources(Me.ContextClipboardCopyButton, "ContextClipboardCopyButton")
+        '
         'btnVideoInfo
         '
         resources.ApplyResources(Me.btnVideoInfo, "btnVideoInfo")
@@ -594,14 +609,6 @@ Partial Class YTVL
         Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         Me.btnVideo.Name = "btnVideo"
         Me.btnVideo.UseVisualStyleBackColor = False
-        '
-        'chkKeepOnTop
-        '
-        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
-        Me.chkKeepOnTop.BackColor = System.Drawing.Color.Transparent
-        Me.chkKeepOnTop.Name = "chkKeepOnTop"
-        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
-        Me.chkKeepOnTop.UseVisualStyleBackColor = False
         '
         'grpBoxAbout
         '
@@ -759,43 +766,13 @@ Partial Class YTVL
         Me.ToolTip.InitialDelay = 50
         Me.ToolTip.ReshowDelay = 100
         '
-        'ContextClipboard
-        '
-        Me.ContextClipboard.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyButton})
-        Me.ContextClipboard.Name = "ContextClipboard"
-        resources.ApplyResources(Me.ContextClipboard, "ContextClipboard")
-        '
-        'ContextClipboardCopyButton
-        '
-        Me.ContextClipboardCopyButton.Image = Global.YTVL.My.Resources.Resources.EditCopy
-        Me.ContextClipboardCopyButton.Name = "ContextClipboardCopyButton"
-        resources.ApplyResources(Me.ContextClipboardCopyButton, "ContextClipboardCopyButton")
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.YTVL.My.Resources.Resources.android_app
-        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.TabStop = False
-        '
-        'Label1
-        '
-        resources.ApplyResources(Me.Label1, "Label1")
-        Me.Label1.Name = "Label1"
-        '
-        'Label2
-        '
-        resources.ApplyResources(Me.Label2, "Label2")
-        Me.Label2.Name = "Label2"
-        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnExit
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.chkKeepOnTop)
         Me.Controls.Add(Me.chkUpdate)
         Me.Controls.Add(Me.lblCurrentVersion)
         Me.Controls.Add(Me.grpBoxAbout)
@@ -825,11 +802,10 @@ Partial Class YTVL
         Me.pnlQuality.PerformLayout()
         Me.grpBoxOutputs.ResumeLayout(False)
         Me.grpBoxOutputs.PerformLayout()
+        Me.ContextClipboard.ResumeLayout(False)
         Me.grpBoxAbout.ResumeLayout(False)
         Me.grpBoxAbout.PerformLayout()
         Me.NotificationMenuStrip.ResumeLayout(False)
-        Me.ContextClipboard.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -920,8 +896,5 @@ Partial Class YTVL
     Friend WithEvents chkKeepOnTop As System.Windows.Forms.CheckBox
     Friend WithEvents ContextClipboard As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents ContextClipboardCopyButton As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class
