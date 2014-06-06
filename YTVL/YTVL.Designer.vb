@@ -77,7 +77,6 @@ Partial Class YTVL
         Me.txtTime = New System.Windows.Forms.TextBox()
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
-        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
         Me.btnReset = New System.Windows.Forms.Button()
@@ -85,6 +84,7 @@ Partial Class YTVL
         Me.btnVideoInfo = New System.Windows.Forms.Button()
         Me.btnComments = New System.Windows.Forms.Button()
         Me.btnVideo = New System.Windows.Forms.Button()
+        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxAbout = New System.Windows.Forms.GroupBox()
         Me.btnDebug = New System.Windows.Forms.Button()
         Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
@@ -527,14 +527,6 @@ Partial Class YTVL
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
         Me.grpBoxOutputs.TabStop = False
         '
-        'chkKeepOnTop
-        '
-        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
-        Me.chkKeepOnTop.BackColor = System.Drawing.Color.Transparent
-        Me.chkKeepOnTop.Name = "chkKeepOnTop"
-        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
-        Me.chkKeepOnTop.UseVisualStyleBackColor = False
-        '
         'btnExit
         '
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
@@ -591,6 +583,14 @@ Partial Class YTVL
         Me.btnVideo.Name = "btnVideo"
         Me.btnVideo.UseVisualStyleBackColor = False
         '
+        'chkKeepOnTop
+        '
+        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
+        Me.chkKeepOnTop.BackColor = System.Drawing.Color.Transparent
+        Me.chkKeepOnTop.Name = "chkKeepOnTop"
+        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
+        Me.chkKeepOnTop.UseVisualStyleBackColor = False
+        '
         'grpBoxAbout
         '
         resources.ApplyResources(Me.grpBoxAbout, "grpBoxAbout")
@@ -614,12 +614,10 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.WebBrowserVersionCheck, "WebBrowserVersionCheck")
         Me.WebBrowserVersionCheck.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
-        Me.WebBrowserVersionCheck.IsWebBrowserContextMenuEnabled = False
         Me.WebBrowserVersionCheck.Name = "WebBrowserVersionCheck"
         Me.WebBrowserVersionCheck.ScriptErrorsSuppressed = True
         Me.WebBrowserVersionCheck.TabStop = False
         Me.ToolTip.SetToolTip(Me.WebBrowserVersionCheck, resources.GetString("WebBrowserVersionCheck.ToolTip"))
-        Me.WebBrowserVersionCheck.WebBrowserShortcutsEnabled = False
         '
         'lnkDeveloper
         '

@@ -1,6 +1,7 @@
 ﻿Public Class YTVL
     Dim Vars As String = ""
     Dim usehttps As String = "https"
+    Dim latestVer As String
 
     Private Sub LoadYTVL() Handles Me.Load, MyBase.Load
         'apply settings to where they are changed
@@ -14,17 +15,18 @@
         NotificationIcon.Visible = My.Settings.ShowNotification
         If My.Settings.AutoUpdateCheck = True Then
             'load latest version
-            WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
+            WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
         End If
         Me.TopMost = My.Settings.KeepOnTop
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
-        NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " Latest ver: " & WebBrowserVersionCheck.Document.Body.InnerText
+        latestVer = Mid(WebBrowserVersionCheck.Url.ToString, 50)
+        NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " Latest ver: " & latestVer
         If My.Settings.AutoUpdateCheck = True Then
             'check if this version is latest
-            If My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < WebBrowserVersionCheck.Document.Body.InnerText Then
-                If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " & WebBrowserVersionCheck.Document.Body.InnerText & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") = MsgBoxResult.Ok Then
+            If My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < latestVer Then
+                If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " & latestVer & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") = MsgBoxResult.Ok Then
                     Process.Start("https://github.com/Walkman100/YTVL/releases/latest")
                 End If 'yes, this entire sub could be put on one line, but that line would be incredibly long
             End If
@@ -150,7 +152,6 @@
         optShowsearch0.Checked = False
         optShowsearch1.Checked = False
 
-
         'other
         Me.Height = 230
         Me.Width = 506
@@ -201,8 +202,7 @@
         My.Settings.AutoUpdateCheck = chkUpdate.Checked
         My.Settings.Save()
         If chkUpdate.Checked = True Then
-'Will be improving this as I think it will not be refreshed.
-            WebBrowserVersionCheck.Navigate("http://walkman100.github.io/Walkman/YTVL/ver.txt")
+            WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
         End If
     End Sub
 
@@ -229,7 +229,7 @@
     'Links
 
     Private Sub OpenFeatherLink(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lblFeather.LinkClicked
-        Process.Start(usehttps & "://www.youtube.com/testtube")
+        MsgBox("YouTube Feather has been discontinued!", MsgBoxStyle.Critical, "YouTube Feather has been discontinued!")
     End Sub
 
     Private Sub OpenOriginalPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkOriginalPage.LinkClicked
