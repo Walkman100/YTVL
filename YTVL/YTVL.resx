@@ -1570,7 +1570,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chkKeepOnTop.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -1687,7 +1687,7 @@
     <value>Generate the URL and copy it to the clipboard instead of opening it in the browser.</value>
   </data>
   <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 26</value>
+    <value>228, 48</value>
   </data>
   <data name="&gt;&gt;ContextClipboard.Name" xml:space="preserve">
     <value>ContextClipboard</value>

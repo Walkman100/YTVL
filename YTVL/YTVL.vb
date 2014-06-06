@@ -2,6 +2,7 @@
     Dim Vars As String = ""
     Dim usehttps As String = "https"
     Dim latestVer As String
+    Dim CopyWhat As String
 
     Private Sub LoadYTVL() Handles Me.Load, MyBase.Load
         'apply settings to where they are changed
@@ -115,20 +116,23 @@
         End If
     End Sub
 
-    Private Sub CopyVideoLinkToClipboard(sender As Object, e As EventArgs)
-        Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
+    Private Sub Inputs_MouseDown(sender As Object, e As MouseEventArgs) Handles btnVideo.MouseDown, btnComments.MouseDown, btnVideoInfo.MouseDown, btnEmbed.MouseDown
+        CopyWhat = Mid(sender.ToString, 36)
     End Sub
 
-    Private Sub CopyCommentsLinkToClipboard(sender As Object, e As EventArgs)
-        Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
-    End Sub
-
-    Private Sub CopyVideoInfoLinkToClipboard(sender As Object, e As EventArgs)
-        Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18", TextDataFormat.UnicodeText)
-    End Sub
-
-    Private Sub CopyEmbeddedObjectLinkToClipboard(sender As Object, e As EventArgs)
-        Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars, TextDataFormat.UnicodeText)
+    Private Sub ContextClipboardCopyButton_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyButton.Click
+        BuildVars()
+        If CopyWhat = "&Video" Then
+            Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
+        ElseIf CopyWhat = "&Comments" Then
+            Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
+        ElseIf CopyWhat = "Video &Info" Then
+            Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18", TextDataFormat.UnicodeText)
+        ElseIf CopyWhat = "&Embed Page Handler" Then
+            Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars, TextDataFormat.UnicodeText)
+        Else
+            MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" & CopyWhat & "'", , "Error")
+        End If
     End Sub
 
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click

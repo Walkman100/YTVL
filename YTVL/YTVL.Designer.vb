@@ -28,7 +28,6 @@ Partial Class YTVL
         Me.pnlRight1 = New System.Windows.Forms.Panel()
         Me.optMdstBrndng0 = New System.Windows.Forms.RadioButton()
         Me.optMdstBrndng1 = New System.Windows.Forms.RadioButton()
-        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.pnlRight2 = New System.Windows.Forms.Panel()
         Me.optRel0 = New System.Windows.Forms.RadioButton()
         Me.optRel1 = New System.Windows.Forms.RadioButton()
@@ -77,6 +76,7 @@ Partial Class YTVL
         Me.chkFeather = New System.Windows.Forms.CheckBox()
         Me.txtTime = New System.Windows.Forms.TextBox()
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
+        Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
@@ -186,14 +186,6 @@ Partial Class YTVL
         Me.optMdstBrndng1.BackColor = System.Drawing.Color.Transparent
         Me.optMdstBrndng1.Name = "optMdstBrndng1"
         Me.optMdstBrndng1.UseVisualStyleBackColor = False
-        '
-        'chkKeepOnTop
-        '
-        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
-        Me.chkKeepOnTop.BackColor = System.Drawing.Color.Transparent
-        Me.chkKeepOnTop.Name = "chkKeepOnTop"
-        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
-        Me.chkKeepOnTop.UseVisualStyleBackColor = False
         '
         'pnlRight2
         '
@@ -524,6 +516,14 @@ Partial Class YTVL
         Me.txtComboVID.Items.AddRange(New Object() {resources.GetString("txtComboVID.Items"), resources.GetString("txtComboVID.Items1")})
         resources.ApplyResources(Me.txtComboVID, "txtComboVID")
         Me.txtComboVID.Name = "txtComboVID"
+        '
+        'chkKeepOnTop
+        '
+        resources.ApplyResources(Me.chkKeepOnTop, "chkKeepOnTop")
+        Me.chkKeepOnTop.BackColor = System.Drawing.Color.Transparent
+        Me.chkKeepOnTop.Name = "chkKeepOnTop"
+        Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
+        Me.chkKeepOnTop.UseVisualStyleBackColor = False
         '
         'grpBoxOutputs
         '
