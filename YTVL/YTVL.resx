@@ -198,7 +198,6 @@
   <data name="&gt;&gt;pnlRight1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-<<<<<<< HEAD
   <data name="optRel0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -216,7 +215,6 @@
   </data>
   <data name="optRel0.Text" xml:space="preserve">
     <value>0</value>
-=======
   <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>299, 17</value>
   </metadata>
@@ -255,7 +253,6 @@
   </data>
   <data name="&gt;&gt;chkKeepOnTop.ZOrder" xml:space="preserve">
     <value>1</value>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   </data>
   <data name="&gt;&gt;optRel0.Name" xml:space="preserve">
     <value>optRel0</value>
@@ -1471,8 +1468,6 @@
   </data>
   <data name="chkFeather.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 17</value>
-<<<<<<< HEAD
-=======
   </data>
   <data name="chkFeather.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2070,7 +2065,6 @@
   </data>
   <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   </data>
   <data name="chkFeather.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2147,13 +2141,10 @@
   <data name="&gt;&gt;txtComboVID.ZOrder" xml:space="preserve">
     <value>32</value>
   </data>
-<<<<<<< HEAD
   <data name="grpBoxInputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
-=======
   <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 139</value>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   </data>
   <data name="grpBoxInputs.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 67</value>
@@ -2173,16 +2164,13 @@
   <data name="&gt;&gt;grpBoxInputs.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-<<<<<<< HEAD
   <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
-=======
   <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
     <value>7</value>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
     <value>466, 19</value>
@@ -2439,7 +2427,6 @@
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-<<<<<<< HEAD
   <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 85</value>
   </data>
@@ -2466,10 +2453,8 @@
   </data>
   <data name="chkKeepOnTop.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-=======
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   </data>
   <data name="&gt;&gt;btnDebug.Name" xml:space="preserve">
     <value>btnDebug</value>
@@ -2501,13 +2486,10 @@
   <data name="&gt;&gt;lnkDeveloper.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-<<<<<<< HEAD
   <data name="&gt;&gt;chkKeepOnTop.ZOrder" xml:space="preserve">
     <value>2</value>
-=======
   <data name="&gt;&gt;lnkDeveloper.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   </data>
   <data name="&gt;&gt;lnkDeveloper.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -2809,7 +2791,6 @@
   <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-<<<<<<< HEAD
   <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 138</value>
   </data>
@@ -2834,8 +2815,6 @@
   <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-=======
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   <data name="lblCurrentVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -2867,11 +2846,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>4</value>
-=======
     <value>5</value>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   </data>
   <metadata name="NotificationIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -2879,8 +2855,6 @@
   <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>126, 17</value>
   </metadata>
-<<<<<<< HEAD
-=======
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 192</value>
   </data>
@@ -2917,7 +2891,6 @@
     <value>YouTube Video Linker
 </value>
   </data>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   <data name="NotificationMenuStripShowYTVL.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 22</value>
   </data>
@@ -3063,9 +3036,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chkUpdate.ZOrder" xml:space="preserve">
-<<<<<<< HEAD
     <value>3</value>
-=======
     <value>4</value>
   </data>
   <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -3094,7 +3065,6 @@
   </data>
   <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
     <value>2</value>
->>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
   </data>
   <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
