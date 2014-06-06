@@ -108,8 +108,14 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
+<<<<<<< HEAD
         Me.ContextClipboard = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.ContextClipboardCopyButton = New System.Windows.Forms.ToolStripMenuItem()
+=======
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+>>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -123,13 +129,18 @@ Partial Class YTVL
         Me.grpBoxOutputs.SuspendLayout()
         Me.grpBoxAbout.SuspendLayout()
         Me.NotificationMenuStrip.SuspendLayout()
+<<<<<<< HEAD
         Me.ContextClipboard.SuspendLayout()
+=======
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+>>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
         Me.SuspendLayout()
         '
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
         Me.grpBoxInputs.Controls.Add(Me.pnlRight1)
+        Me.grpBoxInputs.Controls.Add(Me.chkKeepOnTop)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight2)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight3)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight4)
@@ -754,6 +765,7 @@ Partial Class YTVL
         Me.ToolTip.InitialDelay = 50
         Me.ToolTip.ReshowDelay = 100
         '
+<<<<<<< HEAD
         'ContextClipboard
         '
         Me.ContextClipboard.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyButton})
@@ -765,6 +777,24 @@ Partial Class YTVL
         Me.ContextClipboardCopyButton.Image = Global.YTVL.My.Resources.Resources.EditCopy
         Me.ContextClipboardCopyButton.Name = "ContextClipboardCopyButton"
         resources.ApplyResources(Me.ContextClipboardCopyButton, "ContextClipboardCopyButton")
+=======
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.YTVL.My.Resources.Resources.android_app
+        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.TabStop = False
+        '
+        'Label1
+        '
+        resources.ApplyResources(Me.Label1, "Label1")
+        Me.Label1.Name = "Label1"
+        '
+        'Label2
+        '
+        resources.ApplyResources(Me.Label2, "Label2")
+        Me.Label2.Name = "Label2"
+>>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
         '
         'YTVL
         '
@@ -772,7 +802,9 @@ Partial Class YTVL
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnExit
-        Me.Controls.Add(Me.chkKeepOnTop)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.chkUpdate)
         Me.Controls.Add(Me.lblCurrentVersion)
         Me.Controls.Add(Me.grpBoxAbout)
@@ -805,7 +837,11 @@ Partial Class YTVL
         Me.grpBoxAbout.ResumeLayout(False)
         Me.grpBoxAbout.PerformLayout()
         Me.NotificationMenuStrip.ResumeLayout(False)
+<<<<<<< HEAD
         Me.ContextClipboard.ResumeLayout(False)
+=======
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+>>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -894,7 +930,13 @@ Partial Class YTVL
     Friend WithEvents btnDebug As System.Windows.Forms.Button
     Friend WithEvents NotificationMenuStripKeepOnTop As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents chkKeepOnTop As System.Windows.Forms.CheckBox
+<<<<<<< HEAD
     Friend WithEvents ContextClipboard As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents ContextClipboardCopyButton As System.Windows.Forms.ToolStripMenuItem
+=======
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+>>>>>>> b0376277d39a62b1a73d983cd00287097a353ce6
 
 End Class

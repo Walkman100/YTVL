@@ -14,7 +14,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("YouTube Video Linker, original page: http://walkman100.github.io/Walkman/youtube-video-stuff.htm")> 
 <Assembly: AssemblyCompany("DeavmiOSS")> 
 <Assembly: AssemblyProduct("YouTube Video Linker")> 
-<Assembly: AssemblyCopyright("Copyright © Walkman 2014")> 
+<Assembly: AssemblyCopyright("Copyright © DeavmiOSS 2014")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.3.2.0")> 
-<Assembly: AssemblyFileVersion("1.3.2.0")> 
+<Assembly: AssemblyVersion("1.3.3.0")> 
+<Assembly: AssemblyFileVersion("1.3.3.0")> 
 
 <Assembly: NeutralResourcesLanguageAttribute("en-ZA")> 
