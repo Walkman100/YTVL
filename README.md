@@ -27,6 +27,8 @@ How to use
 ====
 It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you watched the video in Embedded mode); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweght than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup> was; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
 
+If you want to copy the generated URL to the clipboard instead of opening it in the browser, you can right-click an output button and click `Generate URL to Clipboard`, this will generate the URL and copy it to your clipboard.
+
 There is an option to the right of the `Outputs` group box that shows the notification icon. This icon can be useful if you want to open multiple pages without having to open the program again, it has all the options from the `Outputs` group box in it's context menu (when you right-click). It has an option to show the program, to hide the icon (same as unchecking the option in the main program) and to exit the program completely - which also removes the icon until you open the program again.
 
 The `Keep window on top` checkbox at the top-right of the window makes the window stay on top of all other windows. This checkbox and the option in the notification context menu do the same thing.
@@ -63,7 +65,7 @@ Screenshots available <a href="http://walkman100.github.io/Walkman/YTVL/">here</
 
 Future releases/ideas
 ====
-`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or BB code which will be copied to the clipboard. A context menu for when you right-click on any of the `outputs` buttons that allows you to generate the URL and copy it will also be in this release.
+`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or BB code which will be copied to the clipboard.
 
 `v1.5` will probably have buttons to open the download pages for FullRip.net; MP3, Video or Video(alternative); KeepVid e.t.c.
 
