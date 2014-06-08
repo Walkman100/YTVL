@@ -118,9 +118,14 @@
 
     Private Sub Inputs_MouseDown(sender As Object, e As MouseEventArgs) Handles btnVideo.MouseDown, btnComments.MouseDown, btnVideoInfo.MouseDown, btnEmbed.MouseDown
         CopyWhat = Mid(sender.ToString, 36)
+        If CopyWhat = "&Embed Page Handler" Then
+            ContextClipboardCopyCode.Visible = True
+        Else
+            ContextClipboardCopyCode.Visible = False
+        End If
     End Sub
 
-    Private Sub ContextClipboardCopyButton_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyButton.Click
+    Private Sub ContextClipboardCopyFromGenerated_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyFromGenerated.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else

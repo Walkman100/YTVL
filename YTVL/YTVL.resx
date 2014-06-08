@@ -1677,17 +1677,53 @@
   <metadata name="ContextClipboard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>391, 17</value>
   </metadata>
-  <data name="ContextClipboardCopyButton.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="ContextClipboardCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 22</value>
   </data>
-  <data name="ContextClipboardCopyButton.Text" xml:space="preserve">
+  <data name="ContextClipboardCopyFromGenerated.Text" xml:space="preserve">
     <value>Generate URL to Clipboard</value>
   </data>
-  <data name="ContextClipboardCopyButton.ToolTipText" xml:space="preserve">
+  <data name="ContextClipboardCopyFromGenerated.ToolTipText" xml:space="preserve">
     <value>Generate the URL and copy it to the clipboard instead of opening it in the browser.</value>
   </data>
+  <data name="ContextClipboardCopyCodeHTML.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeHTML.Text" xml:space="preserve">
+    <value>HTML Embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCodeBB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeBB.Text" xml:space="preserve">
+    <value>BB Embed code (for forums)</value>
+  </data>
+  <data name="ContextClipboardCopyCodeSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 6</value>
+  </data>
+  <data name="ContextClipboardCopyCodeStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeStandard.Text" xml:space="preserve">
+    <value>Standard Embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCodeOldCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeOldCode.Text" xml:space="preserve">
+    <value>Old Embed code (more compatible)</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Text" xml:space="preserve">
+    <value>Copy code &gt;</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 48</value>
+    <value>228, 70</value>
   </data>
   <data name="&gt;&gt;ContextClipboard.Name" xml:space="preserve">
     <value>ContextClipboard</value>
@@ -2324,10 +2360,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>YouTube Video Linker</value>
   </data>
-  <data name="&gt;&gt;ContextClipboardCopyButton.Name" xml:space="preserve">
-    <value>ContextClipboardCopyButton</value>
+  <data name="&gt;&gt;ContextClipboardCopyFromGenerated.Name" xml:space="preserve">
+    <value>ContextClipboardCopyFromGenerated</value>
   </data>
-  <data name="&gt;&gt;ContextClipboardCopyButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;ContextClipboardCopyFromGenerated.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">
@@ -2401,6 +2437,42 @@
   </data>
   <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCode.Name" xml:space="preserve">
+    <value>ContextClipboardCopyCode</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeHTML.Name" xml:space="preserve">
+    <value>ContextClipboardCopyCodeHTML</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeHTML.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeBB.Name" xml:space="preserve">
+    <value>ContextClipboardCopyCodeBB</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeBB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeSeperator.Name" xml:space="preserve">
+    <value>ContextClipboardCopyCodeSeperator</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeSeperator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeStandard.Name" xml:space="preserve">
+    <value>ContextClipboardCopyCodeStandard</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeStandard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeOldCode.Name" xml:space="preserve">
+    <value>ContextClipboardCopyCodeOldCode</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboardCopyCodeOldCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>
