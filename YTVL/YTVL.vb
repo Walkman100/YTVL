@@ -164,6 +164,29 @@
         End If
     End Sub
 
+    Private Sub ContextClipboardCopyCodeHTML_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeHTML.Click
+        If ContextClipboardCopyCodeStandard.Checked = True Then
+            Try 'e.g: <iframe width="560" height="315" src="//www.youtube.com/embed/gMyKNFqRyQk" frameborder="0" allowfullscreen></iframe>
+                Clipboard.SetText("<iframe src='" & "//www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars & "' frameborder='0' allowfullscreen></iframe>", TextDataFormat.UnicodeText)
+                MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+            Catch ex As Exception
+                MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
+            End Try
+        ElseIf ContextClipboardCopyCodeOldCode.Checked = True Then
+            Try 'e.g.: <object width="560" height="315"><param name="movie" value="//www.youtube.com/v/gMyKNFqRyQk?version=3&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/gMyKNFqRyQk?version=3&amp;hl=en_GB" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+                Clipboard.SetText("<object><param name='movie' value='//www.youtube.com/v/" & txtComboVID.Text & "?version=3&amp;hl=en_GB" & Vars & "'></param><param name='allowFullScreen' value='true'></param><param name='allowscriptaccess' value='always'></param><embed src='//www.youtube.com/v/" & txtComboVID.Text & "?version=3&amp;hl=en_GB" & Vars & "' type='application/x-shockwave-flash' allowscriptaccess='always' allowfullscreen='true'></embed></object>", TextDataFormat.UnicodeText)
+                MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+            Catch ex As Exception
+                MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
+            End Try
+        End If
+
+    End Sub
+
+    Private Sub ContextClipboardCopyCodeBB_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeBB.Click
+
+    End Sub
+
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
         'text boxes
         txtComboVID.Text = "Video ID"
@@ -273,6 +296,14 @@
         My.Settings.KeepOnTop = chkKeepOnTop.Checked
         Me.TopMost = My.Settings.KeepOnTop
         NotificationMenuStripKeepOnTop.Checked = My.Settings.KeepOnTop
+    End Sub
+
+    Private Sub ContextClipboardCopyCodeStandard_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeStandard.Click
+        ContextClipboardCopyCodeOldCode.Checked = False 'since this option is automatically checked but the "old code" option isn't
+    End Sub
+
+    Private Sub ContextClipboardCopyCodeOldCode_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeOldCode.Click
+        ContextClipboardCopyCodeStandard.Checked = False
     End Sub
 
     'Links
