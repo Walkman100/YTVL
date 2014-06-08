@@ -63,7 +63,8 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Icons\youtube_withLink.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -109,6 +110,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="YTVL.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -120,11 +126,6 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
-    </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -158,15 +159,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\facebook_messages.png" />
-    <None Include="Icons\android_app.png" />
-    <None Include="Icons\android_app.ico" />
-    <None Include="Icons\youtube.ico" />
-    <None Include="Icons\YouTube_Back.ico" />
-    <None Include="Icons\YouTube_Front.ico" />
-    <None Include="Icons\YouTube_Shipping.ico" />
-    <None Include="Icons\YouTube-dl.ico" />
-    <None Include="Icons\YouTubeDownloader.ico" />
-    <None Include="Icons\android_app_20x14.png" />
     <None Include="Resources\documentinfo.png" />
     <None Include="Resources\1371833577_view-refresh.png" />
     <None Include="Resources\1387147104_video-display.png" />
@@ -191,7 +183,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Icons\youtube_withLink.ico" />
+    <None Include="Resources\page_code.png" />
     <None Include="Resources\EditCopy.bmp" />
     <None Include="Resources\1387140136_process-stop.png" />
   </ItemGroup>

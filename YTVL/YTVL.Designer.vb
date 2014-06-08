@@ -547,7 +547,6 @@ Partial Class YTVL
         'btnExit
         '
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnExit.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
         resources.ApplyResources(Me.btnExit, "btnExit")
         Me.btnExit.Name = "btnExit"
         Me.btnExit.UseVisualStyleBackColor = True
@@ -564,7 +563,6 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.btnReset, "btnReset")
         Me.btnReset.BackColor = System.Drawing.Color.Transparent
-        Me.btnReset.Image = Global.YTVL.My.Resources.Resources._1371833577_view_refresh
         Me.btnReset.Name = "btnReset"
         Me.ToolTip.SetToolTip(Me.btnReset, resources.GetString("btnReset.ToolTip"))
         Me.btnReset.UseVisualStyleBackColor = False
@@ -585,7 +583,6 @@ Partial Class YTVL
         '
         'ContextClipboardCopyFromGenerated
         '
-        Me.ContextClipboardCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.EditCopy
         Me.ContextClipboardCopyFromGenerated.Name = "ContextClipboardCopyFromGenerated"
         resources.ApplyResources(Me.ContextClipboardCopyFromGenerated, "ContextClipboardCopyFromGenerated")
         '
@@ -629,7 +626,6 @@ Partial Class YTVL
         resources.ApplyResources(Me.btnVideoInfo, "btnVideoInfo")
         Me.btnVideoInfo.BackColor = System.Drawing.Color.Transparent
         Me.btnVideoInfo.ContextMenuStrip = Me.ContextClipboard
-        Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
         Me.btnVideoInfo.Name = "btnVideoInfo"
         Me.btnVideoInfo.UseVisualStyleBackColor = False
         '
@@ -637,7 +633,6 @@ Partial Class YTVL
         '
         Me.btnComments.BackColor = System.Drawing.Color.Transparent
         Me.btnComments.ContextMenuStrip = Me.ContextClipboard
-        Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         resources.ApplyResources(Me.btnComments, "btnComments")
         Me.btnComments.Name = "btnComments"
         Me.btnComments.UseVisualStyleBackColor = False
@@ -647,7 +642,6 @@ Partial Class YTVL
         resources.ApplyResources(Me.btnVideo, "btnVideo")
         Me.btnVideo.BackColor = System.Drawing.Color.Transparent
         Me.btnVideo.ContextMenuStrip = Me.ContextClipboard
-        Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         Me.btnVideo.Name = "btnVideo"
         Me.btnVideo.UseVisualStyleBackColor = False
         '
@@ -737,7 +731,6 @@ Partial Class YTVL
         'NotificationMenuStripShowYTVL
         '
         Me.NotificationMenuStripShowYTVL.AutoToolTip = True
-        Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
         Me.NotificationMenuStripShowYTVL.Name = "NotificationMenuStripShowYTVL"
         resources.ApplyResources(Me.NotificationMenuStripShowYTVL, "NotificationMenuStripShowYTVL")
         '
@@ -755,25 +748,21 @@ Partial Class YTVL
         'NotificationMenuStripVideo
         '
         Me.NotificationMenuStripVideo.AutoToolTip = True
-        Me.NotificationMenuStripVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         resources.ApplyResources(Me.NotificationMenuStripVideo, "NotificationMenuStripVideo")
         Me.NotificationMenuStripVideo.Name = "NotificationMenuStripVideo"
         '
         'NotificationMenuStripComments
         '
-        Me.NotificationMenuStripComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         Me.NotificationMenuStripComments.Name = "NotificationMenuStripComments"
         resources.ApplyResources(Me.NotificationMenuStripComments, "NotificationMenuStripComments")
         '
         'NotificationMenuStripVideoInfo
         '
-        Me.NotificationMenuStripVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
         Me.NotificationMenuStripVideoInfo.Name = "NotificationMenuStripVideoInfo"
         resources.ApplyResources(Me.NotificationMenuStripVideoInfo, "NotificationMenuStripVideoInfo")
         '
         'NotificationMenuStripEmbed
         '
-        Me.NotificationMenuStripEmbed.Image = Global.YTVL.My.Resources.Resources._1387139872_window_new
         Me.NotificationMenuStripEmbed.Name = "NotificationMenuStripEmbed"
         resources.ApplyResources(Me.NotificationMenuStripEmbed, "NotificationMenuStripEmbed")
         '
@@ -784,13 +773,11 @@ Partial Class YTVL
         '
         'NotificationMenuStripHideIcon
         '
-        Me.NotificationMenuStripHideIcon.Image = Global.YTVL.My.Resources.Resources.Exit2
         Me.NotificationMenuStripHideIcon.Name = "NotificationMenuStripHideIcon"
         resources.ApplyResources(Me.NotificationMenuStripHideIcon, "NotificationMenuStripHideIcon")
         '
         'NotificationMenuStripClose
         '
-        Me.NotificationMenuStripClose.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
         Me.NotificationMenuStripClose.Name = "NotificationMenuStripClose"
         resources.ApplyResources(Me.NotificationMenuStripClose, "NotificationMenuStripClose")
         '
