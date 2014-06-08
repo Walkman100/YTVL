@@ -125,6 +125,9 @@
   <data name="optMdstBrndng0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optMdstBrndng0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="optMdstBrndng0.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -152,6 +155,9 @@
   </data>
   <data name="optMdstBrndng1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="optMdstBrndng1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="optMdstBrndng1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 0</value>
@@ -231,6 +237,9 @@
   <data name="optRel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optRel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="optRel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 0</value>
   </data>
@@ -279,6 +288,9 @@
   <data name="optShowinfo0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optShowinfo0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="optShowinfo0.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -305,6 +317,9 @@
   </data>
   <data name="optShowinfo1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="optShowinfo1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="optShowinfo1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 0</value>
@@ -354,6 +369,9 @@
   <data name="optShowsearch0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optShowsearch0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="optShowsearch0.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -380,6 +398,9 @@
   </data>
   <data name="optShowsearch1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="optShowsearch1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="optShowsearch1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 0</value>
@@ -429,6 +450,9 @@
   <data name="optEnableJsApi0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optEnableJsApi0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="optEnableJsApi0.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -455,6 +479,9 @@
   </data>
   <data name="optEnableJsApi1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="optEnableJsApi1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="optEnableJsApi1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 0</value>
@@ -504,6 +531,9 @@
   <data name="optAutoplay0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optAutoplay0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="optAutoplay0.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -530,6 +560,9 @@
   </data>
   <data name="optAutoplay1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="optAutoplay1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="optAutoplay1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 0</value>
@@ -579,6 +612,9 @@
   <data name="optAutohide0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optAutohide0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="optAutohide0.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -605,6 +641,9 @@
   </data>
   <data name="optAutohide1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="optAutohide1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="optAutohide1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 0</value>
@@ -654,6 +693,9 @@
   <data name="optFs0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optFs0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="optFs0.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -680,6 +722,9 @@
   </data>
   <data name="optFs1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="optFs1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="optFs1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 0</value>
@@ -729,6 +774,9 @@
   <data name="optQuality360.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="optQuality360.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="optQuality360.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -755,6 +803,9 @@
   </data>
   <data name="optQuality720.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="optQuality720.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="optQuality720.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 14</value>
@@ -861,6 +912,9 @@
   <data name="chkOrigin.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="chkOrigin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="chkOrigin.Location" type="System.Drawing.Point, System.Drawing">
     <value>196, 154</value>
   </data>
@@ -887,6 +941,9 @@
   </data>
   <data name="chkWmode.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="chkWmode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="chkWmode.Location" type="System.Drawing.Point, System.Drawing">
     <value>196, 140</value>
@@ -915,6 +972,9 @@
   <data name="chkThemeDark.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="chkThemeDark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="chkThemeDark.Location" type="System.Drawing.Point, System.Drawing">
     <value>196, 126</value>
   </data>
@@ -941,6 +1001,9 @@
   </data>
   <data name="lblShowSearch.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblShowSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lblShowSearch.Location" type="System.Drawing.Point, System.Drawing">
     <value>193, 113</value>
@@ -969,6 +1032,9 @@
   <data name="lblShowinfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblShowinfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblShowinfo.Location" type="System.Drawing.Point, System.Drawing">
     <value>193, 98</value>
   </data>
@@ -995,6 +1061,9 @@
   </data>
   <data name="lblRel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblRel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lblRel.Location" type="System.Drawing.Point, System.Drawing">
     <value>193, 83</value>
@@ -1098,6 +1167,9 @@
   <data name="lblIvLP.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblIvLP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblIvLP.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 174</value>
   </data>
@@ -1124,6 +1196,9 @@
   </data>
   <data name="lblEnableJsApi.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblEnableJsApi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lblEnableJsApi.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 158</value>
@@ -1152,6 +1227,9 @@
   <data name="lblAutohide.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblAutohide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblAutohide.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 143</value>
   </data>
@@ -1178,6 +1256,9 @@
   </data>
   <data name="lblFs.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblFs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lblFs.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 128</value>
@@ -1206,6 +1287,9 @@
   <data name="lblAutoplay.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblAutoplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblAutoplay.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 113</value>
   </data>
@@ -1232,6 +1316,9 @@
   </data>
   <data name="chkFeature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="chkFeature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="chkFeature.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 97</value>
@@ -1539,6 +1626,9 @@
   <data name="chkKeepOnTop.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomLeft</value>
   </data>
+  <data name="chkKeepOnTop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="chkKeepOnTop.Location" type="System.Drawing.Point, System.Drawing">
     <value>360, 0</value>
   </data>
@@ -1575,6 +1665,9 @@
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
+  <data name="btnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
     <value>466, 19</value>
   </data>
@@ -1607,6 +1700,9 @@
   </data>
   <data name="chkShowNotification.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="chkShowNotification.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="chkShowNotification.Location" type="System.Drawing.Point, System.Drawing">
     <value>315, -1</value>
@@ -1723,7 +1819,7 @@
     <value>False</value>
   </data>
   <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 70</value>
+    <value>228, 48</value>
   </data>
   <data name="&gt;&gt;ContextClipboard.Name" xml:space="preserve">
     <value>ContextClipboard</value>
@@ -1898,6 +1994,9 @@
   </data>
   <data name="btnDebug.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
+  </data>
+  <data name="btnDebug.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnDebug.Location" type="System.Drawing.Point, System.Drawing">
     <value>577, 13</value>
@@ -2148,6 +2247,9 @@
   <data name="lblCurrentVersion.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 6.5pt</value>
   </data>
+  <data name="lblCurrentVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblCurrentVersion.Location" type="System.Drawing.Point, System.Drawing">
     <value>316, 173</value>
   </data>
@@ -2301,6 +2403,9 @@
   <data name="chkUpdate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="chkUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="chkUpdate.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 172</value>
   </data>
@@ -2360,6 +2465,36 @@
   <data name="$this.Text" xml:space="preserve">
     <value>YouTube Video Linker</value>
   </data>
+  <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">
+    <value>NotificationIcon</value>
+  </data>
+  <data name="&gt;&gt;NotificationIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Name" xml:space="preserve">
+    <value>NotificationMenuStripKeepOnTop</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator1.Name" xml:space="preserve">
+    <value>NotificationMenuStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator2.Name" xml:space="preserve">
+    <value>NotificationMenuStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ContextClipboardCopyFromGenerated.Name" xml:space="preserve">
     <value>ContextClipboardCopyFromGenerated</value>
   </data>
@@ -2402,29 +2537,29 @@
   <data name="&gt;&gt;ContextClipboardCopyCodeOldCode.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">
-    <value>NotificationIcon</value>
+  <data name="&gt;&gt;NotificationMenuStripEmbed.Name" xml:space="preserve">
+    <value>NotificationMenuStripEmbed</value>
   </data>
-  <data name="&gt;&gt;NotificationIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NotificationMenuStripEmbed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripClose.Name" xml:space="preserve">
+    <value>NotificationMenuStripClose</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripHideIcon.Name" xml:space="preserve">
+    <value>NotificationMenuStripHideIcon</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripHideIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripShowYTVL.Name" xml:space="preserve">
     <value>NotificationMenuStripShowYTVL</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripShowYTVL.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Name" xml:space="preserve">
-    <value>NotificationMenuStripKeepOnTop</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator1.Name" xml:space="preserve">
-    <value>NotificationMenuStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideo.Name" xml:space="preserve">
     <value>NotificationMenuStripVideo</value>
@@ -2443,36 +2578,6 @@
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideoInfo.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripEmbed.Name" xml:space="preserve">
-    <value>NotificationMenuStripEmbed</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripEmbed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator2.Name" xml:space="preserve">
-    <value>NotificationMenuStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripHideIcon.Name" xml:space="preserve">
-    <value>NotificationMenuStripHideIcon</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripHideIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripClose.Name" xml:space="preserve">
-    <value>NotificationMenuStripClose</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripClose.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
-    <value>ToolTip</value>
-  </data>
-  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>
