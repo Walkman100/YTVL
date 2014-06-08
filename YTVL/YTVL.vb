@@ -133,28 +133,28 @@
             If CopyWhat = "&Video" Then
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
-                    MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                    MsgBox("Video URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
             ElseIf CopyWhat = "&Comments" Then
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
-                    MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                    MsgBox("Comments URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
             ElseIf CopyWhat = "Video &Info" Then
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18", TextDataFormat.UnicodeText)
-                    MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                    MsgBox("Video Info file URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
             ElseIf CopyWhat = "&Embed Page Handler" Then
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars, TextDataFormat.UnicodeText)
-                    MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                    MsgBox("Embed Page Handler URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
@@ -168,14 +168,14 @@
         If ContextClipboardCopyCodeStandard.Checked = True Then
             Try 'e.g: <iframe width="560" height="315" src="//www.youtube.com/embed/gMyKNFqRyQk" frameborder="0" allowfullscreen></iframe>
                 Clipboard.SetText("<iframe src='" & "//www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars & "' frameborder='0' allowfullscreen></iframe>", TextDataFormat.UnicodeText)
-                MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                MsgBox("Standard HTML Embed Code Copied!", MsgBoxStyle.Information, "Succesfully copied!")
             Catch ex As Exception
                 MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
             End Try
         ElseIf ContextClipboardCopyCodeOldCode.Checked = True Then
             Try 'e.g.: <object width="560" height="315"><param name="movie" value="//www.youtube.com/v/gMyKNFqRyQk?version=3&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/gMyKNFqRyQk?version=3&amp;hl=en_GB" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
                 Clipboard.SetText("<object><param name='movie' value='//www.youtube.com/v/" & txtComboVID.Text & "?version=3&amp;hl=en_GB" & Vars & "'></param><param name='allowFullScreen' value='true'></param><param name='allowscriptaccess' value='always'></param><embed src='//www.youtube.com/v/" & txtComboVID.Text & "?version=3&amp;hl=en_GB" & Vars & "' type='application/x-shockwave-flash' allowscriptaccess='always' allowfullscreen='true'></embed></object>", TextDataFormat.UnicodeText)
-                MsgBox("Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                MsgBox("Old (according to YouTube) HTML Embed Code Copied!", MsgBoxStyle.Information, "Succesfully copied!")
             Catch ex As Exception
                 MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
             End Try
@@ -184,7 +184,12 @@
     End Sub
 
     Private Sub ContextClipboardCopyCodeBB_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeBB.Click
-
+        Try 'e.g.: [NEEDS RESEARCH]             \/ That code is not correct, but it's close.
+            Clipboard.SetText("[object]//www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars & "[/object]", TextDataFormat.UnicodeText)
+            MsgBox("BB (Forum) Embed Code Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+        Catch ex As Exception
+            MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
+        End Try
     End Sub
 
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
