@@ -2465,36 +2465,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>YouTube Video Linker</value>
   </data>
-  <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">
-    <value>NotificationIcon</value>
-  </data>
-  <data name="&gt;&gt;NotificationIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Name" xml:space="preserve">
-    <value>NotificationMenuStripKeepOnTop</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator1.Name" xml:space="preserve">
-    <value>NotificationMenuStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator2.Name" xml:space="preserve">
-    <value>NotificationMenuStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
-    <value>ToolTip</value>
-  </data>
-  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;ContextClipboardCopyFromGenerated.Name" xml:space="preserve">
     <value>ContextClipboardCopyFromGenerated</value>
   </data>
@@ -2537,29 +2507,29 @@
   <data name="&gt;&gt;ContextClipboardCopyCodeOldCode.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NotificationMenuStripEmbed.Name" xml:space="preserve">
-    <value>NotificationMenuStripEmbed</value>
+  <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">
+    <value>NotificationIcon</value>
   </data>
-  <data name="&gt;&gt;NotificationMenuStripEmbed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripClose.Name" xml:space="preserve">
-    <value>NotificationMenuStripClose</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripClose.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripHideIcon.Name" xml:space="preserve">
-    <value>NotificationMenuStripHideIcon</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripHideIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NotificationIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripShowYTVL.Name" xml:space="preserve">
     <value>NotificationMenuStripShowYTVL</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripShowYTVL.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Name" xml:space="preserve">
+    <value>NotificationMenuStripKeepOnTop</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator1.Name" xml:space="preserve">
+    <value>NotificationMenuStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideo.Name" xml:space="preserve">
     <value>NotificationMenuStripVideo</value>
@@ -2578,6 +2548,36 @@
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideoInfo.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripEmbed.Name" xml:space="preserve">
+    <value>NotificationMenuStripEmbed</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripEmbed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator2.Name" xml:space="preserve">
+    <value>NotificationMenuStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripHideIcon.Name" xml:space="preserve">
+    <value>NotificationMenuStripHideIcon</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripHideIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripClose.Name" xml:space="preserve">
+    <value>NotificationMenuStripClose</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>

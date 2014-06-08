@@ -80,8 +80,19 @@ Partial Class YTVL
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
+        Me.btnReset = New System.Windows.Forms.Button()
         Me.btnEmbed = New System.Windows.Forms.Button()
         Me.ContextClipboard = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ContextClipboardCopyFromGenerated = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCode = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCodeHTML = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCodeBB = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCodeSeperator = New System.Windows.Forms.ToolStripSeparator()
+        Me.ContextClipboardCopyCodeStandard = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCodeOldCode = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btnVideoInfo = New System.Windows.Forms.Button()
+        Me.btnComments = New System.Windows.Forms.Button()
+        Me.btnVideo = New System.Windows.Forms.Button()
         Me.grpBoxAbout = New System.Windows.Forms.GroupBox()
         Me.btnDebug = New System.Windows.Forms.Button()
         Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
@@ -93,29 +104,18 @@ Partial Class YTVL
         Me.lblCurrentVersion = New System.Windows.Forms.Label()
         Me.NotificationIcon = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.NotificationMenuStrip = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.NotificationMenuStripShowYTVL = New System.Windows.Forms.ToolStripMenuItem()
         Me.NotificationMenuStripKeepOnTop = New System.Windows.Forms.ToolStripMenuItem()
         Me.NotificationMenuStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.NotificationMenuStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.chkUpdate = New System.Windows.Forms.CheckBox()
-        Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.btnVideo = New System.Windows.Forms.Button()
-        Me.btnReset = New System.Windows.Forms.Button()
-        Me.ContextClipboardCopyFromGenerated = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCode = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCodeHTML = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCodeBB = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCodeSeperator = New System.Windows.Forms.ToolStripSeparator()
-        Me.ContextClipboardCopyCodeStandard = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCodeOldCode = New System.Windows.Forms.ToolStripMenuItem()
-        Me.btnVideoInfo = New System.Windows.Forms.Button()
-        Me.btnComments = New System.Windows.Forms.Button()
-        Me.NotificationMenuStripEmbed = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NotificationMenuStripHideIcon = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NotificationMenuStripShowYTVL = New System.Windows.Forms.ToolStripMenuItem()
         Me.NotificationMenuStripVideo = New System.Windows.Forms.ToolStripMenuItem()
         Me.NotificationMenuStripComments = New System.Windows.Forms.ToolStripMenuItem()
         Me.NotificationMenuStripVideoInfo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripEmbed = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.NotificationMenuStripHideIcon = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
+        Me.chkUpdate = New System.Windows.Forms.CheckBox()
+        Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -559,6 +559,15 @@ Partial Class YTVL
         Me.ToolTip.SetToolTip(Me.chkShowNotification, resources.GetString("chkShowNotification.ToolTip"))
         Me.chkShowNotification.UseVisualStyleBackColor = False
         '
+        'btnReset
+        '
+        resources.ApplyResources(Me.btnReset, "btnReset")
+        Me.btnReset.BackColor = System.Drawing.Color.Transparent
+        Me.btnReset.Image = Global.YTVL.My.Resources.Resources._1371833577_view_refresh
+        Me.btnReset.Name = "btnReset"
+        Me.ToolTip.SetToolTip(Me.btnReset, resources.GetString("btnReset.ToolTip"))
+        Me.btnReset.UseVisualStyleBackColor = False
+        '
         'btnEmbed
         '
         resources.ApplyResources(Me.btnEmbed, "btnEmbed")
@@ -572,6 +581,76 @@ Partial Class YTVL
         Me.ContextClipboard.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyFromGenerated, Me.ContextClipboardCopyCode})
         Me.ContextClipboard.Name = "ContextClipboard"
         resources.ApplyResources(Me.ContextClipboard, "ContextClipboard")
+        '
+        'ContextClipboardCopyFromGenerated
+        '
+        Me.ContextClipboardCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextClipboardCopyFromGenerated.Name = "ContextClipboardCopyFromGenerated"
+        resources.ApplyResources(Me.ContextClipboardCopyFromGenerated, "ContextClipboardCopyFromGenerated")
+        '
+        'ContextClipboardCopyCode
+        '
+        Me.ContextClipboardCopyCode.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyCodeHTML, Me.ContextClipboardCopyCodeBB, Me.ContextClipboardCopyCodeSeperator, Me.ContextClipboardCopyCodeStandard, Me.ContextClipboardCopyCodeOldCode})
+        Me.ContextClipboardCopyCode.Image = Global.YTVL.My.Resources.Resources.page_code
+        Me.ContextClipboardCopyCode.Name = "ContextClipboardCopyCode"
+        resources.ApplyResources(Me.ContextClipboardCopyCode, "ContextClipboardCopyCode")
+        '
+        'ContextClipboardCopyCodeHTML
+        '
+        Me.ContextClipboardCopyCodeHTML.Name = "ContextClipboardCopyCodeHTML"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeHTML, "ContextClipboardCopyCodeHTML")
+        '
+        'ContextClipboardCopyCodeBB
+        '
+        Me.ContextClipboardCopyCodeBB.Image = Global.YTVL.My.Resources.Resources.bbcode
+        Me.ContextClipboardCopyCodeBB.Name = "ContextClipboardCopyCodeBB"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeBB, "ContextClipboardCopyCodeBB")
+        '
+        'ContextClipboardCopyCodeSeperator
+        '
+        Me.ContextClipboardCopyCodeSeperator.Name = "ContextClipboardCopyCodeSeperator"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeSeperator, "ContextClipboardCopyCodeSeperator")
+        '
+        'ContextClipboardCopyCodeStandard
+        '
+        Me.ContextClipboardCopyCodeStandard.Checked = True
+        Me.ContextClipboardCopyCodeStandard.CheckOnClick = True
+        Me.ContextClipboardCopyCodeStandard.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.ContextClipboardCopyCodeStandard.Name = "ContextClipboardCopyCodeStandard"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeStandard, "ContextClipboardCopyCodeStandard")
+        '
+        'ContextClipboardCopyCodeOldCode
+        '
+        Me.ContextClipboardCopyCodeOldCode.CheckOnClick = True
+        Me.ContextClipboardCopyCodeOldCode.Name = "ContextClipboardCopyCodeOldCode"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeOldCode, "ContextClipboardCopyCodeOldCode")
+        '
+        'btnVideoInfo
+        '
+        resources.ApplyResources(Me.btnVideoInfo, "btnVideoInfo")
+        Me.btnVideoInfo.BackColor = System.Drawing.Color.Transparent
+        Me.btnVideoInfo.ContextMenuStrip = Me.ContextClipboard
+        Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
+        Me.btnVideoInfo.Name = "btnVideoInfo"
+        Me.btnVideoInfo.UseVisualStyleBackColor = False
+        '
+        'btnComments
+        '
+        Me.btnComments.BackColor = System.Drawing.Color.Transparent
+        Me.btnComments.ContextMenuStrip = Me.ContextClipboard
+        Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
+        resources.ApplyResources(Me.btnComments, "btnComments")
+        Me.btnComments.Name = "btnComments"
+        Me.btnComments.UseVisualStyleBackColor = False
+        '
+        'btnVideo
+        '
+        resources.ApplyResources(Me.btnVideo, "btnVideo")
+        Me.btnVideo.BackColor = System.Drawing.Color.Transparent
+        Me.btnVideo.ContextMenuStrip = Me.ContextClipboard
+        Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
+        Me.btnVideo.Name = "btnVideo"
+        Me.btnVideo.UseVisualStyleBackColor = False
         '
         'grpBoxAbout
         '
@@ -656,6 +735,13 @@ Partial Class YTVL
         Me.NotificationMenuStrip.Name = "NotificationMenuStrip"
         resources.ApplyResources(Me.NotificationMenuStrip, "NotificationMenuStrip")
         '
+        'NotificationMenuStripShowYTVL
+        '
+        Me.NotificationMenuStripShowYTVL.AutoToolTip = True
+        Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
+        Me.NotificationMenuStripShowYTVL.Name = "NotificationMenuStripShowYTVL"
+        resources.ApplyResources(Me.NotificationMenuStripShowYTVL, "NotificationMenuStripShowYTVL")
+        '
         'NotificationMenuStripKeepOnTop
         '
         Me.NotificationMenuStripKeepOnTop.CheckOnClick = True
@@ -666,127 +752,6 @@ Partial Class YTVL
         '
         Me.NotificationMenuStripSeparator1.Name = "NotificationMenuStripSeparator1"
         resources.ApplyResources(Me.NotificationMenuStripSeparator1, "NotificationMenuStripSeparator1")
-        '
-        'NotificationMenuStripSeparator2
-        '
-        Me.NotificationMenuStripSeparator2.Name = "NotificationMenuStripSeparator2"
-        resources.ApplyResources(Me.NotificationMenuStripSeparator2, "NotificationMenuStripSeparator2")
-        '
-        'chkUpdate
-        '
-        resources.ApplyResources(Me.chkUpdate, "chkUpdate")
-        Me.chkUpdate.BackColor = System.Drawing.Color.Transparent
-        Me.chkUpdate.Name = "chkUpdate"
-        Me.chkUpdate.UseVisualStyleBackColor = False
-        '
-        'ToolTip
-        '
-        Me.ToolTip.AutoPopDelay = 5000
-        Me.ToolTip.InitialDelay = 50
-        Me.ToolTip.ReshowDelay = 100
-        '
-        'btnVideo
-        '
-        resources.ApplyResources(Me.btnVideo, "btnVideo")
-        Me.btnVideo.BackColor = System.Drawing.Color.Transparent
-        Me.btnVideo.ContextMenuStrip = Me.ContextClipboard
-        Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
-        Me.btnVideo.Name = "btnVideo"
-        Me.btnVideo.UseVisualStyleBackColor = False
-        '
-        'btnReset
-        '
-        resources.ApplyResources(Me.btnReset, "btnReset")
-        Me.btnReset.BackColor = System.Drawing.Color.Transparent
-        Me.btnReset.Image = Global.YTVL.My.Resources.Resources._1371833577_view_refresh
-        Me.btnReset.Name = "btnReset"
-        Me.ToolTip.SetToolTip(Me.btnReset, resources.GetString("btnReset.ToolTip"))
-        Me.btnReset.UseVisualStyleBackColor = False
-        '
-        'ContextClipboardCopyFromGenerated
-        '
-        Me.ContextClipboardCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.EditCopy
-        Me.ContextClipboardCopyFromGenerated.Name = "ContextClipboardCopyFromGenerated"
-        resources.ApplyResources(Me.ContextClipboardCopyFromGenerated, "ContextClipboardCopyFromGenerated")
-        '
-        'ContextClipboardCopyCode
-        '
-        Me.ContextClipboardCopyCode.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyCodeHTML, Me.ContextClipboardCopyCodeBB, Me.ContextClipboardCopyCodeSeperator, Me.ContextClipboardCopyCodeStandard, Me.ContextClipboardCopyCodeOldCode})
-        Me.ContextClipboardCopyCode.Image = Global.YTVL.My.Resources.Resources.page_code
-        Me.ContextClipboardCopyCode.Name = "ContextClipboardCopyCode"
-        resources.ApplyResources(Me.ContextClipboardCopyCode, "ContextClipboardCopyCode")
-        '
-        'ContextClipboardCopyCodeHTML
-        '
-        Me.ContextClipboardCopyCodeHTML.Name = "ContextClipboardCopyCodeHTML"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeHTML, "ContextClipboardCopyCodeHTML")
-        '
-        'ContextClipboardCopyCodeBB
-        '
-        Me.ContextClipboardCopyCodeBB.Name = "ContextClipboardCopyCodeBB"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeBB, "ContextClipboardCopyCodeBB")
-        '
-        'ContextClipboardCopyCodeSeperator
-        '
-        Me.ContextClipboardCopyCodeSeperator.Name = "ContextClipboardCopyCodeSeperator"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeSeperator, "ContextClipboardCopyCodeSeperator")
-        '
-        'ContextClipboardCopyCodeStandard
-        '
-        Me.ContextClipboardCopyCodeStandard.Checked = True
-        Me.ContextClipboardCopyCodeStandard.CheckOnClick = True
-        Me.ContextClipboardCopyCodeStandard.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.ContextClipboardCopyCodeStandard.Name = "ContextClipboardCopyCodeStandard"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeStandard, "ContextClipboardCopyCodeStandard")
-        '
-        'ContextClipboardCopyCodeOldCode
-        '
-        Me.ContextClipboardCopyCodeOldCode.CheckOnClick = True
-        Me.ContextClipboardCopyCodeOldCode.Name = "ContextClipboardCopyCodeOldCode"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeOldCode, "ContextClipboardCopyCodeOldCode")
-        '
-        'btnVideoInfo
-        '
-        resources.ApplyResources(Me.btnVideoInfo, "btnVideoInfo")
-        Me.btnVideoInfo.BackColor = System.Drawing.Color.Transparent
-        Me.btnVideoInfo.ContextMenuStrip = Me.ContextClipboard
-        Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
-        Me.btnVideoInfo.Name = "btnVideoInfo"
-        Me.btnVideoInfo.UseVisualStyleBackColor = False
-        '
-        'btnComments
-        '
-        Me.btnComments.BackColor = System.Drawing.Color.Transparent
-        Me.btnComments.ContextMenuStrip = Me.ContextClipboard
-        Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
-        resources.ApplyResources(Me.btnComments, "btnComments")
-        Me.btnComments.Name = "btnComments"
-        Me.btnComments.UseVisualStyleBackColor = False
-        '
-        'NotificationMenuStripEmbed
-        '
-        Me.NotificationMenuStripEmbed.Image = Global.YTVL.My.Resources.Resources._1387139872_window_new
-        Me.NotificationMenuStripEmbed.Name = "NotificationMenuStripEmbed"
-        resources.ApplyResources(Me.NotificationMenuStripEmbed, "NotificationMenuStripEmbed")
-        '
-        'NotificationMenuStripClose
-        '
-        Me.NotificationMenuStripClose.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
-        Me.NotificationMenuStripClose.Name = "NotificationMenuStripClose"
-        resources.ApplyResources(Me.NotificationMenuStripClose, "NotificationMenuStripClose")
-        '
-        'NotificationMenuStripHideIcon
-        '
-        Me.NotificationMenuStripHideIcon.Image = Global.YTVL.My.Resources.Resources.Exit2
-        Me.NotificationMenuStripHideIcon.Name = "NotificationMenuStripHideIcon"
-        resources.ApplyResources(Me.NotificationMenuStripHideIcon, "NotificationMenuStripHideIcon")
-        '
-        'NotificationMenuStripShowYTVL
-        '
-        Me.NotificationMenuStripShowYTVL.AutoToolTip = True
-        Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
-        Me.NotificationMenuStripShowYTVL.Name = "NotificationMenuStripShowYTVL"
-        resources.ApplyResources(Me.NotificationMenuStripShowYTVL, "NotificationMenuStripShowYTVL")
         '
         'NotificationMenuStripVideo
         '
@@ -806,6 +771,42 @@ Partial Class YTVL
         Me.NotificationMenuStripVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
         Me.NotificationMenuStripVideoInfo.Name = "NotificationMenuStripVideoInfo"
         resources.ApplyResources(Me.NotificationMenuStripVideoInfo, "NotificationMenuStripVideoInfo")
+        '
+        'NotificationMenuStripEmbed
+        '
+        Me.NotificationMenuStripEmbed.Image = Global.YTVL.My.Resources.Resources._1387139872_window_new
+        Me.NotificationMenuStripEmbed.Name = "NotificationMenuStripEmbed"
+        resources.ApplyResources(Me.NotificationMenuStripEmbed, "NotificationMenuStripEmbed")
+        '
+        'NotificationMenuStripSeparator2
+        '
+        Me.NotificationMenuStripSeparator2.Name = "NotificationMenuStripSeparator2"
+        resources.ApplyResources(Me.NotificationMenuStripSeparator2, "NotificationMenuStripSeparator2")
+        '
+        'NotificationMenuStripHideIcon
+        '
+        Me.NotificationMenuStripHideIcon.Image = Global.YTVL.My.Resources.Resources.Exit2
+        Me.NotificationMenuStripHideIcon.Name = "NotificationMenuStripHideIcon"
+        resources.ApplyResources(Me.NotificationMenuStripHideIcon, "NotificationMenuStripHideIcon")
+        '
+        'NotificationMenuStripClose
+        '
+        Me.NotificationMenuStripClose.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
+        Me.NotificationMenuStripClose.Name = "NotificationMenuStripClose"
+        resources.ApplyResources(Me.NotificationMenuStripClose, "NotificationMenuStripClose")
+        '
+        'chkUpdate
+        '
+        resources.ApplyResources(Me.chkUpdate, "chkUpdate")
+        Me.chkUpdate.BackColor = System.Drawing.Color.Transparent
+        Me.chkUpdate.Name = "chkUpdate"
+        Me.chkUpdate.UseVisualStyleBackColor = False
+        '
+        'ToolTip
+        '
+        Me.ToolTip.AutoPopDelay = 5000
+        Me.ToolTip.InitialDelay = 50
+        Me.ToolTip.ReshowDelay = 100
         '
         'YTVL
         '
