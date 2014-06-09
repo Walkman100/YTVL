@@ -72,8 +72,6 @@ Partial Class YTVL
         Me.txtList = New System.Windows.Forms.TextBox()
         Me.lblHL = New System.Windows.Forms.Label()
         Me.chkHL = New System.Windows.Forms.CheckBox()
-        Me.lblFeather = New System.Windows.Forms.LinkLabel()
-        Me.chkFeather = New System.Windows.Forms.CheckBox()
         Me.txtTime = New System.Windows.Forms.TextBox()
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
@@ -116,6 +114,7 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.WebBrowserVideoLoad = New System.Windows.Forms.WebBrowser()
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -164,12 +163,11 @@ Partial Class YTVL
         Me.grpBoxInputs.Controls.Add(Me.txtList)
         Me.grpBoxInputs.Controls.Add(Me.lblHL)
         Me.grpBoxInputs.Controls.Add(Me.chkHL)
-        Me.grpBoxInputs.Controls.Add(Me.lblFeather)
-        Me.grpBoxInputs.Controls.Add(Me.chkFeather)
         Me.grpBoxInputs.Controls.Add(Me.txtTime)
         Me.grpBoxInputs.Controls.Add(Me.txtComboVID)
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = False
+        Me.ToolTip.SetToolTip(Me.grpBoxInputs, resources.GetString("grpBoxInputs.ToolTip"))
         '
         'pnlRight1
         '
@@ -372,12 +370,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.chkHttps, "chkHttps")
         Me.chkHttps.BackColor = System.Drawing.Color.Transparent
         Me.chkHttps.Name = "chkHttps"
+        Me.ToolTip.SetToolTip(Me.chkHttps, resources.GetString("chkHttps.ToolTip"))
         Me.chkHttps.UseVisualStyleBackColor = False
         '
         'txtOrigin
         '
         resources.ApplyResources(Me.txtOrigin, "txtOrigin")
         Me.txtOrigin.Name = "txtOrigin"
+        Me.ToolTip.SetToolTip(Me.txtOrigin, resources.GetString("txtOrigin.ToolTip"))
         '
         'chkOrigin
         '
@@ -473,6 +473,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.btnAdvanced, "btnAdvanced")
         Me.btnAdvanced.BackColor = System.Drawing.Color.Transparent
         Me.btnAdvanced.Name = "btnAdvanced"
+        Me.ToolTip.SetToolTip(Me.btnAdvanced, resources.GetString("btnAdvanced.ToolTip"))
         Me.btnAdvanced.UseVisualStyleBackColor = False
         '
         'txtList
@@ -480,6 +481,7 @@ Partial Class YTVL
         Me.txtList.AllowDrop = True
         resources.ApplyResources(Me.txtList, "txtList")
         Me.txtList.Name = "txtList"
+        Me.ToolTip.SetToolTip(Me.txtList, resources.GetString("txtList.ToolTip"))
         '
         'lblHL
         '
@@ -494,34 +496,20 @@ Partial Class YTVL
         Me.chkHL.Name = "chkHL"
         Me.chkHL.UseVisualStyleBackColor = False
         '
-        'lblFeather
-        '
-        resources.ApplyResources(Me.lblFeather, "lblFeather")
-        Me.lblFeather.BackColor = System.Drawing.Color.Transparent
-        Me.lblFeather.Name = "lblFeather"
-        Me.lblFeather.TabStop = True
-        Me.lblFeather.UseCompatibleTextRendering = True
-        '
-        'chkFeather
-        '
-        resources.ApplyResources(Me.chkFeather, "chkFeather")
-        Me.chkFeather.BackColor = System.Drawing.Color.Transparent
-        Me.chkFeather.Name = "chkFeather"
-        Me.chkFeather.UseVisualStyleBackColor = False
-        '
         'txtTime
         '
         Me.txtTime.AllowDrop = True
         resources.ApplyResources(Me.txtTime, "txtTime")
         Me.txtTime.Name = "txtTime"
+        Me.ToolTip.SetToolTip(Me.txtTime, resources.GetString("txtTime.ToolTip"))
         '
         'txtComboVID
         '
         Me.txtComboVID.AllowDrop = True
-        Me.txtComboVID.FormattingEnabled = True
         Me.txtComboVID.Items.AddRange(New Object() {resources.GetString("txtComboVID.Items"), resources.GetString("txtComboVID.Items1")})
         resources.ApplyResources(Me.txtComboVID, "txtComboVID")
         Me.txtComboVID.Name = "txtComboVID"
+        Me.ToolTip.SetToolTip(Me.txtComboVID, resources.GetString("txtComboVID.ToolTip"))
         '
         'chkKeepOnTop
         '
@@ -543,12 +531,15 @@ Partial Class YTVL
         Me.grpBoxOutputs.Controls.Add(Me.btnVideo)
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
         Me.grpBoxOutputs.TabStop = False
+        Me.ToolTip.SetToolTip(Me.grpBoxOutputs, resources.GetString("grpBoxOutputs.ToolTip"))
         '
         'btnExit
         '
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnExit.Image = Global.YTVL.My.Resources.Resources.Exit2
         resources.ApplyResources(Me.btnExit, "btnExit")
         Me.btnExit.Name = "btnExit"
+        Me.ToolTip.SetToolTip(Me.btnExit, resources.GetString("btnExit.ToolTip"))
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'chkShowNotification
@@ -574,6 +565,7 @@ Partial Class YTVL
         Me.btnEmbed.BackColor = System.Drawing.Color.Transparent
         Me.btnEmbed.ContextMenuStrip = Me.ContextClipboard
         Me.btnEmbed.Name = "btnEmbed"
+        Me.ToolTip.SetToolTip(Me.btnEmbed, resources.GetString("btnEmbed.ToolTip"))
         Me.btnEmbed.UseVisualStyleBackColor = False
         '
         'ContextClipboard
@@ -632,6 +624,7 @@ Partial Class YTVL
         Me.btnVideoInfo.ContextMenuStrip = Me.ContextClipboard
         Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
         Me.btnVideoInfo.Name = "btnVideoInfo"
+        Me.ToolTip.SetToolTip(Me.btnVideoInfo, resources.GetString("btnVideoInfo.ToolTip"))
         Me.btnVideoInfo.UseVisualStyleBackColor = False
         '
         'btnComments
@@ -641,6 +634,7 @@ Partial Class YTVL
         Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         resources.ApplyResources(Me.btnComments, "btnComments")
         Me.btnComments.Name = "btnComments"
+        Me.ToolTip.SetToolTip(Me.btnComments, resources.GetString("btnComments.ToolTip"))
         Me.btnComments.UseVisualStyleBackColor = False
         '
         'btnVideo
@@ -650,11 +644,13 @@ Partial Class YTVL
         Me.btnVideo.ContextMenuStrip = Me.ContextClipboard
         Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         Me.btnVideo.Name = "btnVideo"
+        Me.ToolTip.SetToolTip(Me.btnVideo, resources.GetString("btnVideo.ToolTip"))
         Me.btnVideo.UseVisualStyleBackColor = False
         '
         'grpBoxAbout
         '
         resources.ApplyResources(Me.grpBoxAbout, "grpBoxAbout")
+        Me.grpBoxAbout.Controls.Add(Me.WebBrowserVideoLoad)
         Me.grpBoxAbout.Controls.Add(Me.btnDebug)
         Me.grpBoxAbout.Controls.Add(Me.WebBrowserVersionCheck)
         Me.grpBoxAbout.Controls.Add(Me.lnkDeveloper)
@@ -664,11 +660,13 @@ Partial Class YTVL
         Me.grpBoxAbout.Controls.Add(Me.lnkOriginalPage)
         Me.grpBoxAbout.Name = "grpBoxAbout"
         Me.grpBoxAbout.TabStop = False
+        Me.ToolTip.SetToolTip(Me.grpBoxAbout, resources.GetString("grpBoxAbout.ToolTip"))
         '
         'btnDebug
         '
         resources.ApplyResources(Me.btnDebug, "btnDebug")
         Me.btnDebug.Name = "btnDebug"
+        Me.ToolTip.SetToolTip(Me.btnDebug, resources.GetString("btnDebug.ToolTip"))
         Me.btnDebug.UseVisualStyleBackColor = True
         '
         'WebBrowserVersionCheck
@@ -687,6 +685,7 @@ Partial Class YTVL
         Me.lnkDeveloper.LinkColor = System.Drawing.Color.Silver
         Me.lnkDeveloper.Name = "lnkDeveloper"
         Me.lnkDeveloper.TabStop = True
+        Me.ToolTip.SetToolTip(Me.lnkDeveloper, resources.GetString("lnkDeveloper.ToolTip"))
         Me.lnkDeveloper.VisitedLinkColor = System.Drawing.Color.Gray
         '
         'lnkReleases
@@ -695,6 +694,7 @@ Partial Class YTVL
         Me.lnkReleases.BackColor = System.Drawing.Color.Transparent
         Me.lnkReleases.Name = "lnkReleases"
         Me.lnkReleases.TabStop = True
+        Me.ToolTip.SetToolTip(Me.lnkReleases, resources.GetString("lnkReleases.ToolTip"))
         '
         'lnkReportProblem
         '
@@ -702,6 +702,7 @@ Partial Class YTVL
         Me.lnkReportProblem.BackColor = System.Drawing.Color.Transparent
         Me.lnkReportProblem.Name = "lnkReportProblem"
         Me.lnkReportProblem.TabStop = True
+        Me.ToolTip.SetToolTip(Me.lnkReportProblem, resources.GetString("lnkReportProblem.ToolTip"))
         '
         'lnkSourceCode
         '
@@ -709,6 +710,7 @@ Partial Class YTVL
         Me.lnkSourceCode.BackColor = System.Drawing.Color.Transparent
         Me.lnkSourceCode.Name = "lnkSourceCode"
         Me.lnkSourceCode.TabStop = True
+        Me.ToolTip.SetToolTip(Me.lnkSourceCode, resources.GetString("lnkSourceCode.ToolTip"))
         '
         'lnkOriginalPage
         '
@@ -716,6 +718,7 @@ Partial Class YTVL
         Me.lnkOriginalPage.BackColor = System.Drawing.Color.Transparent
         Me.lnkOriginalPage.Name = "lnkOriginalPage"
         Me.lnkOriginalPage.TabStop = True
+        Me.ToolTip.SetToolTip(Me.lnkOriginalPage, resources.GetString("lnkOriginalPage.ToolTip"))
         '
         'lblCurrentVersion
         '
@@ -800,6 +803,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.chkUpdate, "chkUpdate")
         Me.chkUpdate.BackColor = System.Drawing.Color.Transparent
         Me.chkUpdate.Name = "chkUpdate"
+        Me.ToolTip.SetToolTip(Me.chkUpdate, resources.GetString("chkUpdate.ToolTip"))
         Me.chkUpdate.UseVisualStyleBackColor = False
         '
         'ToolTip
@@ -807,6 +811,15 @@ Partial Class YTVL
         Me.ToolTip.AutoPopDelay = 5000
         Me.ToolTip.InitialDelay = 50
         Me.ToolTip.ReshowDelay = 100
+        '
+        'WebBrowserVideoLoad
+        '
+        resources.ApplyResources(Me.WebBrowserVideoLoad, "WebBrowserVideoLoad")
+        Me.WebBrowserVideoLoad.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
+        Me.WebBrowserVideoLoad.Name = "WebBrowserVideoLoad"
+        Me.WebBrowserVideoLoad.ScriptErrorsSuppressed = True
+        Me.WebBrowserVideoLoad.TabStop = False
+        Me.ToolTip.SetToolTip(Me.WebBrowserVideoLoad, resources.GetString("WebBrowserVideoLoad.ToolTip"))
         '
         'YTVL
         '
@@ -855,8 +868,6 @@ Partial Class YTVL
     Friend WithEvents grpBoxInputs As System.Windows.Forms.GroupBox
     Friend WithEvents grpBoxOutputs As System.Windows.Forms.GroupBox
     Friend WithEvents grpBoxAbout As System.Windows.Forms.GroupBox
-    Friend WithEvents lblFeather As System.Windows.Forms.LinkLabel
-    Friend WithEvents chkFeather As System.Windows.Forms.CheckBox
     Friend WithEvents txtTime As System.Windows.Forms.TextBox
     Friend WithEvents txtComboVID As System.Windows.Forms.ComboBox
     Friend WithEvents txtList As System.Windows.Forms.TextBox
@@ -944,5 +955,6 @@ Partial Class YTVL
     Friend WithEvents ContextClipboardCopyCodeSeperator As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents ContextClipboardCopyCodeStandard As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContextClipboardCopyCodeOldCode As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents WebBrowserVideoLoad As System.Windows.Forms.WebBrowser
 
 End Class

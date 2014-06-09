@@ -44,7 +44,6 @@
         If txtList.Text <> "" And txtList.Text <> "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)" Then
             Vars = Vars & "&list=" & txtList.Text
         End If
-        If chkFeather.Checked = True Then Vars = Vars & "&noFeather=True"
         If chkHL.Checked = True Then Vars = Vars & "&hl=en"
         If optQuality360.Checked = True Then Vars = Vars & "&hd=0"
         If optQuality720.Checked = True Then Vars = Vars & "&hd=1"
@@ -209,7 +208,6 @@
         txtOrigin.Text = "(e.g. http://9gag.tv)"
 
         'check boxes
-        chkFeather.Checked = False
         chkHL.Checked = False
         chkFeature.Checked = False
         chkThemeDark.Checked = False
@@ -322,10 +320,6 @@
 
     'Links
 
-    Private Sub OpenFeatherLink(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lblFeather.LinkClicked
-        MsgBox("YouTube Feather has been discontinued!", MsgBoxStyle.Critical, "YouTube Feather has been discontinued!")
-    End Sub
-
     Private Sub OpenOriginalPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkOriginalPage.LinkClicked
         Process.Start("http://walkman100.github.io/Walkman/youtube-video-stuff.htm") '*.github.io doesn't support https!
     End Sub
@@ -339,11 +333,11 @@
     End Sub
 
     Private Sub OpenReleases(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReleases.LinkClicked
-        Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+        Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/")
     End Sub
 
     Private Sub OpenDeveloperPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkDeveloper.LinkClicked
-        Process.Start(usehttps & "://twitter.com/Walkman100")
+        Process.Start(usehttps & "://google.com/+MatthewCarterWalkman/about")
     End Sub
 
     'Text control
