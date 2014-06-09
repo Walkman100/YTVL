@@ -129,14 +129,14 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txtComboVID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 19</value>
+    <value>6, 19</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txtComboVID.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
   <data name="txtComboVID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
+    <value>121, 21</value>
   </data>
   <data name="txtComboVID.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -166,10 +166,10 @@
     <value>NoControl</value>
   </data>
   <data name="imgLoading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+    <value>6, 44</value>
   </data>
   <data name="imgLoading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 21</value>
+    <value>17, 17</value>
   </data>
   <data name="imgLoading.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
@@ -208,10 +208,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>411, 44</value>
+    <value>404, 44</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 23</value>
+    <value>56, 23</value>
   </data>
   <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1588,13 +1588,19 @@
     <value>31</value>
   </data>
   <data name="lblVideoTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>6, 47</value>
   </data>
   <data name="lblVideoTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>188, 13</value>
   </data>
   <data name="lblVideoTitle.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
+  </data>
+  <data name="lblVideoTitle.Text" xml:space="preserve">
+    <value>Enter a Video ID above</value>
+  </data>
+  <data name="lblVideoTitle.ToolTip" xml:space="preserve">
+    <value>Video Title</value>
   </data>
   <data name="&gt;&gt;lblVideoTitle.Name" xml:space="preserve">
     <value>lblVideoTitle</value>
@@ -1792,7 +1798,7 @@
     <value>391, 17</value>
   </metadata>
   <data name="ContextClipboardCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 22</value>
+    <value>227, 22</value>
   </data>
   <data name="ContextClipboardCopyFromGenerated.Text" xml:space="preserve">
     <value>Generate URL to Clipboard</value>
@@ -1801,7 +1807,7 @@
     <value>Generate the URL and copy it to the clipboard instead of opening it in the browser</value>
   </data>
   <data name="ContextClipboardCopyCodeHTML.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 22</value>
+    <value>277, 22</value>
   </data>
   <data name="ContextClipboardCopyCodeHTML.Text" xml:space="preserve">
     <value>HTML Embed code</value>
@@ -1810,7 +1816,7 @@
     <value>Copy HTML Embed code to clipboard</value>
   </data>
   <data name="ContextClipboardCopyCodeBB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 22</value>
+    <value>277, 22</value>
   </data>
   <data name="ContextClipboardCopyCodeBB.Text" xml:space="preserve">
     <value>BB Embed code (for forums)</value>
@@ -1819,10 +1825,10 @@
     <value>Copy BB Embed code to clipboard</value>
   </data>
   <data name="ContextClipboardCopyCodeSeperator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 6</value>
+    <value>274, 6</value>
   </data>
   <data name="ContextClipboardCopyCodeStandard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 22</value>
+    <value>277, 22</value>
   </data>
   <data name="ContextClipboardCopyCodeStandard.Text" xml:space="preserve">
     <value>Standard Embed code</value>
@@ -1831,7 +1837,7 @@
     <value>Use Standard (not old) HTML embed code</value>
   </data>
   <data name="ContextClipboardCopyCodeOldCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 22</value>
+    <value>277, 22</value>
   </data>
   <data name="ContextClipboardCopyCodeOldCode.Text" xml:space="preserve">
     <value>Old Embed code (more compatible)</value>
@@ -1840,7 +1846,7 @@
     <value>Use old HTML embed code</value>
   </data>
   <data name="ContextClipboardCopyCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 22</value>
+    <value>227, 22</value>
   </data>
   <data name="ContextClipboardCopyCode.Text" xml:space="preserve">
     <value>Copy code &gt;</value>
@@ -1852,7 +1858,7 @@
     <value>False</value>
   </data>
   <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 48</value>
+    <value>228, 48</value>
   </data>
   <data name="&gt;&gt;ContextClipboard.Name" xml:space="preserve">
     <value>ContextClipboard</value>
@@ -2392,7 +2398,7 @@
     <value>126, 17</value>
   </metadata>
   <data name="NotificationMenuStripShowYTVL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+    <value>179, 22</value>
   </data>
   <data name="NotificationMenuStripShowYTVL.Text" xml:space="preserve">
     <value>&amp;Show YTVL</value>
@@ -2401,7 +2407,7 @@
     <value>Bring YTVL to the front</value>
   </data>
   <data name="NotificationMenuStripKeepOnTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+    <value>179, 22</value>
   </data>
   <data name="NotificationMenuStripKeepOnTop.Text" xml:space="preserve">
     <value>Keep YTVL on top</value>
@@ -2410,13 +2416,13 @@
     <value>Keep YTVL on top of all other windows</value>
   </data>
   <data name="NotificationMenuStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 6</value>
+    <value>176, 6</value>
   </data>
   <data name="NotificationMenuStripVideo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="NotificationMenuStripVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+    <value>179, 22</value>
   </data>
   <data name="NotificationMenuStripVideo.Text" xml:space="preserve">
     <value>» &amp;Video</value>
@@ -2425,7 +2431,7 @@
     <value>Open the standard video page</value>
   </data>
   <data name="NotificationMenuStripComments.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+    <value>179, 22</value>
   </data>
   <data name="NotificationMenuStripComments.Text" xml:space="preserve">
     <value>» &amp;Comments</value>
@@ -2434,7 +2440,7 @@
     <value>Show a page with just the comments for the specified video</value>
   </data>
   <data name="NotificationMenuStripVideoInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+    <value>179, 22</value>
   </data>
   <data name="NotificationMenuStripVideoInfo.Text" xml:space="preserve">
     <value>» Video &amp;Info</value>
@@ -2443,7 +2449,7 @@
     <value>Download the Video Info file for  the chosen video</value>
   </data>
   <data name="NotificationMenuStripEmbed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+    <value>179, 22</value>
   </data>
   <data name="NotificationMenuStripEmbed.Text" xml:space="preserve">
     <value>» &amp;Embedded</value>
@@ -2452,10 +2458,10 @@
     <value>Open a page with just the Embedded video</value>
   </data>
   <data name="NotificationMenuStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 6</value>
+    <value>176, 6</value>
   </data>
   <data name="NotificationMenuStripHideIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+    <value>179, 22</value>
   </data>
   <data name="NotificationMenuStripHideIcon.Text" xml:space="preserve">
     <value>&amp;Hide Icon</value>
@@ -2464,7 +2470,7 @@
     <value>Hide the taskbar icon</value>
   </data>
   <data name="NotificationMenuStripClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
+    <value>179, 22</value>
   </data>
   <data name="NotificationMenuStripClose.Text" xml:space="preserve">
     <value>Cl&amp;ose</value>
@@ -2473,7 +2479,7 @@
     <value>Quit YTVL</value>
   </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 192</value>
+    <value>180, 192</value>
   </data>
   <data name="NotificationMenuStrip.Text" xml:space="preserve">
     <value>YTVL Context Menu</value>

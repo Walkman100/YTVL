@@ -15,8 +15,7 @@
         'apply settings to where they affect
         lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build
         NotificationIcon.Visible = My.Settings.ShowNotification
-        If My.Settings.AutoUpdateCheck = True Then
-            'load latest version
+        If My.Settings.AutoUpdateCheck = True Then 'load latest version
             WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
         End If
         Me.TopMost = My.Settings.KeepOnTop
@@ -429,4 +428,5 @@
             txtOrigin.Text = "(e.g. http://9gag.tv)"
         End If
     End Sub
+
 End Class

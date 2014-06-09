@@ -25,6 +25,7 @@ Partial Class YTVL
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(YTVL))
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
+        Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.imgLoading = New System.Windows.Forms.PictureBox()
         Me.btnAdvanced = New System.Windows.Forms.Button()
         Me.pnlRight1 = New System.Windows.Forms.Panel()
@@ -74,7 +75,6 @@ Partial Class YTVL
         Me.lblHL = New System.Windows.Forms.Label()
         Me.chkHL = New System.Windows.Forms.CheckBox()
         Me.txtTime = New System.Windows.Forms.TextBox()
-        Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.lblVideoTitle = New System.Windows.Forms.Label()
         Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
@@ -173,6 +173,14 @@ Partial Class YTVL
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = False
         Me.ToolTip.SetToolTip(Me.grpBoxInputs, resources.GetString("grpBoxInputs.ToolTip"))
+        '
+        'txtComboVID
+        '
+        Me.txtComboVID.AllowDrop = True
+        Me.txtComboVID.Items.AddRange(New Object() {resources.GetString("txtComboVID.Items"), resources.GetString("txtComboVID.Items1")})
+        resources.ApplyResources(Me.txtComboVID, "txtComboVID")
+        Me.txtComboVID.Name = "txtComboVID"
+        Me.ToolTip.SetToolTip(Me.txtComboVID, resources.GetString("txtComboVID.ToolTip"))
         '
         'imgLoading
         '
@@ -517,18 +525,11 @@ Partial Class YTVL
         Me.txtTime.Name = "txtTime"
         Me.ToolTip.SetToolTip(Me.txtTime, resources.GetString("txtTime.ToolTip"))
         '
-        'txtComboVID
-        '
-        Me.txtComboVID.AllowDrop = True
-        Me.txtComboVID.Items.AddRange(New Object() {resources.GetString("txtComboVID.Items"), resources.GetString("txtComboVID.Items1")})
-        resources.ApplyResources(Me.txtComboVID, "txtComboVID")
-        Me.txtComboVID.Name = "txtComboVID"
-        Me.ToolTip.SetToolTip(Me.txtComboVID, resources.GetString("txtComboVID.ToolTip"))
-        '
         'lblVideoTitle
         '
         resources.ApplyResources(Me.lblVideoTitle, "lblVideoTitle")
         Me.lblVideoTitle.Name = "lblVideoTitle"
+        Me.ToolTip.SetToolTip(Me.lblVideoTitle, resources.GetString("lblVideoTitle.ToolTip"))
         '
         'chkKeepOnTop
         '
