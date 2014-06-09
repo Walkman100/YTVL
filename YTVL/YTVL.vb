@@ -3,6 +3,7 @@
     Dim usehttps As String = "https"
     Dim latestVer As String
     Dim CopyWhat As String
+    Dim CopyWhatEntire As String = "Nothing yet"
 
     Private Sub LoadYTVL() Handles Me.Load, MyBase.Load
         'apply settings to where they are changed
@@ -117,6 +118,7 @@
 
     Private Sub Inputs_MouseDown(sender As Object, e As MouseEventArgs) Handles btnVideo.MouseDown, btnComments.MouseDown, btnVideoInfo.MouseDown, btnEmbed.MouseDown
         CopyWhat = Mid(sender.ToString, 36)
+        CopyWhatEntire = sender.ToString
         If CopyWhat = "&Embed Page Handler" Then
             ContextClipboardCopyCode.Visible = True
         Else
@@ -158,7 +160,7 @@
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
             Else
-                MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" & CopyWhat & "'", , "Error")
+                MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" & CopyWhatEntire & "'", , "Error")
             End If
         End If
     End Sub
@@ -191,7 +193,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Try 'e.g.: [NEEDS RESEARCH]             \/ That code is not correct, but it's close.   one i've found is [media=youtube]CqDGF0j7vpE[/media]
+            Try 'e.g.: [NEEDS RESEARCH]             \/ That code is probably not correct, but it's close.
                 Clipboard.SetText("[media=youtube]" & txtComboVID.Text & "[/media]", TextDataFormat.UnicodeText)
                 MsgBox("BB (Forum) Embed Code Copied!", MsgBoxStyle.Information, "Succesfully copied!")
             Catch ex As Exception
@@ -242,6 +244,7 @@
         Me.Height = 230
         Me.Width = 506
         btnAdvanced.Text = "More ↓"
+        imgLoading.Visible = False
         lblVideoTitle.Text = "Enter a Video ID above"
     End Sub
 
@@ -261,7 +264,10 @@
     End Sub
 
     Private Sub txtComboVID_ContentsChanged(sender As Object, e As EventArgs) Handles txtComboVID.TextChanged
-        If txtComboVID.Text <> "Video ID" And txtComboVID.Text <> "" Then
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Or Len(txtComboVID.Text) < "10" Then
+            imgLoading.Visible = False
+            lblVideoTitle.Text = "Enter a Video ID above"
+        Else
             WebBrowserVideoLoad.Navigate(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?autoplay=0")
             imgLoading.Visible = True
             lblVideoTitle.Text = "      Loading..."
@@ -270,7 +276,11 @@
 
     Private Sub CheckSetVideoTitle(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVideoLoad.DocumentCompleted
         imgLoading.Visible = False
-        lblVideoTitle.Text = WebBrowserVideoLoad.DocumentTitle
+        If WebBrowserVideoLoad.DocumentTitle = "YouTube" Then
+            lblVideoTitle.Text = "Not found! Please make sure you entered a valid Video ID"
+        Else
+            lblVideoTitle.Text = WebBrowserVideoLoad.DocumentTitle
+        End If
     End Sub
 
     'Changes e.g. settings
