@@ -419,5 +419,4 @@
             txtOrigin.Text = "(e.g. http://9gag.tv)"
         End If
     End Sub
-
 End Class

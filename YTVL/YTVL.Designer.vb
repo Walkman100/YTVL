@@ -137,6 +137,7 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
+        Me.grpBoxInputs.Controls.Add(Me.txtComboVID)
         Me.grpBoxInputs.Controls.Add(Me.imgLoading)
         Me.grpBoxInputs.Controls.Add(Me.btnAdvanced)
         Me.grpBoxInputs.Controls.Add(Me.pnlRight1)
@@ -168,7 +169,6 @@ Partial Class YTVL
         Me.grpBoxInputs.Controls.Add(Me.lblHL)
         Me.grpBoxInputs.Controls.Add(Me.chkHL)
         Me.grpBoxInputs.Controls.Add(Me.txtTime)
-        Me.grpBoxInputs.Controls.Add(Me.txtComboVID)
         Me.grpBoxInputs.Controls.Add(Me.lblVideoTitle)
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = False
