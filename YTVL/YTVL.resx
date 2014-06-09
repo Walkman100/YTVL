@@ -126,10 +126,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="imgLoading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 44</value>
+    <value>6, 19</value>
   </data>
   <data name="imgLoading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 17</value>
+    <value>16, 21</value>
+  </data>
+  <data name="imgLoading.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="imgLoading.TabIndex" type="System.Int32, mscorlib">
@@ -1555,13 +1558,13 @@
     <value>CqDGF0j7vpE</value>
   </data>
   <data name="txtComboVID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+    <value>28, 19</value>
   </data>
   <data name="txtComboVID.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
   <data name="txtComboVID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
+    <value>99, 21</value>
   </data>
   <data name="txtComboVID.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1584,29 +1587,14 @@
   <data name="&gt;&gt;txtComboVID.ZOrder" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="lblVideoTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="lblVideoTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Italic</value>
-  </data>
-  <data name="lblVideoTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="lblVideoTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 47</value>
+    <value>0, 0</value>
   </data>
   <data name="lblVideoTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 13</value>
+    <value>100, 23</value>
   </data>
   <data name="lblVideoTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
-  <data name="lblVideoTitle.Text" xml:space="preserve">
-    <value>Enter a Video ID above</value>
-  </data>
-  <data name="lblVideoTitle.ToolTip" xml:space="preserve">
-    <value>Video Title</value>
+    <value>48</value>
   </data>
   <data name="&gt;&gt;lblVideoTitle.Name" xml:space="preserve">
     <value>lblVideoTitle</value>
@@ -2584,6 +2572,9 @@
         //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
