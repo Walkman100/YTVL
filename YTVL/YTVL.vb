@@ -192,7 +192,7 @@
         Else
             BuildVars()
             Try 'e.g.: [NEEDS RESEARCH]             \/ That code is not correct, but it's close.   one i've found is [media=youtube]CqDGF0j7vpE[/media]
-                Clipboard.SetText("[object]//www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars & "[/object]", TextDataFormat.UnicodeText)
+                Clipboard.SetText("[media=youtube]" & txtComboVID.Text & "[/media]", TextDataFormat.UnicodeText)
                 MsgBox("BB (Forum) Embed Code Copied!", MsgBoxStyle.Information, "Succesfully copied!")
             Catch ex As Exception
                 MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
@@ -242,17 +242,17 @@
         Me.Height = 230
         Me.Width = 506
         btnAdvanced.Text = "More ↓"
+        lblVideoTitle.Text = "Enter a Video ID above"
     End Sub
 
     Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles NotificationMenuStripClose.Click, btnExit.Click
+        My.Settings.Save()
         Application.Exit()
     End Sub
 
     Private Sub ShowYTVL(sender As Object, e As EventArgs) Handles NotificationMenuStripShowYTVL.Click, NotificationIcon.DoubleClick
         WindowState = FormWindowState.Normal
-        'Me.Show()
         Me.BringToFront()
-        'Me.Activate()
     End Sub
 
     Private Sub DEBUG(sender As Object, e As EventArgs) Handles btnDebug.Click
@@ -261,13 +261,16 @@
     End Sub
 
     Private Sub txtComboVID_ContentsChanged(sender As Object, e As EventArgs) Handles txtComboVID.TextChanged
-        WebBrowserVideoLoad.Navigate(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?autoplay=0")
-        'imgLoading.Visible = True
+        If txtComboVID.Text <> "Video ID" And txtComboVID.Text <> "" Then
+            WebBrowserVideoLoad.Navigate(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?autoplay=0")
+            imgLoading.Visible = True
+            lblVideoTitle.Text = "      Loading..."
+        End If
     End Sub
 
     Private Sub CheckSetVideoTitle(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVideoLoad.DocumentCompleted
-        'imgLoading.Visible = False
-        'lblVideoTitle.Text = WebBrowserVideoLoad.DocumentTitle
+        imgLoading.Visible = False
+        lblVideoTitle.Text = WebBrowserVideoLoad.DocumentTitle
     End Sub
 
     'Changes e.g. settings
