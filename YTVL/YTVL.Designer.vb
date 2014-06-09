@@ -528,6 +528,7 @@ Partial Class YTVL
         'lblVideoTitle
         '
         resources.ApplyResources(Me.lblVideoTitle, "lblVideoTitle")
+        Me.lblVideoTitle.AutoEllipsis = True
         Me.lblVideoTitle.Name = "lblVideoTitle"
         Me.ToolTip.SetToolTip(Me.lblVideoTitle, resources.GetString("lblVideoTitle.ToolTip"))
         '

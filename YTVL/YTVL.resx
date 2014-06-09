@@ -1452,6 +1452,9 @@
   <data name="&gt;&gt;txtList.ZOrder" xml:space="preserve">
     <value>27</value>
   </data>
+  <data name="lblHL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
   <data name="lblHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1484,6 +1487,9 @@
   </data>
   <data name="&gt;&gt;lblHL.ZOrder" xml:space="preserve">
     <value>28</value>
+  </data>
+  <data name="chkHL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="chkHL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1578,8 +1584,8 @@
   <data name="&gt;&gt;txtComboVID.ZOrder" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="lblVideoTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblVideoTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="lblVideoTitle.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Italic</value>
@@ -1591,7 +1597,7 @@
     <value>6, 47</value>
   </data>
   <data name="lblVideoTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 13</value>
+    <value>188, 13</value>
   </data>
   <data name="lblVideoTitle.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
