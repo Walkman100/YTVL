@@ -63,8 +63,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>youtube_withLink.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -192,6 +191,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\waiting-loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="youtube_withLink.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
