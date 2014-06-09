@@ -92,6 +92,7 @@ Partial Class YTVL
         Me.btnComments = New System.Windows.Forms.Button()
         Me.btnVideo = New System.Windows.Forms.Button()
         Me.grpBoxAbout = New System.Windows.Forms.GroupBox()
+        Me.WebBrowserVideoLoad = New System.Windows.Forms.WebBrowser()
         Me.btnDebug = New System.Windows.Forms.Button()
         Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
         Me.lnkDeveloper = New System.Windows.Forms.LinkLabel()
@@ -114,7 +115,6 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.WebBrowserVideoLoad = New System.Windows.Forms.WebBrowser()
         Me.grpBoxInputs.SuspendLayout()
         Me.pnlRight1.SuspendLayout()
         Me.pnlRight2.SuspendLayout()
@@ -662,6 +662,15 @@ Partial Class YTVL
         Me.grpBoxAbout.TabStop = False
         Me.ToolTip.SetToolTip(Me.grpBoxAbout, resources.GetString("grpBoxAbout.ToolTip"))
         '
+        'WebBrowserVideoLoad
+        '
+        resources.ApplyResources(Me.WebBrowserVideoLoad, "WebBrowserVideoLoad")
+        Me.WebBrowserVideoLoad.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
+        Me.WebBrowserVideoLoad.Name = "WebBrowserVideoLoad"
+        Me.WebBrowserVideoLoad.ScriptErrorsSuppressed = True
+        Me.WebBrowserVideoLoad.TabStop = False
+        Me.ToolTip.SetToolTip(Me.WebBrowserVideoLoad, resources.GetString("WebBrowserVideoLoad.ToolTip"))
+        '
         'btnDebug
         '
         resources.ApplyResources(Me.btnDebug, "btnDebug")
@@ -811,15 +820,6 @@ Partial Class YTVL
         Me.ToolTip.AutoPopDelay = 5000
         Me.ToolTip.InitialDelay = 50
         Me.ToolTip.ReshowDelay = 100
-        '
-        'WebBrowserVideoLoad
-        '
-        resources.ApplyResources(Me.WebBrowserVideoLoad, "WebBrowserVideoLoad")
-        Me.WebBrowserVideoLoad.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
-        Me.WebBrowserVideoLoad.Name = "WebBrowserVideoLoad"
-        Me.WebBrowserVideoLoad.ScriptErrorsSuppressed = True
-        Me.WebBrowserVideoLoad.TabStop = False
-        Me.ToolTip.SetToolTip(Me.WebBrowserVideoLoad, resources.GetString("WebBrowserVideoLoad.ToolTip"))
         '
         'YTVL
         '

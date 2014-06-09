@@ -34,7 +34,7 @@
         End If
     End Sub
 
-    'Buttons
+    'Opening links & copying stuff
 
     Private Sub BuildVars()         'they are built in order of the form
         Vars = ""
@@ -200,6 +200,8 @@
         End If
     End Sub
 
+    'other buttons & commands
+
     Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
         'text boxes
         txtComboVID.Text = "Video ID"
@@ -255,6 +257,17 @@
 
     Private Sub DEBUG(sender As Object, e As EventArgs) Handles btnDebug.Click
         WebBrowserVersionCheck.Visible = True
+        WebBrowserVideoLoad.Visible = True
+    End Sub
+
+    Private Sub txtComboVID_ContentsChanged(sender As Object, e As EventArgs) Handles txtComboVID.TextChanged
+        WebBrowserVideoLoad.Navigate(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?autoplay=0")
+        'imgLoading.Visible = True
+    End Sub
+
+    Private Sub CheckSetVideoTitle(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVideoLoad.DocumentCompleted
+        'imgLoading.Visible = False
+        'lblVideoTitle.Text = WebBrowserVideoLoad.DocumentTitle
     End Sub
 
     'Changes e.g. settings
