@@ -169,10 +169,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 44</value>
+    <value>411, 44</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 23</value>
+    <value>49, 23</value>
   </data>
   <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1581,6 +1581,9 @@
   <data name="lblVideoTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblVideoTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Italic</value>
+  </data>
   <data name="lblVideoTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1795,7 +1798,7 @@
     <value>391, 17</value>
   </metadata>
   <data name="ContextClipboardCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
+    <value>214, 22</value>
   </data>
   <data name="ContextClipboardCopyFromGenerated.Text" xml:space="preserve">
     <value>Generate URL to Clipboard</value>
@@ -1804,7 +1807,7 @@
     <value>Generate the URL and copy it to the clipboard instead of opening it in the browser</value>
   </data>
   <data name="ContextClipboardCopyCodeHTML.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
+    <value>264, 22</value>
   </data>
   <data name="ContextClipboardCopyCodeHTML.Text" xml:space="preserve">
     <value>HTML Embed code</value>
@@ -1813,7 +1816,7 @@
     <value>Copy HTML Embed code to clipboard</value>
   </data>
   <data name="ContextClipboardCopyCodeBB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
+    <value>264, 22</value>
   </data>
   <data name="ContextClipboardCopyCodeBB.Text" xml:space="preserve">
     <value>BB Embed code (for forums)</value>
@@ -1822,10 +1825,10 @@
     <value>Copy BB Embed code to clipboard</value>
   </data>
   <data name="ContextClipboardCopyCodeSeperator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 6</value>
+    <value>261, 6</value>
   </data>
   <data name="ContextClipboardCopyCodeStandard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
+    <value>264, 22</value>
   </data>
   <data name="ContextClipboardCopyCodeStandard.Text" xml:space="preserve">
     <value>Standard Embed code</value>
@@ -1834,7 +1837,7 @@
     <value>Use Standard (not old) HTML embed code</value>
   </data>
   <data name="ContextClipboardCopyCodeOldCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
+    <value>264, 22</value>
   </data>
   <data name="ContextClipboardCopyCodeOldCode.Text" xml:space="preserve">
     <value>Old Embed code (more compatible)</value>
@@ -1843,7 +1846,7 @@
     <value>Use old HTML embed code</value>
   </data>
   <data name="ContextClipboardCopyCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
+    <value>214, 22</value>
   </data>
   <data name="ContextClipboardCopyCode.Text" xml:space="preserve">
     <value>Copy code &gt;</value>
@@ -1855,7 +1858,7 @@
     <value>False</value>
   </data>
   <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 48</value>
+    <value>215, 48</value>
   </data>
   <data name="&gt;&gt;ContextClipboard.Name" xml:space="preserve">
     <value>ContextClipboard</value>
@@ -2395,7 +2398,7 @@
     <value>126, 17</value>
   </metadata>
   <data name="NotificationMenuStripShowYTVL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="NotificationMenuStripShowYTVL.Text" xml:space="preserve">
     <value>&amp;Show YTVL</value>
@@ -2404,7 +2407,7 @@
     <value>Bring YTVL to the front</value>
   </data>
   <data name="NotificationMenuStripKeepOnTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="NotificationMenuStripKeepOnTop.Text" xml:space="preserve">
     <value>Keep YTVL on top</value>
@@ -2413,13 +2416,13 @@
     <value>Keep YTVL on top of all other windows</value>
   </data>
   <data name="NotificationMenuStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 6</value>
+    <value>169, 6</value>
   </data>
   <data name="NotificationMenuStripVideo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="NotificationMenuStripVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="NotificationMenuStripVideo.Text" xml:space="preserve">
     <value>» &amp;Video</value>
@@ -2428,7 +2431,7 @@
     <value>Open the standard video page</value>
   </data>
   <data name="NotificationMenuStripComments.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="NotificationMenuStripComments.Text" xml:space="preserve">
     <value>» &amp;Comments</value>
@@ -2437,7 +2440,7 @@
     <value>Show a page with just the comments for the specified video</value>
   </data>
   <data name="NotificationMenuStripVideoInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="NotificationMenuStripVideoInfo.Text" xml:space="preserve">
     <value>» Video &amp;Info</value>
@@ -2446,7 +2449,7 @@
     <value>Download the Video Info file for  the chosen video</value>
   </data>
   <data name="NotificationMenuStripEmbed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="NotificationMenuStripEmbed.Text" xml:space="preserve">
     <value>» &amp;Embedded</value>
@@ -2455,10 +2458,10 @@
     <value>Open a page with just the Embedded video</value>
   </data>
   <data name="NotificationMenuStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 6</value>
+    <value>169, 6</value>
   </data>
   <data name="NotificationMenuStripHideIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="NotificationMenuStripHideIcon.Text" xml:space="preserve">
     <value>&amp;Hide Icon</value>
@@ -2467,7 +2470,7 @@
     <value>Hide the taskbar icon</value>
   </data>
   <data name="NotificationMenuStripClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="NotificationMenuStripClose.Text" xml:space="preserve">
     <value>Cl&amp;ose</value>
@@ -2476,7 +2479,7 @@
     <value>Quit YTVL</value>
   </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 192</value>
+    <value>173, 192</value>
   </data>
   <data name="NotificationMenuStrip.Text" xml:space="preserve">
     <value>YTVL Context Menu</value>
@@ -2576,44 +2579,11 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>YouTube Video Linker</value>
-  </data>
-  <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">
-    <value>NotificationIcon</value>
-  </data>
-  <data name="&gt;&gt;NotificationIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Name" xml:space="preserve">
-    <value>NotificationMenuStripKeepOnTop</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator1.Name" xml:space="preserve">
-    <value>NotificationMenuStripSeparator1</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator2.Name" xml:space="preserve">
-    <value>NotificationMenuStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
-    <value>ToolTip</value>
-  </data>
-  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyFromGenerated.Name" xml:space="preserve">
     <value>ContextClipboardCopyFromGenerated</value>
@@ -2657,11 +2627,29 @@
   <data name="&gt;&gt;ContextClipboardCopyCodeOldCode.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">
+    <value>NotificationIcon</value>
+  </data>
+  <data name="&gt;&gt;NotificationIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;NotificationMenuStripShowYTVL.Name" xml:space="preserve">
     <value>NotificationMenuStripShowYTVL</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripShowYTVL.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Name" xml:space="preserve">
+    <value>NotificationMenuStripKeepOnTop</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator1.Name" xml:space="preserve">
+    <value>NotificationMenuStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideo.Name" xml:space="preserve">
     <value>NotificationMenuStripVideo</value>
@@ -2687,6 +2675,12 @@
   <data name="&gt;&gt;NotificationMenuStripEmbed.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator2.Name" xml:space="preserve">
+    <value>NotificationMenuStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;NotificationMenuStripHideIcon.Name" xml:space="preserve">
     <value>NotificationMenuStripHideIcon</value>
   </data>
@@ -2698,6 +2692,12 @@
   </data>
   <data name="&gt;&gt;NotificationMenuStripClose.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>
