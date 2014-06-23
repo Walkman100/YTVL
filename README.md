@@ -63,7 +63,7 @@ Screenshots available <a href="http://walkman100.github.io/Walkman/YTVL/">here</
 
 Future releases/ideas
 ====
-`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or BB code which will be copied to the clipboard.
+`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or [BB code](https://www.phpbb.com/support/documentation/3.0/userguide/user_posting.php#posting_bbcodes) which will be copied to the clipboard.
 
 `v1.5` will probably have buttons to open the download pages for FullRip.net; MP3, Video or Video(alternative); KeepVid e.t.c.
 
