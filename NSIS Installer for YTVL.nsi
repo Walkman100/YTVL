@@ -3,12 +3,18 @@
 ; As a program that all Power PC users should have, Notepad ++ is recommended to edit this file
 
 AddBrandingImage top 20
+Icon YTVL\youtube_withLink.ico
+Caption "YTVL Installer"
+Name "YTVL"
+AutoCloseWindow true
+
 InstallDir $PROGRAMFILES\DeavmiOSS
+
 OutFile ..\YTVL-Installer.exe
 
 ; Pages
 
-Page components
+;Page components
 Page directory
 Page instfiles
 UninstPage uninstConfirm
@@ -19,6 +25,10 @@ UninstPage instfiles
 Section "YTVL Executable"
   SetOutPath $INSTDIR
   File "YTVL\bin\Release\YTVL.exe"
+  CreateDirectory "$SMPROGRAMS\DeavmiOSS"
+  CreateShortCut "$SMPROGRAMS\DeavmiOSS\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
+  CreateShortCut "$SMPROGRAMS\DeavmiOSS\Uninstall.lnk" "$INSTDIR\Uninstall YTVL.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
+  ;Syntax for CreateShortCut: link.lnk target.file [parameters [icon.file [icon_index_number [start_options [keyboard_shortcut [description]]]]]]
 SectionEnd
 
 ;Section "More apps at DeavmiOSS"
@@ -37,7 +47,7 @@ Function .onInit
 FunctionEnd
 
 Function .onInstSuccess
-    MessageBox MB_YESNO "Open readme?" IDNO NoReadme
-      Exec notepad.exe ; view readme or whatever, if you want.
+    MessageBox MB_YESNO "Install Succeeded! Open ReadMe?" IDNO NoReadme
+      Exec "http://github.com/Walkman100/YTVL/blob/master/README.md#youtube-video-linker-"
     NoReadme:
   FunctionEnd
