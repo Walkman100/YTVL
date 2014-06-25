@@ -25,6 +25,7 @@ UninstPage instfiles
 Section "YTVL Executable"
   SetOutPath $INSTDIR
   File "YTVL\bin\Release\YTVL.exe"
+  WriteUninstaller "YTVL-Uninst.exe"
   CreateDirectory "$SMPROGRAMS\DeavmiOSS"
   CreateShortCut "$SMPROGRAMS\DeavmiOSS\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
   CreateShortCut "$SMPROGRAMS\DeavmiOSS\Uninstall.lnk" "$INSTDIR\Uninstall YTVL.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
@@ -34,6 +35,15 @@ SectionEnd
 ;Section "More apps at DeavmiOSS"
 ; this should have sub options for available apps, that are downloaded
 ;SectionEnd
+
+Section "Uninstall"
+  Delete $INSTDIR\YTVL-Uninst.exe
+  Delete $INSTDIR\YTVL.exe
+  RMDir $INSTDIR
+  Delete $SMPROGRAMS\DeavmiOSS\YTVL.lnk
+  Delete $SMPROGRAMS\DeavmiOSS\Uninstall.lnk
+  RMDir $SMPROGRAMS\DeavmiOSS
+SectionEnd
 
 ; Functions
 
@@ -50,4 +60,18 @@ Function .onInstSuccess
     MessageBox MB_YESNO "Install Succeeded! Open ReadMe?" IDNO NoReadme
       Exec "http://github.com/Walkman100/YTVL/blob/master/README.md#youtube-video-linker-"
     NoReadme:
-  FunctionEnd
+FunctionEnd
+
+Function un.onInit
+    MessageBox MB_YESNO "This will uninstall YTVL. Continue?" IDYES NoAbort
+      Abort ; causes uninstaller to quit.
+    NoAbort:
+FunctionEnd
+
+Function un.onUninstFailed
+    MessageBox MB_OK "Uninstall Cancelled"
+FunctionEnd
+
+Function un.onUninstSuccess
+    MessageBox MB_OK "Uninstall Completed"
+FunctionEnd
