@@ -193,8 +193,8 @@
         Else
             BuildVars()
             Try 'e.g.: [NEEDS RESEARCH]             \/ That code is probably not correct, but it's close.
-                Clipboard.SetText("[media=youtube]" & txtComboVID.Text & "[/media]", TextDataFormat.UnicodeText)
-                MsgBox("BB (Forum) Embed Code Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+                Clipboard.SetText("[media=youtube]" & txtComboVID.Text & "[/media]" & vbNewLine & "[youtube]" & txtComboVID.Text & [/youtube], TextDataFormat.UnicodeText)
+                MsgBox("BB (Forum) Embed Code Copied!" & vbNewLine & "There are two lines in the clipboard, since some forums use slightly different codes to others", MsgBoxStyle.Information, "Succesfully copied!")
             Catch ex As Exception
                 MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
             End Try
