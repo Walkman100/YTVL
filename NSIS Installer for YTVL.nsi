@@ -56,7 +56,7 @@ Section "Uninstall"
   RMDir $INSTDIR
   
   Delete $SMPROGRAMS\DeavmiOSS\YTVL.lnk   ; Remove Start Menu Shortcuts & Folder
-  Delete $SMPROGRAMS\DeavmiOSS\Uninstall.lnk
+  Delete $SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk
   RMDir $SMPROGRAMS\DeavmiOSS
   
   Delete $DESKTOP\YTVL.lnk   ; Remove Desktop Shortcut
