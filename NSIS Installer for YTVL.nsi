@@ -10,7 +10,7 @@ AutoCloseWindow true
 
 InstallDir $PROGRAMFILES\DeavmiOSS
 
-OutFile ..\YTVL-Installer.exe
+OutFile "YTVL\bin\Release\YTVL-Installer.exe"
 
 ; Pages
 
