@@ -78,7 +78,7 @@ FunctionEnd
 
 Function .onInstSuccess
     MessageBox MB_YESNO "Install Succeeded! Open ReadMe?" IDNO NoReadme
-      Exec "http://github.com/Walkman100/YTVL/blob/master/README.md#youtube-video-linker-"
+      ExecShell "open" "https://github.com/Walkman100/YTVL/blob/master/README.md#youtube-video-linker-"
     NoReadme:
 FunctionEnd
 
