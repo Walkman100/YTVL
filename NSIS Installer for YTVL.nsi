@@ -9,7 +9,6 @@ Name "YTVL"
 AutoCloseWindow true
 
 InstallDir $PROGRAMFILES\DeavmiOSS
-SetShellVarContext all
 
 OutFile ..\YTVL-Installer.exe
 
@@ -24,6 +23,7 @@ UninstPage instfiles
 ; Sections
 
 Section "YTVL Executable & Uninstaller"
+  SectionIn RO
   SetOutPath $INSTDIR
   File "YTVL\bin\Release\YTVL.exe"
   WriteUninstaller "YTVL-Uninst.exe"
@@ -32,7 +32,7 @@ SectionEnd
 Section "YTVL Start Menu Shortcuts"
   CreateDirectory "$SMPROGRAMS\DeavmiOSS"
   CreateShortCut "$SMPROGRAMS\DeavmiOSS\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
-  CreateShortCut "$SMPROGRAMS\DeavmiOSS\Uninstall.lnk" "$INSTDIR\YTVL-Uninst.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
+  CreateShortCut "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk" "$INSTDIR\YTVL-Uninst.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
   ;Syntax for CreateShortCut: link.lnk target.file [parameters [icon.file [icon_index_number [start_options [keyboard_shortcut [description]]]]]]
 SectionEnd
 
@@ -51,12 +51,16 @@ SectionEnd
 ; Uninstaller
 
 Section "Uninstall"
-  Delete $INSTDIR\YTVL-Uninst.exe
+  Delete $INSTDIR\YTVL-Uninst.exe   ; Remove Application Files
   Delete $INSTDIR\YTVL.exe
   RMDir $INSTDIR
-  Delete $SMPROGRAMS\DeavmiOSS\YTVL.lnk
+  
+  Delete $SMPROGRAMS\DeavmiOSS\YTVL.lnk   ; Remove Start Menu Shortcuts & Folder
   Delete $SMPROGRAMS\DeavmiOSS\Uninstall.lnk
   RMDir $SMPROGRAMS\DeavmiOSS
+  
+  Delete $DESKTOP\YTVL.lnk   ; Remove Desktop Shortcut
+  Delete $QUICKLAUNCH\YTVL.lnk   ; Remove Quick Launch shortcut
 SectionEnd
 
 ; Functions
@@ -68,6 +72,8 @@ Function .onInit
   File "YTVL\youtube_withLink.ico"
   SetBrandingImage "[/RESIZETOFIT] YTVL\youtube_withLink.ico"
   SetBrandingImage "[/RESIZETOFIT] youtube_withLink.ico"
+  SetShellVarContext all
+  SetAutoClose true
 FunctionEnd
 
 Function .onInstSuccess
@@ -82,6 +88,8 @@ Function un.onInit
     MessageBox MB_YESNO "This will uninstall YTVL. Continue?" IDYES NoAbort
       Abort ; causes uninstaller to quit.
     NoAbort:
+    SetShellVarContext all
+    SetAutoClose true
 FunctionEnd
 
 Function un.onUninstFailed
