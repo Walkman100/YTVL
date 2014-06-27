@@ -10,7 +10,7 @@ AutoCloseWindow true
 
 InstallDir $PROGRAMFILES\DeavmiOSS
 
-OutFile "YTVL\bin\Release\YTVL-Installer.exe"
+OutFile "bin\Release\YTVL-Installer.exe"
 
 ; Pages
 
@@ -25,7 +25,7 @@ UninstPage instfiles
 Section "YTVL Executable & Uninstaller"
   SectionIn RO
   SetOutPath $INSTDIR
-  File "YTVL\bin\Release\YTVL.exe"
+  File "bin\Release\YTVL.exe"
   WriteUninstaller "YTVL-Uninst.exe"
 SectionEnd
 
@@ -70,7 +70,6 @@ Function .onInit
     Abort
   gogogo:
   File "YTVL\youtube_withLink.ico"
-  SetBrandingImage "[/RESIZETOFIT] YTVL\youtube_withLink.ico"
   SetBrandingImage "[/RESIZETOFIT] youtube_withLink.ico"
   SetShellVarContext all
   SetAutoClose true
