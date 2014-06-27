@@ -11,10 +11,10 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("YouTube Video Linker")> 
-<Assembly: AssemblyDescription("YouTube Video Linker, original page: http://walkman100.github.io/Walkman/youtube-video-stuff.htm")> 
+<Assembly: AssemblyDescription("YouTube Video Linker, original page: http://walkman100.github.io/Walkman/HTML/YTVL.html")> 
 <Assembly: AssemblyCompany("DeavmiOSS")> 
 <Assembly: AssemblyProduct("YouTube Video Linker")> 
-<Assembly: AssemblyCopyright("Copyright © Walkman 2014")> 
+<Assembly: AssemblyCopyright("OPEN SOURCE by Walkman 2014")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.3.3.0")> 
-<Assembly: AssemblyFileVersion("1.3.3.0")> 
+<Assembly: AssemblyVersion("1.4.0.0")> 
+<Assembly: AssemblyFileVersion("1.4.0.0")> 
 
 <Assembly: NeutralResourcesLanguageAttribute("en-ZA")> 

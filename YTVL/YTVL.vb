@@ -22,7 +22,8 @@
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
-        latestVer = Mid(WebBrowserVersionCheck.Url.ToString, 50)
+    	latestVer = Mid(WebBrowserVersionCheck.Url.ToString, 50)
+    	'WebBrowserVersionCheck.InnerText = latestVer	'this is supposed to clear the contents of the browser to reduce RAM usage, but the command doesn't seem to exist
         NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " Latest ver: " & latestVer
         If My.Settings.AutoUpdateCheck = True Then
             'check if this version is latest
@@ -346,7 +347,7 @@
     'Links
 
     Private Sub OpenOriginalPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkOriginalPage.LinkClicked
-        Process.Start("http://walkman100.github.io/Walkman/youtube-video-stuff.htm") '*.github.io doesn't support https!
+        Process.Start("http://walkman100.github.io/Walkman/HTML/YTVL.html") '*.github.io doesn't support https!
     End Sub
 
     Private Sub OpenSourceCode(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkSourceCode.LinkClicked
@@ -358,7 +359,7 @@
     End Sub
 
     Private Sub OpenReleases(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReleases.LinkClicked
-        Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/")
+        Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
     End Sub
 
     Private Sub OpenDeveloperPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkDeveloper.LinkClicked

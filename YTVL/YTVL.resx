@@ -154,7 +154,7 @@
     <value>txtComboVID</value>
   </data>
   <data name="&gt;&gt;txtComboVID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtComboVID.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -187,7 +187,7 @@
     <value>imgLoading</value>
   </data>
   <data name="&gt;&gt;imgLoading.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;imgLoading.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -226,7 +226,7 @@
     <value>btnAdvanced</value>
   </data>
   <data name="&gt;&gt;btnAdvanced.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnAdvanced.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -256,7 +256,7 @@
     <value>optMdstBrndng0</value>
   </data>
   <data name="&gt;&gt;optMdstBrndng0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optMdstBrndng0.Parent" xml:space="preserve">
     <value>pnlRight1</value>
@@ -286,7 +286,7 @@
     <value>optMdstBrndng1</value>
   </data>
   <data name="&gt;&gt;optMdstBrndng1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optMdstBrndng1.Parent" xml:space="preserve">
     <value>pnlRight1</value>
@@ -307,7 +307,7 @@
     <value>pnlRight1</value>
   </data>
   <data name="&gt;&gt;pnlRight1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlRight1.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -337,7 +337,7 @@
     <value>optRel0</value>
   </data>
   <data name="&gt;&gt;optRel0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optRel0.Parent" xml:space="preserve">
     <value>pnlRight2</value>
@@ -367,7 +367,7 @@
     <value>optRel1</value>
   </data>
   <data name="&gt;&gt;optRel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optRel1.Parent" xml:space="preserve">
     <value>pnlRight2</value>
@@ -388,7 +388,7 @@
     <value>pnlRight2</value>
   </data>
   <data name="&gt;&gt;pnlRight2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlRight2.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -418,7 +418,7 @@
     <value>optShowinfo0</value>
   </data>
   <data name="&gt;&gt;optShowinfo0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optShowinfo0.Parent" xml:space="preserve">
     <value>pnlRight3</value>
@@ -448,7 +448,7 @@
     <value>optShowinfo1</value>
   </data>
   <data name="&gt;&gt;optShowinfo1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optShowinfo1.Parent" xml:space="preserve">
     <value>pnlRight3</value>
@@ -469,7 +469,7 @@
     <value>pnlRight3</value>
   </data>
   <data name="&gt;&gt;pnlRight3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlRight3.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -499,7 +499,7 @@
     <value>optShowsearch0</value>
   </data>
   <data name="&gt;&gt;optShowsearch0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optShowsearch0.Parent" xml:space="preserve">
     <value>pnlRight4</value>
@@ -529,7 +529,7 @@
     <value>optShowsearch1</value>
   </data>
   <data name="&gt;&gt;optShowsearch1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optShowsearch1.Parent" xml:space="preserve">
     <value>pnlRight4</value>
@@ -550,7 +550,7 @@
     <value>pnlRight4</value>
   </data>
   <data name="&gt;&gt;pnlRight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlRight4.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -580,7 +580,7 @@
     <value>optEnableJsApi0</value>
   </data>
   <data name="&gt;&gt;optEnableJsApi0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optEnableJsApi0.Parent" xml:space="preserve">
     <value>pnlEnableJsApi</value>
@@ -610,7 +610,7 @@
     <value>optEnableJsApi1</value>
   </data>
   <data name="&gt;&gt;optEnableJsApi1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optEnableJsApi1.Parent" xml:space="preserve">
     <value>pnlEnableJsApi</value>
@@ -631,7 +631,7 @@
     <value>pnlEnableJsApi</value>
   </data>
   <data name="&gt;&gt;pnlEnableJsApi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlEnableJsApi.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -661,7 +661,7 @@
     <value>optAutoplay0</value>
   </data>
   <data name="&gt;&gt;optAutoplay0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optAutoplay0.Parent" xml:space="preserve">
     <value>pnlAutoplay</value>
@@ -691,7 +691,7 @@
     <value>optAutoplay1</value>
   </data>
   <data name="&gt;&gt;optAutoplay1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optAutoplay1.Parent" xml:space="preserve">
     <value>pnlAutoplay</value>
@@ -712,7 +712,7 @@
     <value>pnlAutoplay</value>
   </data>
   <data name="&gt;&gt;pnlAutoplay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlAutoplay.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -742,7 +742,7 @@
     <value>optAutohide0</value>
   </data>
   <data name="&gt;&gt;optAutohide0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optAutohide0.Parent" xml:space="preserve">
     <value>pnlAutohide</value>
@@ -772,7 +772,7 @@
     <value>optAutohide1</value>
   </data>
   <data name="&gt;&gt;optAutohide1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optAutohide1.Parent" xml:space="preserve">
     <value>pnlAutohide</value>
@@ -793,7 +793,7 @@
     <value>pnlAutohide</value>
   </data>
   <data name="&gt;&gt;pnlAutohide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlAutohide.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -823,7 +823,7 @@
     <value>optFs0</value>
   </data>
   <data name="&gt;&gt;optFs0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optFs0.Parent" xml:space="preserve">
     <value>pnlFs</value>
@@ -853,7 +853,7 @@
     <value>optFs1</value>
   </data>
   <data name="&gt;&gt;optFs1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optFs1.Parent" xml:space="preserve">
     <value>pnlFs</value>
@@ -874,7 +874,7 @@
     <value>pnlFs</value>
   </data>
   <data name="&gt;&gt;pnlFs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlFs.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -904,7 +904,7 @@
     <value>optQuality360</value>
   </data>
   <data name="&gt;&gt;optQuality360.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optQuality360.Parent" xml:space="preserve">
     <value>pnlQuality</value>
@@ -934,7 +934,7 @@
     <value>optQuality720</value>
   </data>
   <data name="&gt;&gt;optQuality720.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optQuality720.Parent" xml:space="preserve">
     <value>pnlQuality</value>
@@ -955,7 +955,7 @@
     <value>pnlQuality</value>
   </data>
   <data name="&gt;&gt;pnlQuality.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlQuality.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -988,7 +988,7 @@
     <value>chkHttps</value>
   </data>
   <data name="&gt;&gt;chkHttps.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkHttps.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1018,7 +1018,7 @@
     <value>txtOrigin</value>
   </data>
   <data name="&gt;&gt;txtOrigin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtOrigin.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1048,7 +1048,7 @@
     <value>chkOrigin</value>
   </data>
   <data name="&gt;&gt;chkOrigin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkOrigin.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1078,7 +1078,7 @@
     <value>chkWmode</value>
   </data>
   <data name="&gt;&gt;chkWmode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkWmode.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1108,7 +1108,7 @@
     <value>chkThemeDark</value>
   </data>
   <data name="&gt;&gt;chkThemeDark.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkThemeDark.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1138,7 +1138,7 @@
     <value>lblShowSearch</value>
   </data>
   <data name="&gt;&gt;lblShowSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblShowSearch.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1168,7 +1168,7 @@
     <value>lblShowinfo</value>
   </data>
   <data name="&gt;&gt;lblShowinfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblShowinfo.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1198,7 +1198,7 @@
     <value>lblRel</value>
   </data>
   <data name="&gt;&gt;lblRel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblRel.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1228,7 +1228,7 @@
     <value>lblMdstBrndng</value>
   </data>
   <data name="&gt;&gt;lblMdstBrndng.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblMdstBrndng.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1273,7 +1273,7 @@
     <value>optIvLP</value>
   </data>
   <data name="&gt;&gt;optIvLP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;optIvLP.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1303,7 +1303,7 @@
     <value>lblIvLP</value>
   </data>
   <data name="&gt;&gt;lblIvLP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblIvLP.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1333,7 +1333,7 @@
     <value>lblEnableJsApi</value>
   </data>
   <data name="&gt;&gt;lblEnableJsApi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblEnableJsApi.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1363,7 +1363,7 @@
     <value>lblAutohide</value>
   </data>
   <data name="&gt;&gt;lblAutohide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblAutohide.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1393,7 +1393,7 @@
     <value>lblFs</value>
   </data>
   <data name="&gt;&gt;lblFs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblFs.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1423,7 +1423,7 @@
     <value>lblAutoplay</value>
   </data>
   <data name="&gt;&gt;lblAutoplay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblAutoplay.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1453,7 +1453,7 @@
     <value>chkFeature</value>
   </data>
   <data name="&gt;&gt;chkFeature.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkFeature.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1483,7 +1483,7 @@
     <value>txtList</value>
   </data>
   <data name="&gt;&gt;txtList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtList.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1519,7 +1519,7 @@
     <value>lblHL</value>
   </data>
   <data name="&gt;&gt;lblHL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblHL.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1552,7 +1552,7 @@
     <value>chkHL</value>
   </data>
   <data name="&gt;&gt;chkHL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkHL.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1579,13 +1579,16 @@
     <value>txtTime</value>
   </data>
   <data name="&gt;&gt;txtTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtTime.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtTime.ZOrder" xml:space="preserve">
     <value>31</value>
+  </data>
+  <data name="lblVideoTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="lblVideoTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 47</value>
@@ -1606,7 +1609,7 @@
     <value>lblVideoTitle</value>
   </data>
   <data name="&gt;&gt;lblVideoTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblVideoTitle.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
@@ -1633,7 +1636,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;grpBoxInputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;grpBoxInputs.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1675,7 +1678,7 @@
     <value>chkKeepOnTop</value>
   </data>
   <data name="&gt;&gt;chkKeepOnTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkKeepOnTop.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1711,7 +1714,7 @@
     <value>btnExit</value>
   </data>
   <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
     <value>grpBoxOutputs</value>
@@ -1747,7 +1750,7 @@
     <value>chkShowNotification</value>
   </data>
   <data name="&gt;&gt;chkShowNotification.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkShowNotification.Parent" xml:space="preserve">
     <value>grpBoxOutputs</value>
@@ -1783,7 +1786,7 @@
     <value>btnReset</value>
   </data>
   <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
     <value>grpBoxOutputs</value>
@@ -1864,7 +1867,7 @@
     <value>ContextClipboard</value>
   </data>
   <data name="&gt;&gt;ContextClipboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnEmbed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1891,7 +1894,7 @@
     <value>btnEmbed</value>
   </data>
   <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
     <value>grpBoxOutputs</value>
@@ -1927,7 +1930,7 @@
     <value>btnVideoInfo</value>
   </data>
   <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
     <value>grpBoxOutputs</value>
@@ -1963,7 +1966,7 @@
     <value>btnComments</value>
   </data>
   <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
     <value>grpBoxOutputs</value>
@@ -2002,7 +2005,7 @@
     <value>btnVideo</value>
   </data>
   <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
     <value>grpBoxOutputs</value>
@@ -2029,7 +2032,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2074,7 +2077,7 @@
     <value>WebBrowserVideoLoad</value>
   </data>
   <data name="&gt;&gt;WebBrowserVideoLoad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;WebBrowserVideoLoad.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
@@ -2113,7 +2116,7 @@
     <value>btnDebug</value>
   </data>
   <data name="&gt;&gt;btnDebug.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnDebug.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
@@ -2155,7 +2158,7 @@
     <value>WebBrowserVersionCheck</value>
   </data>
   <data name="&gt;&gt;WebBrowserVersionCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;WebBrowserVersionCheck.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
@@ -2188,7 +2191,7 @@
     <value>lnkDeveloper</value>
   </data>
   <data name="&gt;&gt;lnkDeveloper.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lnkDeveloper.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
@@ -2221,7 +2224,7 @@
     <value>lnkReleases</value>
   </data>
   <data name="&gt;&gt;lnkReleases.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lnkReleases.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
@@ -2254,7 +2257,7 @@
     <value>lnkReportProblem</value>
   </data>
   <data name="&gt;&gt;lnkReportProblem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lnkReportProblem.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
@@ -2287,7 +2290,7 @@
     <value>lnkSourceCode</value>
   </data>
   <data name="&gt;&gt;lnkSourceCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lnkSourceCode.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
@@ -2320,7 +2323,7 @@
     <value>lnkOriginalPage</value>
   </data>
   <data name="&gt;&gt;lnkOriginalPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lnkOriginalPage.Parent" xml:space="preserve">
     <value>grpBoxAbout</value>
@@ -2347,7 +2350,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2383,7 +2386,7 @@
     <value>lblCurrentVersion</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2488,7 +2491,7 @@
     <value>NotificationMenuStrip</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NotificationIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2542,7 +2545,7 @@
     <value>chkUpdate</value>
   </data>
   <data name="&gt;&gt;chkUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkUpdate.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2589,120 +2592,120 @@
     <value>ContextClipboardCopyFromGenerated</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyFromGenerated.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCode.Name" xml:space="preserve">
     <value>ContextClipboardCopyCode</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeHTML.Name" xml:space="preserve">
     <value>ContextClipboardCopyCodeHTML</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeHTML.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeBB.Name" xml:space="preserve">
     <value>ContextClipboardCopyCodeBB</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeBB.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeSeperator.Name" xml:space="preserve">
     <value>ContextClipboardCopyCodeSeperator</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeSeperator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeStandard.Name" xml:space="preserve">
     <value>ContextClipboardCopyCodeStandard</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeStandard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeOldCode.Name" xml:space="preserve">
     <value>ContextClipboardCopyCodeOldCode</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeOldCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">
     <value>NotificationIcon</value>
   </data>
   <data name="&gt;&gt;NotificationIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripShowYTVL.Name" xml:space="preserve">
     <value>NotificationMenuStripShowYTVL</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripShowYTVL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Name" xml:space="preserve">
     <value>NotificationMenuStripKeepOnTop</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripKeepOnTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripSeparator1.Name" xml:space="preserve">
     <value>NotificationMenuStripSeparator1</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideo.Name" xml:space="preserve">
     <value>NotificationMenuStripVideo</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripComments.Name" xml:space="preserve">
     <value>NotificationMenuStripComments</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripComments.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideoInfo.Name" xml:space="preserve">
     <value>NotificationMenuStripVideoInfo</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripVideoInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripEmbed.Name" xml:space="preserve">
     <value>NotificationMenuStripEmbed</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripEmbed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripSeparator2.Name" xml:space="preserve">
     <value>NotificationMenuStripSeparator2</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripHideIcon.Name" xml:space="preserve">
     <value>NotificationMenuStripHideIcon</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripHideIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripClose.Name" xml:space="preserve">
     <value>NotificationMenuStripClose</value>
   </data>
   <data name="&gt;&gt;NotificationMenuStripClose.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
     <value>ToolTip</value>
   </data>
   <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
