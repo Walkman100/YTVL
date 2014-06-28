@@ -286,11 +286,11 @@
     'Changes e.g. settings
 
     Private Sub MoreLess(sender As Object, e As EventArgs) Handles btnAdvanced.Click
-        If Me.Height = 362 Then
+        If Me.Height = 402 Then
             Me.Height = 230
             btnAdvanced.Text = "More ↓"
         Else
-            Me.Height = 362
+            Me.Height = 402
             btnAdvanced.Text = "Less ↑"
         End If
     End Sub
