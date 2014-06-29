@@ -19,7 +19,7 @@ Requirements
 
 * Windows `(tested on Windows 7 HP SP1 64-bit & Windows 8.1 Pro Update 1 64-bit)`
 
-* In order for the update checker to work, you need an active internet connection and at least Internet Explorer 7 installed (even if you don't use it. ever.)
+* In order for the update checker to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
 
 How to use
 ====
