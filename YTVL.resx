@@ -180,70 +180,70 @@
   <data name="&gt;&gt;lblBrowser.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="comboBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="txtComboBrowser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
+  <data name="txtComboBrowser.Items" xml:space="preserve">
     <value>Default link handler</value>
   </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
+  <data name="txtComboBrowser.Items1" xml:space="preserve">
     <value>Mozilla Firefox (%ProgramFiles%\Mozilla Firefox\firefox.exe)</value>
   </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
+  <data name="txtComboBrowser.Items2" xml:space="preserve">
     <value>Google Chrome (%ProgramFiles%\Google\Chrome\Application\chrome.exe)</value>
   </data>
-  <data name="comboBox1.Items3" xml:space="preserve">
+  <data name="txtComboBrowser.Items3" xml:space="preserve">
     <value>Opera 22 (%ProgramFiles%\Opera\launcher.exe)</value>
   </data>
-  <data name="comboBox1.Items4" xml:space="preserve">
+  <data name="txtComboBrowser.Items4" xml:space="preserve">
     <value>Opera 12 (%ProgramFiles%\Opera\opera.exe)</value>
   </data>
-  <data name="comboBox1.Items5" xml:space="preserve">
+  <data name="txtComboBrowser.Items5" xml:space="preserve">
     <value>Safari (%ProgramFiles%\Safari\Safari.exe)</value>
   </data>
-  <data name="comboBox1.Items6" xml:space="preserve">
+  <data name="txtComboBrowser.Items6" xml:space="preserve">
     <value>Avant Browser (%ProgramFiles%\Avant Browser\avant.exe)</value>
   </data>
-  <data name="comboBox1.Items7" xml:space="preserve">
+  <data name="txtComboBrowser.Items7" xml:space="preserve">
     <value>Lunascape6 (%ProgramFiles%\Lunascape\Lunascape6\Luna.exe)</value>
   </data>
-  <data name="comboBox1.Items8" xml:space="preserve">
+  <data name="txtComboBrowser.Items8" xml:space="preserve">
     <value>Sea Monkey (%ProgramFiles%\SeaMonkey\seamonkey.exe)</value>
   </data>
-  <data name="comboBox1.Items9" xml:space="preserve">
+  <data name="txtComboBrowser.Items9" xml:space="preserve">
     <value>Internet Explorer (%ProgramFiles%\Internet Explorer\iexplore.exe)</value>
   </data>
-  <data name="comboBox1.Items10" xml:space="preserve">
+  <data name="txtComboBrowser.Items10" xml:space="preserve">
     <value>Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)</value>
   </data>
-  <data name="comboBox1.Items11" xml:space="preserve">
+  <data name="txtComboBrowser.Items11" xml:space="preserve">
     <value>Browse...</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtComboBrowser.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 198</value>
   </data>
-  <data name="comboBox1.MaxDropDownItems" type="System.Int32, mscorlib">
+  <data name="txtComboBrowser.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtComboBrowser.Size" type="System.Drawing.Size, System.Drawing">
     <value>242, 21</value>
   </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtComboBrowser.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
   </data>
-  <data name="comboBox1.Text" xml:space="preserve">
+  <data name="txtComboBrowser.Text" xml:space="preserve">
     <value>Default link handler</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
+  <data name="&gt;&gt;txtComboBrowser.Name" xml:space="preserve">
+    <value>txtComboBrowser</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtComboBrowser.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtComboBrowser.Parent" xml:space="preserve">
     <value>grpBoxInputs</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtComboBrowser.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="txtComboVID.Items" xml:space="preserve">
@@ -2676,6 +2676,12 @@
   <data name="&gt;&gt;chkUpdate.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <metadata name="openFileDialogBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>530, 17</value>
+  </metadata>
+  <data name="openFileDialogBrowser.Title" xml:space="preserve">
+    <value>Select Browser to open link in</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2824,6 +2830,12 @@
   </data>
   <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialogBrowser.Name" xml:space="preserve">
+    <value>openFileDialogBrowser</value>
+  </data>
+  <data name="&gt;&gt;openFileDialogBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>

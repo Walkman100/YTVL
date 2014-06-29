@@ -27,7 +27,7 @@ Partial Class YTVL
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
         Me.chkRememberBrowser = New System.Windows.Forms.CheckBox()
         Me.lblBrowser = New System.Windows.Forms.Label()
-        Me.comboBox1 = New System.Windows.Forms.ComboBox()
+        Me.txtComboBrowser = New System.Windows.Forms.ComboBox()
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.imgLoading = New System.Windows.Forms.PictureBox()
         Me.btnAdvanced = New System.Windows.Forms.Button()
@@ -120,6 +120,7 @@ Partial Class YTVL
         Me.NotificationMenuStripClose = New System.Windows.Forms.ToolStripMenuItem()
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.openFileDialogBrowser = New System.Windows.Forms.OpenFileDialog()
         Me.grpBoxInputs.SuspendLayout
         CType(Me.imgLoading,System.ComponentModel.ISupportInitialize).BeginInit
         Me.pnlRight1.SuspendLayout
@@ -142,7 +143,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
         Me.grpBoxInputs.Controls.Add(Me.chkRememberBrowser)
         Me.grpBoxInputs.Controls.Add(Me.lblBrowser)
-        Me.grpBoxInputs.Controls.Add(Me.comboBox1)
+        Me.grpBoxInputs.Controls.Add(Me.txtComboBrowser)
         Me.grpBoxInputs.Controls.Add(Me.txtComboVID)
         Me.grpBoxInputs.Controls.Add(Me.imgLoading)
         Me.grpBoxInputs.Controls.Add(Me.btnAdvanced)
@@ -191,13 +192,13 @@ Partial Class YTVL
         resources.ApplyResources(Me.lblBrowser, "lblBrowser")
         Me.lblBrowser.Name = "lblBrowser"
         '
-        'comboBox1
+        'txtComboBrowser
         '
-        Me.comboBox1.AllowDrop = true
-        resources.ApplyResources(Me.comboBox1, "comboBox1")
-        Me.comboBox1.FormattingEnabled = true
-        Me.comboBox1.Items.AddRange(New Object() {resources.GetString("comboBox1.Items"), resources.GetString("comboBox1.Items1"), resources.GetString("comboBox1.Items2"), resources.GetString("comboBox1.Items3"), resources.GetString("comboBox1.Items4"), resources.GetString("comboBox1.Items5"), resources.GetString("comboBox1.Items6"), resources.GetString("comboBox1.Items7"), resources.GetString("comboBox1.Items8"), resources.GetString("comboBox1.Items9"), resources.GetString("comboBox1.Items10"), resources.GetString("comboBox1.Items11")})
-        Me.comboBox1.Name = "comboBox1"
+        Me.txtComboBrowser.AllowDrop = true
+        resources.ApplyResources(Me.txtComboBrowser, "txtComboBrowser")
+        Me.txtComboBrowser.FormattingEnabled = true
+        Me.txtComboBrowser.Items.AddRange(New Object() {resources.GetString("txtComboBrowser.Items"), resources.GetString("txtComboBrowser.Items1"), resources.GetString("txtComboBrowser.Items2"), resources.GetString("txtComboBrowser.Items3"), resources.GetString("txtComboBrowser.Items4"), resources.GetString("txtComboBrowser.Items5"), resources.GetString("txtComboBrowser.Items6"), resources.GetString("txtComboBrowser.Items7"), resources.GetString("txtComboBrowser.Items8"), resources.GetString("txtComboBrowser.Items9"), resources.GetString("txtComboBrowser.Items10"), resources.GetString("txtComboBrowser.Items11")})
+        Me.txtComboBrowser.Name = "txtComboBrowser"
         '
         'txtComboVID
         '
@@ -870,6 +871,15 @@ Partial Class YTVL
         Me.ToolTip.InitialDelay = 800
         Me.ToolTip.ReshowDelay = 600
         '
+        'openFileDialogBrowser
+        '
+        Me.openFileDialogBrowser.DefaultExt = "exe"
+        Me.openFileDialogBrowser.InitialDirectory = "%ProgramFiles%"
+        Me.openFileDialogBrowser.ReadOnlyChecked = true
+        Me.openFileDialogBrowser.ShowHelp = true
+        Me.openFileDialogBrowser.ShowReadOnly = true
+        resources.ApplyResources(Me.openFileDialogBrowser, "openFileDialogBrowser")
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
@@ -914,7 +924,8 @@ Partial Class YTVL
         Me.ResumeLayout(false)
         Me.PerformLayout
     End Sub
-    Private comboBox1 As System.Windows.Forms.ComboBox
+    Private openFileDialogBrowser As System.Windows.Forms.OpenFileDialog
+    Private txtComboBrowser As System.Windows.Forms.ComboBox
     Private lblBrowser As System.Windows.Forms.Label
     Private chkRememberBrowser As System.Windows.Forms.CheckBox
     Friend WithEvents grpBoxInputs As System.Windows.Forms.GroupBox

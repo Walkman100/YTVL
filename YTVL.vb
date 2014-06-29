@@ -1,6 +1,8 @@
 ﻿Public Class YTVL
+    Dim dblQuote as string = Chr(34) 'Chr$(34)
     Dim Vars As String = ""
     Dim usehttps As String = "https"
+    Dim openIn As String = ""
     Dim latestVer As String
     Dim CopyWhat As String
     Dim CopyWhatEntire As String = "Nothing yet"
@@ -71,6 +73,31 @@
         If chkOrigin.Checked = True And txtOrigin.Text <> "(e.g. http://9gag.tv)" Then
             Vars = Vars & "&origin=" & txtOrigin.Text
         End If
+        If txtComboBrowser.Text="Default link handler" Or txtComboBrowser.Text = "Browse..." Or txtComboBrowser.Text = "" Then
+            openIn = ""
+        ElseIf txtComboBrowser.Text = "Mozilla Firefox (%ProgramFiles%\Mozilla Firefox\firefox.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Mozilla Firefox\firefox.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Google Chrome (%ProgramFiles%\Google\Chrome\Application\chrome.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Google\Chrome\Application\chrome.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Opera 22 (%ProgramFiles%\Opera\launcher.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Opera\launcher.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Opera 12 (%ProgramFiles%\Opera\opera.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Opera\opera.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Safari (%ProgramFiles%\Safari\Safari.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Safari\Safari.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Avant Browser (%ProgramFiles%\Avant Browser\avant.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Avant Browser\avant.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Lunascape6 (%ProgramFiles%\Lunascape\Lunascape6\Luna.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Lunascape\Lunascape6\Luna.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Sea Monkey (%ProgramFiles%\SeaMonkey\seamonkey.exe)"
+            openIn = dblQuote & "%ProgramFiles%\SeaMonkey\seamonkey.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Internet Explorer (%ProgramFiles%\Internet Explorer\iexplore.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Internet Explorer\iexplore.exe" & dblQuote & " "
+        ElseIf txtComboBrowser.Text = "Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)"
+            openIn = dblQuote & "%ProgramFiles%\Netscape\Navigator 9\navigator.exe" & dblQuote & " "
+        Else
+            openIn = dblQuote & txtComboBrowser.Text & dblQuote & " "
+        End If
     End Sub
 
     Sub MsgNoVID()
@@ -85,7 +112,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars)
+            Process.Start(openIn & usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars)
         End If
     End Sub
 
@@ -94,7 +121,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
+            Process.Start(openIn & usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
         End If
     End Sub
 
@@ -103,7 +130,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
+            Process.Start(openIn & usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
         End If
     End Sub
 
@@ -112,7 +139,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Process.Start(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
+            Process.Start(openIn & usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
         End If
     End Sub
 
@@ -347,23 +374,23 @@
     'Links
 
     Private Sub OpenOriginalPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkOriginalPage.LinkClicked
-        Process.Start("http://walkman100.github.io/Walkman/HTML/YTVL.html") '*.github.io doesn't support https!
+        Process.Start(openIn & "http://walkman100.github.io/Walkman/HTML/YTVL.html") '*.github.io doesn't support https!
     End Sub
 
     Private Sub OpenSourceCode(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkSourceCode.LinkClicked
-        Process.Start(usehttps & "://github.com/Walkman100/YTVL/")
+        Process.Start(openIn & usehttps & "://github.com/Walkman100/YTVL/")
     End Sub
 
     Private Sub ReportProblem(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReportProblem.LinkClicked
-        Process.Start(usehttps & "://github.com/Walkman100/YTVL/issues/new")
+        Process.Start(openIn & usehttps & "://github.com/Walkman100/YTVL/issues/new")
     End Sub
 
     Private Sub OpenReleases(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReleases.LinkClicked
-        Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+        Process.Start(openIn & usehttps & "://github.com/Walkman100/YTVL/releases/latest")
     End Sub
 
     Private Sub OpenDeveloperPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkDeveloper.LinkClicked
-        Process.Start(usehttps & "://google.com/+MatthewCarterWalkman/about")
+        Process.Start(openIn & usehttps & "://google.com/+MatthewCarterWalkman/about")
     End Sub
 
     'Text control
