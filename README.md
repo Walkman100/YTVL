@@ -1,4 +1,4 @@
-YouTube Video Linker [![YTVL Icon](https://raw.githubusercontent.com/Walkman100/YTVL/master/YTVL/Resources/youtube_withLink.png)](https://raw.githubusercontent.com/Walkman100/YTVL/master/YTVL/Resources/youtube_withLink.png "YTVL Icon")
+YouTube Video Linker [![YTVL Icon](https://raw.githubusercontent.com/Walkman100/YTVL/master/Resources/youtube_withLink.png)](https://raw.githubusercontent.com/Walkman100/YTVL/master/Resources/youtube_withLink.png "YTVL Icon")
 ====
 
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/HTML/YTVL.html)
@@ -19,7 +19,7 @@ Requirements
 
 * Windows `(tested on Windows 7 HP SP1 64-bit & Windows 8.1 Pro Update 1 64-bit)`
 
-* In order for the update checker to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
+* In order for the update checker and the video name loader to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
 
 How to use
 ====
