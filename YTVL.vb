@@ -457,4 +457,11 @@
         End If
     End Sub
 
+    
+    Sub ComboBrowserBrowse(sender As Object, e As EventArgs) Handles txtComboBrowser.TextChanged
+        If txtComboBrowser.Text = "Browse..." Then
+            openFileDialogBrowser.ShowDialog
+            txtComboBrowser.Text = openFileDialogBrowser.FileName
+        End If
+    End Sub
 End Class
