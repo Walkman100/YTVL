@@ -464,4 +464,8 @@
             txtComboBrowser.Text = openFileDialogBrowser.FileName
         End If
     End Sub
+
+    Private Sub txtComboBrowser_SelectedIndexChanged(sender As Object, e As EventArgs) Handles txtComboBrowser.SelectedIndexChanged
+
+    End Sub
 End Class
