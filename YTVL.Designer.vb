@@ -923,12 +923,11 @@ Partial Class YTVL
         Me.NotificationMenuStrip.ResumeLayout(false)
         Me.ResumeLayout(false)
         Me.PerformLayout
-
     End Sub
-    Private openFileDialogBrowser As System.Windows.Forms.OpenFileDialog
-    Private txtComboBrowser As System.Windows.Forms.ComboBox
-    Private lblBrowser As System.Windows.Forms.Label
-    Private chkRememberBrowser As System.Windows.Forms.CheckBox
+    Private WithEvents openFileDialogBrowser As System.Windows.Forms.OpenFileDialog
+    Private WithEvents txtComboBrowser As System.Windows.Forms.ComboBox
+    Private WithEvents lblBrowser As System.Windows.Forms.Label
+    Private WithEvents chkRememberBrowser As System.Windows.Forms.CheckBox
     Friend WithEvents grpBoxInputs As System.Windows.Forms.GroupBox
     Friend WithEvents grpBoxOutputs As System.Windows.Forms.GroupBox
     Friend WithEvents grpBoxAbout As System.Windows.Forms.GroupBox
