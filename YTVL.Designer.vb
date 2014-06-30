@@ -923,7 +923,6 @@ Partial Class YTVL
         Me.NotificationMenuStrip.ResumeLayout(false)
         Me.ResumeLayout(false)
         Me.PerformLayout
-
     End Sub
     Private WithEvents openFileDialogBrowser As System.Windows.Forms.OpenFileDialog
     Private WithEvents txtComboBrowser As System.Windows.Forms.ComboBox

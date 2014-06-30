@@ -14,6 +14,7 @@
         chkUpdate.Checked = My.Settings.AutoUpdateCheck
         NotificationMenuStripKeepOnTop.Checked = My.Settings.KeepOnTop
         chkKeepOnTop.Checked = My.Settings.KeepOnTop
+        chkRememberBrowser.Checked = My.Settings.RememberBrowser
 
         'apply settings to where they affect
         lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build
@@ -22,6 +23,9 @@
             WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
         End If
         Me.TopMost = My.Settings.KeepOnTop
+        If My.Settings.RememberBrowser = True Then
+            txtComboBrowser.Text = My.Settings.LastBrowser
+        End If
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
@@ -386,7 +390,7 @@
         chkKeepOnTop.Checked = My.Settings.KeepOnTop
     End Sub
 
-    Private Sub KeepOnTopFromMain(sender As Object, e As EventArgs) Handles chkKeepOnTop.CheckedChanged
+    Private Sub KeepOnTopFromMain(sender As Object, e As EventArgs) Handles chkKeepOnTop.Click
         My.Settings.KeepOnTop = chkKeepOnTop.Checked
         Me.TopMost = My.Settings.KeepOnTop
         NotificationMenuStripKeepOnTop.Checked = My.Settings.KeepOnTop
@@ -399,8 +403,15 @@
     Private Sub ContextClipboardCopyCodeOldCode_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeOldCode.Click
         ContextClipboardCopyCodeStandard.Checked = False
     End Sub
+    
+    Private Sub chkRememberBrowser_Click(sender As Object, e As EventArgs) Handles chkRememberBrowser.Click
+        My.Settings.RememberBrowser = chkRememberBrowser.Checked
+        If My.Settings.RememberBrowser = True Then
+            My.Settings.LastBrowser = txtComboBrowser.Text
+        End If
+    End Sub
 
-    Private Sub ComboBrowser_Browse_DefaultOrNo(sender As Object, e As EventArgs) Handles txtComboBrowser.SelectedIndexChanged
+    Private Sub txtComboBrowser_SelectedIndexChanged(sender As Object, e As EventArgs) Handles txtComboBrowser.SelectedIndexChanged
         If txtComboBrowser.Text = "Default link handler" Then
             UseDefaultBrowser = True
         Else
@@ -409,6 +420,18 @@
 
         If txtComboBrowser.Text = "Browse..." Then
             openFileDialogBrowser.ShowDialog()
+        End If
+        
+        If My.Settings.RememberBrowser = True Then
+            My.Settings.LastBrowser = txtComboBrowser.Text
+        End If
+    End Sub
+
+    Private Sub openFileDialogBrowser_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles openFileDialogBrowser.FileOk
+        txtComboBrowser.Text = openFileDialogBrowser.FileName
+        
+        If My.Settings.RememberBrowser = True Then
+            My.Settings.LastBrowser = txtComboBrowser.Text
         End If
     End Sub
 
@@ -521,10 +544,5 @@
         If txtOrigin.Text = "" Then
             txtOrigin.Text = "(e.g. http://9gag.tv)"
         End If
-    End Sub
-
-    Private Sub openFileDialogBrowser_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles openFileDialogBrowser.FileOk
-        txtComboBrowser.Text = openFileDialogBrowser.FileName
-        txtComboBrowser.SelectedItem = openFileDialogBrowser.FileName
     End Sub
 End Class

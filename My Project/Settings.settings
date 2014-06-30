@@ -1,14 +1,22 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
-  <Profiles />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsFile CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
   <Settings>
-    <Setting Name="ShowNotification" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="AutoUpdateCheck" Type="System.Boolean" Scope="User">
+    <Setting Name="AutoUpdateCheck" Type="System.Boolean" Scope="User" Roaming="false">
       <Value Profile="(Default)">True</Value>
     </Setting>
-    <Setting Name="KeepOnTop" Type="System.Boolean" Scope="User">
+    <Setting Name="KeepOnTop" Type="System.Boolean" Scope="User" Roaming="false">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LastBrowser" Type="System.String" Scope="User" Roaming="false">
+      <Value Profile="(Default)">Default link handler</Value>
+    </Setting>
+    <Setting Name="RememberBrowser" Type="System.Boolean" Scope="User" Roaming="false">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowNotification" Type="System.Boolean" Scope="User" Roaming="false">
       <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>
