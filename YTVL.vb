@@ -25,8 +25,8 @@
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
-    	latestVer = Mid(WebBrowserVersionCheck.Url.ToString, 50)
-    	'WebBrowserVersionCheck.InnerText = latestVer	'this is supposed to clear the contents of the browser to reduce RAM usage, but the command doesn't seem to exist
+        latestVer = Mid(WebBrowserVersionCheck.Url.ToString, 50)
+        'WebBrowserVersionCheck.InnerText = latestVer	'this is supposed to clear the contents of the browser to reduce RAM usage, but the command doesn't seem to exist
         NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " Latest ver: " & latestVer
         If My.Settings.AutoUpdateCheck = True Then
             'check if this version is latest
@@ -35,7 +35,7 @@
                     If UseDefaultBrowser = True Then
                         Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
                     Else
-                        GetBrowser
+                        GetBrowser()
                         Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/releases/latest")
                     End If
                 End If 'yes, this entire sub could be put on one line, but that line would be incredibly long
@@ -80,29 +80,29 @@
             Vars = Vars & "&origin=" & txtOrigin.Text
         End If
     End Sub
-    
+
     Private Sub GetBrowser()
         If txtComboBrowser.Text = "Browse..." Or txtComboBrowser.Text = "" Then
             UseDefaultBrowser = True
-        ElseIf txtComboBrowser.Text = "Mozilla Firefox (%ProgramFiles%\Mozilla Firefox\firefox.exe)"
+        ElseIf txtComboBrowser.Text = "Mozilla Firefox (%ProgramFiles%\Mozilla Firefox\firefox.exe)" Then
             openIn = ProgramFilesDir & "\Mozilla Firefox\firefox.exe"
-        ElseIf txtComboBrowser.Text = "Google Chrome (%ProgramFiles%\Google\Chrome\Application\chrome.exe)"
+        ElseIf txtComboBrowser.Text = "Google Chrome (%ProgramFiles%\Google\Chrome\Application\chrome.exe)" Then
             openIn = ProgramFilesDir & "\Google\Chrome\Application\chrome.exe"
-        ElseIf txtComboBrowser.Text = "Opera 22 (%ProgramFiles%\Opera\launcher.exe)"
+        ElseIf txtComboBrowser.Text = "Opera 22 (%ProgramFiles%\Opera\launcher.exe)" Then
             openIn = ProgramFilesDir & "\Opera\launcher.exe"
-        ElseIf txtComboBrowser.Text = "Opera 12 (%ProgramFiles%\Opera\opera.exe)"
+        ElseIf txtComboBrowser.Text = "Opera 12 (%ProgramFiles%\Opera\opera.exe)" Then
             openIn = ProgramFilesDir & "\Opera\opera.exe"
-        ElseIf txtComboBrowser.Text = "Safari (%ProgramFiles%\Safari\Safari.exe)"
+        ElseIf txtComboBrowser.Text = "Safari (%ProgramFiles%\Safari\Safari.exe)" Then
             openIn = ProgramFilesDir & "\Safari\Safari.exe"
-        ElseIf txtComboBrowser.Text = "Avant Browser (%ProgramFiles%\Avant Browser\avant.exe)"
+        ElseIf txtComboBrowser.Text = "Avant Browser (%ProgramFiles%\Avant Browser\avant.exe)" Then
             openIn = ProgramFilesDir & "\Avant Browser\avant.exe"
-        ElseIf txtComboBrowser.Text = "Lunascape6 (%ProgramFiles%\Lunascape\Lunascape6\Luna.exe)"
+        ElseIf txtComboBrowser.Text = "Lunascape6 (%ProgramFiles%\Lunascape\Lunascape6\Luna.exe)" Then
             openIn = ProgramFilesDir & "\Lunascape\Lunascape6\Luna.exe"
-        ElseIf txtComboBrowser.Text = "Sea Monkey (%ProgramFiles%\SeaMonkey\seamonkey.exe)"
+        ElseIf txtComboBrowser.Text = "Sea Monkey (%ProgramFiles%\SeaMonkey\seamonkey.exe)" Then
             openIn = ProgramFilesDir & "\SeaMonkey\seamonkey.exe"
-        ElseIf txtComboBrowser.Text = "Internet Explorer (%ProgramFiles%\Internet Explorer\iexplore.exe)"
+        ElseIf txtComboBrowser.Text = "Internet Explorer (%ProgramFiles%\Internet Explorer\iexplore.exe)" Then
             openIn = ProgramFilesDir & "\Internet Explorer\iexplore.exe"
-        ElseIf txtComboBrowser.Text = "Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)"
+        ElseIf txtComboBrowser.Text = "Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)" Then
             openIn = ProgramFilesDir & "\Netscape\Navigator 9\navigator.exe"
         ElseIf system.io.File.Exists(txtComboBrowser.Text) Then
             openIn = txtComboBrowser.Text
@@ -124,7 +124,7 @@
             If UseDefaultBrowser = True Then
                 Process.Start(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars)
             Else
-                GetBrowser
+                GetBrowser()
                 Process.Start(openIn, usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars)
             End If
         End If
@@ -138,7 +138,7 @@
             If UseDefaultBrowser = True Then
                 Process.Start(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
             Else
-                GetBrowser
+                GetBrowser()
                 Process.Start(openIn, usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
             End If
         End If
@@ -152,7 +152,7 @@
             If UseDefaultBrowser = True Then
                 Process.Start(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
             Else
-                GetBrowser
+                GetBrowser()
                 Process.Start(openIn, usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
             End If
         End If
@@ -166,7 +166,7 @@
             If UseDefaultBrowser = True Then
                 Process.Start(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
             Else
-                GetBrowser
+                GetBrowser()
                 Process.Start(openIn, usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
             End If
         End If
@@ -303,7 +303,7 @@
         imgLoading.Visible = False
         lblVideoTitle.Text = "Enter a Video ID above"
     End Sub
-    
+
     Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles NotificationMenuStripClose.Click, btnExit.Click
         My.Settings.Save()
         Application.Exit()
@@ -318,7 +318,7 @@
         WebBrowserVersionCheck.Visible = True
         WebBrowserVideoLoad.Visible = True
     End Sub
-    
+
     Private Sub txtComboVID_ContentsChanged(sender As Object, e As EventArgs) Handles txtComboVID.TextChanged
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Or Len(txtComboVID.Text) < "10" Then
             imgLoading.Visible = False
@@ -406,11 +406,9 @@
         Else
             UseDefaultBrowser = False
         End If
-        
+
         If txtComboBrowser.Text = "Browse..." Then
-            openFileDialogBrowser.ShowDialog
-            txtComboBrowser.Text = openFileDialogBrowser.FileName
-            txtComboBrowser.SelectedItem = openFileDialogBrowser.FileName
+            openFileDialogBrowser.ShowDialog()
         End If
     End Sub
 
@@ -420,7 +418,7 @@
         If UseDefaultBrowser = True Then
             Process.Start("http://walkman100.github.io/Walkman/HTML/YTVL.html") ' *.github.io doesn't support https!)
         Else
-            GetBrowser
+            GetBrowser()
             Process.Start(openIn, "http://walkman100.github.io/Walkman/HTML/YTVL.html")
         End If
     End Sub
@@ -429,7 +427,7 @@
         If UseDefaultBrowser = True Then
             Process.Start(usehttps & "://github.com/Walkman100/YTVL/")
         Else
-            GetBrowser
+            GetBrowser()
             Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/")
         End If
     End Sub
@@ -438,7 +436,7 @@
         If UseDefaultBrowser = True Then
             Process.Start(usehttps & "://github.com/Walkman100/YTVL/issues/new")
         Else
-            GetBrowser
+            GetBrowser()
             Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/issues/new")
         End If
     End Sub
@@ -447,7 +445,7 @@
         If UseDefaultBrowser = True Then
             Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
         Else
-            GetBrowser
+            GetBrowser()
             Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/releases/latest")
         End If
     End Sub
@@ -456,7 +454,7 @@
         If UseDefaultBrowser = True Then
             Process.Start(usehttps & "://google.com/+MatthewCarterWalkman/about")
         Else
-            GetBrowser
+            GetBrowser()
             Process.Start(openIn, usehttps & "://google.com/+MatthewCarterWalkman/about")
         End If
     End Sub
@@ -523,5 +521,10 @@
         If txtOrigin.Text = "" Then
             txtOrigin.Text = "(e.g. http://9gag.tv)"
         End If
+    End Sub
+
+    Private Sub openFileDialogBrowser_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles openFileDialogBrowser.FileOk
+        txtComboBrowser.Text = openFileDialogBrowser.FileName
+        txtComboBrowser.SelectedItem = openFileDialogBrowser.FileName
     End Sub
 End Class
