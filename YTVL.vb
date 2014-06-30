@@ -457,15 +457,11 @@
         End If
     End Sub
 
-    
-    Sub ComboBrowserBrowse(sender As Object, e As EventArgs) Handles txtComboBrowser.TextChanged
+    Sub ComboBrowserBrowse(sender As Object, e As EventArgs) Handles txtComboBrowser.SelectedIndexChanged
         If txtComboBrowser.Text = "Browse..." Then
             openFileDialogBrowser.ShowDialog
             txtComboBrowser.Text = openFileDialogBrowser.FileName
+            txtComboBrowser.SelectedItem = openFileDialogBrowser.FileName
         End If
-    End Sub
-
-    Private Sub txtComboBrowser_SelectedIndexChanged(sender As Object, e As EventArgs) Handles txtComboBrowser.SelectedIndexChanged
-
     End Sub
 End Class
