@@ -32,7 +32,12 @@
             'check if this version is latest
             If My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < latestVer Then
                 If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " & latestVer & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") = MsgBoxResult.Ok Then
-                    Process.Start("https://github.com/Walkman100/YTVL/releases/latest")
+                    If UseDefaultBrowser = True Then
+                        Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+                    Else
+                        GetBrowser
+                        Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+                    End If
                 End If 'yes, this entire sub could be put on one line, but that line would be incredibly long
             End If
         End If
@@ -412,23 +417,48 @@
     ' Links
 
     Private Sub OpenOriginalPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkOriginalPage.LinkClicked
-        Process.Start(openIn & "http://walkman100.github.io/Walkman/HTML/YTVL.html") '*.github.io doesn't support https!
+        If UseDefaultBrowser = True Then
+            Process.Start("http://walkman100.github.io/Walkman/HTML/YTVL.html") ' *.github.io doesn't support https!)
+        Else
+            GetBrowser
+            Process.Start(openIn, "http://walkman100.github.io/Walkman/HTML/YTVL.html")
+        End If
     End Sub
 
     Private Sub OpenSourceCode(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkSourceCode.LinkClicked
-        Process.Start(openIn & usehttps & "://github.com/Walkman100/YTVL/")
+        If UseDefaultBrowser = True Then
+            Process.Start(usehttps & "://github.com/Walkman100/YTVL/")
+        Else
+            GetBrowser
+            Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/")
+        End If
     End Sub
 
     Private Sub ReportProblem(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReportProblem.LinkClicked
-        Process.Start(openIn & usehttps & "://github.com/Walkman100/YTVL/issues/new")
+        If UseDefaultBrowser = True Then
+            Process.Start(usehttps & "://github.com/Walkman100/YTVL/issues/new")
+        Else
+            GetBrowser
+            Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/issues/new")
+        End If
     End Sub
 
     Private Sub OpenReleases(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReleases.LinkClicked
-        Process.Start(openIn & usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+        If UseDefaultBrowser = True Then
+            Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+        Else
+            GetBrowser
+            Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+        End If
     End Sub
 
     Private Sub OpenDeveloperPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkDeveloper.LinkClicked
-        Process.Start(openIn & usehttps & "://google.com/+MatthewCarterWalkman/about")
+        If UseDefaultBrowser = True Then
+            Process.Start(usehttps & "://google.com/+MatthewCarterWalkman/about")
+        Else
+            GetBrowser
+            Process.Start(openIn, usehttps & "://google.com/+MatthewCarterWalkman/about")
+        End If
     End Sub
 
     ' Text control
