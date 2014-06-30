@@ -3,10 +3,15 @@
 ; As a program that all Power PC users should have, Notepad ++ is recommended to edit this file
 
 AddBrandingImage top 20
-Icon YTVL\youtube_withLink.ico
+Icon youtube_withLink.ico
 Caption "YTVL Installer"
 Name "YTVL"
 AutoCloseWindow true
+
+LicenseBkColor /windows
+LicenseData "LICENSE.md"
+LicenseForceSelection checkbox "I have read and understand this notice"
+LicenseText "Please read the notice below before installing YTVL. If you understand the notice, click the checkbox below and click Next."
 
 InstallDir $PROGRAMFILES\DeavmiOSS
 
@@ -14,6 +19,7 @@ OutFile "bin\Release\YTVL-Installer.exe"
 
 ; Pages
 
+Page license
 Page components
 Page directory
 Page instfiles
@@ -69,7 +75,7 @@ Function .onInit
   MessageBox MB_YESNO "This will install YTVL. Do you wish to continue?" IDYES gogogo
     Abort
   gogogo:
-  File "YTVL\youtube_withLink.ico"
+  File "youtube_withLink.ico"
   SetBrandingImage "[/RESIZETOFIT] youtube_withLink.ico"
   SetShellVarContext all
   SetAutoClose true
