@@ -9,7 +9,7 @@ Jump to:
 •<a href="#requirements">Requirements</a> 
 •<a href="#how-to-use">How to use</a> 
 •<a href="#what-the-links--flags-do">What the Links & Flags do</a> 
-•<a href="http://walkman100.github.io/Walkman/YTVL/">Screenshots</a> 
+•<a href="http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html">Screenshots</a> 
 •<a href="#future-releasesideas">Future releases/ideas</a> 
 •<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
 •<a href="#debugging">Debugging</a> 
@@ -43,7 +43,7 @@ is `z9Uz1icjwrM`. This ID is found in any Page's URL containing a video, even em
 What the Links & Flags do
 ====
 Links:
-* **Original page** goes here: http://walkman100.github.io/Walkman/youtube-video-stuff.htm
+* **Original page** goes here: http://walkman100.github.io/Walkman/HTML/YTVL.html
 * **Source code** goes here: https://github.com/Walkman100/YTVL/
 * **Report a problem** goes here: https://github.com/Walkman100/YTVL/issues/new
 * **Latest release** goes here: https://github.com/Walkman100/YTVL/releases/latest where it automatically redirects to the latest version
@@ -73,9 +73,9 @@ Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as lo
 
 Debugging
 =========
-Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser window to the right of the `Developed by...` link, this shows the page that is loaded to show the current version.
+Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of the `Developed by...` link, these show the page that is loaded to show the current version and the object that is loaded to get the video name. It is possible to play videos from this object.
 
-![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/Images/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")
+![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/Images/WindowsProjectsScreenshots/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")
 
 If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
 
