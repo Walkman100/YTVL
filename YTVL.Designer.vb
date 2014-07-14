@@ -874,11 +874,11 @@ Partial Class YTVL
         'openFileDialogBrowser
         '
         Me.openFileDialogBrowser.DefaultExt = "exe"
+        resources.ApplyResources(Me.openFileDialogBrowser, "openFileDialogBrowser")
         Me.openFileDialogBrowser.InitialDirectory = "%ProgramFiles%"
         Me.openFileDialogBrowser.ReadOnlyChecked = true
         Me.openFileDialogBrowser.ShowHelp = true
         Me.openFileDialogBrowser.ShowReadOnly = true
-        resources.ApplyResources(Me.openFileDialogBrowser, "openFileDialogBrowser")
         '
         'YTVL
         '

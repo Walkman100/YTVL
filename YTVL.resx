@@ -268,7 +268,7 @@
     <value>Video ID</value>
   </data>
   <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>299, 17</value>
+    <value>250, 7</value>
   </metadata>
   <data name="txtComboVID.ToolTip" xml:space="preserve">
     <value>ID to be used</value>
@@ -331,7 +331,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 216</value>
+    <value>404, 44</value>
   </data>
   <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 23</value>
@@ -1627,7 +1627,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblHL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 48</value>
+    <value>317, 48</value>
   </data>
   <data name="lblHL.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 13</value>
@@ -1660,7 +1660,7 @@
     <value>NoControl</value>
   </data>
   <data name="chkHL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 46</value>
+    <value>237, 46</value>
   </data>
   <data name="chkHL.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 17</value>
@@ -1717,7 +1717,7 @@
     <value>6, 47</value>
   </data>
   <data name="lblVideoTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 13</value>
+    <value>225, 13</value>
   </data>
   <data name="lblVideoTitle.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -1744,7 +1744,7 @@
     <value>12, 12</value>
   </data>
   <data name="grpBoxInputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 240</value>
+    <value>466, 68</value>
   </data>
   <data name="grpBoxInputs.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1921,7 +1921,7 @@
     <value>True</value>
   </data>
   <metadata name="ContextClipboard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>391, 17</value>
+    <value>320, 7</value>
   </metadata>
   <data name="ContextClipboardCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 22</value>
@@ -2137,7 +2137,7 @@
     <value>6</value>
   </data>
   <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 258</value>
+    <value>12, 86</value>
   </data>
   <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 47</value>
@@ -2455,7 +2455,7 @@
     <value>7</value>
   </data>
   <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 311</value>
+    <value>12, 139</value>
   </data>
   <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 42</value>
@@ -2494,7 +2494,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblCurrentVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 345</value>
+    <value>316, 173</value>
   </data>
   <data name="lblCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 12</value>
@@ -2518,10 +2518,10 @@
     <value>4</value>
   </data>
   <metadata name="NotificationIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>5, 6</value>
   </metadata>
   <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>126, 17</value>
+    <value>110, 7</value>
   </metadata>
   <data name="NotificationMenuStripShowYTVL.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 22</value>
@@ -2650,7 +2650,7 @@
     <value>NoControl</value>
   </data>
   <data name="chkUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 344</value>
+    <value>132, 172</value>
   </data>
   <data name="chkUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 17</value>
@@ -2677,19 +2677,25 @@
     <value>3</value>
   </data>
   <metadata name="openFileDialogBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>530, 17</value>
+    <value>438, 8</value>
   </metadata>
+  <data name="openFileDialogBrowser.Filter" xml:space="preserve">
+    <value>Browsers (*.exe)|*.exe|All Files (*.*)|*.*</value>
+  </data>
   <data name="openFileDialogBrowser.Title" xml:space="preserve">
     <value>Select Browser to open link in</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>33</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>490, 365</value>
+    <value>490, 193</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

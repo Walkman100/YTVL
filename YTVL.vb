@@ -408,6 +408,8 @@
         My.Settings.RememberBrowser = chkRememberBrowser.Checked
         If My.Settings.RememberBrowser = True Then
             My.Settings.LastBrowser = txtComboBrowser.Text
+        Else
+            My.Settings.LastBrowser = "Default link handler"
         End If
     End Sub
 
@@ -420,15 +422,12 @@
 
         If txtComboBrowser.Text = "Browse..." Then
             openFileDialogBrowser.ShowDialog()
+            txtComboBrowser.Items.Add(openFileDialogBrowser.FileName)
+            txtComboBrowser.Text = openFileDialogBrowser.FileName
+            If My.Settings.RememberBrowser = True Then
+                My.Settings.LastBrowser = openFileDialogBrowser.FileName
+            End If
         End If
-        
-        If My.Settings.RememberBrowser = True Then
-            My.Settings.LastBrowser = txtComboBrowser.Text
-        End If
-    End Sub
-
-    Private Sub openFileDialogBrowser_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles openFileDialogBrowser.FileOk
-        txtComboBrowser.Text = openFileDialogBrowser.FileName
         
         If My.Settings.RememberBrowser = True Then
             My.Settings.LastBrowser = txtComboBrowser.Text
@@ -496,9 +495,7 @@
         If txtComboVID.Text = "" Then
             txtComboVID.Text = "Video ID"
         ElseIf txtComboVID.Text <> "Video ID" Then
-            If txtComboVID.Items.Contains(txtComboVID.Text) Then
-
-            Else
+            If Not txtComboVID.Items.Contains(txtComboVID.Text) Then
                 txtComboVID.Items.Add(txtComboVID.Text)
             End If
         End If

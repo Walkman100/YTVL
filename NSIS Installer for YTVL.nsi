@@ -75,7 +75,6 @@ Function .onInit
   MessageBox MB_YESNO "This will install YTVL. Do you wish to continue?" IDYES gogogo
     Abort
   gogogo:
-  File "youtube_withLink.ico"
   SetBrandingImage "[/RESIZETOFIT] youtube_withLink.ico"
   SetShellVarContext all
   SetAutoClose true
