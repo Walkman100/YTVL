@@ -1,5 +1,5 @@
 YouTube Video Linker [![YTVL Icon](https://raw.githubusercontent.com/Walkman100/YTVL/master/Resources/youtube_withLink.png)](https://raw.githubusercontent.com/Walkman100/YTVL/master/Resources/youtube_withLink.png "YTVL Icon")
-===================================
+===
 
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/HTML/YTVL.html)
 
@@ -14,15 +14,13 @@ Jump to:
 •<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
 •<a href="#debugging">Debugging</a> 
 
-Requirements
-============
+# Requirements
 
-* Windows `(tested on Windows 7 HP SP1 64-bit & Windows 8.1 Pro Update 1 64-bit)`
+- Windows `(tested on Windows 7 HP SP1 64-bit & Windows 8.1 Pro Update 1 64-bit)`
 
-* In order for the update checker and the video name loader to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
+- In order for the update checker and the video name loader to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
 
-How to use
-==========
+# How to use
 It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you watched the video in Embedded mode); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweght than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup> was; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
 
 If you want to copy the generated URL to the clipboard instead of opening it in the browser, you can right-click an output button and click `Generate URL to Clipboard`, this will generate the URL and copy it to your clipboard.
@@ -40,39 +38,34 @@ is `z9Uz1icjwrM`. This ID is found in any Page's URL containing a video, even em
 
 <a name="f-note-2" id="f-note-2">2</a>. As the page on [their website](https://www.youtube.com/feather_beta) says, "The "Feather" project is intended to serve YouTube video watch pages with the lowest latency possible. It achieves this by severely limiting the features available to the viewer and making use of advanced web techniques for reducing the total amount of bytes downloaded by the browser. It is a work in progress and may not work for all videos." Enable it [here](https://www.youtube.com/feather_beta). **Note**: YouTube Feather has been discontinued.<a href="#ref2" title="Jump back to footnote 2 above">↩</a>
 
-What the Links & Flags do
-====
+# What the Links & Flags do
 Links:
-* **Original page** goes here: http://walkman100.github.io/Walkman/HTML/YTVL.html
-* **Source code** goes here: https://github.com/Walkman100/YTVL/
-* **Report a problem** goes here: https://github.com/Walkman100/YTVL/issues/new
-* **Latest release** goes here: https://github.com/Walkman100/YTVL/releases/latest where it automatically redirects to the latest version
+- **Original page** goes here: http://walkman100.github.io/Walkman/HTML/YTVL.html
+- **Source code** goes here: https://github.com/Walkman100/YTVL/
+- **Report a problem** goes here: https://github.com/Walkman100/YTVL/issues/new
+- **Latest release** goes here: https://github.com/Walkman100/YTVL/releases/latest where it automatically redirects to the latest version
 
 Generally, the name of the flag speaks for itself, but here is a short description:
 
 The advanced options are mostly useful for embedded videos:
-* **AutoPlay**: if this is set to `1`, the video will automatically begin playing when the page loads
+- **AutoPlay**: if this is set to `1`, the video will automatically begin playing when the page loads
 
 ***_<kbd>`WIP`</kbd>_***
 
-Screenshots
-===========
+# Screenshots
 Screenshots available <a href="http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html">here</a>.
 
-Future releases/ideas
-=====================
+# Future releases/ideas
 `v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or [BB code](https://www.phpbb.com/support/documentation/3.0/userguide/user_posting.php#posting_bbcodes) which will be copied to the clipboard.
 
 `v1.4.1` will have an option of where to open the links.
 
 `v1.5` will probably have buttons to open the download pages for FullRip.net; MP3, Video or Video(alternative); KeepVid e.t.c.
 
-Want to suggest a feature?
-==========================
+# Want to suggest a feature?
 Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as long as the feature/addition doesn't make the program file size significantly bigger, or increases the time it takes to start. Also, keep in mind the KISS principle (Keep It Simple, Stupid). Notice I haven't added a settings window because there are only three settings, and my application interface has space for those settings without it looking too cluttered.
 
-Debugging
-=========
+# Debugging
 Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of the `Developed by...` link, these show the page that is loaded to show the current version and the object that is loaded to get the video name. It is possible to play videos from this object.
 
 ![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/Images/WindowsProjectsScreenshots/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")
@@ -80,5 +73,5 @@ Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of 
 If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
 
 [AppVeyor](http://ci.appveyor.com/) build status
-=====================
+===
 [![Build status](https://ci.appveyor.com/api/projects/status/ao70dapbuoho2yk2)](https://ci.appveyor.com/project/Walkman100/ytvl)
