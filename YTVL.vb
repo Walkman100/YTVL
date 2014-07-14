@@ -301,7 +301,7 @@
         optShowsearch1.Checked = False
 
         'other
-        Me.Height = 230
+        Me.Height = 260
         Me.Width = 506
         btnAdvanced.Text = "More ↓"
         imgLoading.Visible = False
@@ -346,11 +346,11 @@
     ' Changes e.g. settings
 
     Private Sub MoreLess(sender As Object, e As EventArgs) Handles btnAdvanced.Click
-        If Me.Height = 402 Then
-            Me.Height = 230
+        If Me.Height = 432 Then
+            Me.Height = 260
             btnAdvanced.Text = "More ↓"
         Else
-            Me.Height = 402
+            Me.Height = 432
             btnAdvanced.Text = "Less ↑"
         End If
     End Sub

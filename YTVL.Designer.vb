@@ -81,6 +81,7 @@ Partial Class YTVL
         Me.lblVideoTitle = New System.Windows.Forms.Label()
         Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
+        Me.btnDeturl = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
         Me.btnReset = New System.Windows.Forms.Button()
@@ -121,6 +122,12 @@ Partial Class YTVL
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.openFileDialogBrowser = New System.Windows.Forms.OpenFileDialog()
+        Me.ContextDownload = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ContextDownloadFullripVideo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadFullripVideoAlternate = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadVideoKeepVid = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadGenerateURLToClipboard = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadVideoFullripMP3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.grpBoxInputs.SuspendLayout
         CType(Me.imgLoading,System.ComponentModel.ISupportInitialize).BeginInit
         Me.pnlRight1.SuspendLayout
@@ -136,6 +143,7 @@ Partial Class YTVL
         Me.ContextClipboard.SuspendLayout
         Me.grpBoxAbout.SuspendLayout
         Me.NotificationMenuStrip.SuspendLayout
+        Me.ContextDownload.SuspendLayout
         Me.SuspendLayout
         '
         'grpBoxInputs
@@ -571,6 +579,7 @@ Partial Class YTVL
         'grpBoxOutputs
         '
         resources.ApplyResources(Me.grpBoxOutputs, "grpBoxOutputs")
+        Me.grpBoxOutputs.Controls.Add(Me.btnDeturl)
         Me.grpBoxOutputs.Controls.Add(Me.btnExit)
         Me.grpBoxOutputs.Controls.Add(Me.chkShowNotification)
         Me.grpBoxOutputs.Controls.Add(Me.btnReset)
@@ -581,6 +590,13 @@ Partial Class YTVL
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
         Me.grpBoxOutputs.TabStop = false
         Me.ToolTip.SetToolTip(Me.grpBoxOutputs, resources.GetString("grpBoxOutputs.ToolTip"))
+        '
+        'btnDeturl
+        '
+        resources.ApplyResources(Me.btnDeturl, "btnDeturl")
+        Me.btnDeturl.ContextMenuStrip = Me.ContextDownload
+        Me.btnDeturl.Name = "btnDeturl"
+        Me.btnDeturl.UseVisualStyleBackColor = true
         '
         'btnExit
         '
@@ -880,6 +896,38 @@ Partial Class YTVL
         Me.openFileDialogBrowser.ShowHelp = true
         Me.openFileDialogBrowser.ShowReadOnly = true
         '
+        'ContextDownload
+        '
+        Me.ContextDownload.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextDownloadGenerateURLToClipboard, Me.ContextDownloadFullripVideo, Me.ContextDownloadFullripVideoAlternate, Me.ContextDownloadVideoFullripMP3, Me.ContextDownloadVideoKeepVid})
+        Me.ContextDownload.Name = "contextMenuStrip1"
+        resources.ApplyResources(Me.ContextDownload, "ContextDownload")
+        '
+        'ContextDownloadFullripVideo
+        '
+        resources.ApplyResources(Me.ContextDownloadFullripVideo, "ContextDownloadFullripVideo")
+        Me.ContextDownloadFullripVideo.Name = "ContextDownloadFullripVideo"
+        '
+        'ContextDownloadFullripVideoAlternate
+        '
+        resources.ApplyResources(Me.ContextDownloadFullripVideoAlternate, "ContextDownloadFullripVideoAlternate")
+        Me.ContextDownloadFullripVideoAlternate.Name = "ContextDownloadFullripVideoAlternate"
+        '
+        'ContextDownloadVideoKeepVid
+        '
+        resources.ApplyResources(Me.ContextDownloadVideoKeepVid, "ContextDownloadVideoKeepVid")
+        Me.ContextDownloadVideoKeepVid.Name = "ContextDownloadVideoKeepVid"
+        '
+        'ContextDownloadGenerateURLToClipboard
+        '
+        Me.ContextDownloadGenerateURLToClipboard.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextDownloadGenerateURLToClipboard.Name = "ContextDownloadGenerateURLToClipboard"
+        resources.ApplyResources(Me.ContextDownloadGenerateURLToClipboard, "ContextDownloadGenerateURLToClipboard")
+        '
+        'ContextDownloadVideoFullripMP3
+        '
+        resources.ApplyResources(Me.ContextDownloadVideoFullripMP3, "ContextDownloadVideoFullripMP3")
+        Me.ContextDownloadVideoFullripMP3.Name = "ContextDownloadVideoFullripMP3"
+        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
@@ -921,13 +969,21 @@ Partial Class YTVL
         Me.grpBoxAbout.ResumeLayout(false)
         Me.grpBoxAbout.PerformLayout
         Me.NotificationMenuStrip.ResumeLayout(false)
+        Me.ContextDownload.ResumeLayout(false)
         Me.ResumeLayout(false)
         Me.PerformLayout
     End Sub
-    Private WithEvents openFileDialogBrowser As System.Windows.Forms.OpenFileDialog
-    Private WithEvents txtComboBrowser As System.Windows.Forms.ComboBox
-    Private WithEvents lblBrowser As System.Windows.Forms.Label
-    Private WithEvents chkRememberBrowser As System.Windows.Forms.CheckBox
+    Private ContextDownloadVideoKeepVid As System.Windows.Forms.ToolStripMenuItem
+    Private ContextDownloadFullripVideoAlternate As System.Windows.Forms.ToolStripMenuItem
+    Private ContextDownloadFullripVideo As System.Windows.Forms.ToolStripMenuItem
+    Private ContextDownload As System.Windows.Forms.ContextMenuStrip
+    Private ContextDownloadVideoFullripMP3 As System.Windows.Forms.ToolStripMenuItem
+    Private ContextDownloadGenerateURLToClipboard As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents btnDeturl As System.Windows.Forms.Button
+    Friend WithEvents openFileDialogBrowser As System.Windows.Forms.OpenFileDialog
+    Friend WithEvents txtComboBrowser As System.Windows.Forms.ComboBox
+    Friend WithEvents lblBrowser As System.Windows.Forms.Label
+    Friend WithEvents chkRememberBrowser As System.Windows.Forms.CheckBox
     Friend WithEvents grpBoxInputs As System.Windows.Forms.GroupBox
     Friend WithEvents grpBoxOutputs As System.Windows.Forms.GroupBox
     Friend WithEvents grpBoxAbout As System.Windows.Forms.GroupBox

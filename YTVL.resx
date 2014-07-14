@@ -1765,7 +1765,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="chkKeepOnTop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1807,10 +1807,139 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chkKeepOnTop.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
+  <data name="btnDeturl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="ContextDownload.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>474, 9</value>
+  </metadata>
+  <data name="ContextDownloadGenerateURLToClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextDownloadGenerateURLToClipboard.Text" xml:space="preserve">
+    <value>Generate URL to Clipboard</value>
+  </data>
+  <data name="ContextDownloadFullripVideo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVDhPrZIxDsIwEASvhSoPiIRExxfo+RMlv6OmoI9E
+        nRdQONqT19qzYnQFK03k2Jm14sSQw+lS9rBvaXCuPKws96kxlEEvA4ooAqEgnSr/t2B+r3U1kSrD8wLI
+        fQGLgR4a5fP15hhl3Gh6WXeljLEXcDITlVsBJzNR2QsoZwsgPV9HxwtwYWuIHBTWFMog/MqaX3Io4MBP
+        WZKRgRfwE2n0IfBZZ6efDwUY7+08kkF7BdDLFIeymW3trGa7OsnRYQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ContextDownloadFullripVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextDownloadFullripVideo.Text" xml:space="preserve">
+    <value>FullRip: Video</value>
+  </data>
+  <data name="ContextDownloadFullripVideoAlternate.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVDhPrZIxDsIwEASvhSoPiIRExxfo+RMlv6OmoI9E
+        nRdQONqT19qzYnQFK03k2Jm14sSQw+lS9rBvaXCuPKws96kxlEEvA4ooAqEgnSr/t2B+r3U1kSrD8wLI
+        fQGLgR4a5fP15hhl3Gh6WXeljLEXcDITlVsBJzNR2QsoZwsgPV9HxwtwYWuIHBTWFMog/MqaX3Io4MBP
+        WZKRgRfwE2n0IfBZZ6efDwUY7+08kkF7BdDLFIeymW3trGa7OsnRYQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ContextDownloadFullripVideoAlternate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextDownloadFullripVideoAlternate.Text" xml:space="preserve">
+    <value>FullRip: Video Alternate</value>
+  </data>
+  <data name="ContextDownloadVideoFullripMP3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVDhPrZIxDsIwEASvhSoPiIRExxfo+RMlv6OmoI9E
+        nRdQONqT19qzYnQFK03k2Jm14sSQw+lS9rBvaXCuPKws96kxlEEvA4ooAqEgnSr/t2B+r3U1kSrD8wLI
+        fQGLgR4a5fP15hhl3Gh6WXeljLEXcDITlVsBJzNR2QsoZwsgPV9HxwtwYWuIHBTWFMog/MqaX3Io4MBP
+        WZKRgRfwE2n0IfBZZ6efDwUY7+08kkF7BdDLFIeymW3trGa7OsnRYQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ContextDownloadVideoFullripMP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextDownloadVideoFullripMP3.Text" xml:space="preserve">
+    <value>FullRip: MP3</value>
+  </data>
+  <data name="ContextDownloadVideoKeepVid.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF9SURBVDhPYxgG4P///1yfPv0TBWGoEAOM/+rLF8lnnz6J
+        gvC/f/84odIML///54GJM6w5/aImbMbF/yAMkjz94KM3jN+08dYWveJ1f3WL1/1vXXthMlg3ECROPbQX
+        JObXses6hgEVa26cBLET5l5+9/LLf4m4KQcPgRQHdO25DJIHupjVqHT9d5DY5G1Xm1AMQLZ9w/mXpSAN
+        C/fdKAIpBuFPnz6JnHvw1grGv/7orS6KAdXrbx0B0QUrrl8F2QQy4Nm7b/IwDbvOPwmduftaJYjt1br9
+        NkgexQCQRhCdsfjaA1DgghUAQXjfvpMgTaBwSJ1+aCeI3b3pUidYEtmAY7c/hMLYS48/awMrAAKYrcHd
+        uy9YVm96B2JfevjBGCyJHoglq25cALGjZl38/uTVDzWQ2N1XH9VAmmDYvWX7PZA4GKAbgByQ7dvubQYr
+        AgJQLMAMgDsfBO6/+aEJcjoIQ4UYTtx/HwATgyUgkJNBgQjCT999kwMrHA6AgQEAFQtYeWZ94tgAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="ContextDownloadVideoKeepVid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextDownloadVideoKeepVid.Text" xml:space="preserve">
+    <value>KeepVid</value>
+  </data>
+  <data name="ContextDownload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 136</value>
+  </data>
+  <data name="&gt;&gt;ContextDownload.Name" xml:space="preserve">
+    <value>ContextDownload</value>
+  </data>
+  <data name="&gt;&gt;ContextDownload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDeturl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJtSURBVDhPjZPNS1RRGIdnUTlfLgVr50INIhgTbRkxtato
+        KeQ/EBNItGhfBgkt+jAlM5soHZtAMk036TgZQVDoDBWGNlqBGJnjzDjOnXvn3qf33Jn8qqADD+d97z3n
+        d857zu84CpaBTaFgY5oq1rflRsGiYMB6HlIpWBU0idX/DQHLskoUShRzMDGlMwpwPzjN3n0XOXU6xNys
+        Tj6fx6FWUPyrWSKgdGQxOjs/4/XcovHwCINP58hksrID2e7/CBi6CHQs4nL1Ulc3SSj0ScrJyA6QOoXN
+        ZpbYbDsFfL6XPBaBTGoNh26Z6DJe1ajLIF0OZyeaJuSg/aaJy/kEX11UBGZKAjI5JxNjcWhrM2hp+cG5
+        wHYCgSSBsxpHjyTYvWuUQ74Iof4Z0uk0jrys/PqNRWVlOy73Q6ELj7vdxuu5XYo78Ljku/MeTmc3DQ29
+        hMPTRQG1+tVrH3G7g1RUDOI/HqapKUhz86PtnAkVkfj8hT6iE3GyWbmFNantUuusKPdTXx+jq/s78fc6
+        8/P8lcS8yddvOZLJXNFI2S0CDY1TDAxottPUqRtyuxtszaVsZS7VHOtywpevxEWgh6qqMVpblxgdNZmI
+        QGQc2eoWogqTqZi4UOYppzo0UR4cWqG8/AZle8I4y4J4XT1yJn/idd/F672O/9gDpmOrYmWjeI3iSO50
+        reP3Rzh44Bn7a4eorR6mumbY7n/ntTUDEvdx4mSIkecfSlYWAREik4YvC/DurcZENMnY+DIvIst2X2SF
+        8chPxiKLTL5aIJFYEoNpOGyvK+vKC1Sot2EYeRGVOm00ND0nLtVtVK5QN2BZFr8APHREiFNHAHkAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnDeturl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="btnDeturl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="btnDeturl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnDeturl.Text" xml:space="preserve">
+    <value>Download from DetUrl</value>
+  </data>
+  <data name="btnDeturl.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnDeturl.Name" xml:space="preserve">
+    <value>btnDeturl</value>
+  </data>
+  <data name="&gt;&gt;btnDeturl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeturl.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnDeturl.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1843,10 +1972,10 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="chkShowNotification.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="chkShowNotification.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1879,7 +2008,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnReset.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1915,7 +2044,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btnEmbed.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2023,7 +2152,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="btnVideoInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2059,7 +2188,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btnComments.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -2095,7 +2224,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="btnVideo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2134,13 +2263,13 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 86</value>
   </data>
   <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 47</value>
+    <value>466, 77</value>
   </data>
   <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2161,7 +2290,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -2455,7 +2584,7 @@
     <value>7</value>
   </data>
   <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 139</value>
+    <value>12, 169</value>
   </data>
   <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>466, 42</value>
@@ -2479,7 +2608,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="lblCurrentVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2494,7 +2623,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblCurrentVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 173</value>
+    <value>316, 203</value>
   </data>
   <data name="lblCurrentVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 12</value>
@@ -2515,7 +2644,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <metadata name="NotificationIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>5, 6</value>
@@ -2650,7 +2779,7 @@
     <value>NoControl</value>
   </data>
   <data name="chkUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 172</value>
+    <value>132, 202</value>
   </data>
   <data name="chkUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 17</value>
@@ -2674,7 +2803,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chkUpdate.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <metadata name="openFileDialogBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>438, 8</value>
@@ -2689,13 +2818,13 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>33</value>
+    <value>49</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>490, 193</value>
+    <value>490, 223</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2842,6 +2971,36 @@
   </data>
   <data name="&gt;&gt;openFileDialogBrowser.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideo.Name" xml:space="preserve">
+    <value>ContextDownloadFullripVideo</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Name" xml:space="preserve">
+    <value>ContextDownloadFullripVideoAlternate</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadVideoKeepVid.Name" xml:space="preserve">
+    <value>ContextDownloadVideoKeepVid</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadVideoKeepVid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadGenerateURLToClipboard.Name" xml:space="preserve">
+    <value>ContextDownloadGenerateURLToClipboard</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadGenerateURLToClipboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadVideoFullripMP3.Name" xml:space="preserve">
+    <value>ContextDownloadVideoFullripMP3</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadVideoFullripMP3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>
