@@ -1827,7 +1827,7 @@
   <data name="ContextDownloadFullripVideo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVDhPrZIxDsIwEASvhSoPiIRExxfo+RMlv6OmoI9E
+        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAC5SURBVDhPrZIxDsIwEASvhSoPiIRExxfo+RMlv6OmoI9E
         nRdQONqT19qzYnQFK03k2Jm14sSQw+lS9rBvaXCuPKws96kxlEEvA4ooAqEgnSr/t2B+r3U1kSrD8wLI
         fQGLgR4a5fP15hhl3Gh6WXeljLEXcDITlVsBJzNR2QsoZwsgPV9HxwtwYWuIHBTWFMog/MqaX3Io4MBP
         WZKRgRfwE2n0IfBZZ6efDwUY7+08kkF7BdDLFIeymW3trGa7OsnRYQAAAABJRU5ErkJggg==
@@ -1842,7 +1842,7 @@
   <data name="ContextDownloadFullripVideoAlternate.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVDhPrZIxDsIwEASvhSoPiIRExxfo+RMlv6OmoI9E
+        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAC5SURBVDhPrZIxDsIwEASvhSoPiIRExxfo+RMlv6OmoI9E
         nRdQONqT19qzYnQFK03k2Jm14sSQw+lS9rBvaXCuPKws96kxlEEvA4ooAqEgnSr/t2B+r3U1kSrD8wLI
         fQGLgR4a5fP15hhl3Gh6WXeljLEXcDITlVsBJzNR2QsoZwsgPV9HxwtwYWuIHBTWFMog/MqaX3Io4MBP
         WZKRgRfwE2n0IfBZZ6efDwUY7+08kkF7BdDLFIeymW3trGa7OsnRYQAAAABJRU5ErkJggg==
@@ -1854,7 +1854,7 @@
   <data name="ContextDownloadFullripVideoAlternate.Text" xml:space="preserve">
     <value>FullRip: Video Alternate</value>
   </data>
-  <data name="ContextDownloadVideoFullripMP3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ContextDownloadFullripMP3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVDhPrZIxDsIwEASvhSoPiIRExxfo+RMlv6OmoI9E
@@ -1863,13 +1863,13 @@
         WZKRgRfwE2n0IfBZZ6efDwUY7+08kkF7BdDLFIeymW3trGa7OsnRYQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="ContextDownloadVideoFullripMP3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="ContextDownloadFullripMP3.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 22</value>
   </data>
-  <data name="ContextDownloadVideoFullripMP3.Text" xml:space="preserve">
+  <data name="ContextDownloadFullripMP3.Text" xml:space="preserve">
     <value>FullRip: MP3</value>
   </data>
-  <data name="ContextDownloadVideoKeepVid.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ContextDownloadKeepVid.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF9SURBVDhPYxgG4P///1yfPv0TBWGoEAOM/+rLF8lnnz6J
@@ -1882,14 +1882,14 @@
         SUVORK5CYII=
 </value>
   </data>
-  <data name="ContextDownloadVideoKeepVid.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="ContextDownloadKeepVid.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 22</value>
   </data>
-  <data name="ContextDownloadVideoKeepVid.Text" xml:space="preserve">
+  <data name="ContextDownloadKeepVid.Text" xml:space="preserve">
     <value>KeepVid</value>
   </data>
   <data name="ContextDownload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 136</value>
+    <value>228, 114</value>
   </data>
   <data name="&gt;&gt;ContextDownload.Name" xml:space="preserve">
     <value>ContextDownload</value>
@@ -1900,7 +1900,7 @@
   <data name="btnDeturl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJtSURBVDhPjZPNS1RRGIdnUTlfLgVr50INIhgTbRkxtato
+        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAJtSURBVDhPjZPNS1RRGIdnUTlfLgVr50INIhgTbRkxtato
         KeQ/EBNItGhfBgkt+jAlM5soHZtAMk036TgZQVDoDBWGNlqBGJnjzDjOnXvn3qf33Jn8qqADD+d97z3n
         d857zu84CpaBTaFgY5oq1rflRsGiYMB6HlIpWBU0idX/DQHLskoUShRzMDGlMwpwPzjN3n0XOXU6xNys
         Tj6fx6FWUPyrWSKgdGQxOjs/4/XcovHwCINP58hksrID2e7/CBi6CHQs4nL1Ulc3SSj0ScrJyA6QOoXN
@@ -2852,6 +2852,36 @@
   <data name="$this.Text" xml:space="preserve">
     <value>YouTube Video Linker</value>
   </data>
+  <data name="&gt;&gt;ContextDownloadGenerateURLToClipboard.Name" xml:space="preserve">
+    <value>ContextDownloadGenerateURLToClipboard</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadGenerateURLToClipboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideo.Name" xml:space="preserve">
+    <value>ContextDownloadFullripVideo</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Name" xml:space="preserve">
+    <value>ContextDownloadFullripVideoAlternate</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripMP3.Name" xml:space="preserve">
+    <value>ContextDownloadFullripMP3</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripMP3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadKeepVid.Name" xml:space="preserve">
+    <value>ContextDownloadKeepVid</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadKeepVid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;ContextClipboardCopyFromGenerated.Name" xml:space="preserve">
     <value>ContextClipboardCopyFromGenerated</value>
   </data>
@@ -2971,36 +3001,6 @@
   </data>
   <data name="&gt;&gt;openFileDialogBrowser.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripVideo.Name" xml:space="preserve">
-    <value>ContextDownloadFullripVideo</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Name" xml:space="preserve">
-    <value>ContextDownloadFullripVideoAlternate</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadVideoKeepVid.Name" xml:space="preserve">
-    <value>ContextDownloadVideoKeepVid</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadVideoKeepVid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadGenerateURLToClipboard.Name" xml:space="preserve">
-    <value>ContextDownloadGenerateURLToClipboard</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadGenerateURLToClipboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadVideoFullripMP3.Name" xml:space="preserve">
-    <value>ContextDownloadVideoFullripMP3</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadVideoFullripMP3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>YTVL</value>

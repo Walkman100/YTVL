@@ -69,7 +69,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>youtube_withLink.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\youtube_withLink.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -198,9 +198,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\waiting-loading.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="youtube_withLink.ico" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />

@@ -82,6 +82,12 @@ Partial Class YTVL
         Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
         Me.btnDeturl = New System.Windows.Forms.Button()
+        Me.ContextDownload = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ContextDownloadGenerateURLToClipboard = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadFullripVideo = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadFullripVideoAlternate = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadFullripMP3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadKeepVid = New System.Windows.Forms.ToolStripMenuItem()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
         Me.btnReset = New System.Windows.Forms.Button()
@@ -122,12 +128,6 @@ Partial Class YTVL
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.openFileDialogBrowser = New System.Windows.Forms.OpenFileDialog()
-        Me.ContextDownload = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ContextDownloadFullripVideo = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextDownloadFullripVideoAlternate = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextDownloadVideoKeepVid = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextDownloadGenerateURLToClipboard = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextDownloadVideoFullripMP3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.grpBoxInputs.SuspendLayout
         CType(Me.imgLoading,System.ComponentModel.ISupportInitialize).BeginInit
         Me.pnlRight1.SuspendLayout
@@ -140,10 +140,10 @@ Partial Class YTVL
         Me.pnlFs.SuspendLayout
         Me.pnlQuality.SuspendLayout
         Me.grpBoxOutputs.SuspendLayout
+        Me.ContextDownload.SuspendLayout
         Me.ContextClipboard.SuspendLayout
         Me.grpBoxAbout.SuspendLayout
         Me.NotificationMenuStrip.SuspendLayout
-        Me.ContextDownload.SuspendLayout
         Me.SuspendLayout
         '
         'grpBoxInputs
@@ -598,6 +598,38 @@ Partial Class YTVL
         Me.btnDeturl.Name = "btnDeturl"
         Me.btnDeturl.UseVisualStyleBackColor = true
         '
+        'ContextDownload
+        '
+        Me.ContextDownload.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextDownloadGenerateURLToClipboard, Me.ContextDownloadFullripVideo, Me.ContextDownloadFullripVideoAlternate, Me.ContextDownloadFullripMP3, Me.ContextDownloadKeepVid})
+        Me.ContextDownload.Name = "contextMenuStrip1"
+        resources.ApplyResources(Me.ContextDownload, "ContextDownload")
+        '
+        'ContextDownloadGenerateURLToClipboard
+        '
+        Me.ContextDownloadGenerateURLToClipboard.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextDownloadGenerateURLToClipboard.Name = "ContextDownloadGenerateURLToClipboard"
+        resources.ApplyResources(Me.ContextDownloadGenerateURLToClipboard, "ContextDownloadGenerateURLToClipboard")
+        '
+        'ContextDownloadFullripVideo
+        '
+        resources.ApplyResources(Me.ContextDownloadFullripVideo, "ContextDownloadFullripVideo")
+        Me.ContextDownloadFullripVideo.Name = "ContextDownloadFullripVideo"
+        '
+        'ContextDownloadFullripVideoAlternate
+        '
+        resources.ApplyResources(Me.ContextDownloadFullripVideoAlternate, "ContextDownloadFullripVideoAlternate")
+        Me.ContextDownloadFullripVideoAlternate.Name = "ContextDownloadFullripVideoAlternate"
+        '
+        'ContextDownloadFullripMP3
+        '
+        resources.ApplyResources(Me.ContextDownloadFullripMP3, "ContextDownloadFullripMP3")
+        Me.ContextDownloadFullripMP3.Name = "ContextDownloadFullripMP3"
+        '
+        'ContextDownloadKeepVid
+        '
+        resources.ApplyResources(Me.ContextDownloadKeepVid, "ContextDownloadKeepVid")
+        Me.ContextDownloadKeepVid.Name = "ContextDownloadKeepVid"
+        '
         'btnExit
         '
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
@@ -896,38 +928,6 @@ Partial Class YTVL
         Me.openFileDialogBrowser.ShowHelp = true
         Me.openFileDialogBrowser.ShowReadOnly = true
         '
-        'ContextDownload
-        '
-        Me.ContextDownload.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextDownloadGenerateURLToClipboard, Me.ContextDownloadFullripVideo, Me.ContextDownloadFullripVideoAlternate, Me.ContextDownloadVideoFullripMP3, Me.ContextDownloadVideoKeepVid})
-        Me.ContextDownload.Name = "contextMenuStrip1"
-        resources.ApplyResources(Me.ContextDownload, "ContextDownload")
-        '
-        'ContextDownloadFullripVideo
-        '
-        resources.ApplyResources(Me.ContextDownloadFullripVideo, "ContextDownloadFullripVideo")
-        Me.ContextDownloadFullripVideo.Name = "ContextDownloadFullripVideo"
-        '
-        'ContextDownloadFullripVideoAlternate
-        '
-        resources.ApplyResources(Me.ContextDownloadFullripVideoAlternate, "ContextDownloadFullripVideoAlternate")
-        Me.ContextDownloadFullripVideoAlternate.Name = "ContextDownloadFullripVideoAlternate"
-        '
-        'ContextDownloadVideoKeepVid
-        '
-        resources.ApplyResources(Me.ContextDownloadVideoKeepVid, "ContextDownloadVideoKeepVid")
-        Me.ContextDownloadVideoKeepVid.Name = "ContextDownloadVideoKeepVid"
-        '
-        'ContextDownloadGenerateURLToClipboard
-        '
-        Me.ContextDownloadGenerateURLToClipboard.Image = Global.YTVL.My.Resources.Resources.EditCopy
-        Me.ContextDownloadGenerateURLToClipboard.Name = "ContextDownloadGenerateURLToClipboard"
-        resources.ApplyResources(Me.ContextDownloadGenerateURLToClipboard, "ContextDownloadGenerateURLToClipboard")
-        '
-        'ContextDownloadVideoFullripMP3
-        '
-        resources.ApplyResources(Me.ContextDownloadVideoFullripMP3, "ContextDownloadVideoFullripMP3")
-        Me.ContextDownloadVideoFullripMP3.Name = "ContextDownloadVideoFullripMP3"
-        '
         'YTVL
         '
         Me.AcceptButton = Me.btnVideo
@@ -965,20 +965,20 @@ Partial Class YTVL
         Me.pnlQuality.PerformLayout
         Me.grpBoxOutputs.ResumeLayout(false)
         Me.grpBoxOutputs.PerformLayout
+        Me.ContextDownload.ResumeLayout(false)
         Me.ContextClipboard.ResumeLayout(false)
         Me.grpBoxAbout.ResumeLayout(false)
         Me.grpBoxAbout.PerformLayout
         Me.NotificationMenuStrip.ResumeLayout(false)
-        Me.ContextDownload.ResumeLayout(false)
         Me.ResumeLayout(false)
         Me.PerformLayout
     End Sub
-    Private ContextDownloadVideoKeepVid As System.Windows.Forms.ToolStripMenuItem
-    Private ContextDownloadFullripVideoAlternate As System.Windows.Forms.ToolStripMenuItem
-    Private ContextDownloadFullripVideo As System.Windows.Forms.ToolStripMenuItem
-    Private ContextDownload As System.Windows.Forms.ContextMenuStrip
-    Private ContextDownloadVideoFullripMP3 As System.Windows.Forms.ToolStripMenuItem
-    Private ContextDownloadGenerateURLToClipboard As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextDownloadKeepVid As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextDownloadFullripMP3 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextDownloadFullripVideoAlternate As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextDownloadFullripVideo As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextDownload As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents ContextDownloadGenerateURLToClipboard As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btnDeturl As System.Windows.Forms.Button
     Friend WithEvents openFileDialogBrowser As System.Windows.Forms.OpenFileDialog
     Friend WithEvents txtComboBrowser As System.Windows.Forms.ComboBox
