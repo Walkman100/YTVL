@@ -81,6 +81,7 @@ Partial Class YTVL
         Me.lblVideoTitle = New System.Windows.Forms.Label()
         Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
+        Me.btnThumbnail = New System.Windows.Forms.Button()
         Me.btnDeturl = New System.Windows.Forms.Button()
         Me.ContextDownload = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.ContextDownloadGenerateURLToClipboard = New System.Windows.Forms.ToolStripMenuItem()
@@ -579,6 +580,7 @@ Partial Class YTVL
         'grpBoxOutputs
         '
         resources.ApplyResources(Me.grpBoxOutputs, "grpBoxOutputs")
+        Me.grpBoxOutputs.Controls.Add(Me.btnThumbnail)
         Me.grpBoxOutputs.Controls.Add(Me.btnDeturl)
         Me.grpBoxOutputs.Controls.Add(Me.btnExit)
         Me.grpBoxOutputs.Controls.Add(Me.chkShowNotification)
@@ -590,6 +592,13 @@ Partial Class YTVL
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
         Me.grpBoxOutputs.TabStop = false
         Me.ToolTip.SetToolTip(Me.grpBoxOutputs, resources.GetString("grpBoxOutputs.ToolTip"))
+        '
+        'btnThumbnail
+        '
+        resources.ApplyResources(Me.btnThumbnail, "btnThumbnail")
+        Me.btnThumbnail.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
+        Me.btnThumbnail.Name = "btnThumbnail"
+        Me.btnThumbnail.UseVisualStyleBackColor = true
         '
         'btnDeturl
         '
@@ -973,6 +982,7 @@ Partial Class YTVL
         Me.ResumeLayout(false)
         Me.PerformLayout
     End Sub
+    Private btnThumbnail As System.Windows.Forms.Button
     Friend WithEvents ContextDownloadKeepVid As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContextDownloadFullripMP3 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContextDownloadFullripVideoAlternate As System.Windows.Forms.ToolStripMenuItem

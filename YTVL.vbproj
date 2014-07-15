@@ -69,7 +69,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\youtube_withLink.ico</ApplicationIcon>
+    <ApplicationIcon>youtube_withLink.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -144,7 +144,7 @@
       <DependentUpon>YTVL.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
-      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
@@ -164,14 +164,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\facebook_messages.png" />
-    <None Include="Resources\documentinfo.png" />
-    <None Include="Resources\1371833577_view-refresh.png" />
-    <None Include="Resources\1387147104_video-display.png" />
-    <None Include="Resources\1387139872_window-new.png" />
-    <None Include="Resources\Exit2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
@@ -187,17 +179,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\page_code.png" />
-    <None Include="Resources\EditCopy.bmp" />
-    <None Include="Resources\1387140136_process-stop.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bbcode.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\waiting-loading.gif" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
