@@ -175,7 +175,79 @@
             End If
         End If
     End Sub
-
+    
+    Private Sub OpenDeturl(sender As Object, e As EventArgs) Handles btnDeturl.Click
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgNoVID()
+        Else
+            BuildVars()
+            If UseDefaultBrowser = True Then
+                Process.Start("http://deturl.com/www.youtube.com/watch?v=" & txtComboVID.Text)
+            Else
+                GetBrowser()
+                Process.Start(openIn, "http://deturl.com/www.youtube.com/watch?v=" & txtComboVID.Text)
+            End If
+        End If
+    End Sub
+    
+    Private Sub OpenFullripVideo(sender As Object, e As EventArgs) Handles ContextDownloadFullripVideo.Click
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgNoVID()
+        Else
+            BuildVars()
+            If UseDefaultBrowser = True Then
+                Process.Start("http://www.fullrip.net/video/" & txtComboVID.Text)
+            Else
+                GetBrowser()
+                Process.Start(openIn, "http://www.fullrip.net/video/" & txtComboVID.Text)
+            End If
+        End If
+    End Sub
+    
+    Private Sub OpenFullripVideoAlternative(sender As Object, e As EventArgs) Handles ContextDownloadFullripVideoAlternate.Click
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgNoVID()
+        Else
+            BuildVars()
+            If UseDefaultBrowser = True Then
+                Process.Start("http://www.fullrip.net/video-m/" & txtComboVID.Text)
+            Else
+                GetBrowser()
+                Process.Start(openIn, "http://www.fullrip.net/video-m/" & txtComboVID.Text)
+            End If
+        End If
+    End Sub
+    
+    Private Sub OpenFullripMP3(sender As Object, e As EventArgs) Handles ContextDownloadFullripMP3.Click
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgNoVID()
+        Else
+            BuildVars()
+            If UseDefaultBrowser = True Then
+                Process.Start("http://www.fullrip.net/mp3/" & txtComboVID.Text)
+            Else
+                GetBrowser()
+                Process.Start(openIn, "http://www.fullrip.net/mp3/" & txtComboVID.Text)
+            End If
+        End If
+    End Sub
+    
+    Private Sub OpenKeepVid(sender As Object, e As EventArgs) Handles ContextDownloadKeepVid.Click
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgNoVID()
+        Else
+            BuildVars()
+            If UseDefaultBrowser = True Then
+                Process.Start("http://keepvid.com/?url=http%3A%2F%2Fwww%2Eyoutube%2Ecom%2Fwatch%3Fv%3D" & txtComboVID.Text)
+            Else
+                GetBrowser()
+                Process.Start(openIn, "http://keepvid.com/?url=http%3A%2F%2Fwww%2Eyoutube%2Ecom%2Fwatch%3Fv%3D" & txtComboVID.Text)
+            End If
+        End If
+    End Sub
+    
+        ' copying stuff
+    
     Private Sub Inputs_MouseDown(sender As Object, e As MouseEventArgs) Handles btnVideo.MouseDown, btnComments.MouseDown, btnVideoInfo.MouseDown, btnEmbed.MouseDown
         CopyWhat = Mid(sender.ToString, 36)
         CopyWhatEntire = sender.ToString
@@ -261,6 +333,20 @@
             End Try
         End If
     End Sub
+    
+    Private Sub ContextDownloadCopyFromGenerated_Click(sender As Object, e As EventArgs) Handles ContextDownloadCopyFromGenerated.Click
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgNoVID()
+        Else
+            BuildVars()
+            Try
+                Clipboard.SetText("http://deturl.com/www.youtube.com/watch?v=" & txtComboVID.Text, TextDataFormat.UnicodeText)
+                MsgBox("deturl download page link Copied!", MsgBoxStyle.Information, "Succesfully copied!")
+            Catch ex As Exception
+                MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
+            End Try
+        End If
+    End Sub
 
     'Buttons & commands that make Visual changes
 
@@ -341,6 +427,10 @@
         Else
             lblVideoTitle.Text = WebBrowserVideoLoad.DocumentTitle
         End If
+    End Sub
+    
+    Private Sub ShowThumbnail(sender As Object, e As EventArgs) Handles btnThumbnail.Click
+        ' show thumbnail in new window
     End Sub
 
     ' Changes e.g. settings

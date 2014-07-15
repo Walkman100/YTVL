@@ -84,7 +84,7 @@ Partial Class YTVL
         Me.btnThumbnail = New System.Windows.Forms.Button()
         Me.btnDeturl = New System.Windows.Forms.Button()
         Me.ContextDownload = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ContextDownloadGenerateURLToClipboard = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextDownloadCopyFromGenerated = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextDownloadFullripVideo = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextDownloadFullripVideoAlternate = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextDownloadFullripMP3 = New System.Windows.Forms.ToolStripMenuItem()
@@ -609,15 +609,15 @@ Partial Class YTVL
         '
         'ContextDownload
         '
-        Me.ContextDownload.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextDownloadGenerateURLToClipboard, Me.ContextDownloadFullripVideo, Me.ContextDownloadFullripVideoAlternate, Me.ContextDownloadFullripMP3, Me.ContextDownloadKeepVid})
+        Me.ContextDownload.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextDownloadCopyFromGenerated, Me.ContextDownloadFullripVideo, Me.ContextDownloadFullripVideoAlternate, Me.ContextDownloadFullripMP3, Me.ContextDownloadKeepVid})
         Me.ContextDownload.Name = "contextMenuStrip1"
         resources.ApplyResources(Me.ContextDownload, "ContextDownload")
         '
-        'ContextDownloadGenerateURLToClipboard
+        'ContextDownloadCopyFromGenerated
         '
-        Me.ContextDownloadGenerateURLToClipboard.Image = Global.YTVL.My.Resources.Resources.EditCopy
-        Me.ContextDownloadGenerateURLToClipboard.Name = "ContextDownloadGenerateURLToClipboard"
-        resources.ApplyResources(Me.ContextDownloadGenerateURLToClipboard, "ContextDownloadGenerateURLToClipboard")
+        Me.ContextDownloadCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextDownloadCopyFromGenerated.Name = "ContextDownloadCopyFromGenerated"
+        resources.ApplyResources(Me.ContextDownloadCopyFromGenerated, "ContextDownloadCopyFromGenerated")
         '
         'ContextDownloadFullripVideo
         '
@@ -982,13 +982,13 @@ Partial Class YTVL
         Me.ResumeLayout(false)
         Me.PerformLayout
     End Sub
-    Private btnThumbnail As System.Windows.Forms.Button
+    Friend WithEvents ContextDownloadCopyFromGenerated As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents btnThumbnail As System.Windows.Forms.Button
     Friend WithEvents ContextDownloadKeepVid As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContextDownloadFullripMP3 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContextDownloadFullripVideoAlternate As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContextDownloadFullripVideo As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ContextDownload As System.Windows.Forms.ContextMenuStrip
-    Friend WithEvents ContextDownloadGenerateURLToClipboard As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btnDeturl As System.Windows.Forms.Button
     Friend WithEvents openFileDialogBrowser As System.Windows.Forms.OpenFileDialog
     Friend WithEvents txtComboBrowser As System.Windows.Forms.ComboBox
