@@ -1,4 +1,4 @@
-YouTube Video Linker [![YTVL Icon](http://walkman100.github.io/Walkman/Images/YTVLOriginalImages/youtube_withLink.png)](http://walkman100.github.io/Walkman/Images/YTVLOriginalImages/youtube_withLink.png "YTVL Icon")
+YouTube Video Linker [![YTVL Icon](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/youtube_withLink.png)](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/youtube_withLink.png "YTVL Icon")
 ===
 
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/HTML/YTVL.html)
