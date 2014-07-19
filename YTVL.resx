@@ -121,41 +121,11 @@
   <data name="grpBoxInputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="chkRememberBrowser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="chkRememberBrowser.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="chkRememberBrowser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 200</value>
-  </data>
-  <data name="chkRememberBrowser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 17</value>
-  </data>
-  <data name="chkRememberBrowser.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="chkRememberBrowser.Text" xml:space="preserve">
-    <value>Remember</value>
-  </data>
-  <data name="&gt;&gt;chkRememberBrowser.Name" xml:space="preserve">
-    <value>chkRememberBrowser</value>
-  </data>
-  <data name="&gt;&gt;chkRememberBrowser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkRememberBrowser.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;chkRememberBrowser.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="lblBrowser.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblBrowser.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 201</value>
   </data>
@@ -178,7 +148,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;lblBrowser.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="txtComboBrowser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -244,16 +214,19 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtComboBrowser.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
-  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>136, 27</value>
-  </metadata>
   <data name="txtComboVID.Items" xml:space="preserve">
     <value>tKNhPpUR0Pg</value>
   </data>
   <data name="txtComboVID.Items1" xml:space="preserve">
     <value>CqDGF0j7vpE</value>
+  </data>
+  <data name="txtComboVID.Items2" xml:space="preserve">
+    <value>z9Uz1icjwrM</value>
+  </data>
+  <data name="txtComboVID.Items3" xml:space="preserve">
+    <value>u0fk6syQ7iY</value>
   </data>
   <data name="txtComboVID.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -270,6 +243,9 @@
   <data name="txtComboVID.Text" xml:space="preserve">
     <value>Video ID</value>
   </data>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>136, 27</value>
+  </metadata>
   <data name="txtComboVID.ToolTip" xml:space="preserve">
     <value>ID to be used</value>
   </data>
@@ -283,7 +259,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;txtComboVID.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="imgLoading.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -316,7 +292,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;imgLoading.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="btnAdvanced.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -355,1096 +331,7 @@
     <value>grpBoxInputs</value>
   </data>
   <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng0.Name" xml:space="preserve">
-    <value>optMdstBrndng0</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng0.Parent" xml:space="preserve">
-    <value>pnlRight1</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng1.Name" xml:space="preserve">
-    <value>optMdstBrndng1</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng1.Parent" xml:space="preserve">
-    <value>pnlRight1</value>
-  </data>
-  <data name="&gt;&gt;optMdstBrndng1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlRight1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>309, 67</value>
-  </data>
-  <data name="pnlRight1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="pnlRight1.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="&gt;&gt;pnlRight1.Name" xml:space="preserve">
-    <value>pnlRight1</value>
-  </data>
-  <data name="&gt;&gt;pnlRight1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlRight1.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlRight1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;optRel0.Name" xml:space="preserve">
-    <value>optRel0</value>
-  </data>
-  <data name="&gt;&gt;optRel0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optRel0.Parent" xml:space="preserve">
-    <value>pnlRight2</value>
-  </data>
-  <data name="&gt;&gt;optRel0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optRel1.Name" xml:space="preserve">
-    <value>optRel1</value>
-  </data>
-  <data name="&gt;&gt;optRel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optRel1.Parent" xml:space="preserve">
-    <value>pnlRight2</value>
-  </data>
-  <data name="&gt;&gt;optRel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlRight2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>309, 82</value>
-  </data>
-  <data name="pnlRight2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="pnlRight2.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="&gt;&gt;pnlRight2.Name" xml:space="preserve">
-    <value>pnlRight2</value>
-  </data>
-  <data name="&gt;&gt;pnlRight2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlRight2.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlRight2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo0.Name" xml:space="preserve">
-    <value>optShowinfo0</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo0.Parent" xml:space="preserve">
-    <value>pnlRight3</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo1.Name" xml:space="preserve">
-    <value>optShowinfo1</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo1.Parent" xml:space="preserve">
-    <value>pnlRight3</value>
-  </data>
-  <data name="&gt;&gt;optShowinfo1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlRight3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>309, 97</value>
-  </data>
-  <data name="pnlRight3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="pnlRight3.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="&gt;&gt;pnlRight3.Name" xml:space="preserve">
-    <value>pnlRight3</value>
-  </data>
-  <data name="&gt;&gt;pnlRight3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlRight3.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlRight3.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch0.Name" xml:space="preserve">
-    <value>optShowsearch0</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch0.Parent" xml:space="preserve">
-    <value>pnlRight4</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch1.Name" xml:space="preserve">
-    <value>optShowsearch1</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch1.Parent" xml:space="preserve">
-    <value>pnlRight4</value>
-  </data>
-  <data name="&gt;&gt;optShowsearch1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlRight4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>309, 112</value>
-  </data>
-  <data name="pnlRight4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="pnlRight4.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="&gt;&gt;pnlRight4.Name" xml:space="preserve">
-    <value>pnlRight4</value>
-  </data>
-  <data name="&gt;&gt;pnlRight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlRight4.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlRight4.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi0.Name" xml:space="preserve">
-    <value>optEnableJsApi0</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi0.Parent" xml:space="preserve">
-    <value>pnlEnableJsApi</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi1.Name" xml:space="preserve">
-    <value>optEnableJsApi1</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi1.Parent" xml:space="preserve">
-    <value>pnlEnableJsApi</value>
-  </data>
-  <data name="&gt;&gt;optEnableJsApi1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlEnableJsApi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 156</value>
-  </data>
-  <data name="pnlEnableJsApi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="pnlEnableJsApi.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="&gt;&gt;pnlEnableJsApi.Name" xml:space="preserve">
-    <value>pnlEnableJsApi</value>
-  </data>
-  <data name="&gt;&gt;pnlEnableJsApi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlEnableJsApi.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlEnableJsApi.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay0.Name" xml:space="preserve">
-    <value>optAutoplay0</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay0.Parent" xml:space="preserve">
-    <value>pnlAutoplay</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay1.Name" xml:space="preserve">
-    <value>optAutoplay1</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay1.Parent" xml:space="preserve">
-    <value>pnlAutoplay</value>
-  </data>
-  <data name="&gt;&gt;optAutoplay1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlAutoplay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 111</value>
-  </data>
-  <data name="pnlAutoplay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="pnlAutoplay.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="&gt;&gt;pnlAutoplay.Name" xml:space="preserve">
-    <value>pnlAutoplay</value>
-  </data>
-  <data name="&gt;&gt;pnlAutoplay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlAutoplay.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlAutoplay.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;optAutohide0.Name" xml:space="preserve">
-    <value>optAutohide0</value>
-  </data>
-  <data name="&gt;&gt;optAutohide0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optAutohide0.Parent" xml:space="preserve">
-    <value>pnlAutohide</value>
-  </data>
-  <data name="&gt;&gt;optAutohide0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optAutohide1.Name" xml:space="preserve">
-    <value>optAutohide1</value>
-  </data>
-  <data name="&gt;&gt;optAutohide1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optAutohide1.Parent" xml:space="preserve">
-    <value>pnlAutohide</value>
-  </data>
-  <data name="&gt;&gt;optAutohide1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlAutohide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 141</value>
-  </data>
-  <data name="pnlAutohide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="pnlAutohide.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="&gt;&gt;pnlAutohide.Name" xml:space="preserve">
-    <value>pnlAutohide</value>
-  </data>
-  <data name="&gt;&gt;pnlAutohide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlAutohide.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlAutohide.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;optFs0.Name" xml:space="preserve">
-    <value>optFs0</value>
-  </data>
-  <data name="&gt;&gt;optFs0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optFs0.Parent" xml:space="preserve">
-    <value>pnlFs</value>
-  </data>
-  <data name="&gt;&gt;optFs0.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optFs1.Name" xml:space="preserve">
-    <value>optFs1</value>
-  </data>
-  <data name="&gt;&gt;optFs1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optFs1.Parent" xml:space="preserve">
-    <value>pnlFs</value>
-  </data>
-  <data name="&gt;&gt;optFs1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlFs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 126</value>
-  </data>
-  <data name="pnlFs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 15</value>
-  </data>
-  <data name="pnlFs.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="&gt;&gt;pnlFs.Name" xml:space="preserve">
-    <value>pnlFs</value>
-  </data>
-  <data name="&gt;&gt;pnlFs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlFs.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlFs.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;optQuality360.Name" xml:space="preserve">
-    <value>optQuality360</value>
-  </data>
-  <data name="&gt;&gt;optQuality360.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optQuality360.Parent" xml:space="preserve">
-    <value>pnlQuality</value>
-  </data>
-  <data name="&gt;&gt;optQuality360.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;optQuality720.Name" xml:space="preserve">
-    <value>optQuality720</value>
-  </data>
-  <data name="&gt;&gt;optQuality720.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optQuality720.Parent" xml:space="preserve">
-    <value>pnlQuality</value>
-  </data>
-  <data name="&gt;&gt;optQuality720.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlQuality.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 66</value>
-  </data>
-  <data name="pnlQuality.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 29</value>
-  </data>
-  <data name="pnlQuality.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="&gt;&gt;pnlQuality.Name" xml:space="preserve">
-    <value>pnlQuality</value>
-  </data>
-  <data name="&gt;&gt;pnlQuality.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlQuality.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;pnlQuality.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="chkHttps.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkHttps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="chkHttps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 175</value>
-  </data>
-  <data name="chkHttps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 17</value>
-  </data>
-  <data name="chkHttps.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="chkHttps.Text" xml:space="preserve">
-    <value>Use https (Secure connection)</value>
-  </data>
-  <data name="chkHttps.ToolTip" xml:space="preserve">
-    <value>Use HTTPS for all links</value>
-  </data>
-  <data name="&gt;&gt;chkHttps.Name" xml:space="preserve">
-    <value>chkHttps</value>
-  </data>
-  <data name="&gt;&gt;chkHttps.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkHttps.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;chkHttps.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="txtOrigin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="txtOrigin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 154</value>
-  </data>
-  <data name="txtOrigin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 20</value>
-  </data>
-  <data name="txtOrigin.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="txtOrigin.Text" xml:space="preserve">
-    <value>(e.g. http://9gag.tv)</value>
-  </data>
-  <data name="txtOrigin.ToolTip" xml:space="preserve">
-    <value>What directed you to the YouTube page</value>
-  </data>
-  <data name="&gt;&gt;txtOrigin.Name" xml:space="preserve">
-    <value>txtOrigin</value>
-  </data>
-  <data name="&gt;&gt;txtOrigin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtOrigin.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;txtOrigin.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="chkOrigin.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkOrigin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="chkOrigin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 154</value>
-  </data>
-  <data name="chkOrigin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 17</value>
-  </data>
-  <data name="chkOrigin.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="chkOrigin.Text" xml:space="preserve">
-    <value>Use origin=</value>
-  </data>
-  <data name="&gt;&gt;chkOrigin.Name" xml:space="preserve">
-    <value>chkOrigin</value>
-  </data>
-  <data name="&gt;&gt;chkOrigin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkOrigin.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;chkOrigin.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="chkWmode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkWmode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="chkWmode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 140</value>
-  </data>
-  <data name="chkWmode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 17</value>
-  </data>
-  <data name="chkWmode.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="chkWmode.Text" xml:space="preserve">
-    <value>Use wmode=transparent</value>
-  </data>
-  <data name="&gt;&gt;chkWmode.Name" xml:space="preserve">
-    <value>chkWmode</value>
-  </data>
-  <data name="&gt;&gt;chkWmode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkWmode.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;chkWmode.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="chkThemeDark.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkThemeDark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="chkThemeDark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 126</value>
-  </data>
-  <data name="chkThemeDark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
-  </data>
-  <data name="chkThemeDark.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="chkThemeDark.Text" xml:space="preserve">
-    <value>Use theme=dark</value>
-  </data>
-  <data name="&gt;&gt;chkThemeDark.Name" xml:space="preserve">
-    <value>chkThemeDark</value>
-  </data>
-  <data name="&gt;&gt;chkThemeDark.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkThemeDark.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;chkThemeDark.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="lblShowSearch.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblShowSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblShowSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 113</value>
-  </data>
-  <data name="lblShowSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 13</value>
-  </data>
-  <data name="lblShowSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="lblShowSearch.Text" xml:space="preserve">
-    <value>Use showsearch=</value>
-  </data>
-  <data name="&gt;&gt;lblShowSearch.Name" xml:space="preserve">
-    <value>lblShowSearch</value>
-  </data>
-  <data name="&gt;&gt;lblShowSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblShowSearch.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblShowSearch.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="lblShowinfo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblShowinfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblShowinfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 98</value>
-  </data>
-  <data name="lblShowinfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 13</value>
-  </data>
-  <data name="lblShowinfo.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="lblShowinfo.Text" xml:space="preserve">
-    <value>Use showinfo=</value>
-  </data>
-  <data name="&gt;&gt;lblShowinfo.Name" xml:space="preserve">
-    <value>lblShowinfo</value>
-  </data>
-  <data name="&gt;&gt;lblShowinfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblShowinfo.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblShowinfo.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="lblRel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblRel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblRel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 83</value>
-  </data>
-  <data name="lblRel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="lblRel.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="lblRel.Text" xml:space="preserve">
-    <value>Use rel=</value>
-  </data>
-  <data name="&gt;&gt;lblRel.Name" xml:space="preserve">
-    <value>lblRel</value>
-  </data>
-  <data name="&gt;&gt;lblRel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblRel.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblRel.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="lblMdstBrndng.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblMdstBrndng.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblMdstBrndng.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 69</value>
-  </data>
-  <data name="lblMdstBrndng.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 13</value>
-  </data>
-  <data name="lblMdstBrndng.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="lblMdstBrndng.Text" xml:space="preserve">
-    <value>Use modestbranding=</value>
-  </data>
-  <data name="&gt;&gt;lblMdstBrndng.Name" xml:space="preserve">
-    <value>lblMdstBrndng</value>
-  </data>
-  <data name="&gt;&gt;lblMdstBrndng.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblMdstBrndng.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblMdstBrndng.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="optIvLP.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="optIvLP.Items1" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="optIvLP.Items2" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="optIvLP.Items3" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="optIvLP.Items4" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="optIvLP.Items5" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="optIvLP.Items6" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="optIvLP.Items7" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="optIvLP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 171</value>
-  </data>
-  <data name="optIvLP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 21</value>
-  </data>
-  <data name="optIvLP.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;optIvLP.Name" xml:space="preserve">
-    <value>optIvLP</value>
-  </data>
-  <data name="&gt;&gt;optIvLP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;optIvLP.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;optIvLP.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="lblIvLP.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblIvLP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblIvLP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 174</value>
-  </data>
-  <data name="lblIvLP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 13</value>
-  </data>
-  <data name="lblIvLP.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="lblIvLP.Text" xml:space="preserve">
-    <value>Use iv_load_policy=</value>
-  </data>
-  <data name="&gt;&gt;lblIvLP.Name" xml:space="preserve">
-    <value>lblIvLP</value>
-  </data>
-  <data name="&gt;&gt;lblIvLP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblIvLP.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblIvLP.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="lblEnableJsApi.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblEnableJsApi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblEnableJsApi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 158</value>
-  </data>
-  <data name="lblEnableJsApi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 13</value>
-  </data>
-  <data name="lblEnableJsApi.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="lblEnableJsApi.Text" xml:space="preserve">
-    <value>Use enablejsapi=</value>
-  </data>
-  <data name="&gt;&gt;lblEnableJsApi.Name" xml:space="preserve">
-    <value>lblEnableJsApi</value>
-  </data>
-  <data name="&gt;&gt;lblEnableJsApi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblEnableJsApi.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblEnableJsApi.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="lblAutohide.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblAutohide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblAutohide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 143</value>
-  </data>
-  <data name="lblAutohide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 13</value>
-  </data>
-  <data name="lblAutohide.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="lblAutohide.Text" xml:space="preserve">
-    <value>Use autohide=</value>
-  </data>
-  <data name="&gt;&gt;lblAutohide.Name" xml:space="preserve">
-    <value>lblAutohide</value>
-  </data>
-  <data name="&gt;&gt;lblAutohide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAutohide.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblAutohide.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="lblFs.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblFs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblFs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 128</value>
-  </data>
-  <data name="lblFs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 13</value>
-  </data>
-  <data name="lblFs.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="lblFs.Text" xml:space="preserve">
-    <value>Use fs=</value>
-  </data>
-  <data name="&gt;&gt;lblFs.Name" xml:space="preserve">
-    <value>lblFs</value>
-  </data>
-  <data name="&gt;&gt;lblFs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblFs.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblFs.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="lblAutoplay.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblAutoplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblAutoplay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 113</value>
-  </data>
-  <data name="lblAutoplay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 13</value>
-  </data>
-  <data name="lblAutoplay.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="lblAutoplay.Text" xml:space="preserve">
-    <value>Use autoplay=</value>
-  </data>
-  <data name="&gt;&gt;lblAutoplay.Name" xml:space="preserve">
-    <value>lblAutoplay</value>
-  </data>
-  <data name="&gt;&gt;lblAutoplay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAutoplay.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblAutoplay.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="chkFeature.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkFeature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="chkFeature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 97</value>
-  </data>
-  <data name="chkFeature.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 17</value>
-  </data>
-  <data name="chkFeature.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="chkFeature.Text" xml:space="preserve">
-    <value>Use feature=player_embedded </value>
-  </data>
-  <data name="&gt;&gt;chkFeature.Name" xml:space="preserve">
-    <value>chkFeature</value>
-  </data>
-  <data name="&gt;&gt;chkFeature.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkFeature.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;chkFeature.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="txtList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="txtList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 19</value>
-  </data>
-  <data name="txtList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 20</value>
-  </data>
-  <data name="txtList.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="txtList.Text" xml:space="preserve">
-    <value>List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)</value>
-  </data>
-  <data name="txtList.ToolTip" xml:space="preserve">
-    <value>What playlist the video is in</value>
-  </data>
-  <data name="&gt;&gt;txtList.Name" xml:space="preserve">
-    <value>txtList</value>
-  </data>
-  <data name="&gt;&gt;txtList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtList.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;txtList.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="lblHL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="lblHL.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblHL.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 7pt</value>
-  </data>
-  <data name="lblHL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblHL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 48</value>
-  </data>
-  <data name="lblHL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 13</value>
-  </data>
-  <data name="lblHL.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblHL.Text" xml:space="preserve">
-    <value>(Language flag)</value>
-  </data>
-  <data name="&gt;&gt;lblHL.Name" xml:space="preserve">
-    <value>lblHL</value>
-  </data>
-  <data name="&gt;&gt;lblHL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblHL.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblHL.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="chkHL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="chkHL.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkHL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="chkHL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 46</value>
-  </data>
-  <data name="chkHL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 17</value>
-  </data>
-  <data name="chkHL.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="chkHL.Text" xml:space="preserve">
-    <value>Use &amp;hl=en</value>
-  </data>
-  <data name="&gt;&gt;chkHL.Name" xml:space="preserve">
-    <value>chkHL</value>
-  </data>
-  <data name="&gt;&gt;chkHL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkHL.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;chkHL.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="txtTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 19</value>
-  </data>
-  <data name="txtTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="txtTime.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="txtTime.Text" xml:space="preserve">
-    <value>Time (e.g. 1m5s)</value>
-  </data>
-  <data name="txtTime.ToolTip" xml:space="preserve">
-    <value>When you want the video to start</value>
-  </data>
-  <data name="&gt;&gt;txtTime.Name" xml:space="preserve">
-    <value>txtTime</value>
-  </data>
-  <data name="&gt;&gt;txtTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtTime.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;txtTime.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="lblVideoTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="lblVideoTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 47</value>
-  </data>
-  <data name="lblVideoTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 13</value>
-  </data>
-  <data name="lblVideoTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="lblVideoTitle.Text" xml:space="preserve">
-    <value>Enter a Video ID above</value>
-  </data>
-  <data name="lblVideoTitle.ToolTip" xml:space="preserve">
-    <value>Video Title</value>
-  </data>
-  <data name="&gt;&gt;lblVideoTitle.Name" xml:space="preserve">
-    <value>lblVideoTitle</value>
-  </data>
-  <data name="&gt;&gt;lblVideoTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblVideoTitle.Parent" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;lblVideoTitle.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="grpBoxInputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="grpBoxInputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 67</value>
-  </data>
-  <data name="grpBoxInputs.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="grpBoxInputs.Text" xml:space="preserve">
-    <value>Inputs</value>
-  </data>
-  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>136, 27</value>
-  </metadata>
-  <data name="grpBoxInputs.ToolTip" xml:space="preserve">
-    <value>Select your options</value>
-  </data>
-  <data name="&gt;&gt;grpBoxInputs.Name" xml:space="preserve">
-    <value>grpBoxInputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxInputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxInputs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="optMdstBrndng0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1506,6 +393,27 @@
   <data name="&gt;&gt;optMdstBrndng1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pnlRight1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 67</value>
+  </data>
+  <data name="pnlRight1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlRight1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;pnlRight1.Name" xml:space="preserve">
+    <value>pnlRight1</value>
+  </data>
+  <data name="&gt;&gt;pnlRight1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRight1.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlRight1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="optRel0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1565,6 +473,27 @@
   </data>
   <data name="&gt;&gt;optRel1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="pnlRight2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 82</value>
+  </data>
+  <data name="pnlRight2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlRight2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;pnlRight2.Name" xml:space="preserve">
+    <value>pnlRight2</value>
+  </data>
+  <data name="&gt;&gt;pnlRight2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRight2.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlRight2.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="optShowinfo0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1626,6 +555,27 @@
   <data name="&gt;&gt;optShowinfo1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pnlRight3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 97</value>
+  </data>
+  <data name="pnlRight3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlRight3.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;pnlRight3.Name" xml:space="preserve">
+    <value>pnlRight3</value>
+  </data>
+  <data name="&gt;&gt;pnlRight3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRight3.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlRight3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="optShowsearch0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1685,6 +635,27 @@
   </data>
   <data name="&gt;&gt;optShowsearch1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="pnlRight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 112</value>
+  </data>
+  <data name="pnlRight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlRight4.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;pnlRight4.Name" xml:space="preserve">
+    <value>pnlRight4</value>
+  </data>
+  <data name="&gt;&gt;pnlRight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRight4.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlRight4.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="optEnableJsApi0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1746,6 +717,27 @@
   <data name="&gt;&gt;optEnableJsApi1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pnlEnableJsApi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 156</value>
+  </data>
+  <data name="pnlEnableJsApi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlEnableJsApi.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;pnlEnableJsApi.Name" xml:space="preserve">
+    <value>pnlEnableJsApi</value>
+  </data>
+  <data name="&gt;&gt;pnlEnableJsApi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlEnableJsApi.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlEnableJsApi.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <data name="optAutoplay0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1805,6 +797,27 @@
   </data>
   <data name="&gt;&gt;optAutoplay1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="pnlAutoplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 111</value>
+  </data>
+  <data name="pnlAutoplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlAutoplay.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;pnlAutoplay.Name" xml:space="preserve">
+    <value>pnlAutoplay</value>
+  </data>
+  <data name="&gt;&gt;pnlAutoplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAutoplay.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlAutoplay.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="optAutohide0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1866,6 +879,27 @@
   <data name="&gt;&gt;optAutohide1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pnlAutohide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 141</value>
+  </data>
+  <data name="pnlAutohide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlAutohide.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;pnlAutohide.Name" xml:space="preserve">
+    <value>pnlAutohide</value>
+  </data>
+  <data name="&gt;&gt;pnlAutohide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAutohide.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlAutohide.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="optFs0.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1925,6 +959,27 @@
   </data>
   <data name="&gt;&gt;optFs1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="pnlFs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 126</value>
+  </data>
+  <data name="pnlFs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="pnlFs.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;pnlFs.Name" xml:space="preserve">
+    <value>pnlFs</value>
+  </data>
+  <data name="&gt;&gt;pnlFs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlFs.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlFs.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="optQuality360.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1986,6 +1041,738 @@
   <data name="&gt;&gt;optQuality720.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pnlQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 66</value>
+  </data>
+  <data name="pnlQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 29</value>
+  </data>
+  <data name="pnlQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;pnlQuality.Name" xml:space="preserve">
+    <value>pnlQuality</value>
+  </data>
+  <data name="&gt;&gt;pnlQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlQuality.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;pnlQuality.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chkHttps.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHttps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkHttps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 175</value>
+  </data>
+  <data name="chkHttps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 17</value>
+  </data>
+  <data name="chkHttps.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="chkHttps.Text" xml:space="preserve">
+    <value>Use https (Secure connection)</value>
+  </data>
+  <data name="chkHttps.ToolTip" xml:space="preserve">
+    <value>Use HTTPS for all links</value>
+  </data>
+  <data name="&gt;&gt;chkHttps.Name" xml:space="preserve">
+    <value>chkHttps</value>
+  </data>
+  <data name="&gt;&gt;chkHttps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHttps.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkHttps.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtOrigin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtOrigin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 154</value>
+  </data>
+  <data name="txtOrigin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 20</value>
+  </data>
+  <data name="txtOrigin.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="txtOrigin.Text" xml:space="preserve">
+    <value>(e.g. http://9gag.tv)</value>
+  </data>
+  <data name="txtOrigin.ToolTip" xml:space="preserve">
+    <value>What directed you to the YouTube page</value>
+  </data>
+  <data name="&gt;&gt;txtOrigin.Name" xml:space="preserve">
+    <value>txtOrigin</value>
+  </data>
+  <data name="&gt;&gt;txtOrigin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOrigin.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;txtOrigin.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chkOrigin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkOrigin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkOrigin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 154</value>
+  </data>
+  <data name="chkOrigin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="chkOrigin.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="chkOrigin.Text" xml:space="preserve">
+    <value>Use origin=</value>
+  </data>
+  <data name="&gt;&gt;chkOrigin.Name" xml:space="preserve">
+    <value>chkOrigin</value>
+  </data>
+  <data name="&gt;&gt;chkOrigin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOrigin.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkOrigin.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chkWmode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkWmode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWmode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 140</value>
+  </data>
+  <data name="chkWmode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="chkWmode.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="chkWmode.Text" xml:space="preserve">
+    <value>Use wmode=transparent</value>
+  </data>
+  <data name="&gt;&gt;chkWmode.Name" xml:space="preserve">
+    <value>chkWmode</value>
+  </data>
+  <data name="&gt;&gt;chkWmode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWmode.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkWmode.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="chkThemeDark.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkThemeDark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkThemeDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 126</value>
+  </data>
+  <data name="chkThemeDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="chkThemeDark.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="chkThemeDark.Text" xml:space="preserve">
+    <value>Use theme=dark</value>
+  </data>
+  <data name="&gt;&gt;chkThemeDark.Name" xml:space="preserve">
+    <value>chkThemeDark</value>
+  </data>
+  <data name="&gt;&gt;chkThemeDark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkThemeDark.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkThemeDark.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblShowSearch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShowSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblShowSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 113</value>
+  </data>
+  <data name="lblShowSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="lblShowSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblShowSearch.Text" xml:space="preserve">
+    <value>Use showsearch=</value>
+  </data>
+  <data name="&gt;&gt;lblShowSearch.Name" xml:space="preserve">
+    <value>lblShowSearch</value>
+  </data>
+  <data name="&gt;&gt;lblShowSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShowSearch.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblShowSearch.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblShowinfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShowinfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblShowinfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 98</value>
+  </data>
+  <data name="lblShowinfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="lblShowinfo.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblShowinfo.Text" xml:space="preserve">
+    <value>Use showinfo=</value>
+  </data>
+  <data name="&gt;&gt;lblShowinfo.Name" xml:space="preserve">
+    <value>lblShowinfo</value>
+  </data>
+  <data name="&gt;&gt;lblShowinfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShowinfo.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblShowinfo.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblRel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 83</value>
+  </data>
+  <data name="lblRel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblRel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblRel.Text" xml:space="preserve">
+    <value>Use rel=</value>
+  </data>
+  <data name="&gt;&gt;lblRel.Name" xml:space="preserve">
+    <value>lblRel</value>
+  </data>
+  <data name="&gt;&gt;lblRel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRel.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblRel.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblMdstBrndng.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMdstBrndng.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMdstBrndng.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 69</value>
+  </data>
+  <data name="lblMdstBrndng.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblMdstBrndng.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblMdstBrndng.Text" xml:space="preserve">
+    <value>Use modestbranding=</value>
+  </data>
+  <data name="&gt;&gt;lblMdstBrndng.Name" xml:space="preserve">
+    <value>lblMdstBrndng</value>
+  </data>
+  <data name="&gt;&gt;lblMdstBrndng.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMdstBrndng.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblMdstBrndng.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="optIvLP.Items" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optIvLP.Items1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optIvLP.Items2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="optIvLP.Items3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="optIvLP.Items4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="optIvLP.Items5" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="optIvLP.Items6" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="optIvLP.Items7" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="optIvLP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 171</value>
+  </data>
+  <data name="optIvLP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 21</value>
+  </data>
+  <data name="optIvLP.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;optIvLP.Name" xml:space="preserve">
+    <value>optIvLP</value>
+  </data>
+  <data name="&gt;&gt;optIvLP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optIvLP.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;optIvLP.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblIvLP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIvLP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIvLP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 174</value>
+  </data>
+  <data name="lblIvLP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="lblIvLP.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblIvLP.Text" xml:space="preserve">
+    <value>Use iv_load_policy=</value>
+  </data>
+  <data name="&gt;&gt;lblIvLP.Name" xml:space="preserve">
+    <value>lblIvLP</value>
+  </data>
+  <data name="&gt;&gt;lblIvLP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIvLP.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblIvLP.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lblEnableJsApi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEnableJsApi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEnableJsApi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 158</value>
+  </data>
+  <data name="lblEnableJsApi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="lblEnableJsApi.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblEnableJsApi.Text" xml:space="preserve">
+    <value>Use enablejsapi=</value>
+  </data>
+  <data name="&gt;&gt;lblEnableJsApi.Name" xml:space="preserve">
+    <value>lblEnableJsApi</value>
+  </data>
+  <data name="&gt;&gt;lblEnableJsApi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEnableJsApi.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblEnableJsApi.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblAutohide.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAutohide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAutohide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 143</value>
+  </data>
+  <data name="lblAutohide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblAutohide.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblAutohide.Text" xml:space="preserve">
+    <value>Use autohide=</value>
+  </data>
+  <data name="&gt;&gt;lblAutohide.Name" xml:space="preserve">
+    <value>lblAutohide</value>
+  </data>
+  <data name="&gt;&gt;lblAutohide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAutohide.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblAutohide.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lblFs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 128</value>
+  </data>
+  <data name="lblFs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="lblFs.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblFs.Text" xml:space="preserve">
+    <value>Use fs=</value>
+  </data>
+  <data name="&gt;&gt;lblFs.Name" xml:space="preserve">
+    <value>lblFs</value>
+  </data>
+  <data name="&gt;&gt;lblFs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFs.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblFs.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblAutoplay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAutoplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAutoplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 113</value>
+  </data>
+  <data name="lblAutoplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="lblAutoplay.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblAutoplay.Text" xml:space="preserve">
+    <value>Use autoplay=</value>
+  </data>
+  <data name="&gt;&gt;lblAutoplay.Name" xml:space="preserve">
+    <value>lblAutoplay</value>
+  </data>
+  <data name="&gt;&gt;lblAutoplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAutoplay.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblAutoplay.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="chkFeature.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkFeature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkFeature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
+  </data>
+  <data name="chkFeature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 17</value>
+  </data>
+  <data name="chkFeature.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chkFeature.Text" xml:space="preserve">
+    <value>Use feature=player_embedded </value>
+  </data>
+  <data name="&gt;&gt;chkFeature.Name" xml:space="preserve">
+    <value>chkFeature</value>
+  </data>
+  <data name="&gt;&gt;chkFeature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkFeature.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkFeature.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="txtList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 19</value>
+  </data>
+  <data name="txtList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 20</value>
+  </data>
+  <data name="txtList.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtList.Text" xml:space="preserve">
+    <value>List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)</value>
+  </data>
+  <data name="txtList.ToolTip" xml:space="preserve">
+    <value>What playlist the video is in</value>
+  </data>
+  <data name="&gt;&gt;txtList.Name" xml:space="preserve">
+    <value>txtList</value>
+  </data>
+  <data name="&gt;&gt;txtList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtList.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;txtList.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblHL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblHL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="lblHL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 48</value>
+  </data>
+  <data name="lblHL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblHL.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblHL.Text" xml:space="preserve">
+    <value>(Language flag)</value>
+  </data>
+  <data name="&gt;&gt;lblHL.Name" xml:space="preserve">
+    <value>lblHL</value>
+  </data>
+  <data name="&gt;&gt;lblHL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHL.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblHL.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="chkHL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="chkHL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkHL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 46</value>
+  </data>
+  <data name="chkHL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="chkHL.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkHL.Text" xml:space="preserve">
+    <value>Use &amp;hl=en</value>
+  </data>
+  <data name="&gt;&gt;chkHL.Name" xml:space="preserve">
+    <value>chkHL</value>
+  </data>
+  <data name="&gt;&gt;chkHL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHL.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkHL.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="txtTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 19</value>
+  </data>
+  <data name="txtTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtTime.Text" xml:space="preserve">
+    <value>Time (e.g. 1m5s)</value>
+  </data>
+  <data name="txtTime.ToolTip" xml:space="preserve">
+    <value>When you want the video to start</value>
+  </data>
+  <data name="&gt;&gt;txtTime.Name" xml:space="preserve">
+    <value>txtTime</value>
+  </data>
+  <data name="&gt;&gt;txtTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTime.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;txtTime.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="lblVideoTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblVideoTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="lblVideoTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 13</value>
+  </data>
+  <data name="lblVideoTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblVideoTitle.Text" xml:space="preserve">
+    <value>Enter a Video ID above</value>
+  </data>
+  <data name="lblVideoTitle.ToolTip" xml:space="preserve">
+    <value>Video Title</value>
+  </data>
+  <data name="&gt;&gt;lblVideoTitle.Name" xml:space="preserve">
+    <value>lblVideoTitle</value>
+  </data>
+  <data name="&gt;&gt;lblVideoTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVideoTitle.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;lblVideoTitle.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="chkRememberBrowser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="chkRememberBrowser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkRememberBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 200</value>
+  </data>
+  <data name="chkRememberBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="chkRememberBrowser.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="chkRememberBrowser.Text" xml:space="preserve">
+    <value>Remember</value>
+  </data>
+  <data name="&gt;&gt;chkRememberBrowser.Name" xml:space="preserve">
+    <value>chkRememberBrowser</value>
+  </data>
+  <data name="&gt;&gt;chkRememberBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRememberBrowser.Parent" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;chkRememberBrowser.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="grpBoxInputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grpBoxInputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 67</value>
+  </data>
+  <data name="grpBoxInputs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpBoxInputs.Text" xml:space="preserve">
+    <value>Inputs</value>
+  </data>
+  <data name="grpBoxInputs.ToolTip" xml:space="preserve">
+    <value>Select your options</value>
+  </data>
+  <data name="&gt;&gt;grpBoxInputs.Name" xml:space="preserve">
+    <value>grpBoxInputs</value>
+  </data>
+  <data name="&gt;&gt;grpBoxInputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxInputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="chkKeepOnTop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -2031,141 +1818,6 @@
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;btnThumbnail.Name" xml:space="preserve">
-    <value>btnThumbnail</value>
-  </data>
-  <data name="&gt;&gt;btnThumbnail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnThumbnail.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnThumbnail.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnDeturl.Name" xml:space="preserve">
-    <value>btnDeturl</value>
-  </data>
-  <data name="&gt;&gt;btnDeturl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDeturl.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnDeturl.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
-    <value>btnExit</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;chkShowNotification.Name" xml:space="preserve">
-    <value>chkShowNotification</value>
-  </data>
-  <data name="&gt;&gt;chkShowNotification.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkShowNotification.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
-    <value>btnReset</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Name" xml:space="preserve">
-    <value>btnEmbed</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Name" xml:space="preserve">
-    <value>btnVideoInfo</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Name" xml:space="preserve">
-    <value>btnComments</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnComments.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Name" xml:space="preserve">
-    <value>btnVideo</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 85</value>
-  </data>
-  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 77</value>
-  </data>
-  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grpBoxOutputs.Text" xml:space="preserve">
-    <value>Outputs</value>
-  </data>
-  <data name="grpBoxOutputs.ToolTip" xml:space="preserve">
-    <value>Ways to display your options</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="btnThumbnail.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2202,59 +1854,6 @@
   <metadata name="ContextDownload.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>4, 44</value>
   </metadata>
-  <data name="ContextDownload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 114</value>
-  </data>
-  <data name="&gt;&gt;ContextDownload.Name" xml:space="preserve">
-    <value>ContextDownload</value>
-  </data>
-  <data name="&gt;&gt;ContextDownload.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnDeturl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAJtSURBVDhPjZPNS1RRGIdnUTlfLgVr50INIhgTbRkxtato
-        KeQ/EBNItGhfBgkt+jAlM5soHZtAMk036TgZQVDoDBWGNlqBGJnjzDjOnXvn3qf33Jn8qqADD+d97z3n
-        d857zu84CpaBTaFgY5oq1rflRsGiYMB6HlIpWBU0idX/DQHLskoUShRzMDGlMwpwPzjN3n0XOXU6xNys
-        Tj6fx6FWUPyrWSKgdGQxOjs/4/XcovHwCINP58hksrID2e7/CBi6CHQs4nL1Ulc3SSj0ScrJyA6QOoXN
-        ZpbYbDsFfL6XPBaBTGoNh26Z6DJe1ajLIF0OZyeaJuSg/aaJy/kEX11UBGZKAjI5JxNjcWhrM2hp+cG5
-        wHYCgSSBsxpHjyTYvWuUQ74Iof4Z0uk0jrys/PqNRWVlOy73Q6ELj7vdxuu5XYo78Ljku/MeTmc3DQ29
-        hMPTRQG1+tVrH3G7g1RUDOI/HqapKUhz86PtnAkVkfj8hT6iE3GyWbmFNantUuusKPdTXx+jq/s78fc6
-        8/P8lcS8yddvOZLJXNFI2S0CDY1TDAxottPUqRtyuxtszaVsZS7VHOtywpevxEWgh6qqMVpblxgdNZmI
-        QGQc2eoWogqTqZi4UOYppzo0UR4cWqG8/AZle8I4y4J4XT1yJn/idd/F672O/9gDpmOrYmWjeI3iSO50
-        reP3Rzh44Bn7a4eorR6mumbY7n/ntTUDEvdx4mSIkecfSlYWAREik4YvC/DurcZENMnY+DIvIst2X2SF
-        8chPxiKLTL5aIJFYEoNpOGyvK+vKC1Sot2EYeRGVOm00ND0nLtVtVK5QN2BZFr8APHREiFNHAHkAAAAA
-        SUVORK5CYII=
-</value>
-  </data>
-  <data name="btnDeturl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 48</value>
-  </data>
-  <data name="btnDeturl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 23</value>
-  </data>
-  <data name="btnDeturl.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnDeturl.Text" xml:space="preserve">
-    <value>Download from deturl</value>
-  </data>
-  <data name="btnDeturl.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="&gt;&gt;btnDeturl.Name" xml:space="preserve">
-    <value>btnDeturl</value>
-  </data>
-  <data name="&gt;&gt;btnDeturl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDeturl.Parent" xml:space="preserve">
-    <value>grpBoxOutputs</value>
-  </data>
-  <data name="&gt;&gt;btnDeturl.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="ContextDownloadCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 22</value>
   </data>
@@ -2324,6 +1923,59 @@
   </data>
   <data name="ContextDownloadKeepVid.Text" xml:space="preserve">
     <value>KeepVid</value>
+  </data>
+  <data name="ContextDownload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 114</value>
+  </data>
+  <data name="&gt;&gt;ContextDownload.Name" xml:space="preserve">
+    <value>ContextDownload</value>
+  </data>
+  <data name="&gt;&gt;ContextDownload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDeturl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAJtSURBVDhPjZPNS1RRGIdnUTlfLgVr50INIhgTbRkxtato
+        KeQ/EBNItGhfBgkt+jAlM5soHZtAMk036TgZQVDoDBWGNlqBGJnjzDjOnXvn3qf33Jn8qqADD+d97z3n
+        d857zu84CpaBTaFgY5oq1rflRsGiYMB6HlIpWBU0idX/DQHLskoUShRzMDGlMwpwPzjN3n0XOXU6xNys
+        Tj6fx6FWUPyrWSKgdGQxOjs/4/XcovHwCINP58hksrID2e7/CBi6CHQs4nL1Ulc3SSj0ScrJyA6QOoXN
+        ZpbYbDsFfL6XPBaBTGoNh26Z6DJe1ajLIF0OZyeaJuSg/aaJy/kEX11UBGZKAjI5JxNjcWhrM2hp+cG5
+        wHYCgSSBsxpHjyTYvWuUQ74Iof4Z0uk0jrys/PqNRWVlOy73Q6ELj7vdxuu5XYo78Ljku/MeTmc3DQ29
+        hMPTRQG1+tVrH3G7g1RUDOI/HqapKUhz86PtnAkVkfj8hT6iE3GyWbmFNantUuusKPdTXx+jq/s78fc6
+        8/P8lcS8yddvOZLJXNFI2S0CDY1TDAxottPUqRtyuxtszaVsZS7VHOtywpevxEWgh6qqMVpblxgdNZmI
+        QGQc2eoWogqTqZi4UOYppzo0UR4cWqG8/AZle8I4y4J4XT1yJn/idd/F672O/9gDpmOrYmWjeI3iSO50
+        reP3Rzh44Bn7a4eorR6mumbY7n/ntTUDEvdx4mSIkecfSlYWAREik4YvC/DurcZENMnY+DIvIst2X2SF
+        8chPxiKLTL5aIJFYEoNpOGyvK+vKC1Sot2EYeRGVOm00ND0nLtVtVK5QN2BZFr8APHREiFNHAHkAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnDeturl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="btnDeturl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="btnDeturl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnDeturl.Text" xml:space="preserve">
+    <value>Download from deturl</value>
+  </data>
+  <data name="btnDeturl.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnDeturl.Name" xml:space="preserve">
+    <value>btnDeturl</value>
+  </data>
+  <data name="&gt;&gt;btnDeturl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeturl.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;btnDeturl.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2436,6 +2088,66 @@
   <metadata name="ContextClipboard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>4, 25</value>
   </metadata>
+  <data name="ContextClipboardCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextClipboardCopyFromGenerated.Text" xml:space="preserve">
+    <value>Generate URL to Clipboard</value>
+  </data>
+  <data name="ContextClipboardCopyFromGenerated.ToolTipText" xml:space="preserve">
+    <value>Generate the URL and copy it to the clipboard instead of opening it in the browser</value>
+  </data>
+  <data name="ContextClipboardCopyCodeHTML.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeHTML.Text" xml:space="preserve">
+    <value>HTML Embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCodeHTML.ToolTipText" xml:space="preserve">
+    <value>Copy HTML Embed code to clipboard</value>
+  </data>
+  <data name="ContextClipboardCopyCodeBB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeBB.Text" xml:space="preserve">
+    <value>BB Embed code (for forums)</value>
+  </data>
+  <data name="ContextClipboardCopyCodeBB.ToolTipText" xml:space="preserve">
+    <value>Copy BB Embed code to clipboard</value>
+  </data>
+  <data name="ContextClipboardCopyCodeSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 6</value>
+  </data>
+  <data name="ContextClipboardCopyCodeStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeStandard.Text" xml:space="preserve">
+    <value>Standard Embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCodeStandard.ToolTipText" xml:space="preserve">
+    <value>Use Standard (not old) HTML embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCodeOldCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeOldCode.Text" xml:space="preserve">
+    <value>Old Embed code (more compatible)</value>
+  </data>
+  <data name="ContextClipboardCopyCodeOldCode.ToolTipText" xml:space="preserve">
+    <value>Use old HTML embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Text" xml:space="preserve">
+    <value>Copy code &gt;</value>
+  </data>
+  <data name="ContextClipboardCopyCode.ToolTipText" xml:space="preserve">
+    <value>Options to copy Embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 48</value>
   </data>
@@ -2477,66 +2189,6 @@
   </data>
   <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="ContextClipboardCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
-  </data>
-  <data name="ContextClipboardCopyFromGenerated.Text" xml:space="preserve">
-    <value>Generate URL to Clipboard</value>
-  </data>
-  <data name="ContextClipboardCopyFromGenerated.ToolTipText" xml:space="preserve">
-    <value>Generate the URL and copy it to the clipboard instead of opening it in the browser</value>
-  </data>
-  <data name="ContextClipboardCopyCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCode.Text" xml:space="preserve">
-    <value>Copy code &gt;</value>
-  </data>
-  <data name="ContextClipboardCopyCode.ToolTipText" xml:space="preserve">
-    <value>Options to copy Embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCode.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ContextClipboardCopyCodeHTML.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCodeHTML.Text" xml:space="preserve">
-    <value>HTML Embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCodeHTML.ToolTipText" xml:space="preserve">
-    <value>Copy HTML Embed code to clipboard</value>
-  </data>
-  <data name="ContextClipboardCopyCodeBB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCodeBB.Text" xml:space="preserve">
-    <value>BB Embed code (for forums)</value>
-  </data>
-  <data name="ContextClipboardCopyCodeBB.ToolTipText" xml:space="preserve">
-    <value>Copy BB Embed code to clipboard</value>
-  </data>
-  <data name="ContextClipboardCopyCodeSeperator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 6</value>
-  </data>
-  <data name="ContextClipboardCopyCodeStandard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCodeStandard.Text" xml:space="preserve">
-    <value>Standard Embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCodeStandard.ToolTipText" xml:space="preserve">
-    <value>Use Standard (not old) HTML embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCodeOldCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCodeOldCode.Text" xml:space="preserve">
-    <value>Old Embed code (more compatible)</value>
-  </data>
-  <data name="ContextClipboardCopyCodeOldCode.ToolTipText" xml:space="preserve">
-    <value>Use old HTML embed code</value>
   </data>
   <data name="btnVideoInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2649,131 +2301,35 @@
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 85</value>
   </data>
-  <data name="&gt;&gt;WebBrowserVideoLoad.Name" xml:space="preserve">
-    <value>WebBrowserVideoLoad</value>
+  <data name="grpBoxOutputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 77</value>
   </data>
-  <data name="&gt;&gt;WebBrowserVideoLoad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVideoLoad.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVideoLoad.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnDebug.Name" xml:space="preserve">
-    <value>btnDebug</value>
-  </data>
-  <data name="&gt;&gt;btnDebug.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDebug.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;btnDebug.ZOrder" xml:space="preserve">
+  <data name="grpBoxOutputs.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Name" xml:space="preserve">
-    <value>WebBrowserVersionCheck</value>
+  <data name="grpBoxOutputs.Text" xml:space="preserve">
+    <value>Outputs</value>
   </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="grpBoxOutputs.ToolTip" xml:space="preserve">
+    <value>Ways to display your options</value>
   </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
+  <data name="&gt;&gt;grpBoxOutputs.Name" xml:space="preserve">
+    <value>grpBoxOutputs</value>
   </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lnkDeveloper.Name" xml:space="preserve">
-    <value>lnkDeveloper</value>
-  </data>
-  <data name="&gt;&gt;lnkDeveloper.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkDeveloper.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkDeveloper.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.Name" xml:space="preserve">
-    <value>lnkReleases</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Name" xml:space="preserve">
-    <value>lnkReportProblem</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Name" xml:space="preserve">
-    <value>lnkSourceCode</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Name" xml:space="preserve">
-    <value>lnkOriginalPage</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 168</value>
-  </data>
-  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 42</value>
-  </data>
-  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="grpBoxAbout.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="grpBoxAbout.ToolTip" xml:space="preserve">
-    <value>Information about this program</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
+  <data name="&gt;&gt;grpBoxOutputs.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
+  <data name="&gt;&gt;grpBoxOutputs.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
   <data name="WebBrowserVideoLoad.AccessibleDescription" xml:space="preserve">
     <value>Video Name</value>
@@ -3078,6 +2634,33 @@
   <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 168</value>
+  </data>
+  <data name="grpBoxAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 42</value>
+  </data>
+  <data name="grpBoxAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpBoxAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="grpBoxAbout.ToolTip" xml:space="preserve">
+    <value>Information about this program</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Name" xml:space="preserve">
+    <value>grpBoxAbout</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="lblCurrentVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
   </data>
@@ -3120,42 +2703,6 @@
   <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>3, 4</value>
   </metadata>
-  <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 192</value>
-  </data>
-  <data name="NotificationMenuStrip.Text" xml:space="preserve">
-    <value>YTVL Context Menu</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStrip.Name" xml:space="preserve">
-    <value>NotificationMenuStrip</value>
-  </data>
-  <data name="&gt;&gt;NotificationMenuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NotificationIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAEBEAAAEAGACcAwAAFgAAACgAAAAQAAAAIgAAAAEAGAAAAAAAdAMAAAAAAAAAAAAAAAAAAAAA
-        AAD///8SI/8SI/8SI/8TI/8SI/8SI/8SI//MaAPSeR/SeR/SeR/RdhuFTGASI/////8SI/8AHO4AHO4A
-        He8AHO4AHO4AHO4AHO7SeR//////8+f/yqb4699/SlkAHe8SI/8SI/8SI/////9PVf+6uv////////9P
-        Vf/SeR//8+frv5P7pmL4mFPfn2DPu68gLO8SI/8SI/////9PVf////8SI/////9PVf/SeR//yqb7pmL+
-        8ub+tHXvYgzTgkfdZCcSI/8SI/////9PVf////8TI/////9PVf/Rdhv469/4mFP+tHX/8+juwYTu3bz/
-        eR8SI/8SI/////9PVf////8SIv////9PVf/fn2Dfn2DFhWDvYgzuwYT/////////eR8SI/8TI/////8S
-        I/8SI/8SI/8SI/8SI/////8SI/9aUa/Tgkfu3bz/////////eR8SI/////////////8SI/8SI/8SI/8T
-        I/////8SI/8gLO/dZCf/eR//eR//eR//aAPZ2f8SI/8SI/8TI/8SI/8SI/8SI/8SI/8SI/8SI/8SI/8S
-        I/8SI/8SI/8SIv/Z2v//////////////////////////////////////////////////////////////
-        //////////+r5/YAAAD9+9j///9HkrkAAADIiWb///9ur9UAAACsZkT///////////////////+q5vUA
-        AAD+/Niq5vYAAAD///8AAAD+/NgTcJ3+/NgAAAD///////////////////+q5vUAAAD+/Niq5vYAAAD/
-        //8AAAD+/NgAAAD///8AAAD///////////////////9ur9YAAADjxaL///9HkroAAADJiWb///8AAAD/
-        //8AAAD///////////////////8AAAD/qe8AAAD/////////////////////////////////////////
-        //////9urtUMSn////+sZkTjxaL/////////////////////////////////////////////////////
-        //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-</value>
-  </data>
-  <data name="NotificationIcon.Text" xml:space="preserve">
-    <value>YouTube Video Linker
-</value>
-  </data>
   <data name="NotificationMenuStripShowYTVL.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 22</value>
   </data>
@@ -3236,6 +2783,42 @@
   </data>
   <data name="NotificationMenuStripClose.ToolTipText" xml:space="preserve">
     <value>Quit YTVL</value>
+  </data>
+  <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 192</value>
+  </data>
+  <data name="NotificationMenuStrip.Text" xml:space="preserve">
+    <value>YTVL Context Menu</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStrip.Name" xml:space="preserve">
+    <value>NotificationMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;NotificationMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NotificationIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBEAAAEAGACcAwAAFgAAACgAAAAQAAAAIgAAAAEAGAAAAAAAdAMAAAAAAAAAAAAAAAAAAAAA
+        AAD///8SI/8SI/8SI/8TI/8SI/8SI/8SI//MaAPSeR/SeR/SeR/RdhuFTGASI/////8SI/8AHO4AHO4A
+        He8AHO4AHO4AHO4AHO7SeR//////8+f/yqb4699/SlkAHe8SI/8SI/8SI/////9PVf+6uv////////9P
+        Vf/SeR//8+frv5P7pmL4mFPfn2DPu68gLO8SI/8SI/////9PVf////8SI/////9PVf/SeR//yqb7pmL+
+        8ub+tHXvYgzTgkfdZCcSI/8SI/////9PVf////8TI/////9PVf/Rdhv469/4mFP+tHX/8+juwYTu3bz/
+        eR8SI/8SI/////9PVf////8SIv////9PVf/fn2Dfn2DFhWDvYgzuwYT/////////eR8SI/8TI/////8S
+        I/8SI/8SI/8SI/8SI/////8SI/9aUa/Tgkfu3bz/////////eR8SI/////////////8SI/8SI/8SI/8T
+        I/////8SI/8gLO/dZCf/eR//eR//eR//aAPZ2f8SI/8SI/8TI/8SI/8SI/8SI/8SI/8SI/8SI/8SI/8S
+        I/8SI/8SI/8SIv/Z2v//////////////////////////////////////////////////////////////
+        //////////+r5/YAAAD9+9j///9HkrkAAADIiWb///9ur9UAAACsZkT///////////////////+q5vUA
+        AAD+/Niq5vYAAAD///8AAAD+/NgTcJ3+/NgAAAD///////////////////+q5vUAAAD+/Niq5vYAAAD/
+        //8AAAD+/NgAAAD///8AAAD///////////////////9ur9YAAADjxaL///9HkroAAADJiWb///8AAAD/
+        //8AAAD///////////////////8AAAD/qe8AAAD/////////////////////////////////////////
+        //////9urtUMSn////+sZkTjxaL/////////////////////////////////////////////////////
+        //////////////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="NotificationIcon.Text" xml:space="preserve">
+    <value>YouTube Video Linker
+</value>
   </data>
   <data name="chkUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>

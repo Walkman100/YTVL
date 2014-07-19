@@ -25,7 +25,6 @@ Partial Class YTVL
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(YTVL))
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
-        Me.chkRememberBrowser = New System.Windows.Forms.CheckBox()
         Me.lblBrowser = New System.Windows.Forms.Label()
         Me.txtComboBrowser = New System.Windows.Forms.ComboBox()
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
@@ -79,6 +78,7 @@ Partial Class YTVL
         Me.chkHL = New System.Windows.Forms.CheckBox()
         Me.txtTime = New System.Windows.Forms.TextBox()
         Me.lblVideoTitle = New System.Windows.Forms.Label()
+        Me.chkRememberBrowser = New System.Windows.Forms.CheckBox()
         Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
         Me.btnThumbnail = New System.Windows.Forms.Button()
@@ -150,7 +150,6 @@ Partial Class YTVL
         'grpBoxInputs
         '
         resources.ApplyResources(Me.grpBoxInputs, "grpBoxInputs")
-        Me.grpBoxInputs.Controls.Add(Me.chkRememberBrowser)
         Me.grpBoxInputs.Controls.Add(Me.lblBrowser)
         Me.grpBoxInputs.Controls.Add(Me.txtComboBrowser)
         Me.grpBoxInputs.Controls.Add(Me.txtComboVID)
@@ -186,15 +185,10 @@ Partial Class YTVL
         Me.grpBoxInputs.Controls.Add(Me.chkHL)
         Me.grpBoxInputs.Controls.Add(Me.txtTime)
         Me.grpBoxInputs.Controls.Add(Me.lblVideoTitle)
+        Me.grpBoxInputs.Controls.Add(Me.chkRememberBrowser)
         Me.grpBoxInputs.Name = "grpBoxInputs"
         Me.grpBoxInputs.TabStop = false
         Me.ToolTip.SetToolTip(Me.grpBoxInputs, resources.GetString("grpBoxInputs.ToolTip"))
-        '
-        'chkRememberBrowser
-        '
-        resources.ApplyResources(Me.chkRememberBrowser, "chkRememberBrowser")
-        Me.chkRememberBrowser.Name = "chkRememberBrowser"
-        Me.chkRememberBrowser.UseVisualStyleBackColor = true
         '
         'lblBrowser
         '
@@ -212,7 +206,7 @@ Partial Class YTVL
         'txtComboVID
         '
         Me.txtComboVID.AllowDrop = true
-        Me.txtComboVID.Items.AddRange(New Object() {resources.GetString("txtComboVID.Items"), resources.GetString("txtComboVID.Items1")})
+        Me.txtComboVID.Items.AddRange(New Object() {resources.GetString("txtComboVID.Items"), resources.GetString("txtComboVID.Items1"), resources.GetString("txtComboVID.Items2"), resources.GetString("txtComboVID.Items3")})
         resources.ApplyResources(Me.txtComboVID, "txtComboVID")
         Me.txtComboVID.Name = "txtComboVID"
         Me.ToolTip.SetToolTip(Me.txtComboVID, resources.GetString("txtComboVID.ToolTip"))
@@ -568,6 +562,12 @@ Partial Class YTVL
         Me.lblVideoTitle.AutoEllipsis = true
         Me.lblVideoTitle.Name = "lblVideoTitle"
         Me.ToolTip.SetToolTip(Me.lblVideoTitle, resources.GetString("lblVideoTitle.ToolTip"))
+        '
+        'chkRememberBrowser
+        '
+        resources.ApplyResources(Me.chkRememberBrowser, "chkRememberBrowser")
+        Me.chkRememberBrowser.Name = "chkRememberBrowser"
+        Me.chkRememberBrowser.UseVisualStyleBackColor = true
         '
         'chkKeepOnTop
         '
