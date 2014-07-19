@@ -121,6 +121,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="ThumbnailViewer.Designer.vb">
+      <DependentUpon>ThumbnailViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ThumbnailViewer.vb" />
     <Compile Include="YTVL.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +144,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ThumbnailViewer.resx">
+      <DependentUpon>ThumbnailViewer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="YTVL.resx">
       <DependentUpon>YTVL.vb</DependentUpon>
     </EmbeddedResource>
