@@ -580,6 +580,8 @@ Partial Class YTVL
         'grpBoxOutputs
         '
         resources.ApplyResources(Me.grpBoxOutputs, "grpBoxOutputs")
+        Me.grpBoxOutputs.Controls.Add(Me.WebBrowserVideoLoad)
+        Me.grpBoxOutputs.Controls.Add(Me.WebBrowserVersionCheck)
         Me.grpBoxOutputs.Controls.Add(Me.btnThumbnail)
         Me.grpBoxOutputs.Controls.Add(Me.btnDeturl)
         Me.grpBoxOutputs.Controls.Add(Me.btnExit)
@@ -738,8 +740,8 @@ Partial Class YTVL
         '
         Me.btnComments.BackColor = System.Drawing.Color.Transparent
         Me.btnComments.ContextMenuStrip = Me.ContextClipboard
-        Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         resources.ApplyResources(Me.btnComments, "btnComments")
+        Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         Me.btnComments.Name = "btnComments"
         Me.ToolTip.SetToolTip(Me.btnComments, resources.GetString("btnComments.ToolTip"))
         Me.btnComments.UseVisualStyleBackColor = false
@@ -757,9 +759,7 @@ Partial Class YTVL
         'grpBoxAbout
         '
         resources.ApplyResources(Me.grpBoxAbout, "grpBoxAbout")
-        Me.grpBoxAbout.Controls.Add(Me.WebBrowserVideoLoad)
         Me.grpBoxAbout.Controls.Add(Me.btnDebug)
-        Me.grpBoxAbout.Controls.Add(Me.WebBrowserVersionCheck)
         Me.grpBoxAbout.Controls.Add(Me.lnkDeveloper)
         Me.grpBoxAbout.Controls.Add(Me.lnkReleases)
         Me.grpBoxAbout.Controls.Add(Me.lnkReportProblem)

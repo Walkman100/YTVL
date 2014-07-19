@@ -1818,8 +1818,89 @@
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
+  <data name="WebBrowserVideoLoad.AccessibleDescription" xml:space="preserve">
+    <value>Video Name</value>
+  </data>
+  <data name="WebBrowserVideoLoad.AccessibleName" xml:space="preserve">
+    <value>Video Name</value>
+  </data>
+  <data name="WebBrowserVideoLoad.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="WebBrowserVideoLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 19</value>
+  </data>
+  <data name="WebBrowserVideoLoad.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="WebBrowserVideoLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="WebBrowserVideoLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="WebBrowserVideoLoad.ToolTip" xml:space="preserve">
+    <value>Video Name</value>
+  </data>
+  <data name="WebBrowserVideoLoad.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVideoLoad.Name" xml:space="preserve">
+    <value>WebBrowserVideoLoad</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVideoLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVideoLoad.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVideoLoad.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WebBrowserVersionCheck.AccessibleDescription" xml:space="preserve">
+    <value>Version Checker</value>
+  </data>
+  <data name="WebBrowserVersionCheck.AccessibleName" xml:space="preserve">
+    <value>Version Checker</value>
+  </data>
+  <data name="WebBrowserVersionCheck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="WebBrowserVersionCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>648, 19</value>
+  </data>
+  <data name="WebBrowserVersionCheck.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="WebBrowserVersionCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="WebBrowserVersionCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="WebBrowserVersionCheck.ToolTip" xml:space="preserve">
+    <value>Latest Version as reported by the server</value>
+  </data>
+  <data name="WebBrowserVersionCheck.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVersionCheck.Name" xml:space="preserve">
+    <value>WebBrowserVersionCheck</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVersionCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVersionCheck.Parent" xml:space="preserve">
+    <value>grpBoxOutputs</value>
+  </data>
+  <data name="&gt;&gt;WebBrowserVersionCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="btnThumbnail.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="btnThumbnail.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="btnThumbnail.Location" type="System.Drawing.Point, System.Drawing">
     <value>149, 48</value>
@@ -1846,7 +1927,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnThumbnail.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="btnDeturl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1933,6 +2014,9 @@
   <data name="&gt;&gt;ContextDownload.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="btnDeturl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="btnDeturl.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -1975,7 +2059,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnDeturl.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="btnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2008,7 +2092,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="chkShowNotification.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2044,7 +2128,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;chkShowNotification.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="btnReset.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2080,7 +2164,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="btnEmbed.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2157,6 +2241,9 @@
   <data name="&gt;&gt;ContextClipboard.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="btnEmbed.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="btnEmbed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -2188,10 +2275,13 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnEmbed.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="btnVideoInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="btnVideoInfo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="btnVideoInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2224,7 +2314,10 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnVideoInfo.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
+  </data>
+  <data name="btnComments.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="btnComments.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -2260,10 +2353,13 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnComments.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="btnVideo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="btnVideo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="btnVideo.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -2299,7 +2395,7 @@
     <value>grpBoxOutputs</value>
   </data>
   <data name="&gt;&gt;btnVideo.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="grpBoxOutputs.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 85</value>
@@ -2330,48 +2426,6 @@
   </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
-  </data>
-  <data name="WebBrowserVideoLoad.AccessibleDescription" xml:space="preserve">
-    <value>Video Name</value>
-  </data>
-  <data name="WebBrowserVideoLoad.AccessibleName" xml:space="preserve">
-    <value>Video Name</value>
-  </data>
-  <data name="WebBrowserVideoLoad.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="WebBrowserVideoLoad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>570, 13</value>
-  </data>
-  <data name="WebBrowserVideoLoad.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>100, 0</value>
-  </data>
-  <data name="WebBrowserVideoLoad.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>20, 30</value>
-  </data>
-  <data name="WebBrowserVideoLoad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 30</value>
-  </data>
-  <data name="WebBrowserVideoLoad.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="WebBrowserVideoLoad.ToolTip" xml:space="preserve">
-    <value>Video Name</value>
-  </data>
-  <data name="WebBrowserVideoLoad.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVideoLoad.Name" xml:space="preserve">
-    <value>WebBrowserVideoLoad</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVideoLoad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVideoLoad.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVideoLoad.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="btnDebug.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -2410,49 +2464,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;btnDebug.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="WebBrowserVersionCheck.AccessibleDescription" xml:space="preserve">
-    <value>Version Checker</value>
-  </data>
-  <data name="WebBrowserVersionCheck.AccessibleName" xml:space="preserve">
-    <value>Version Checker</value>
-  </data>
-  <data name="WebBrowserVersionCheck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="WebBrowserVersionCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>470, 13</value>
-  </data>
-  <data name="WebBrowserVersionCheck.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>100, 0</value>
-  </data>
-  <data name="WebBrowserVersionCheck.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>20, 30</value>
-  </data>
-  <data name="WebBrowserVersionCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 30</value>
-  </data>
-  <data name="WebBrowserVersionCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="WebBrowserVersionCheck.ToolTip" xml:space="preserve">
-    <value>Latest Version as reported by the server</value>
-  </data>
-  <data name="WebBrowserVersionCheck.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Name" xml:space="preserve">
-    <value>WebBrowserVersionCheck</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.Parent" xml:space="preserve">
-    <value>grpBoxAbout</value>
-  </data>
-  <data name="&gt;&gt;WebBrowserVersionCheck.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="lnkDeveloper.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -2488,7 +2500,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkDeveloper.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="lnkReleases.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -2524,7 +2536,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkReleases.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="lnkReportProblem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -2560,7 +2572,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkReportProblem.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="lnkSourceCode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -2596,7 +2608,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkSourceCode.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="lnkOriginalPage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -2632,7 +2644,7 @@
     <value>grpBoxAbout</value>
   </data>
   <data name="&gt;&gt;lnkOriginalPage.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>5</value>
   </data>
   <data name="grpBoxAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 168</value>

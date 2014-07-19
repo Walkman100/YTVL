@@ -42,7 +42,7 @@ Partial Class ThumbnailViewer
         Me.imgThumbnail.InitialImage = Global.YTVL.My.Resources.Resources.waiting_loading
         Me.imgThumbnail.Location = New System.Drawing.Point(12, 12)
         Me.imgThumbnail.Name = "imgThumbnail"
-        Me.imgThumbnail.Size = New System.Drawing.Size(150, 100)
+        Me.imgThumbnail.Size = New System.Drawing.Size(185, 100)
         Me.imgThumbnail.TabIndex = 0
         Me.imgThumbnail.TabStop = false
         '
@@ -50,7 +50,7 @@ Partial Class ThumbnailViewer
         '
         Me.lblS1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.lblS1.AutoSize = true
-        Me.lblS1.Location = New System.Drawing.Point(12, 115)
+        Me.lblS1.Location = New System.Drawing.Point(29, 115)
         Me.lblS1.Name = "lblS1"
         Me.lblS1.Size = New System.Drawing.Size(18, 13)
         Me.lblS1.TabIndex = 1
@@ -61,7 +61,7 @@ Partial Class ThumbnailViewer
         '
         Me.lblS2.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.lblS2.AutoSize = true
-        Me.lblS2.Location = New System.Drawing.Point(36, 115)
+        Me.lblS2.Location = New System.Drawing.Point(53, 115)
         Me.lblS2.Name = "lblS2"
         Me.lblS2.Size = New System.Drawing.Size(18, 13)
         Me.lblS2.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class ThumbnailViewer
         '
         Me.lblS3.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.lblS3.AutoSize = true
-        Me.lblS3.Location = New System.Drawing.Point(60, 115)
+        Me.lblS3.Location = New System.Drawing.Point(77, 115)
         Me.lblS3.Name = "lblS3"
         Me.lblS3.Size = New System.Drawing.Size(18, 13)
         Me.lblS3.TabIndex = 3
@@ -83,7 +83,7 @@ Partial Class ThumbnailViewer
         '
         Me.lblMQ.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.lblMQ.AutoSize = true
-        Me.lblMQ.Location = New System.Drawing.Point(84, 115)
+        Me.lblMQ.Location = New System.Drawing.Point(101, 115)
         Me.lblMQ.Name = "lblMQ"
         Me.lblMQ.Size = New System.Drawing.Size(21, 13)
         Me.lblMQ.TabIndex = 4
@@ -94,7 +94,7 @@ Partial Class ThumbnailViewer
         '
         Me.lblHQ.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.lblHQ.AutoSize = true
-        Me.lblHQ.Location = New System.Drawing.Point(111, 115)
+        Me.lblHQ.Location = New System.Drawing.Point(128, 115)
         Me.lblHQ.Name = "lblHQ"
         Me.lblHQ.Size = New System.Drawing.Size(19, 13)
         Me.lblHQ.TabIndex = 5
@@ -105,7 +105,7 @@ Partial Class ThumbnailViewer
         '
         Me.lblMAX.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.lblMAX.AutoSize = true
-        Me.lblMAX.Location = New System.Drawing.Point(136, 115)
+        Me.lblMAX.Location = New System.Drawing.Point(153, 115)
         Me.lblMAX.Name = "lblMAX"
         Me.lblMAX.Size = New System.Drawing.Size(26, 13)
         Me.lblMAX.TabIndex = 6
@@ -116,7 +116,7 @@ Partial Class ThumbnailViewer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(174, 137)
+        Me.ClientSize = New System.Drawing.Size(209, 137)
         Me.Controls.Add(Me.lblMAX)
         Me.Controls.Add(Me.lblHQ)
         Me.Controls.Add(Me.lblMQ)
@@ -124,10 +124,9 @@ Partial Class ThumbnailViewer
         Me.Controls.Add(Me.lblS2)
         Me.Controls.Add(Me.lblS1)
         Me.Controls.Add(Me.imgThumbnail)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
-        Me.HelpButton = true
         Me.Name = "ThumbnailViewer"
-        Me.ShowInTaskbar = false
+        Me.ShowIcon = false
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Thumbnail Viewer"
         CType(Me.imgThumbnail,System.ComponentModel.ISupportInitialize).EndInit

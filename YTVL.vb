@@ -6,7 +6,6 @@
     Dim openIn As String = ""
     Dim latestVer As String
     Dim CopyWhat As String
-    Dim CopyWhatEntire As String = "Nothing yet"
 
     Private Sub LoadYTVL() Handles Me.Load, MyBase.Load
         'apply settings to where they are changed
@@ -252,6 +251,7 @@
         Else
             GetBrowser
             ThumbnailViewer.Show
+            ThumbnailViewer.WindowState = WindowState.Normal
             ThumbnailViewer.BringToFront
         End If
     End Sub
@@ -260,7 +260,6 @@
     
     Private Sub Inputs_MouseDown(sender As Object, e As MouseEventArgs) Handles btnVideo.MouseDown, btnComments.MouseDown, btnVideoInfo.MouseDown, btnEmbed.MouseDown
         CopyWhat = Mid(sender.ToString, 36)
-        CopyWhatEntire = sender.ToString
         If CopyWhat = "&Embed Page Handler" Then
             ContextClipboardCopyCode.Visible = True
         Else
@@ -273,37 +272,38 @@
             MsgNoVID()
         Else
             BuildVars()
-            If CopyWhat = "&Video" Then
+            Select Case CopyWhat
+              Case = "&Video"
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
                     MsgBox("Video URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
-            ElseIf CopyWhat = "&Comments" Then
+              Case = "&Comments"
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
                     MsgBox("Comments URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
-            ElseIf CopyWhat = "Video &Info" Then
+              Case = "Video &Info"
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18", TextDataFormat.UnicodeText)
                     MsgBox("Video Info file URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
-            ElseIf CopyWhat = "&Embed Page Handler" Then
+              Case = "&Embed Page Handler"
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars, TextDataFormat.UnicodeText)
                     MsgBox("Embed Page Handler URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
-            Else
-                MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" & CopyWhatEntire & "'", , "Error")
-            End If
+              Case = Nothing
+                MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" & sender.ToString & "'", , "Error")
+            End Select
         End If
     End Sub
 
@@ -335,7 +335,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            Try 'e.g.: [NEEDS RESEARCH]             \/ That code is probably not correct, but it's close.
+            Try '[NEEDS (more) RESEARCH]             \/ That code is probably not correct, but it's close.
                 Clipboard.SetText("[media=youtube]" & txtComboVID.Text & "[/media]" & vbNewLine & "[youtube]" & txtComboVID.Text & "[/youtube]", TextDataFormat.UnicodeText)
                 MsgBox("BB (Forum) Embed Code Copied!" & vbNewLine & "There are two lines in the clipboard, since some forums use slightly different codes to others", MsgBoxStyle.Information, "Succesfully copied!")
             Catch ex As Exception
@@ -401,6 +401,7 @@
         Me.Width = 506
         btnAdvanced.Text = "More ↓"
         imgLoading.Visible = False
+        WindowState = FormWindowState.Normal
         lblVideoTitle.Text = "Enter a Video ID above"
     End Sub
 
@@ -417,6 +418,8 @@
     Private Sub DEBUG(sender As Object, e As EventArgs) Handles btnDebug.Click
         WebBrowserVersionCheck.Visible = True
         WebBrowserVideoLoad.Visible = True
+        btnDebug.Enabled = False
+        btnDebug.Visible = False
     End Sub
 
     Private Sub txtComboVID_ContentsChanged(sender As Object, e As EventArgs) Handles txtComboVID.TextChanged
@@ -427,6 +430,12 @@
             WebBrowserVideoLoad.Navigate(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?autoplay=0")
             imgLoading.Visible = True
             lblVideoTitle.Text = "      Loading..."
+            btnVideo.Enabled = True
+            btnComments.Enabled = True
+            btnVideoInfo.Enabled = True
+            btnEmbed.Enabled = True
+            btnDeturl.Enabled = True
+            btnThumbnail.Enabled = True
         End If
     End Sub
 
