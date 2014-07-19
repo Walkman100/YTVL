@@ -246,6 +246,10 @@
         End If
     End Sub
     
+    Private Sub ShowThumbnail(sender As Object, e As EventArgs) Handles btnThumbnail.Click
+        ThumbnailViewer.Show
+    End Sub
+    
         ' copying stuff
     
     Private Sub Inputs_MouseDown(sender As Object, e As MouseEventArgs) Handles btnVideo.MouseDown, btnComments.MouseDown, btnVideoInfo.MouseDown, btnEmbed.MouseDown
@@ -427,10 +431,6 @@
         Else
             lblVideoTitle.Text = WebBrowserVideoLoad.DocumentTitle
         End If
-    End Sub
-    
-    Private Sub ShowThumbnail(sender As Object, e As EventArgs) Handles btnThumbnail.Click
-        ' show thumbnail in new window
     End Sub
 
     ' Changes e.g. settings
