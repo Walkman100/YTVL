@@ -5,50 +5,50 @@
     End Sub
 
     Private Sub ShowS1(sender As Object, e As EventArgs) Handles lblS1.LinkClicked
-        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/CqDGF0j7vpE/1.jpg"
+        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/1.jpg"
     End Sub
     
     Private Sub ShowS1InBrowser(sender As Object, e As EventArgs) Handles lblS1.DoubleClick
-        Process.Start("http://img.youtube.com/vi/CqDGF0j7vpE/1.jpg")
+        Process.Start("http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/1.jpg")
     End Sub
 
     Private Sub ShowS2(sender As Object, e As EventArgs) Handles lblS2.LinkClicked
-        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/CqDGF0j7vpE/2.jpg"
+        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/2.jpg"
     End Sub
     
     Private Sub ShowS2InBrowser(sender As Object, e As EventArgs) Handles lblS2.DoubleClick
-        Process.Start("http://img.youtube.com/vi/CqDGF0j7vpE/2.jpg")
+        Process.Start("http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/2.jpg")
     End Sub
 
     Private Sub ShowS3(sender As Object, e As EventArgs) Handles lblS3.LinkClicked
-        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/CqDGF0j7vpE/3.jpg"
+        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/3.jpg"
     End Sub
     
     Private Sub ShowS3InBrowser(sender As Object, e As EventArgs) Handles lblS3.DoubleClick
-        Process.Start("http://img.youtube.com/vi/CqDGF0j7vpE/3.jpg")
+        Process.Start("http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/3.jpg")
     End Sub
 
     Private Sub ShowMQ(sender As Object, e As EventArgs) Handles lblMQ.LinkClicked
-        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/CqDGF0j7vpE/mqdefault.jpg"
+        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/mqdefault.jpg"
     End Sub
     
     Private Sub ShowMQInBrowser(sender As Object, e As EventArgs) Handles lblMQ.DoubleClick
-        Process.Start("http://img.youtube.com/vi/CqDGF0j7vpE/mqdefault.jpg")
+        Process.Start("http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/mqdefault.jpg")
     End Sub
 
     Private Sub ShowHQ(sender As Object, e As EventArgs) Handles lblHQ.LinkClicked
-        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/CqDGF0j7vpE/hqdefault.jpg"
+        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/hqdefault.jpg"
     End Sub
     
     Private Sub ShowHQInBrowser(sender As Object, e As EventArgs) Handles lblHQ.DoubleClick
-        Process.Start("http://img.youtube.com/vi/CqDGF0j7vpE/hqdefault.jpg")
+        Process.Start("http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/hqdefault.jpg")
     End Sub
 
     Private Sub ShowMAX(sender As Object, e As EventArgs) Handles lblMAX.LinkClicked
-        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/CqDGF0j7vpE/maxresdefault.jpg"
+        imgThumbnail.ImageLocation = "http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/maxresdefault.jpg"
     End Sub
     
     Private Sub ShowMAXInBrowser(sender As Object, e As EventArgs) Handles lblMAX.DoubleClick
-        Process.Start("http://img.youtube.com/vi/CqDGF0j7vpE/maxresdefault.jpg")
+        Process.Start("http://img.youtube.com/vi/" & YTVL.txtComboVID.Text & "/maxresdefault.jpg")
     End Sub
 End Class

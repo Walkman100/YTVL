@@ -247,7 +247,13 @@
     End Sub
     
     Private Sub ShowThumbnail(sender As Object, e As EventArgs) Handles btnThumbnail.Click
-        ThumbnailViewer.Show
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
+            MsgNoVID
+        Else
+            GetBrowser
+            ThumbnailViewer.Show
+            ThumbnailViewer.BringToFront
+        End If
     End Sub
     
         ' copying stuff
