@@ -13,7 +13,7 @@ Jump to:
 •[Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl) 
 •<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
 •<a href="#debugging">Debugging</a> 
-•[Donate](http://walkman100.github.io\Walkman\HTML\Donate.html) 
+•[Donate](http://walkman100.github.io/Walkman/HTML/Donate.html) 
 
 # Requirements
 
@@ -69,5 +69,5 @@ Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of 
 
 If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
 
-## [AppVeyor](http://ci.appveyor.com/) build status
+### [AppVeyor](http://ci.appveyor.com/) build status
 [![Build status](https://ci.appveyor.com/api/projects/status/ao70dapbuoho2yk2)](https://ci.appveyor.com/project/Walkman100/ytvl)
