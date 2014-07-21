@@ -9,10 +9,11 @@ Jump to:
 •<a href="#requirements">Requirements</a> 
 •<a href="#how-to-use">How to use</a> 
 •<a href="#what-the-links--flags-do">What the Links & Flags do</a> 
-•<a href="http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html">Screenshots</a> 
-•<a href="#future-releasesideas">Future releases/ideas</a> 
+•[Screenshots](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html) 
+•[Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl) 
 •<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
 •<a href="#debugging">Debugging</a> 
+•[Donate](http://walkman100.github.io\Walkman\HTML\Donate.html) 
 
 # Requirements
 
@@ -21,7 +22,7 @@ Jump to:
 - In order for the update checker and the video name loader to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
 
 # How to use
-It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you watched the video in Embedded mode); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweght than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup> was; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
+It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you watched the video in Embedded mode); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweight than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup> was; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
 
 If you want to copy the generated URL to the clipboard instead of opening it in the browser, you can right-click an output button and click `Generate URL to Clipboard`, this will generate the URL and copy it to your clipboard.
 
@@ -53,25 +54,20 @@ The advanced options are mostly useful for embedded videos:
 ***_<kbd>`WIP`</kbd>_***
 
 # Screenshots
-Screenshots available <a href="http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html">here</a>.
+Screenshots available [here](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html).
 
 # Future releases/ideas
-`v1.4` will have a box/text that automatically loads and tells the title of the video ID entered, and a button to generate the embedded video HTML or [BB code](https://www.phpbb.com/support/documentation/3.0/userguide/user_posting.php#posting_bbcodes) which will be copied to the clipboard.
-
-`v1.4.1` will have an option of where to open the links.
-
-`v1.5` will probably have buttons to open the download pages for FullRip.net; MP3, Video or Video(alternative); KeepVid e.t.c.
+See [this gist](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl).
 
 # Want to suggest a feature?
 Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as long as the feature/addition doesn't make the program file size significantly bigger, or increases the time it takes to start. Also, keep in mind the KISS principle (Keep It Simple, Stupid). Notice I haven't added a settings window because there are only three settings, and my application interface has space for those settings without it looking too cluttered.
 
 # Debugging
-Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of the `Developed by...` link, these show the page that is loaded to show the current version and the object that is loaded to get the video name. It is possible to play videos from this object.
+Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of the buttons in the Outputs group box, these show the page that is loaded to show the current version and the object that is loaded to get the video name. It is possible to play videos from this object.
 
 ![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/Images/WindowsProjectsScreenshots/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")
 
 If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
 
-[AppVeyor](http://ci.appveyor.com/) build status
-===
+## [AppVeyor](http://ci.appveyor.com/) build status
 [![Build status](https://ci.appveyor.com/api/projects/status/ao70dapbuoho2yk2)](https://ci.appveyor.com/project/Walkman100/ytvl)
