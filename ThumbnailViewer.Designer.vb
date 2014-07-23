@@ -39,8 +39,9 @@ Partial Class ThumbnailViewer
                         Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
         Me.imgThumbnail.Cursor = System.Windows.Forms.Cursors.Default
         Me.imgThumbnail.ErrorImage = Global.YTVL.My.Resources.Resources.image_not_found
+        Me.imgThumbnail.Image = Global.YTVL.My.Resources.Resources.loading6
         Me.imgThumbnail.ImageLocation = "http://walkman100.github.io/Walkman/Images/loading1.gif"
-        Me.imgThumbnail.InitialImage = Global.YTVL.My.Resources.Resources.waiting_loading
+        Me.imgThumbnail.InitialImage = Global.YTVL.My.Resources.Resources.loading6
         Me.imgThumbnail.Location = New System.Drawing.Point(12, 12)
         Me.imgThumbnail.Name = "imgThumbnail"
         Me.imgThumbnail.Size = New System.Drawing.Size(185, 100)
