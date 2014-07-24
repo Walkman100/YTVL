@@ -112,7 +112,7 @@
         End If
     End Sub
 
-    Sub MsgNoVID()
+    Private Sub MsgNoVID()
         MsgBox("Please fill in a video ID!", MsgBoxStyle.Critical, "No Video ID entered")
         WindowState = FormWindowState.Normal
         Me.BringToFront()
