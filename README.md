@@ -15,6 +15,8 @@ Jump to:
 •<a href="#debugging">Debugging</a> 
 •[Donate](http://walkman100.github.io/Walkman/HTML/Donate.html) 
 
+The source code is also available on [Visual Studio online](https://walkman.visualstudio.com/DefaultCollection/YTVL).
+
 # Requirements
 
 - Windows `(tested on Windows 7 HP SP1 64-bit & Windows 8.1 Pro Update 1 64-bit)`
