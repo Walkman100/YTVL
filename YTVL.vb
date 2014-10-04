@@ -1,9 +1,9 @@
 ﻿Public Class YTVL
-    Dim UseDefaultBrowser As Boolean = True
+    Friend UseDefaultBrowser As Boolean = True
     Dim ProgramFilesDir As String = Environment.GetEnvironmentVariable("ProgramFiles")
     Dim Vars As String = ""
     Dim usehttps As String = "https"
-    Dim openIn As String = ""
+    Friend openIn As String = ""
     Dim latestVer As String
     Dim CopyWhat As String
 
@@ -84,7 +84,7 @@
         End If
     End Sub
 
-    Private Sub GetBrowser()
+    Friend Sub GetBrowser()
         If txtComboBrowser.Text = "Browse..." Or txtComboBrowser.Text = "" Then
             UseDefaultBrowser = True
         ElseIf txtComboBrowser.Text = "Mozilla Firefox (%ProgramFiles%\Mozilla Firefox\firefox.exe)" Then
@@ -107,7 +107,7 @@
             openIn = ProgramFilesDir & "\Internet Explorer\iexplore.exe"
         ElseIf txtComboBrowser.Text = "Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)" Then
             openIn = ProgramFilesDir & "\Netscape\Navigator 9\navigator.exe"
-        ElseIf system.io.File.Exists(txtComboBrowser.Text) Then
+        ElseIf System.IO.File.Exists(txtComboBrowser.Text) Then
             openIn = txtComboBrowser.Text
         End If
     End Sub
