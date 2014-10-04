@@ -81,6 +81,8 @@ Partial Class YTVL
         Me.chkRememberBrowser = New System.Windows.Forms.CheckBox()
         Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
+        Me.WebBrowserVideoLoad = New System.Windows.Forms.WebBrowser()
+        Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
         Me.btnThumbnail = New System.Windows.Forms.Button()
         Me.btnDeturl = New System.Windows.Forms.Button()
         Me.ContextDownload = New System.Windows.Forms.ContextMenuStrip(Me.components)
@@ -105,9 +107,7 @@ Partial Class YTVL
         Me.btnComments = New System.Windows.Forms.Button()
         Me.btnVideo = New System.Windows.Forms.Button()
         Me.grpBoxAbout = New System.Windows.Forms.GroupBox()
-        Me.WebBrowserVideoLoad = New System.Windows.Forms.WebBrowser()
         Me.btnDebug = New System.Windows.Forms.Button()
-        Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
         Me.lnkDeveloper = New System.Windows.Forms.LinkLabel()
         Me.lnkReleases = New System.Windows.Forms.LinkLabel()
         Me.lnkReportProblem = New System.Windows.Forms.LinkLabel()
@@ -129,23 +129,23 @@ Partial Class YTVL
         Me.chkUpdate = New System.Windows.Forms.CheckBox()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.openFileDialogBrowser = New System.Windows.Forms.OpenFileDialog()
-        Me.grpBoxInputs.SuspendLayout
-        CType(Me.imgLoading,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.pnlRight1.SuspendLayout
-        Me.pnlRight2.SuspendLayout
-        Me.pnlRight3.SuspendLayout
-        Me.pnlRight4.SuspendLayout
-        Me.pnlEnableJsApi.SuspendLayout
-        Me.pnlAutoplay.SuspendLayout
-        Me.pnlAutohide.SuspendLayout
-        Me.pnlFs.SuspendLayout
-        Me.pnlQuality.SuspendLayout
-        Me.grpBoxOutputs.SuspendLayout
-        Me.ContextDownload.SuspendLayout
-        Me.ContextClipboard.SuspendLayout
-        Me.grpBoxAbout.SuspendLayout
-        Me.NotificationMenuStrip.SuspendLayout
-        Me.SuspendLayout
+        Me.grpBoxInputs.SuspendLayout()
+        CType(Me.imgLoading, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlRight1.SuspendLayout()
+        Me.pnlRight2.SuspendLayout()
+        Me.pnlRight3.SuspendLayout()
+        Me.pnlRight4.SuspendLayout()
+        Me.pnlEnableJsApi.SuspendLayout()
+        Me.pnlAutoplay.SuspendLayout()
+        Me.pnlAutohide.SuspendLayout()
+        Me.pnlFs.SuspendLayout()
+        Me.pnlQuality.SuspendLayout()
+        Me.grpBoxOutputs.SuspendLayout()
+        Me.ContextDownload.SuspendLayout()
+        Me.ContextClipboard.SuspendLayout()
+        Me.grpBoxAbout.SuspendLayout()
+        Me.NotificationMenuStrip.SuspendLayout()
+        Me.SuspendLayout()
         '
         'grpBoxInputs
         '
@@ -187,7 +187,7 @@ Partial Class YTVL
         Me.grpBoxInputs.Controls.Add(Me.lblVideoTitle)
         Me.grpBoxInputs.Controls.Add(Me.chkRememberBrowser)
         Me.grpBoxInputs.Name = "grpBoxInputs"
-        Me.grpBoxInputs.TabStop = false
+        Me.grpBoxInputs.TabStop = False
         Me.ToolTip.SetToolTip(Me.grpBoxInputs, resources.GetString("grpBoxInputs.ToolTip"))
         '
         'lblBrowser
@@ -197,15 +197,15 @@ Partial Class YTVL
         '
         'txtComboBrowser
         '
-        Me.txtComboBrowser.AllowDrop = true
+        Me.txtComboBrowser.AllowDrop = True
         resources.ApplyResources(Me.txtComboBrowser, "txtComboBrowser")
-        Me.txtComboBrowser.FormattingEnabled = true
+        Me.txtComboBrowser.FormattingEnabled = True
         Me.txtComboBrowser.Items.AddRange(New Object() {resources.GetString("txtComboBrowser.Items"), resources.GetString("txtComboBrowser.Items1"), resources.GetString("txtComboBrowser.Items2"), resources.GetString("txtComboBrowser.Items3"), resources.GetString("txtComboBrowser.Items4"), resources.GetString("txtComboBrowser.Items5"), resources.GetString("txtComboBrowser.Items6"), resources.GetString("txtComboBrowser.Items7"), resources.GetString("txtComboBrowser.Items8"), resources.GetString("txtComboBrowser.Items9"), resources.GetString("txtComboBrowser.Items10"), resources.GetString("txtComboBrowser.Items11")})
         Me.txtComboBrowser.Name = "txtComboBrowser"
         '
         'txtComboVID
         '
-        Me.txtComboVID.AllowDrop = true
+        Me.txtComboVID.AllowDrop = True
         Me.txtComboVID.Items.AddRange(New Object() {resources.GetString("txtComboVID.Items"), resources.GetString("txtComboVID.Items1"), resources.GetString("txtComboVID.Items2"), resources.GetString("txtComboVID.Items3")})
         resources.ApplyResources(Me.txtComboVID, "txtComboVID")
         Me.txtComboVID.Name = "txtComboVID"
@@ -217,7 +217,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.imgLoading, "imgLoading")
         Me.imgLoading.InitialImage = Global.YTVL.My.Resources.Resources.waiting_loading
         Me.imgLoading.Name = "imgLoading"
-        Me.imgLoading.TabStop = false
+        Me.imgLoading.TabStop = False
         Me.ToolTip.SetToolTip(Me.imgLoading, resources.GetString("imgLoading.ToolTip"))
         '
         'btnAdvanced
@@ -226,7 +226,7 @@ Partial Class YTVL
         Me.btnAdvanced.BackColor = System.Drawing.Color.Transparent
         Me.btnAdvanced.Name = "btnAdvanced"
         Me.ToolTip.SetToolTip(Me.btnAdvanced, resources.GetString("btnAdvanced.ToolTip"))
-        Me.btnAdvanced.UseVisualStyleBackColor = false
+        Me.btnAdvanced.UseVisualStyleBackColor = False
         '
         'pnlRight1
         '
@@ -241,14 +241,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.optMdstBrndng0, "optMdstBrndng0")
         Me.optMdstBrndng0.BackColor = System.Drawing.Color.Transparent
         Me.optMdstBrndng0.Name = "optMdstBrndng0"
-        Me.optMdstBrndng0.UseVisualStyleBackColor = false
+        Me.optMdstBrndng0.UseVisualStyleBackColor = False
         '
         'optMdstBrndng1
         '
         resources.ApplyResources(Me.optMdstBrndng1, "optMdstBrndng1")
         Me.optMdstBrndng1.BackColor = System.Drawing.Color.Transparent
         Me.optMdstBrndng1.Name = "optMdstBrndng1"
-        Me.optMdstBrndng1.UseVisualStyleBackColor = false
+        Me.optMdstBrndng1.UseVisualStyleBackColor = False
         '
         'pnlRight2
         '
@@ -263,14 +263,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.optRel0, "optRel0")
         Me.optRel0.BackColor = System.Drawing.Color.Transparent
         Me.optRel0.Name = "optRel0"
-        Me.optRel0.UseVisualStyleBackColor = false
+        Me.optRel0.UseVisualStyleBackColor = False
         '
         'optRel1
         '
         resources.ApplyResources(Me.optRel1, "optRel1")
         Me.optRel1.BackColor = System.Drawing.Color.Transparent
         Me.optRel1.Name = "optRel1"
-        Me.optRel1.UseVisualStyleBackColor = false
+        Me.optRel1.UseVisualStyleBackColor = False
         '
         'pnlRight3
         '
@@ -285,14 +285,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.optShowinfo0, "optShowinfo0")
         Me.optShowinfo0.BackColor = System.Drawing.Color.Transparent
         Me.optShowinfo0.Name = "optShowinfo0"
-        Me.optShowinfo0.UseVisualStyleBackColor = false
+        Me.optShowinfo0.UseVisualStyleBackColor = False
         '
         'optShowinfo1
         '
         resources.ApplyResources(Me.optShowinfo1, "optShowinfo1")
         Me.optShowinfo1.BackColor = System.Drawing.Color.Transparent
         Me.optShowinfo1.Name = "optShowinfo1"
-        Me.optShowinfo1.UseVisualStyleBackColor = false
+        Me.optShowinfo1.UseVisualStyleBackColor = False
         '
         'pnlRight4
         '
@@ -307,14 +307,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.optShowsearch0, "optShowsearch0")
         Me.optShowsearch0.BackColor = System.Drawing.Color.Transparent
         Me.optShowsearch0.Name = "optShowsearch0"
-        Me.optShowsearch0.UseVisualStyleBackColor = false
+        Me.optShowsearch0.UseVisualStyleBackColor = False
         '
         'optShowsearch1
         '
         resources.ApplyResources(Me.optShowsearch1, "optShowsearch1")
         Me.optShowsearch1.BackColor = System.Drawing.Color.Transparent
         Me.optShowsearch1.Name = "optShowsearch1"
-        Me.optShowsearch1.UseVisualStyleBackColor = false
+        Me.optShowsearch1.UseVisualStyleBackColor = False
         '
         'pnlEnableJsApi
         '
@@ -329,14 +329,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.optEnableJsApi0, "optEnableJsApi0")
         Me.optEnableJsApi0.BackColor = System.Drawing.Color.Transparent
         Me.optEnableJsApi0.Name = "optEnableJsApi0"
-        Me.optEnableJsApi0.UseVisualStyleBackColor = false
+        Me.optEnableJsApi0.UseVisualStyleBackColor = False
         '
         'optEnableJsApi1
         '
         resources.ApplyResources(Me.optEnableJsApi1, "optEnableJsApi1")
         Me.optEnableJsApi1.BackColor = System.Drawing.Color.Transparent
         Me.optEnableJsApi1.Name = "optEnableJsApi1"
-        Me.optEnableJsApi1.UseVisualStyleBackColor = false
+        Me.optEnableJsApi1.UseVisualStyleBackColor = False
         '
         'pnlAutoplay
         '
@@ -351,14 +351,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.optAutoplay0, "optAutoplay0")
         Me.optAutoplay0.BackColor = System.Drawing.Color.Transparent
         Me.optAutoplay0.Name = "optAutoplay0"
-        Me.optAutoplay0.UseVisualStyleBackColor = false
+        Me.optAutoplay0.UseVisualStyleBackColor = False
         '
         'optAutoplay1
         '
         resources.ApplyResources(Me.optAutoplay1, "optAutoplay1")
         Me.optAutoplay1.BackColor = System.Drawing.Color.Transparent
         Me.optAutoplay1.Name = "optAutoplay1"
-        Me.optAutoplay1.UseVisualStyleBackColor = false
+        Me.optAutoplay1.UseVisualStyleBackColor = False
         '
         'pnlAutohide
         '
@@ -373,14 +373,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.optAutohide0, "optAutohide0")
         Me.optAutohide0.BackColor = System.Drawing.Color.Transparent
         Me.optAutohide0.Name = "optAutohide0"
-        Me.optAutohide0.UseVisualStyleBackColor = false
+        Me.optAutohide0.UseVisualStyleBackColor = False
         '
         'optAutohide1
         '
         resources.ApplyResources(Me.optAutohide1, "optAutohide1")
         Me.optAutohide1.BackColor = System.Drawing.Color.Transparent
         Me.optAutohide1.Name = "optAutohide1"
-        Me.optAutohide1.UseVisualStyleBackColor = false
+        Me.optAutohide1.UseVisualStyleBackColor = False
         '
         'pnlFs
         '
@@ -395,14 +395,14 @@ Partial Class YTVL
         resources.ApplyResources(Me.optFs0, "optFs0")
         Me.optFs0.BackColor = System.Drawing.Color.Transparent
         Me.optFs0.Name = "optFs0"
-        Me.optFs0.UseVisualStyleBackColor = false
+        Me.optFs0.UseVisualStyleBackColor = False
         '
         'optFs1
         '
         resources.ApplyResources(Me.optFs1, "optFs1")
         Me.optFs1.BackColor = System.Drawing.Color.Transparent
         Me.optFs1.Name = "optFs1"
-        Me.optFs1.UseVisualStyleBackColor = false
+        Me.optFs1.UseVisualStyleBackColor = False
         '
         'pnlQuality
         '
@@ -416,23 +416,23 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.optQuality360, "optQuality360")
         Me.optQuality360.Name = "optQuality360"
-        Me.optQuality360.UseVisualStyleBackColor = true
+        Me.optQuality360.UseVisualStyleBackColor = True
         '
         'optQuality720
         '
         resources.ApplyResources(Me.optQuality720, "optQuality720")
         Me.optQuality720.Name = "optQuality720"
-        Me.optQuality720.UseVisualStyleBackColor = true
+        Me.optQuality720.UseVisualStyleBackColor = True
         '
         'chkHttps
         '
         resources.ApplyResources(Me.chkHttps, "chkHttps")
         Me.chkHttps.BackColor = System.Drawing.Color.Transparent
-        Me.chkHttps.Checked = true
+        Me.chkHttps.Checked = True
         Me.chkHttps.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkHttps.Name = "chkHttps"
         Me.ToolTip.SetToolTip(Me.chkHttps, resources.GetString("chkHttps.ToolTip"))
-        Me.chkHttps.UseVisualStyleBackColor = false
+        Me.chkHttps.UseVisualStyleBackColor = False
         '
         'txtOrigin
         '
@@ -445,21 +445,21 @@ Partial Class YTVL
         resources.ApplyResources(Me.chkOrigin, "chkOrigin")
         Me.chkOrigin.BackColor = System.Drawing.Color.Transparent
         Me.chkOrigin.Name = "chkOrigin"
-        Me.chkOrigin.UseVisualStyleBackColor = false
+        Me.chkOrigin.UseVisualStyleBackColor = False
         '
         'chkWmode
         '
         resources.ApplyResources(Me.chkWmode, "chkWmode")
         Me.chkWmode.BackColor = System.Drawing.Color.Transparent
         Me.chkWmode.Name = "chkWmode"
-        Me.chkWmode.UseVisualStyleBackColor = false
+        Me.chkWmode.UseVisualStyleBackColor = False
         '
         'chkThemeDark
         '
         resources.ApplyResources(Me.chkThemeDark, "chkThemeDark")
         Me.chkThemeDark.BackColor = System.Drawing.Color.Transparent
         Me.chkThemeDark.Name = "chkThemeDark"
-        Me.chkThemeDark.UseVisualStyleBackColor = false
+        Me.chkThemeDark.UseVisualStyleBackColor = False
         '
         'lblShowSearch
         '
@@ -487,7 +487,7 @@ Partial Class YTVL
         '
         'optIvLP
         '
-        Me.optIvLP.FormattingEnabled = true
+        Me.optIvLP.FormattingEnabled = True
         Me.optIvLP.Items.AddRange(New Object() {resources.GetString("optIvLP.Items"), resources.GetString("optIvLP.Items1"), resources.GetString("optIvLP.Items2"), resources.GetString("optIvLP.Items3"), resources.GetString("optIvLP.Items4"), resources.GetString("optIvLP.Items5"), resources.GetString("optIvLP.Items6"), resources.GetString("optIvLP.Items7")})
         resources.ApplyResources(Me.optIvLP, "optIvLP")
         Me.optIvLP.Name = "optIvLP"
@@ -527,11 +527,11 @@ Partial Class YTVL
         resources.ApplyResources(Me.chkFeature, "chkFeature")
         Me.chkFeature.BackColor = System.Drawing.Color.Transparent
         Me.chkFeature.Name = "chkFeature"
-        Me.chkFeature.UseVisualStyleBackColor = false
+        Me.chkFeature.UseVisualStyleBackColor = False
         '
         'txtList
         '
-        Me.txtList.AllowDrop = true
+        Me.txtList.AllowDrop = True
         resources.ApplyResources(Me.txtList, "txtList")
         Me.txtList.Name = "txtList"
         Me.ToolTip.SetToolTip(Me.txtList, resources.GetString("txtList.ToolTip"))
@@ -547,11 +547,11 @@ Partial Class YTVL
         resources.ApplyResources(Me.chkHL, "chkHL")
         Me.chkHL.BackColor = System.Drawing.Color.Transparent
         Me.chkHL.Name = "chkHL"
-        Me.chkHL.UseVisualStyleBackColor = false
+        Me.chkHL.UseVisualStyleBackColor = False
         '
         'txtTime
         '
-        Me.txtTime.AllowDrop = true
+        Me.txtTime.AllowDrop = True
         resources.ApplyResources(Me.txtTime, "txtTime")
         Me.txtTime.Name = "txtTime"
         Me.ToolTip.SetToolTip(Me.txtTime, resources.GetString("txtTime.ToolTip"))
@@ -559,7 +559,7 @@ Partial Class YTVL
         'lblVideoTitle
         '
         resources.ApplyResources(Me.lblVideoTitle, "lblVideoTitle")
-        Me.lblVideoTitle.AutoEllipsis = true
+        Me.lblVideoTitle.AutoEllipsis = True
         Me.lblVideoTitle.Name = "lblVideoTitle"
         Me.ToolTip.SetToolTip(Me.lblVideoTitle, resources.GetString("lblVideoTitle.ToolTip"))
         '
@@ -567,7 +567,7 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.chkRememberBrowser, "chkRememberBrowser")
         Me.chkRememberBrowser.Name = "chkRememberBrowser"
-        Me.chkRememberBrowser.UseVisualStyleBackColor = true
+        Me.chkRememberBrowser.UseVisualStyleBackColor = True
         '
         'chkKeepOnTop
         '
@@ -575,7 +575,7 @@ Partial Class YTVL
         Me.chkKeepOnTop.BackColor = System.Drawing.Color.Transparent
         Me.chkKeepOnTop.Name = "chkKeepOnTop"
         Me.ToolTip.SetToolTip(Me.chkKeepOnTop, resources.GetString("chkKeepOnTop.ToolTip"))
-        Me.chkKeepOnTop.UseVisualStyleBackColor = false
+        Me.chkKeepOnTop.UseVisualStyleBackColor = False
         '
         'grpBoxOutputs
         '
@@ -592,22 +592,40 @@ Partial Class YTVL
         Me.grpBoxOutputs.Controls.Add(Me.btnComments)
         Me.grpBoxOutputs.Controls.Add(Me.btnVideo)
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
-        Me.grpBoxOutputs.TabStop = false
+        Me.grpBoxOutputs.TabStop = False
         Me.ToolTip.SetToolTip(Me.grpBoxOutputs, resources.GetString("grpBoxOutputs.ToolTip"))
+        '
+        'WebBrowserVideoLoad
+        '
+        resources.ApplyResources(Me.WebBrowserVideoLoad, "WebBrowserVideoLoad")
+        Me.WebBrowserVideoLoad.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
+        Me.WebBrowserVideoLoad.Name = "WebBrowserVideoLoad"
+        Me.WebBrowserVideoLoad.ScriptErrorsSuppressed = True
+        Me.WebBrowserVideoLoad.TabStop = False
+        Me.ToolTip.SetToolTip(Me.WebBrowserVideoLoad, resources.GetString("WebBrowserVideoLoad.ToolTip"))
+        '
+        'WebBrowserVersionCheck
+        '
+        resources.ApplyResources(Me.WebBrowserVersionCheck, "WebBrowserVersionCheck")
+        Me.WebBrowserVersionCheck.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
+        Me.WebBrowserVersionCheck.Name = "WebBrowserVersionCheck"
+        Me.WebBrowserVersionCheck.ScriptErrorsSuppressed = True
+        Me.WebBrowserVersionCheck.TabStop = False
+        Me.ToolTip.SetToolTip(Me.WebBrowserVersionCheck, resources.GetString("WebBrowserVersionCheck.ToolTip"))
         '
         'btnThumbnail
         '
         resources.ApplyResources(Me.btnThumbnail, "btnThumbnail")
         Me.btnThumbnail.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
         Me.btnThumbnail.Name = "btnThumbnail"
-        Me.btnThumbnail.UseVisualStyleBackColor = true
+        Me.btnThumbnail.UseVisualStyleBackColor = True
         '
         'btnDeturl
         '
         resources.ApplyResources(Me.btnDeturl, "btnDeturl")
         Me.btnDeturl.ContextMenuStrip = Me.ContextDownload
         Me.btnDeturl.Name = "btnDeturl"
-        Me.btnDeturl.UseVisualStyleBackColor = true
+        Me.btnDeturl.UseVisualStyleBackColor = True
         '
         'ContextDownload
         '
@@ -648,7 +666,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.btnExit, "btnExit")
         Me.btnExit.Name = "btnExit"
         Me.ToolTip.SetToolTip(Me.btnExit, resources.GetString("btnExit.ToolTip"))
-        Me.btnExit.UseVisualStyleBackColor = true
+        Me.btnExit.UseVisualStyleBackColor = True
         '
         'chkShowNotification
         '
@@ -656,7 +674,7 @@ Partial Class YTVL
         Me.chkShowNotification.BackColor = System.Drawing.SystemColors.Control
         Me.chkShowNotification.Name = "chkShowNotification"
         Me.ToolTip.SetToolTip(Me.chkShowNotification, resources.GetString("chkShowNotification.ToolTip"))
-        Me.chkShowNotification.UseVisualStyleBackColor = false
+        Me.chkShowNotification.UseVisualStyleBackColor = False
         '
         'btnReset
         '
@@ -665,7 +683,7 @@ Partial Class YTVL
         Me.btnReset.Image = Global.YTVL.My.Resources.Resources._1371833577_view_refresh
         Me.btnReset.Name = "btnReset"
         Me.ToolTip.SetToolTip(Me.btnReset, resources.GetString("btnReset.ToolTip"))
-        Me.btnReset.UseVisualStyleBackColor = false
+        Me.btnReset.UseVisualStyleBackColor = False
         '
         'btnEmbed
         '
@@ -674,7 +692,7 @@ Partial Class YTVL
         Me.btnEmbed.ContextMenuStrip = Me.ContextClipboard
         Me.btnEmbed.Name = "btnEmbed"
         Me.ToolTip.SetToolTip(Me.btnEmbed, resources.GetString("btnEmbed.ToolTip"))
-        Me.btnEmbed.UseVisualStyleBackColor = false
+        Me.btnEmbed.UseVisualStyleBackColor = False
         '
         'ContextClipboard
         '
@@ -714,15 +732,15 @@ Partial Class YTVL
         '
         'ContextClipboardCopyCodeStandard
         '
-        Me.ContextClipboardCopyCodeStandard.Checked = true
-        Me.ContextClipboardCopyCodeStandard.CheckOnClick = true
+        Me.ContextClipboardCopyCodeStandard.Checked = True
+        Me.ContextClipboardCopyCodeStandard.CheckOnClick = True
         Me.ContextClipboardCopyCodeStandard.CheckState = System.Windows.Forms.CheckState.Checked
         Me.ContextClipboardCopyCodeStandard.Name = "ContextClipboardCopyCodeStandard"
         resources.ApplyResources(Me.ContextClipboardCopyCodeStandard, "ContextClipboardCopyCodeStandard")
         '
         'ContextClipboardCopyCodeOldCode
         '
-        Me.ContextClipboardCopyCodeOldCode.CheckOnClick = true
+        Me.ContextClipboardCopyCodeOldCode.CheckOnClick = True
         Me.ContextClipboardCopyCodeOldCode.Name = "ContextClipboardCopyCodeOldCode"
         resources.ApplyResources(Me.ContextClipboardCopyCodeOldCode, "ContextClipboardCopyCodeOldCode")
         '
@@ -734,7 +752,7 @@ Partial Class YTVL
         Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
         Me.btnVideoInfo.Name = "btnVideoInfo"
         Me.ToolTip.SetToolTip(Me.btnVideoInfo, resources.GetString("btnVideoInfo.ToolTip"))
-        Me.btnVideoInfo.UseVisualStyleBackColor = false
+        Me.btnVideoInfo.UseVisualStyleBackColor = False
         '
         'btnComments
         '
@@ -744,7 +762,7 @@ Partial Class YTVL
         Me.btnComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         Me.btnComments.Name = "btnComments"
         Me.ToolTip.SetToolTip(Me.btnComments, resources.GetString("btnComments.ToolTip"))
-        Me.btnComments.UseVisualStyleBackColor = false
+        Me.btnComments.UseVisualStyleBackColor = False
         '
         'btnVideo
         '
@@ -754,7 +772,7 @@ Partial Class YTVL
         Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         Me.btnVideo.Name = "btnVideo"
         Me.ToolTip.SetToolTip(Me.btnVideo, resources.GetString("btnVideo.ToolTip"))
-        Me.btnVideo.UseVisualStyleBackColor = false
+        Me.btnVideo.UseVisualStyleBackColor = False
         '
         'grpBoxAbout
         '
@@ -766,33 +784,15 @@ Partial Class YTVL
         Me.grpBoxAbout.Controls.Add(Me.lnkSourceCode)
         Me.grpBoxAbout.Controls.Add(Me.lnkOriginalPage)
         Me.grpBoxAbout.Name = "grpBoxAbout"
-        Me.grpBoxAbout.TabStop = false
+        Me.grpBoxAbout.TabStop = False
         Me.ToolTip.SetToolTip(Me.grpBoxAbout, resources.GetString("grpBoxAbout.ToolTip"))
-        '
-        'WebBrowserVideoLoad
-        '
-        resources.ApplyResources(Me.WebBrowserVideoLoad, "WebBrowserVideoLoad")
-        Me.WebBrowserVideoLoad.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
-        Me.WebBrowserVideoLoad.Name = "WebBrowserVideoLoad"
-        Me.WebBrowserVideoLoad.ScriptErrorsSuppressed = true
-        Me.WebBrowserVideoLoad.TabStop = false
-        Me.ToolTip.SetToolTip(Me.WebBrowserVideoLoad, resources.GetString("WebBrowserVideoLoad.ToolTip"))
         '
         'btnDebug
         '
         resources.ApplyResources(Me.btnDebug, "btnDebug")
         Me.btnDebug.Name = "btnDebug"
         Me.ToolTip.SetToolTip(Me.btnDebug, resources.GetString("btnDebug.ToolTip"))
-        Me.btnDebug.UseVisualStyleBackColor = true
-        '
-        'WebBrowserVersionCheck
-        '
-        resources.ApplyResources(Me.WebBrowserVersionCheck, "WebBrowserVersionCheck")
-        Me.WebBrowserVersionCheck.AccessibleRole = System.Windows.Forms.AccessibleRole.Text
-        Me.WebBrowserVersionCheck.Name = "WebBrowserVersionCheck"
-        Me.WebBrowserVersionCheck.ScriptErrorsSuppressed = true
-        Me.WebBrowserVersionCheck.TabStop = false
-        Me.ToolTip.SetToolTip(Me.WebBrowserVersionCheck, resources.GetString("WebBrowserVersionCheck.ToolTip"))
+        Me.btnDebug.UseVisualStyleBackColor = True
         '
         'lnkDeveloper
         '
@@ -800,7 +800,7 @@ Partial Class YTVL
         Me.lnkDeveloper.BackColor = System.Drawing.Color.Transparent
         Me.lnkDeveloper.LinkColor = System.Drawing.Color.Silver
         Me.lnkDeveloper.Name = "lnkDeveloper"
-        Me.lnkDeveloper.TabStop = true
+        Me.lnkDeveloper.TabStop = True
         Me.ToolTip.SetToolTip(Me.lnkDeveloper, resources.GetString("lnkDeveloper.ToolTip"))
         Me.lnkDeveloper.VisitedLinkColor = System.Drawing.Color.Gray
         '
@@ -809,7 +809,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.lnkReleases, "lnkReleases")
         Me.lnkReleases.BackColor = System.Drawing.Color.Transparent
         Me.lnkReleases.Name = "lnkReleases"
-        Me.lnkReleases.TabStop = true
+        Me.lnkReleases.TabStop = True
         Me.ToolTip.SetToolTip(Me.lnkReleases, resources.GetString("lnkReleases.ToolTip"))
         '
         'lnkReportProblem
@@ -817,7 +817,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.lnkReportProblem, "lnkReportProblem")
         Me.lnkReportProblem.BackColor = System.Drawing.Color.Transparent
         Me.lnkReportProblem.Name = "lnkReportProblem"
-        Me.lnkReportProblem.TabStop = true
+        Me.lnkReportProblem.TabStop = True
         Me.ToolTip.SetToolTip(Me.lnkReportProblem, resources.GetString("lnkReportProblem.ToolTip"))
         '
         'lnkSourceCode
@@ -825,7 +825,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.lnkSourceCode, "lnkSourceCode")
         Me.lnkSourceCode.BackColor = System.Drawing.Color.Transparent
         Me.lnkSourceCode.Name = "lnkSourceCode"
-        Me.lnkSourceCode.TabStop = true
+        Me.lnkSourceCode.TabStop = True
         Me.ToolTip.SetToolTip(Me.lnkSourceCode, resources.GetString("lnkSourceCode.ToolTip"))
         '
         'lnkOriginalPage
@@ -833,7 +833,7 @@ Partial Class YTVL
         resources.ApplyResources(Me.lnkOriginalPage, "lnkOriginalPage")
         Me.lnkOriginalPage.BackColor = System.Drawing.Color.Transparent
         Me.lnkOriginalPage.Name = "lnkOriginalPage"
-        Me.lnkOriginalPage.TabStop = true
+        Me.lnkOriginalPage.TabStop = True
         Me.ToolTip.SetToolTip(Me.lnkOriginalPage, resources.GetString("lnkOriginalPage.ToolTip"))
         '
         'lblCurrentVersion
@@ -856,14 +856,14 @@ Partial Class YTVL
         '
         'NotificationMenuStripShowYTVL
         '
-        Me.NotificationMenuStripShowYTVL.AutoToolTip = true
+        Me.NotificationMenuStripShowYTVL.AutoToolTip = True
         Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
         Me.NotificationMenuStripShowYTVL.Name = "NotificationMenuStripShowYTVL"
         resources.ApplyResources(Me.NotificationMenuStripShowYTVL, "NotificationMenuStripShowYTVL")
         '
         'NotificationMenuStripKeepOnTop
         '
-        Me.NotificationMenuStripKeepOnTop.CheckOnClick = true
+        Me.NotificationMenuStripKeepOnTop.CheckOnClick = True
         Me.NotificationMenuStripKeepOnTop.Name = "NotificationMenuStripKeepOnTop"
         resources.ApplyResources(Me.NotificationMenuStripKeepOnTop, "NotificationMenuStripKeepOnTop")
         '
@@ -874,7 +874,7 @@ Partial Class YTVL
         '
         'NotificationMenuStripVideo
         '
-        Me.NotificationMenuStripVideo.AutoToolTip = true
+        Me.NotificationMenuStripVideo.AutoToolTip = True
         Me.NotificationMenuStripVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
         resources.ApplyResources(Me.NotificationMenuStripVideo, "NotificationMenuStripVideo")
         Me.NotificationMenuStripVideo.Name = "NotificationMenuStripVideo"
@@ -920,7 +920,7 @@ Partial Class YTVL
         Me.chkUpdate.BackColor = System.Drawing.Color.Transparent
         Me.chkUpdate.Name = "chkUpdate"
         Me.ToolTip.SetToolTip(Me.chkUpdate, resources.GetString("chkUpdate.ToolTip"))
-        Me.chkUpdate.UseVisualStyleBackColor = false
+        Me.chkUpdate.UseVisualStyleBackColor = False
         '
         'ToolTip
         '
@@ -933,9 +933,9 @@ Partial Class YTVL
         Me.openFileDialogBrowser.DefaultExt = "exe"
         resources.ApplyResources(Me.openFileDialogBrowser, "openFileDialogBrowser")
         Me.openFileDialogBrowser.InitialDirectory = "%ProgramFiles%"
-        Me.openFileDialogBrowser.ReadOnlyChecked = true
-        Me.openFileDialogBrowser.ShowHelp = true
-        Me.openFileDialogBrowser.ShowReadOnly = true
+        Me.openFileDialogBrowser.ReadOnlyChecked = True
+        Me.openFileDialogBrowser.ShowHelp = True
+        Me.openFileDialogBrowser.ShowReadOnly = True
         '
         'YTVL
         '
@@ -949,38 +949,39 @@ Partial Class YTVL
         Me.Controls.Add(Me.grpBoxAbout)
         Me.Controls.Add(Me.grpBoxOutputs)
         Me.Controls.Add(Me.grpBoxInputs)
-        Me.HelpButton = true
+        Me.HelpButton = True
         Me.Name = "YTVL"
-        Me.grpBoxInputs.ResumeLayout(false)
-        Me.grpBoxInputs.PerformLayout
-        CType(Me.imgLoading,System.ComponentModel.ISupportInitialize).EndInit
-        Me.pnlRight1.ResumeLayout(false)
-        Me.pnlRight1.PerformLayout
-        Me.pnlRight2.ResumeLayout(false)
-        Me.pnlRight2.PerformLayout
-        Me.pnlRight3.ResumeLayout(false)
-        Me.pnlRight3.PerformLayout
-        Me.pnlRight4.ResumeLayout(false)
-        Me.pnlRight4.PerformLayout
-        Me.pnlEnableJsApi.ResumeLayout(false)
-        Me.pnlEnableJsApi.PerformLayout
-        Me.pnlAutoplay.ResumeLayout(false)
-        Me.pnlAutoplay.PerformLayout
-        Me.pnlAutohide.ResumeLayout(false)
-        Me.pnlAutohide.PerformLayout
-        Me.pnlFs.ResumeLayout(false)
-        Me.pnlFs.PerformLayout
-        Me.pnlQuality.ResumeLayout(false)
-        Me.pnlQuality.PerformLayout
-        Me.grpBoxOutputs.ResumeLayout(false)
-        Me.grpBoxOutputs.PerformLayout
-        Me.ContextDownload.ResumeLayout(false)
-        Me.ContextClipboard.ResumeLayout(false)
-        Me.grpBoxAbout.ResumeLayout(false)
-        Me.grpBoxAbout.PerformLayout
-        Me.NotificationMenuStrip.ResumeLayout(false)
-        Me.ResumeLayout(false)
-        Me.PerformLayout
+        Me.grpBoxInputs.ResumeLayout(False)
+        Me.grpBoxInputs.PerformLayout()
+        CType(Me.imgLoading, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlRight1.ResumeLayout(False)
+        Me.pnlRight1.PerformLayout()
+        Me.pnlRight2.ResumeLayout(False)
+        Me.pnlRight2.PerformLayout()
+        Me.pnlRight3.ResumeLayout(False)
+        Me.pnlRight3.PerformLayout()
+        Me.pnlRight4.ResumeLayout(False)
+        Me.pnlRight4.PerformLayout()
+        Me.pnlEnableJsApi.ResumeLayout(False)
+        Me.pnlEnableJsApi.PerformLayout()
+        Me.pnlAutoplay.ResumeLayout(False)
+        Me.pnlAutoplay.PerformLayout()
+        Me.pnlAutohide.ResumeLayout(False)
+        Me.pnlAutohide.PerformLayout()
+        Me.pnlFs.ResumeLayout(False)
+        Me.pnlFs.PerformLayout()
+        Me.pnlQuality.ResumeLayout(False)
+        Me.pnlQuality.PerformLayout()
+        Me.grpBoxOutputs.ResumeLayout(False)
+        Me.grpBoxOutputs.PerformLayout()
+        Me.ContextDownload.ResumeLayout(False)
+        Me.ContextClipboard.ResumeLayout(False)
+        Me.grpBoxAbout.ResumeLayout(False)
+        Me.grpBoxAbout.PerformLayout()
+        Me.NotificationMenuStrip.ResumeLayout(False)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
     Friend WithEvents ContextDownloadCopyFromGenerated As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btnThumbnail As System.Windows.Forms.Button

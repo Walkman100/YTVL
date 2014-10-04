@@ -109,6 +109,8 @@
             openIn = ProgramFilesDir & "\Netscape\Navigator 9\navigator.exe"
         ElseIf System.IO.File.Exists(txtComboBrowser.Text) Then
             openIn = txtComboBrowser.Text
+        Else
+            MsgBox("File """ & txtComboBrowser.Text & """ not found! Last selected valid browser will open when you press OK...", MsgBoxStyle.Critical, "Executable not found")
         End If
     End Sub
 
