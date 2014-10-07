@@ -41,9 +41,9 @@
                         GetBrowser()
                         Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/releases/latest")
                     End If
-                End If 'yes, this entire sub could be put on one line, but that line would be incredibly long
+                End If
             End If
-        End If
+        End If 'yes, this entire if could be put on one line, but that line would be incredibly long
     End Sub
 
     'Opening links & copying stuff

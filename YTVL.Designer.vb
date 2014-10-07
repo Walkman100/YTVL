@@ -918,6 +918,8 @@ Partial Class YTVL
         '
         resources.ApplyResources(Me.chkUpdate, "chkUpdate")
         Me.chkUpdate.BackColor = System.Drawing.Color.Transparent
+        Me.chkUpdate.Checked = True
+        Me.chkUpdate.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkUpdate.Name = "chkUpdate"
         Me.ToolTip.SetToolTip(Me.chkUpdate, resources.GetString("chkUpdate.ToolTip"))
         Me.chkUpdate.UseVisualStyleBackColor = False
