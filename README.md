@@ -1,6 +1,6 @@
 YouTube Video Linker [![YTVL Icon](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/youtube_withLink.png)](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/youtube_withLink.png "YTVL Icon")
 ===
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Walkman100/YTVL?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Walkman100/Walkman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/HTML/YTVL.html)
 
