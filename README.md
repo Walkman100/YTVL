@@ -74,3 +74,7 @@ If this page does not show a valid version, then the program might give an error
 
 ### [AppVeyor](http://ci.appveyor.com/) build status
 [![Build status](https://ci.appveyor.com/api/projects/status/ao70dapbuoho2yk2)](https://ci.appveyor.com/project/Walkman100/ytvl)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Walkman100/ytvl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
