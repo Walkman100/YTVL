@@ -11,4 +11,4 @@
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://gnu.org/licenses/gpl.txt>.
 
- Contact the DeavmiOSS organization by electronic mail: mailto:tristankildaire@gmail.com or mailto:walkman@hackermail.com (mailto:matthewcarter17@gmail.com)
+ Contact the DeavmiOSS organization by electronic mail: [deavmioss@gmail.com](mailto:deavmioss@gmail.com)
