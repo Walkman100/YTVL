@@ -7,6 +7,7 @@ Icon youtube_withLink.ico
 Caption "YTVL Installer"
 Name "YTVL"
 AutoCloseWindow true
+ShowInstDetails show
 
 LicenseBkColor /windows
 LicenseData "LICENSE.md"
