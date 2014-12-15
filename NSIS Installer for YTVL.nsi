@@ -55,21 +55,6 @@ SectionEnd
 ; this should have sub options for available apps, that are downloaded
 ;SectionEnd
 
-; Uninstaller
-
-Section "Uninstall"
-  Delete $INSTDIR\YTVL-Uninst.exe   ; Remove Application Files
-  Delete $INSTDIR\YTVL.exe
-  RMDir $INSTDIR
-  
-  Delete $SMPROGRAMS\DeavmiOSS\YTVL.lnk   ; Remove Start Menu Shortcuts & Folder
-  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
-  RMDir $SMPROGRAMS\DeavmiOSS
-  
-  Delete $DESKTOP\YTVL.lnk   ; Remove Desktop Shortcut
-  Delete $QUICKLAUNCH\YTVL.lnk   ; Remove Quick Launch shortcut
-SectionEnd
-
 ; Functions
 
 Function .onInit
@@ -88,6 +73,21 @@ Function .onInstSuccess
 FunctionEnd
 
 ; Uninstaller
+
+Section "Uninstall"
+  Delete $INSTDIR\YTVL-Uninst.exe   ; Remove Application Files
+  Delete $INSTDIR\YTVL.exe
+  RMDir $INSTDIR
+  
+  Delete $SMPROGRAMS\DeavmiOSS\YTVL.lnk   ; Remove Start Menu Shortcuts & Folder
+  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
+  RMDir $SMPROGRAMS\DeavmiOSS
+  
+  Delete $DESKTOP\YTVL.lnk   ; Remove Desktop Shortcut
+  Delete $QUICKLAUNCH\YTVL.lnk   ; Remove Quick Launch shortcut
+SectionEnd
+
+; Uninstaller Functions
 
 Function un.onInit
     MessageBox MB_YESNO "This will uninstall YTVL. Continue?" IDYES NoAbort
