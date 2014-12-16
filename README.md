@@ -1,5 +1,4 @@
-YouTube Video Linker [![YTVL Icon](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/youtube_withLink.png)](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/youtube_withLink.png "YTVL Icon")
-===
+# YouTube Video Linker [<img src="http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg" title="YTVL Icon" width="70" height="36" alt="YTVL Icon">](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Walkman100/Walkman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/HTML/YTVL.html)
@@ -33,21 +32,21 @@ There is an option to the right of the `Outputs` group box that shows the notifi
 
 The `Keep window on top` checkbox at the top-right of the window makes the window stay on top of all other windows. This checkbox and the option in the notification context menu do the same thing.
 
-The `Check for updates automatically` checkbox & option, if you are using a version below `v1.3.3`, loads the file at [Walkman.Github.io/ver.txt](http://walkman100.github.io/Walkman/YTVL/ver.txt) and checks the current version against the version listed in that file whenever you tick the option, or if the option is ticked when the program opens. Versions later than and including `v1.3.3` load the url [here](http://github.com/Walkman100/YTVL/releases/latest) instead, since that is automatically redirected to the current version by GitHub, which returns e.g. `https://github.com/Walkman100/YTVL/releases/tag/v1.3.3`.
+The `Check for updates automatically` checkbox option, if you are using a version below `v1.3.3`, loads the file at [Walkman.Github.io/ver.txt](http://walkman100.github.io/Walkman/YTVL/ver.txt) and checks the current version against the version listed in that file whenever you tick the option, or if the option is ticked when the program opens. Versions later than and including `v1.3.3` load the url [here](http://github.com/Walkman100/YTVL/releases/latest) instead, since that is automatically redirected to the current version by GitHub, which returns e.g. `https://github.com/Walkman100/YTVL/releases/tag/v1.3.3`.
 _______________________________________________________________________________
 <a name="f-note-1" id="f-note-1">1</a>. A YouTube Video ID is the random letters at the end of a YouTube video URL, e.g. the id of the URL
 > https://www.youtube.com/watch?v=z9Uz1icjwrM
 
 is `z9Uz1icjwrM`. This ID is found in any Page's URL containing a video, even embedded ones.<a href="#ref1" title="Jump back to footnote 1 above">↩</a>
 
-<a name="f-note-2" id="f-note-2">2</a>. As the page on [their website](https://www.youtube.com/feather_beta) says, "The "Feather" project is intended to serve YouTube video watch pages with the lowest latency possible. It achieves this by severely limiting the features available to the viewer and making use of advanced web techniques for reducing the total amount of bytes downloaded by the browser. It is a work in progress and may not work for all videos." Enable it [here](https://www.youtube.com/feather_beta). **Note**: YouTube Feather has been discontinued.<a href="#ref2" title="Jump back to footnote 2 above">↩</a>
+<a name="f-note-2" id="f-note-2">2</a>. As the page on [their website](https://www.youtube.com/feather_beta) said, "The "Feather" project is intended to serve YouTube video watch pages with the lowest latency possible. It achieves this by severely limiting the features available to the viewer and making use of advanced web techniques for reducing the total amount of bytes downloaded by the browser. It is a work in progress and may not work for all videos." Enable it [here](https://www.youtube.com/feather_beta). **Note**: YouTube Feather has been discontinued.<a href="#ref2" title="Jump back to footnote 2 above">↩</a>
 
 # What the Links & Flags do
 Links:
 - **Original page** goes here: http://walkman100.github.io/Walkman/HTML/YTVL.html
 - **Source code** goes here: https://github.com/Walkman100/YTVL/
 - **Report a problem** goes here: https://github.com/Walkman100/YTVL/issues/new
-- **Latest release** goes here: https://github.com/Walkman100/YTVL/releases/latest where it automatically redirects to the latest version
+- **Latest release** goes here: https://github.com/Walkman100/YTVL/releases/latest where it is automatically redirected to the latest version
 
 Generally, the name of the flag speaks for itself, but here is a short description:
 
