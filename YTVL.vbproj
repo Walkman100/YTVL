@@ -115,7 +115,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
