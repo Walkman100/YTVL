@@ -22,6 +22,7 @@ Partial Class ThumbnailViewer
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ThumbnailViewer))
         Me.imgThumbnail = New System.Windows.Forms.PictureBox()
         Me.lblS1 = New System.Windows.Forms.LinkLabel()
         Me.lblS2 = New System.Windows.Forms.LinkLabel()
@@ -29,8 +30,8 @@ Partial Class ThumbnailViewer
         Me.lblMQ = New System.Windows.Forms.LinkLabel()
         Me.lblHQ = New System.Windows.Forms.LinkLabel()
         Me.lblMAX = New System.Windows.Forms.LinkLabel()
-        CType(Me.imgThumbnail,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.SuspendLayout
+        CType(Me.imgThumbnail, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
         '
         'imgThumbnail
         '
@@ -125,11 +126,10 @@ Partial Class ThumbnailViewer
         Me.Controls.Add(Me.lblS2)
         Me.Controls.Add(Me.lblS1)
         Me.Controls.Add(Me.imgThumbnail)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ThumbnailViewer"
-        Me.ShowIcon = False
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Thumbnail Viewer"
+        Me.Text = "Thumbnail Viewer (Double-click to open in browser)"
         CType(Me.imgThumbnail, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
