@@ -3,7 +3,7 @@
 ; As a program that all Power PC users should have, Notepad ++ is recommended to edit this file
 
 AddBrandingImage top 20
-Icon youtube_withLink.ico
+Icon "Resources\YTVL.ico"
 Caption "YTVL Installer"
 Name "YTVL"
 AutoCloseWindow true
@@ -61,7 +61,7 @@ Function .onInit
   MessageBox MB_YESNO "This will install YTVL. Do you wish to continue?" IDYES gogogo
     Abort
   gogogo:
-  SetBrandingImage "[/RESIZETOFIT] youtube_withLink.ico"
+  SetBrandingImage "[/RESIZETOFIT] Resources\YTVL.ico"
   SetShellVarContext all
   SetAutoClose true
 FunctionEnd
