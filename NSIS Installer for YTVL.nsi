@@ -1,6 +1,6 @@
 ; YTVL Installer NSIS Script
 ; get NSIS at http://tenet.dl.sourceforge.net/project/nsis/NSIS%202/2.46/nsis-2.46-setup.exe
-; As a program that all Power PC users should have, Notepad ++ is recommended to edit this file
+; As a program that all Power PC users should have, Notepad++ is recommended to edit this file
 
 AddBrandingImage top 20
 Icon "Resources\YTVL.ico"
@@ -75,16 +75,16 @@ FunctionEnd
 ; Uninstaller
 
 Section "Uninstall"
-  Delete $INSTDIR\YTVL-Uninst.exe   ; Remove Application Files
-  Delete $INSTDIR\YTVL.exe
+  Delete "$INSTDIR\YTVL-Uninst.exe"   ; Remove Application Files
+  Delete "$INSTDIR\YTVL.exe"
   RMDir $INSTDIR
   
-  Delete $SMPROGRAMS\DeavmiOSS\YTVL.lnk   ; Remove Start Menu Shortcuts & Folder
+  Delete "$SMPROGRAMS\DeavmiOSS\YTVL.lnk"   ; Remove Start Menu Shortcuts & Folder
   Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
   RMDir $SMPROGRAMS\DeavmiOSS
   
-  Delete $DESKTOP\YTVL.lnk   ; Remove Desktop Shortcut
-  Delete $QUICKLAUNCH\YTVL.lnk   ; Remove Quick Launch shortcut
+  Delete "$DESKTOP\YTVL.lnk"   ; Remove Desktop Shortcut
+  Delete "$QUICKLAUNCH\YTVL.lnk"   ; Remove Quick Launch shortcut
 SectionEnd
 
 ; Uninstaller Functions
