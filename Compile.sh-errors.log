@@ -1,0 +1,122 @@
+walkman@MatthewCarterLM16:/src/YTVL > ./Compile.sh
+XBuild Engine Version 12.0
+Mono, Version 3.10.0.0
+Copyright (C) 2005-2013 Various Mono authors
+
+Build started 2014-12-30 02:58:10 AM.
+__________________________________________________
+Project "/src/YTVL/YTVL.sln" (default target(s)):
+        Target ValidateSolutionConfiguration:
+                Building solution configuration "Release|Any CPU".
+        Target Build:
+                Project "/src/YTVL/YTVL.vbproj" (default target(s)):
+                        Target PrepareForBuild:
+                                Configuration: Release Platform: AnyCPU
+                        Target GenerateSatelliteAssemblies:
+                        No input files were specified for target GenerateSatelliteAssemblies, skipping.
+                        Target CoreCompile:
+/usr/lib/mono/xbuild/12.0/bin/Microsoft.VisualBasic.targets: error : Error executing task Vbc: Argument cannot be null.
+Parameter name: pathToTool
+: error : Error building target CoreCompile: Object reference not set to an instance of an object
+/src/YTVL/YTVL.vbproj: error : Object reference not set to an instance of an object
+/src/YTVL/YTVL.sln: error : Error executing task MSBuild: Object reference not set to an instance of an object
+: error : Error building target Build: Object reference not set to an instance of an object
+YTVL.sln: error : Object reference not set to an instance of an object
+
+Unhandled Exception:
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.TaskFinishedHandler (Microsoft.Build.Framework.TaskFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger.TaskFinishedHandler (System.Object sender, Microsoft.Build.Framework.TaskFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.BuildEvent.ExecuteFinishedHandler (Microsoft.Build.Framework.BuildStatusEventArgs finished_args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.PopEvent[ProjectFinishedEventArgs] (Microsoft.Build.Framework.ProjectFinishedEventArgs finished_args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger.PopEvent[ProjectFinishedEventArgs] (System.Object sender, Microsoft.Build.Framework.ProjectFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.EventSource.FireProjectFinished (System.Object sender, Microsoft.Build.Framework.ProjectFinishedEventArgs pfea) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.LogProjectFinished (Microsoft.Build.BuildEngine.Project project, Boolean succeeded) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.EndProjectBuild (Microsoft.Build.BuildEngine.Project project, Boolean succeeded) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Project.Build (System.String[] targetNames, IDictionary targetOutputs, BuildSettings buildFlags) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.BuildProjectFileInternal (System.String projectFile, System.String[] targetNames, Microsoft.Build.BuildEngine.BuildPropertyGroup globalProperties, IDictionary targetOutputs, BuildSettings buildFlags, System.String toolsVersion) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.BuildProjectFile (System.String projectFile, System.String[] targetNames, Microsoft.Build.BuildEngine.BuildPropertyGroup globalProperties, IDictionary targetOutputs, BuildSettings buildFlags, System.String toolsVersion) [0x00000] in <filename unknown>:0 
+Build FAILED.
+Errors:
+
+/src/YTVL/YTVL.sln (default targets) ->
+(Build target) ->
+/src/YTVL/YTVL.vbproj (default targets) ->
+/usr/lib/mono/xbuild/12.0/bin/Microsoft.VisualBasic.targets (CoreCompile target) ->
+
+        /usr/lib/mono/xbuild/12.0/bin/Microsoft.VisualBasic.targets: error : Error executing task Vbc: Argument cannot be null.
+Parameter name: pathToTool
+        : error : Error building target CoreCompile: Object reference not set to an instance of an object
+        /src/YTVL/YTVL.vbproj: error : Object reference not set to an instance of an object
+        /src/YTVL/YTVL.sln: error : Error executing task MSBuild: Object reference not set to an instance of an object
+        : error : Error building target Build: Object reference not set to an instance of an object
+        YTVL.sln: error : Object reference not set to an instance of an object
+
+         0 Warning(s)
+         6 Error(s)
+
+Time Elapsed 00:00:00.2448130
+
+Unhandled Exception:
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.TaskFinishedHandler (Microsoft.Build.Framework.TaskFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger.TaskFinishedHandler (System.Object sender, Microsoft.Build.Framework.TaskFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.BuildEvent.ExecuteFinishedHandler (Microsoft.Build.Framework.BuildStatusEventArgs finished_args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.PopEvent[BuildFinishedEventArgs] (Microsoft.Build.Framework.BuildFinishedEventArgs finished_args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.BuildFinishedHandlerActual (Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.BuildFinishedHandler (Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger.BuildFinishedHandler (System.Object sender, Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.EventSource.FireBuildFinished (System.Object sender, Microsoft.Build.Framework.BuildFinishedEventArgs bfea) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.LogBuildFinished (Boolean succeeded) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.EndEngineBuild (Boolean succeeded) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.BuildProjectFile (System.String projectFile, System.String[] targetNames, Microsoft.Build.BuildEngine.BuildPropertyGroup globalProperties, IDictionary targetOutputs, BuildSettings buildFlags, System.String toolsVersion) [0x00000] in <filename unknown>:0 
+  at Mono.XBuild.CommandLine.MainClass.Execute () [0x00000] in <filename unknown>:0 
+  at Mono.XBuild.CommandLine.MainClass.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+Build succeeded.
+Errors:
+
+/src/YTVL/YTVL.sln (default targets) ->
+(Build target) ->
+/src/YTVL/YTVL.vbproj (default targets) ->
+/usr/lib/mono/xbuild/12.0/bin/Microsoft.VisualBasic.targets (CoreCompile target) ->
+
+        /usr/lib/mono/xbuild/12.0/bin/Microsoft.VisualBasic.targets: error : Error executing task Vbc: Argument cannot be null.
+Parameter name: pathToTool
+        : error : Error building target CoreCompile: Object reference not set to an instance of an object
+        /src/YTVL/YTVL.vbproj: error : Object reference not set to an instance of an object
+        /src/YTVL/YTVL.sln: error : Error executing task MSBuild: Object reference not set to an instance of an object
+        : error : Error building target Build: Object reference not set to an instance of an object
+        YTVL.sln: error : Object reference not set to an instance of an object
+
+         0 Warning(s)
+         6 Error(s)
+
+Time Elapsed 00:00:00.2503750
+
+Unhandled Exception:
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.TaskFinishedHandler (Microsoft.Build.Framework.TaskFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger.TaskFinishedHandler (System.Object sender, Microsoft.Build.Framework.TaskFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.BuildEvent.ExecuteFinishedHandler (Microsoft.Build.Framework.BuildStatusEventArgs finished_args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.PopEvent[BuildFinishedEventArgs] (Microsoft.Build.Framework.BuildFinishedEventArgs finished_args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.BuildFinishedHandlerActual (Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.BuildFinishedHandler (Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger.BuildFinishedHandler (System.Object sender, Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.EventSource.FireBuildFinished (System.Object sender, Microsoft.Build.Framework.BuildFinishedEventArgs bfea) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.LogBuildFinished (Boolean succeeded) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.UnregisterAllLoggers () [0x00000] in <filename unknown>:0 
+  at Mono.XBuild.CommandLine.MainClass.Execute () [0x00000] in <filename unknown>:0 
+  at Mono.XBuild.CommandLine.MainClass.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.TaskFinishedHandler (Microsoft.Build.Framework.TaskFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger.TaskFinishedHandler (System.Object sender, Microsoft.Build.Framework.TaskFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.BuildEvent.ExecuteFinishedHandler (Microsoft.Build.Framework.BuildStatusEventArgs finished_args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.PopEvent[BuildFinishedEventArgs] (Microsoft.Build.Framework.BuildFinishedEventArgs finished_args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.BuildFinishedHandlerActual (Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger+BuildRecord.BuildFinishedHandler (Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.ConsoleLogger.BuildFinishedHandler (System.Object sender, Microsoft.Build.Framework.BuildFinishedEventArgs args) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.EventSource.FireBuildFinished (System.Object sender, Microsoft.Build.Framework.BuildFinishedEventArgs bfea) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.LogBuildFinished (Boolean succeeded) [0x00000] in <filename unknown>:0 
+  at Microsoft.Build.BuildEngine.Engine.UnregisterAllLoggers () [0x00000] in <filename unknown>:0 
+  at Mono.XBuild.CommandLine.MainClass.Execute () [0x00000] in <filename unknown>:0 
+  at Mono.XBuild.CommandLine.MainClass.Main (System.String[] args) [0x00000] in <filename unknown>:0

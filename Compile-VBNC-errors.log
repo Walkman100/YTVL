@@ -1,0 +1,20 @@
+walkman@MatthewCarterLM16:/src/YTVL > ./Compile-VBNC.sh
+Visual Basic.Net Compiler version 0.0.0.5943 (Mono 3.8 - tarball)
+Copyright (C) 2004-2010 Rolf Bjarne Kvinge. All rights reserved.
+
+/src/YTVL/YTVL.vb (10,38) : error VBNC30408: Method 'Private Sub LoadYTVL()' does not have the same signature as delegate 'System.EventHandler'.
+/src/YTVL/YTVL.vb (10,51) : error VBNC30408: Method 'Private Sub LoadYTVL()' does not have the same signature as delegate 'System.EventHandler'.
+/src/YTVL/YTVL.vb (593,88) : error VBNC30408: Method 'Private Sub txtComboVID_Enter(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.MouseEventArgs)'.
+/src/YTVL/YTVL.vb (611,80) : error VBNC30408: Method 'Private Sub txtTime_Enter(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.MouseEventArgs)'.
+/src/YTVL/YTVL.vb (625,80) : error VBNC30408: Method 'Private Sub txtList_Enter(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.MouseEventArgs)'.
+/src/YTVL/YTVL.vb (639,84) : error VBNC30408: Method 'Private Sub txtOrigin_Enter(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.MouseEventArgs)'.
+/src/YTVL/ThumbnailViewer.vb (3,40) : error VBNC30408: Method 'Private Sub LoadViewer()' does not have the same signature as delegate 'System.EventHandler'.
+/src/YTVL/ThumbnailViewer.vb (3,53) : error VBNC30408: Method 'Private Sub LoadViewer()' does not have the same signature as delegate 'System.EventHandler'.
+/src/YTVL/ThumbnailViewer.vb (7,39) : error VBNC30408: Method 'Private Sub ShowS1()' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)'.
+/src/YTVL/ThumbnailViewer.vb (21,71) : error VBNC30408: Method 'Private Sub ShowS2(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)'.
+/src/YTVL/ThumbnailViewer.vb (35,71) : error VBNC30408: Method 'Private Sub ShowS3(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)'.
+/src/YTVL/ThumbnailViewer.vb (49,71) : error VBNC30408: Method 'Private Sub ShowMQ(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)'.
+/src/YTVL/ThumbnailViewer.vb (63,71) : error VBNC30408: Method 'Private Sub ShowHQ(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)'.
+/src/YTVL/ThumbnailViewer.vb (77,73) : error VBNC30408: Method 'Private Sub ShowMAX(sender As Object, e As System.EventArgs)' does not have the same signature as delegate 'Delegate Public Sub Invoke(sender As Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)'.
+There were 14 errors and 0 warnings.
+Compilation took 00:00:00.6059980
