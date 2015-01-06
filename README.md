@@ -6,14 +6,14 @@ YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io
 Many thanks to [Deavmi](http://github.com/Deavmi) for his code, quite a bit of the code used in this project I learnt from his projects
 
 Jump to:  
-•<a href="#requirements">Requirements</a> 
-•<a href="#how-to-use">How to use</a> 
-•<a href="#what-the-links--flags-do">What the Links & Flags do</a> 
-•[Screenshots](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html) 
-•[Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl) 
-•<a href="#want-to-suggest-a-feature">Suggest a feature</a> 
-•<a href="#debugging">Debugging</a> 
-•[Donate](http://walkman100.github.io/Walkman/HTML/Donate.html) 
+- <a href="#requirements">Requirements</a> 
+- <a href="#how-to-use">How to use</a> 
+- <a href="#what-the-links--flags-do">What the Links & Flags do</a> 
+- [Screenshots](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html) 
+- [Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl) 
+- <a href="#want-to-suggest-a-feature">Suggest a feature</a> 
+- <a href="#debugging">Debugging</a> 
+- [Donate](http://walkman100.github.io/Walkman/HTML/Donate.html) 
 
 The source code is also available on [Visual Studio online](https://walkman.visualstudio.com/DefaultCollection/YTVL).
 
