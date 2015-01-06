@@ -1,21 +1,22 @@
 # YouTube Video Linker [<img src="http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg" title="YTVL Icon" width="70" height="36" alt="YTVL Icon">](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Walkman100/Walkman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/HTML/YTVL.html)
 
 Many thanks to [Deavmi](http://github.com/Deavmi) for his code, quite a bit of the code used in this project I learnt from his projects
 
-Jump to:  
-- <a href="#requirements">Requirements</a> 
-- <a href="#how-to-use">How to use</a> 
-- <a href="#what-the-links--flags-do">What the Links & Flags do</a> 
-- [Screenshots](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html) 
-- [Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl) 
-- <a href="#want-to-suggest-a-feature">Suggest a feature</a> 
-- <a href="#debugging">Debugging</a> 
-- [Donate](http://walkman100.github.io/Walkman/HTML/Donate.html) 
+Jump to:
+- <a href="#requirements">Requirements</a>
+- <a href="#how-to-use">How to use</a>
+- <a href="#what-the-links--flags-do">What the Links & Flags do</a>
+- <a href="#want-to-suggest-a-feature">Suggest a feature</a>
+- <a href="#debugging">Debugging</a>
 
-The source code is also available on [Visual Studio online](https://walkman.visualstudio.com/DefaultCollection/YTVL).
+External links:
+- [Screenshots](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html)
+- [Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl)
+- [Donate](http://walkman100.github.io/Walkman/HTML/Donate.html)
+- [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Walkman100/Walkman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+- The source code is also available on [Visual Studio online](https://walkman.visualstudio.com/DefaultCollection/YTVL).
 
 # Requirements
 
@@ -55,12 +56,6 @@ The advanced options are mostly useful for embedded videos:
 
 ***_<kbd>`WIP`</kbd>_***
 
-# Screenshots
-Screenshots available [here](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html).
-
-# Future releases/ideas
-See [this gist](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl).
-
 # Want to suggest a feature?
 Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as long as the feature/addition doesn't make the program file size significantly bigger, or increases the time it takes to start. Also, keep in mind the KISS principle (Keep It Simple, Stupid). Notice I haven't added a settings window because there are only three settings, and my application interface has space for those settings without it looking too cluttered.
 
@@ -71,7 +66,13 @@ Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of 
 
 If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
 
-### [AppVeyor](http://ci.appveyor.com/) build status
+### Screenshots
+Screenshots available [here](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html).
+
+### Future releases/ideas
+See [this gist](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl).
+
+[AppVeyor](http://ci.appveyor.com/) build status:
 [![Build status](https://ci.appveyor.com/api/projects/status/ao70dapbuoho2yk2)](https://ci.appveyor.com/project/Walkman100/ytvl)
 
 
