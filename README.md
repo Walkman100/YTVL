@@ -13,9 +13,11 @@ Jump to:
 
 External links:
 - [Screenshots](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html)
-- [Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl)
 - [Donate](http://walkman100.github.io/Walkman/HTML/Donate.html)
+- [Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl)
 - [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Walkman100/Walkman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+- [AppVeyor](http://ci.appveyor.com/) build status:
+[![Build status](https://ci.appveyor.com/api/projects/status/ao70dapbuoho2yk2)](https://ci.appveyor.com/project/Walkman100/ytvl)
 - The source code is also available on [Visual Studio online](https://walkman.visualstudio.com/DefaultCollection/YTVL).
 
 # Requirements
@@ -60,20 +62,18 @@ The advanced options are mostly useful for embedded videos:
 Go ahead! Anyone is welcome to submit a PR (Pull/Push Request) or an Issue as long as the feature/addition doesn't make the program file size significantly bigger, or increases the time it takes to start. Also, keep in mind the KISS principle (Keep It Simple, Stupid). Notice I haven't added a settings window because there are only three settings, and my application interface has space for those settings without it looking too cluttered.
 
 # Debugging
-Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of the buttons in the Outputs group box, these show the page that is loaded to show the current version and the object that is loaded to get the video name. It is possible to play videos from this object.
+Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of the buttons in the Outputs group box.
 
-![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/Images/WindowsProjectsScreenshots/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")
+- The first one shows the object that is loaded to get the video title. It is possible to play videos from this object.
+- The second one shows the page that is loaded to get the current version. If this page does not show a valid page, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
 
-If this page does not show a valid version, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
+[![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/Images/WindowsProjectsScreenshots/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")](http://walkman100.github.io/Walkman/Images/WindowsProjectsScreenshots/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png)
 
 ### Screenshots
 Screenshots available [here](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html).
 
 ### Future releases/ideas
 See [this gist](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl).
-
-[AppVeyor](http://ci.appveyor.com/) build status:
-[![Build status](https://ci.appveyor.com/api/projects/status/ao70dapbuoho2yk2)](https://ci.appveyor.com/project/Walkman100/ytvl)
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Walkman100/ytvl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
