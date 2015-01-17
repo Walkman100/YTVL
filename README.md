@@ -26,6 +26,10 @@ External links:
 
 - In order for the update checker and the video name loader to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
 
+## Compile requirements
+
+See [CompileInstructions.md](https://github.com/Walkman100/WinCompile/blob/master/CompileInstructions.md)
+
 # How to use
 It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you watched the video in Embedded mode); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweight than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup> was; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
 
