@@ -1,5 +1,4 @@
 # YouTube Video Linker [<img src="http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg" title="YTVL Icon" width="70" height="36" alt="YTVL Icon">](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg)
-
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/HTML/YTVL.html)
 
 Many thanks to [Deavmi](http://github.com/Deavmi) for his code, quite a bit of the code used in this project I learnt from his projects
@@ -21,13 +20,11 @@ External links:
 - The source code is also available on [Visual Studio online](https://walkman.visualstudio.com/DefaultCollection/YTVL).
 
 # Requirements
-
 - Windows `(tested on Windows 7 HP SP1 64-bit & Windows 8.1 Pro Update 1 64-bit)`
 
 - In order for the update checker and the video name loader to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
 
 ## Compile requirements
-
 See [CompileInstructions.md](https://github.com/Walkman100/WinCompile/blob/master/CompileInstructions.md)
 
 # How to use
