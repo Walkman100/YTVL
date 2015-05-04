@@ -1,9 +1,7 @@
 ﻿Public Class YTVL
-    Friend UseDefaultBrowser As Boolean = True
     Dim ProgramFilesDir As String = Environment.GetEnvironmentVariable("ProgramFiles")
     Dim Vars As String = ""
     Dim usehttps As String = "https"
-    Friend openIn As String = ""
     Dim latestVer As String
     Dim CopyWhat As String
 
@@ -35,12 +33,7 @@
             'check if this version is latest
             If My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < latestVer Then
                 If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " & latestVer & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") = MsgBoxResult.Ok Then
-                    If UseDefaultBrowser = True Then
-                        Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
-                    Else
-                        GetBrowser()
-                        Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/releases/latest")
-                    End If
+                    OpenLink(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
                 End If
             End If
         End If 'yes, this entire if could be put on one line, but that line would be incredibly long
@@ -84,31 +77,31 @@
         End If
     End Sub
 
-    Friend Sub GetBrowser()
+    Friend Sub OpenLink(link As String)
         If txtComboBrowser.Text = "Browse..." Or txtComboBrowser.Text = "" Then
-            UseDefaultBrowser = True
+            Process.Start(link)
         ElseIf txtComboBrowser.Text = "Mozilla Firefox (%ProgramFiles%\Mozilla Firefox\firefox.exe)" Then
-            openIn = ProgramFilesDir & "\Mozilla Firefox\firefox.exe"
+            Process.Start(ProgramFilesDir & "\Mozilla Firefox\firefox.exe", link)
         ElseIf txtComboBrowser.Text = "Google Chrome (%ProgramFiles%\Google\Chrome\Application\chrome.exe)" Then
-            openIn = ProgramFilesDir & "\Google\Chrome\Application\chrome.exe"
+            Process.Start(ProgramFilesDir & "\Google\Chrome\Application\chrome.exe", link)
         ElseIf txtComboBrowser.Text = "Opera 22 (%ProgramFiles%\Opera\launcher.exe)" Then
-            openIn = ProgramFilesDir & "\Opera\launcher.exe"
+            Process.Start(ProgramFilesDir & "\Opera\launcher.exe", link)
         ElseIf txtComboBrowser.Text = "Opera 12 (%ProgramFiles%\Opera\opera.exe)" Then
-            openIn = ProgramFilesDir & "\Opera\opera.exe"
+            Process.Start(ProgramFilesDir & "\Opera\opera.exe", link)
         ElseIf txtComboBrowser.Text = "Safari (%ProgramFiles%\Safari\Safari.exe)" Then
-            openIn = ProgramFilesDir & "\Safari\Safari.exe"
+            Process.Start(ProgramFilesDir & "\Safari\Safari.exe", link)
         ElseIf txtComboBrowser.Text = "Avant Browser (%ProgramFiles%\Avant Browser\avant.exe)" Then
-            openIn = ProgramFilesDir & "\Avant Browser\avant.exe"
+            Process.Start(ProgramFilesDir & "\Avant Browser\avant.exe", link)
         ElseIf txtComboBrowser.Text = "Lunascape6 (%ProgramFiles%\Lunascape\Lunascape6\Luna.exe)" Then
-            openIn = ProgramFilesDir & "\Lunascape\Lunascape6\Luna.exe"
+            Process.Start(ProgramFilesDir & "\Lunascape\Lunascape6\Luna.exe", link)
         ElseIf txtComboBrowser.Text = "Sea Monkey (%ProgramFiles%\SeaMonkey\seamonkey.exe)" Then
-            openIn = ProgramFilesDir & "\SeaMonkey\seamonkey.exe"
+            Process.Start(ProgramFilesDir & "\SeaMonkey\seamonkey.exe", link)
         ElseIf txtComboBrowser.Text = "Internet Explorer (%ProgramFiles%\Internet Explorer\iexplore.exe)" Then
-            openIn = ProgramFilesDir & "\Internet Explorer\iexplore.exe"
+            Process.Start(ProgramFilesDir & "\Internet Explorer\iexplore.exe", link)
         ElseIf txtComboBrowser.Text = "Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)" Then
-            openIn = ProgramFilesDir & "\Netscape\Navigator 9\navigator.exe"
+            Process.Start(ProgramFilesDir & "\Netscape\Navigator 9\navigator.exe", link)
         ElseIf System.IO.File.Exists(txtComboBrowser.Text) Then
-            openIn = txtComboBrowser.Text
+            Process.Start(txtComboBrowser.Text, link)
         Else
             MsgBox("File """ & txtComboBrowser.Text & """ not found! Last selected valid browser will open when you press OK...", MsgBoxStyle.Critical, "Executable not found")
         End If
@@ -126,12 +119,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars)
-            Else
-                GetBrowser()
-                Process.Start(openIn, usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars)
-            End If
+            OpenLink(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars)
         End If
     End Sub
 
@@ -140,12 +128,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
-            Else
-                GetBrowser()
-                Process.Start(openIn, usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
-            End If
+            OpenLink(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars)
         End If
     End Sub
 
@@ -154,12 +137,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
-            Else
-                GetBrowser()
-                Process.Start(openIn, usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
-            End If
+            OpenLink(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18")
         End If
     End Sub
 
@@ -168,12 +146,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
-            Else
-                GetBrowser()
-                Process.Start(openIn, usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
-            End If
+            OpenLink(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars)
         End If
     End Sub
     
@@ -182,12 +155,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start("http://deturl.com/www.youtube.com/watch?v=" & txtComboVID.Text)
-            Else
-                GetBrowser()
-                Process.Start(openIn, "http://deturl.com/www.youtube.com/watch?v=" & txtComboVID.Text)
-            End If
+            OpenLink("http://deturl.com/www.youtube.com/watch?v=" & txtComboVID.Text)
         End If
     End Sub
     
@@ -196,12 +164,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start("http://www.fullrip.net/video/" & txtComboVID.Text)
-            Else
-                GetBrowser()
-                Process.Start(openIn, "http://www.fullrip.net/video/" & txtComboVID.Text)
-            End If
+            OpenLink("http://www.fullrip.net/video/" & txtComboVID.Text)
         End If
     End Sub
     
@@ -210,12 +173,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start("http://www.fullrip.net/video-m/" & txtComboVID.Text)
-            Else
-                GetBrowser()
-                Process.Start(openIn, "http://www.fullrip.net/video-m/" & txtComboVID.Text)
-            End If
+            OpenLink("http://www.fullrip.net/video-m/" & txtComboVID.Text)
         End If
     End Sub
     
@@ -224,12 +182,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start("http://www.fullrip.net/mp3/" & txtComboVID.Text)
-            Else
-                GetBrowser()
-                Process.Start(openIn, "http://www.fullrip.net/mp3/" & txtComboVID.Text)
-            End If
+            OpenLink("http://www.fullrip.net/mp3/" & txtComboVID.Text)
         End If
     End Sub
     
@@ -238,12 +191,7 @@
             MsgNoVID()
         Else
             BuildVars()
-            If UseDefaultBrowser = True Then
-                Process.Start("http://keepvid.com/?url=http%3A%2F%2Fwww%2Eyoutube%2Ecom%2Fwatch%3Fv%3D" & txtComboVID.Text)
-            Else
-                GetBrowser()
-                Process.Start(openIn, "http://keepvid.com/?url=http%3A%2F%2Fwww%2Eyoutube%2Ecom%2Fwatch%3Fv%3D" & txtComboVID.Text)
-            End If
+            OpenLink("http://keepvid.com/?url=http%3A%2F%2Fwww%2Eyoutube%2Ecom%2Fwatch%3Fv%3D" & txtComboVID.Text)
         End If
     End Sub
     
@@ -251,7 +199,6 @@
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
-            GetBrowser()
             ThumbnailViewer.Show()
             ThumbnailViewer.WindowState = WindowState.Normal
             ThumbnailViewer.BringToFront()
@@ -521,12 +468,6 @@
     End Sub
 
     Private Sub txtComboBrowser_SelectedIndexChanged(sender As Object, e As EventArgs) Handles txtComboBrowser.SelectedIndexChanged
-        If txtComboBrowser.Text = "Default link handler" Then
-            UseDefaultBrowser = True
-        Else
-            UseDefaultBrowser = False
-        End If
-
         If txtComboBrowser.Text = "Browse..." Then
             openFileDialogBrowser.ShowDialog()
             txtComboBrowser.Items.Add(openFileDialogBrowser.FileName)
@@ -544,48 +485,23 @@
     ' Links
 
     Private Sub OpenOriginalPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkOriginalPage.LinkClicked
-        If UseDefaultBrowser = True Then
-            Process.Start("http://walkman100.github.io/Walkman/HTML/YTVL.html") ' *.github.io doesn't support https!)
-        Else
-            GetBrowser()
-            Process.Start(openIn, "http://walkman100.github.io/Walkman/HTML/YTVL.html")
-        End If
+        OpenLink("http://walkman100.github.io/Walkman/HTML/YTVL.html") ' *.github.io doesn't support https!)
     End Sub
 
     Private Sub OpenSourceCode(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkSourceCode.LinkClicked
-        If UseDefaultBrowser = True Then
-            Process.Start(usehttps & "://github.com/Walkman100/YTVL/")
-        Else
-            GetBrowser()
-            Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/")
-        End If
+        OpenLink(usehttps & "://github.com/Walkman100/YTVL/")
     End Sub
 
     Private Sub ReportProblem(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReportProblem.LinkClicked
-        If UseDefaultBrowser = True Then
-            Process.Start(usehttps & "://github.com/Walkman100/YTVL/issues/new")
-        Else
-            GetBrowser()
-            Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/issues/new")
-        End If
+        OpenLink(usehttps & "://github.com/Walkman100/YTVL/issues/new")
     End Sub
 
     Private Sub OpenReleases(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReleases.LinkClicked
-        If UseDefaultBrowser = True Then
-            Process.Start(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
-        Else
-            GetBrowser()
-            Process.Start(openIn, usehttps & "://github.com/Walkman100/YTVL/releases/latest")
-        End If
+        OpenLink(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
     End Sub
 
     Private Sub OpenDeveloperPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkDeveloper.LinkClicked
-        If UseDefaultBrowser = True Then
-            Process.Start(usehttps & "://google.com/+MatthewCarterWalkman/about")
-        Else
-            GetBrowser()
-            Process.Start(openIn, usehttps & "://google.com/+MatthewCarterWalkman/about")
-        End If
+        OpenLink(usehttps & "://google.com/+MatthewCarterWalkman/about")
     End Sub
 
     ' Text control
