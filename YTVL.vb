@@ -29,14 +29,14 @@
         latestVer = Mid(WebBrowserVersionCheck.Url.ToString, 50)
         'WebBrowserVersionCheck.InnerText = latestVer	'this is supposed to clear the contents of the browser to reduce RAM usage, but the command doesn't seem to exist
         NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " Latest ver: " & latestVer
-        If My.Settings.AutoUpdateCheck = True Then
-            'check if this version is latest
-            If My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < latestVer Then
-                If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " & latestVer & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") = MsgBoxResult.Ok Then
-                    OpenLink(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
-                End If
-            End If
-        End If 'yes, this entire if could be put on one line, but that line would be incredibly long
+        
+        'check if this version is latest
+        If My.Settings.AutoUpdateCheck = True Then If My.Application.Info.Version.Major & "." & _
+            My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < latestVer Then _
+                      If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & _
+            My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " _
+            & latestVer & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") _
+            = MsgBoxResult.Ok Then OpenLink(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
     End Sub
 
     'Opening links & copying stuff
@@ -78,8 +78,11 @@
     End Sub
 
     Friend Sub OpenLink(link As String)
-        If txtComboBrowser.Text = "Browse..." Or txtComboBrowser.Text = "" Then
+        If txtComboBrowser.Text = "Default link handler" Or txtComboBrowser.Text = "Browse..." Or txtComboBrowser.Text = "" Then
             Process.Start(link)
+        ElseIf txtComboBrowser.Text = "Send to Clipboard" Then
+            Clipboard.SetText(link, TextDataFormat.UnicodeText)
+            MsgBox(Clipboard.GetText & " copied successfully!", MsgBoxStyle.Information)
         ElseIf txtComboBrowser.Text = "Mozilla Firefox (%ProgramFiles%\Mozilla Firefox\firefox.exe)" Then
             Process.Start(ProgramFilesDir & "\Mozilla Firefox\firefox.exe", link)
         ElseIf txtComboBrowser.Text = "Google Chrome (%ProgramFiles%\Google\Chrome\Application\chrome.exe)" Then

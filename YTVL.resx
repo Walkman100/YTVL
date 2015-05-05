@@ -187,6 +187,9 @@
     <value>Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)</value>
   </data>
   <data name="txtComboBrowser.Items11" xml:space="preserve">
+    <value>Send to Clipboard</value>
+  </data>
+  <data name="txtComboBrowser.Items12" xml:space="preserve">
     <value>Browse...</value>
   </data>
   <data name="txtComboBrowser.Location" type="System.Drawing.Point, System.Drawing">

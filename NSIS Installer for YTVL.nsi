@@ -2,7 +2,6 @@
 ; get NSIS at http://nsis.sourceforge.net/Download
 ; As a program that all Power PC users should have, Notepad++ is recommended to edit this file
 
-AddBrandingImage top 20
 Icon "Resources\YTVL.ico"
 Caption "YTVL Installer"
 Name "YTVL"
@@ -61,7 +60,6 @@ Function .onInit
   MessageBox MB_YESNO "This will install YTVL. Do you wish to continue?" IDYES gogogo
     Abort
   gogogo:
-  SetBrandingImage "[/RESIZETOFIT] Resources\YTVL.ico"
   SetShellVarContext all
   SetAutoClose true
 FunctionEnd
@@ -77,11 +75,11 @@ FunctionEnd
 Section "Uninstall"
   Delete "$INSTDIR\YTVL-Uninst.exe"   ; Remove Application Files
   Delete "$INSTDIR\YTVL.exe"
-  RMDir $INSTDIR
+  RMDir "$INSTDIR"
   
   Delete "$SMPROGRAMS\DeavmiOSS\YTVL.lnk"   ; Remove Start Menu Shortcuts & Folder
   Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
-  RMDir $SMPROGRAMS\DeavmiOSS
+  RMDir "$SMPROGRAMS\DeavmiOSS"
   
   Delete "$DESKTOP\YTVL.lnk"   ; Remove Desktop Shortcut
   Delete "$QUICKLAUNCH\YTVL.lnk"   ; Remove Quick Launch shortcut
