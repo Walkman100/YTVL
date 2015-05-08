@@ -39,7 +39,7 @@
             = MsgBoxResult.Ok Then OpenLink(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
     End Sub
 
-    'Opening links & copying stuff
+    'Opening links
 
     Private Sub BuildVars()         'they are built in order of the form
         Vars = ""
@@ -225,35 +225,35 @@
         Else
             BuildVars()
             Select Case CopyWhat
-              Case = "&Video"
+              Case "&Video"
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/watch?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
                     MsgBox("Video URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
-              Case = "&Comments"
+              Case "&Comments"
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/all_comments?v=" & txtComboVID.Text & Vars, TextDataFormat.UnicodeText)
                     MsgBox("Comments URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
-              Case = "Video &Info"
+              Case "Video &Info"
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/get_video_info?video_id=" & txtComboVID.Text & Vars & "&fmt=18", TextDataFormat.UnicodeText)
                     MsgBox("Video Info file URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
-              Case = "&Embed Page Handler"
+              Case "&Embed Page Handler"
                 Try
                     Clipboard.SetText(usehttps & "://www.youtube.com/embed/" & txtComboVID.Text & "?" & Vars, TextDataFormat.UnicodeText)
                     MsgBox("Embed Page Handler URL Copied!", MsgBoxStyle.Information, "Succesfully copied!")
                 Catch ex As Exception
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
-              Case = Nothing
+              Case Else
                 MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" & sender.ToString & "'", , "Error")
             End Select
         End If
@@ -453,12 +453,14 @@
         NotificationMenuStripKeepOnTop.Checked = My.Settings.KeepOnTop
     End Sub
 
-    Private Sub ContextClipboardCopyCodeStandard_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeStandard.Click
-        ContextClipboardCopyCodeOldCode.Checked = False 'since this option is automatically checked but the "old code" option isn't
+    Private Sub ContextClipboardCopyCodeStandard_Select() Handles ContextClipboardCopyCodeStandard.click, ContextClipboardCopyCodeStandard.MouseUp
+        ContextClipboardCopyCodeStandard.Checked = True
+        ContextClipboardCopyCodeOldCode.Checked = False
     End Sub
-
-    Private Sub ContextClipboardCopyCodeOldCode_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeOldCode.Click
+    
+    Private Sub ContextClipboardCopyCodeOldCode_Select() Handles ContextClipboardCopyCodeOldCode.click, ContextClipboardCopyCodeOldCode.MouseUp
         ContextClipboardCopyCodeStandard.Checked = False
+        ContextClipboardCopyCodeOldCode.Checked = True
     End Sub
     
     Private Sub chkRememberBrowser_Click(sender As Object, e As EventArgs) Handles chkRememberBrowser.Click
@@ -475,9 +477,6 @@
             openFileDialogBrowser.ShowDialog()
             txtComboBrowser.Items.Add(openFileDialogBrowser.FileName)
             txtComboBrowser.Text = openFileDialogBrowser.FileName
-            If My.Settings.RememberBrowser = True Then
-                My.Settings.LastBrowser = openFileDialogBrowser.FileName
-            End If
         End If
         
         If My.Settings.RememberBrowser = True Then
