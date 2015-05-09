@@ -51,36 +51,36 @@
     Private Sub BuildVars()         'they are built in order of the form
         Vars = ""
         If txtTime.Text <> "" And txtTime.Text <> "Time (e.g. 1m5s)" Then
-            Vars = Vars & "&t=" & txtTime.Text
+            Vars &= "&t=" & txtTime.Text
         End If
         If txtList.Text <> "" And txtList.Text <> "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)" Then
-            Vars = Vars & "&list=" & txtList.Text
+            Vars &= "&list=" & txtList.Text
         End If
-        If chkHL.Checked = True Then Vars = Vars & "&hl=en"
-        If optQuality360.Checked = True Then Vars = Vars & "&hd=0"
-        If optQuality720.Checked = True Then Vars = Vars & "&hd=1"
-        If chkFeature.Checked = True Then Vars = Vars & "&feature=player_embedded"
-        If optAutoplay0.Checked = True Then Vars = Vars & "&autoplay=0"
-        If optAutoplay1.Checked = True Then Vars = Vars & "&autoplay=1"
-        If optFs0.Checked = True Then Vars = Vars & "&fs=0"
-        If optFs1.Checked = True Then Vars = Vars & "&fs=1"
-        If optAutohide0.Checked = True Then Vars = Vars & "&autohide=0"
-        If optAutohide1.Checked = True Then Vars = Vars & "&autohide=1"
-        If optEnableJsApi0.Checked = True Then Vars = Vars & "&enablejsapi=0"
-        If optEnableJsApi1.Checked = True Then Vars = Vars & "&enablejsapi=1"
-        If optIvLP.Text <> "" Then Vars = Vars & "&" & optIvLP.Text
-        If optMdstBrndng0.Checked = True Then Vars = Vars & "&modestbranding=0"
-        If optMdstBrndng1.Checked = True Then Vars = Vars & "&modestbranding=1"
-        If optRel0.Checked = True Then Vars = Vars & "&rel=0"
-        If optRel1.Checked = True Then Vars = Vars & "&rel=1"
-        If optShowinfo0.Checked = True Then Vars = Vars & "&showinfo=0"
-        If optShowinfo1.Checked = True Then Vars = Vars & "&showinfo=1"
-        If optShowsearch0.Checked = True Then Vars = Vars & "&showsearch=0"
-        If optShowsearch1.Checked = True Then Vars = Vars & "&showsearch=1"
-        If chkThemeDark.Checked = True Then Vars = Vars & "&theme=dark"
-        If chkWmode.Checked = True Then Vars = Vars & "&wmode=transparent"
+        If chkHL.Checked = True Then Vars &= "&hl=en"
+        If optQuality360.Checked = True Then Vars &= "&hd=0"
+        If optQuality720.Checked = True Then Vars &= "&hd=1"
+        If chkFeature.Checked = True Then Vars &= "&feature=player_embedded"
+        If optAutoplay0.Checked = True Then Vars &= "&autoplay=0"
+        If optAutoplay1.Checked = True Then Vars &= "&autoplay=1"
+        If optFs0.Checked = True Then Vars &= "&fs=0"
+        If optFs1.Checked = True Then Vars &= "&fs=1"
+        If optAutohide0.Checked = True Then Vars &= "&autohide=0"
+        If optAutohide1.Checked = True Then Vars &= "&autohide=1"
+        If optEnableJsApi0.Checked = True Then Vars &= "&enablejsapi=0"
+        If optEnableJsApi1.Checked = True Then Vars &= "&enablejsapi=1"
+        If optIvLP.Text <> "" Then Vars &= "&" & optIvLP.Text
+        If optMdstBrndng0.Checked = True Then Vars &= "&modestbranding=0"
+        If optMdstBrndng1.Checked = True Then Vars &= "&modestbranding=1"
+        If optRel0.Checked = True Then Vars &= "&rel=0"
+        If optRel1.Checked = True Then Vars &= "&rel=1"
+        If optShowinfo0.Checked = True Then Vars &= "&showinfo=0"
+        If optShowinfo1.Checked = True Then Vars &= "&showinfo=1"
+        If optShowsearch0.Checked = True Then Vars &= "&showsearch=0"
+        If optShowsearch1.Checked = True Then Vars &= "&showsearch=1"
+        If chkThemeDark.Checked = True Then Vars &= "&theme=dark"
+        If chkWmode.Checked = True Then Vars &= "&wmode=transparent"
         If chkOrigin.Checked = True And txtOrigin.Text <> "(e.g. http://9gag.tv)" Then
-            Vars = Vars & "&origin=" & txtOrigin.Text
+            Vars &= "&origin=" & txtOrigin.Text
         End If
     End Sub
 
