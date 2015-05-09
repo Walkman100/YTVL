@@ -2,7 +2,8 @@
     Dim ProgramFilesDir As String = Environment.GetEnvironmentVariable("ProgramFiles")
     Dim Vars As String = ""
     Dim usehttps As String = "https"
-    Dim latestVer As String
+    Dim currentVer As String = My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build
+    Dim VerString As String
     Dim CopyWhat As String
 
     Private Sub LoadYTVL() Handles Me.Load, MyBase.Load
@@ -14,7 +15,7 @@
         chkRememberBrowser.Checked = My.Settings.RememberBrowser
 
         'apply settings to where they affect
-        lblCurrentVersion.Text = "Current: v" & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build
+        lblCurrentVersion.Text = "Current: v" & currentVer
         NotificationIcon.Visible = My.Settings.ShowNotification
         If My.Settings.AutoUpdateCheck = True Then 'load latest version
             WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
@@ -26,17 +27,23 @@
     End Sub
 
     Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
-        latestVer = Mid(WebBrowserVersionCheck.Url.ToString, 50)
-        'WebBrowserVersionCheck.InnerText = latestVer	'this is supposed to clear the contents of the browser to reduce RAM usage, but the command doesn't seem to exist
-        NotificationIcon.Text = "YouTube Video Linker" & vbNewLine & "Current ver: " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " Latest ver: " & latestVer
-        
-        'check if this version is latest
-        If My.Settings.AutoUpdateCheck = True Then If My.Application.Info.Version.Major & "." & _
-            My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build < latestVer Then _
-                      If MsgBox("Current version: " & My.Application.Info.Version.Major & "." & _
-            My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build & " - Latest version: " _
-            & latestVer & vbNewLine & "Click OK to download the latest version", MsgBoxStyle.OkCancel, "Update found!") _
-            = MsgBoxResult.Ok Then OpenLink(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+        If My.Settings.AutoUpdateCheck Then
+            If WebBrowserVersionCheck.Url.ToString = "https://github.com/Walkman100/YTVL/releases/latest" Then
+                If MsgBox("Page load error:" & vbNewLine & WebBrowserVersionCheck.DocumentTitle & vbNewLine & "Retry Version check?", _
+                          MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "Unable to check version!") = MsgBoxResult.Yes Then
+                    WebBrowserVersionCheck.Navigate("https://github.com/Walkman100/YTVL/releases/latest")
+                End If
+                NotificationIcon.Text = ("YouTube Video Linker" & vbNewLine & "Cur ver:" & currentVer & " Latest ver: Unable to check")
+            Else
+                NotificationIcon.Text = ("YouTube Video Linker" & vbNewLine & "Current ver: " & currentVer & " Latest ver: " & Mid(WebBrowserVersionCheck.Url.ToString, 50))
+                If currentVer < Mid(WebBrowserVersionCheck.Url.ToString, 50) Then
+                    If MsgBox("Current version: " & currentVer & " - Latest version: " & Mid(WebBrowserVersionCheck.Url.ToString, 50) & vbNewLine & _
+                              "Click OK to download the latest version", MsgBoxStyle.OkCancel + MsgBoxstyle.Information, "Update found!") = MsgBoxResult.Ok Then
+                        OpenLink(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
+                    End If
+                End If
+            End If
+        End If
     End Sub
 
     'Opening links
@@ -375,7 +382,7 @@
     End Sub
 
     Private Sub txtComboVID_ContentsChanged(sender As Object, e As EventArgs) Handles txtComboVID.TextChanged
-        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Or Len(txtComboVID.Text) < "10" Then
+        If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Or Len(txtComboVID.Text) < "11" Then
             imgLoading.Visible = False
             lblVideoTitle.Text = "Enter a Video ID above"
         Else
