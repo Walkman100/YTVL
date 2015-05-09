@@ -26,7 +26,7 @@
         End If
     End Sub
 
-    Private Sub CheckAgainstLatest(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVersionCheck.DocumentCompleted
+    Private Sub CheckAgainstLatest() Handles WebBrowserVersionCheck.DocumentCompleted
         If My.Settings.AutoUpdateCheck Then
             If WebBrowserVersionCheck.Url.ToString = "https://github.com/Walkman100/YTVL/releases/latest" Then
                 If MsgBox("Page load error:" & vbNewLine & WebBrowserVersionCheck.DocumentTitle & vbNewLine & "Retry Version check?", _
@@ -124,7 +124,7 @@
         txtComboVID.SelectAll()
     End Sub
 
-    Private Sub OpenVideo(sender As Object, e As EventArgs) Handles btnVideo.Click, NotificationMenuStripVideo.Click
+    Private Sub OpenVideo() Handles btnVideo.Click, NotificationMenuStripVideo.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -133,7 +133,7 @@
         End If
     End Sub
 
-    Private Sub OpenComments(sender As Object, e As EventArgs) Handles btnComments.Click, NotificationMenuStripComments.Click
+    Private Sub OpenComments() Handles btnComments.Click, NotificationMenuStripComments.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -142,7 +142,7 @@
         End If
     End Sub
 
-    Private Sub OpenVideoInfo(sender As Object, e As EventArgs) Handles btnVideoInfo.Click, NotificationMenuStripVideoInfo.Click
+    Private Sub OpenVideoInfo() Handles btnVideoInfo.Click, NotificationMenuStripVideoInfo.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -151,7 +151,7 @@
         End If
     End Sub
 
-    Private Sub OpenEmbeddedObject(sender As Object, e As EventArgs) Handles btnEmbed.Click, NotificationMenuStripEmbed.Click
+    Private Sub OpenEmbeddedObject() Handles btnEmbed.Click, NotificationMenuStripEmbed.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -160,7 +160,7 @@
         End If
     End Sub
     
-    Private Sub OpenDeturl(sender As Object, e As EventArgs) Handles btnDeturl.Click
+    Private Sub OpenDeturl() Handles btnDeturl.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -169,7 +169,7 @@
         End If
     End Sub
     
-    Private Sub OpenFullripVideo(sender As Object, e As EventArgs) Handles ContextDownloadFullripVideo.Click
+    Private Sub OpenFullripVideo() Handles ContextDownloadFullripVideo.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -178,7 +178,7 @@
         End If
     End Sub
     
-    Private Sub OpenFullripVideoAlternative(sender As Object, e As EventArgs) Handles ContextDownloadFullripVideoAlternate.Click
+    Private Sub OpenFullripVideoAlternative() Handles ContextDownloadFullripVideoAlternate.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -187,7 +187,7 @@
         End If
     End Sub
     
-    Private Sub OpenFullripMP3(sender As Object, e As EventArgs) Handles ContextDownloadFullripMP3.Click
+    Private Sub OpenFullripMP3() Handles ContextDownloadFullripMP3.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -196,7 +196,7 @@
         End If
     End Sub
     
-    Private Sub OpenKeepVid(sender As Object, e As EventArgs) Handles ContextDownloadKeepVid.Click
+    Private Sub OpenKeepVid() Handles ContextDownloadKeepVid.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -205,7 +205,7 @@
         End If
     End Sub
     
-    Private Sub ShowThumbnail(sender As Object, e As EventArgs) Handles btnThumbnail.Click
+    Private Sub ShowThumbnail() Handles btnThumbnail.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -266,7 +266,7 @@
         End If
     End Sub
 
-    Private Sub ContextClipboardCopyCodeHTML_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeHTML.Click
+    Private Sub ContextClipboardCopyCodeHTML_Click() Handles ContextClipboardCopyCodeHTML.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -289,7 +289,7 @@
         End If
     End Sub
 
-    Private Sub ContextClipboardCopyCodeBB_Click(sender As Object, e As EventArgs) Handles ContextClipboardCopyCodeBB.Click
+    Private Sub ContextClipboardCopyCodeBB_Click() Handles ContextClipboardCopyCodeBB.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -303,7 +303,7 @@
         End If
     End Sub
     
-    Private Sub ContextDownloadCopyFromGenerated_Click(sender As Object, e As EventArgs) Handles ContextDownloadCopyFromGenerated.Click
+    Private Sub ContextDownloadCopyFromGenerated_Click() Handles ContextDownloadCopyFromGenerated.Click
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Then
             MsgNoVID()
         Else
@@ -319,7 +319,7 @@
 
     'Buttons & commands that make Visual changes
 
-    Private Sub ResetForm(sender As Object, e As EventArgs) Handles btnReset.Click
+    Private Sub ResetForm() Handles btnReset.Click
         'text boxes
         txtComboVID.Text = "Video ID"
         txtTime.Text = "Time (e.g. 1m5s)"
@@ -364,24 +364,24 @@
         lblVideoTitle.Text = "Enter a Video ID above"
     End Sub
 
-    Private Sub CloseYTVL(sender As Object, e As EventArgs) Handles NotificationMenuStripClose.Click, btnExit.Click
+    Private Sub CloseYTVL() Handles NotificationMenuStripClose.Click, btnExit.Click
         My.Settings.Save()
         Application.Exit()
     End Sub
 
-    Private Sub ShowYTVL(sender As Object, e As EventArgs) Handles NotificationMenuStripShowYTVL.Click, NotificationIcon.DoubleClick
+    Private Sub ShowYTVL() Handles NotificationMenuStripShowYTVL.Click, NotificationIcon.DoubleClick
         WindowState = FormWindowState.Normal
         Me.BringToFront()
     End Sub
 
-    Private Sub DEBUG(sender As Object, e As EventArgs) Handles btnDebug.Click
+    Private Sub DEBUG() Handles btnDebug.Click
         WebBrowserVersionCheck.Visible = True
         WebBrowserVideoLoad.Visible = True
         btnDebug.Enabled = False
         btnDebug.Visible = False
     End Sub
 
-    Private Sub txtComboVID_ContentsChanged(sender As Object, e As EventArgs) Handles txtComboVID.TextChanged
+    Private Sub txtComboVID_ContentsChanged() Handles txtComboVID.TextChanged
         If txtComboVID.Text = "Video ID" Or txtComboVID.Text = "" Or Len(txtComboVID.Text) < "11" Then
             imgLoading.Visible = False
             lblVideoTitle.Text = "Enter a Video ID above"
@@ -398,7 +398,7 @@
         End If
     End Sub
 
-    Private Sub CheckSetVideoTitle(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowserVideoLoad.DocumentCompleted
+    Private Sub CheckSetVideoTitle() Handles WebBrowserVideoLoad.DocumentCompleted
         imgLoading.Visible = False
         If WebBrowserVideoLoad.DocumentTitle = "YouTube" Then
             lblVideoTitle.Text = "Not found! Please make sure you entered a valid Video ID"
@@ -409,7 +409,7 @@
 
     ' Changes e.g. settings
 
-    Private Sub MoreLess(sender As Object, e As EventArgs) Handles btnAdvanced.Click
+    Private Sub MoreLess() Handles btnAdvanced.Click
         If Me.Height = 432 Then
             Me.Height = 260
             btnAdvanced.Text = "More ↓"
@@ -419,20 +419,20 @@
         End If
     End Sub
 
-    Private Sub ShowNotification_Click(sender As Object, e As EventArgs) Handles chkShowNotification.Click
+    Private Sub ShowNotification_Click() Handles chkShowNotification.Click
         My.Settings.ShowNotification = chkShowNotification.Checked
         My.Settings.Save()
         NotificationIcon.Visible = My.Settings.ShowNotification
     End Sub
 
-    Private Sub HideIconNotificationMenuStrip_Click(sender As Object, e As EventArgs) Handles NotificationMenuStripHideIcon.Click
+    Private Sub HideIconNotificationMenuStrip_Click() Handles NotificationMenuStripHideIcon.Click
         My.Settings.ShowNotification = False
         My.Settings.Save()
         chkShowNotification.Checked = False
         NotificationIcon.Visible = False
     End Sub
 
-    Private Sub chkUpdate_Click(sender As Object, e As EventArgs) Handles chkUpdate.Click
+    Private Sub chkUpdate_Click() Handles chkUpdate.Click
         My.Settings.AutoUpdateCheck = chkUpdate.Checked
         My.Settings.Save()
         If chkUpdate.Checked = True Then
@@ -440,7 +440,7 @@
         End If
     End Sub
 
-    Private Sub chkHttps_Click(sender As Object, e As EventArgs) Handles chkHttps.Click
+    Private Sub chkHttps_Click() Handles chkHttps.Click
         If chkHttps.Checked = True Then
             usehttps = "https"
         Else
@@ -448,13 +448,13 @@
         End If
     End Sub
 
-    Private Sub KeepOnTopFromNotification(sender As Object, e As EventArgs) Handles NotificationMenuStripKeepOnTop.Click
+    Private Sub KeepOnTopFromNotification() Handles NotificationMenuStripKeepOnTop.Click
         My.Settings.KeepOnTop = NotificationMenuStripKeepOnTop.Checked
         Me.TopMost = My.Settings.KeepOnTop
         chkKeepOnTop.Checked = My.Settings.KeepOnTop
     End Sub
 
-    Private Sub KeepOnTopFromMain(sender As Object, e As EventArgs) Handles chkKeepOnTop.Click
+    Private Sub KeepOnTopFromMain() Handles chkKeepOnTop.Click
         My.Settings.KeepOnTop = chkKeepOnTop.Checked
         Me.TopMost = My.Settings.KeepOnTop
         NotificationMenuStripKeepOnTop.Checked = My.Settings.KeepOnTop
@@ -470,7 +470,7 @@
         ContextClipboardCopyCodeOldCode.Checked = True
     End Sub
     
-    Private Sub chkRememberBrowser_Click(sender As Object, e As EventArgs) Handles chkRememberBrowser.Click
+    Private Sub chkRememberBrowser_Click() Handles chkRememberBrowser.Click
         My.Settings.RememberBrowser = chkRememberBrowser.Checked
         If My.Settings.RememberBrowser = True Then
             My.Settings.LastBrowser = txtComboBrowser.Text
@@ -479,7 +479,7 @@
         End If
     End Sub
 
-    Private Sub txtComboBrowser_SelectedIndexChanged(sender As Object, e As EventArgs) Handles txtComboBrowser.SelectedIndexChanged
+    Private Sub txtComboBrowser_SelectedIndexChanged() Handles txtComboBrowser.SelectedIndexChanged
         If txtComboBrowser.Text = "Browse..." Then
             openFileDialogBrowser.ShowDialog()
             txtComboBrowser.Items.Add(openFileDialogBrowser.FileName)
@@ -493,29 +493,29 @@
 
     ' Links
 
-    Private Sub OpenOriginalPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkOriginalPage.LinkClicked
+    Private Sub OpenOriginalPage() Handles lnkOriginalPage.LinkClicked
         OpenLink("http://walkman100.github.io/Walkman/HTML/YTVL.html") ' *.github.io doesn't support https!)
     End Sub
 
-    Private Sub OpenSourceCode(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkSourceCode.LinkClicked
+    Private Sub OpenSourceCode() Handles lnkSourceCode.LinkClicked
         OpenLink(usehttps & "://github.com/Walkman100/YTVL/")
     End Sub
 
-    Private Sub ReportProblem(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReportProblem.LinkClicked
+    Private Sub ReportProblem() Handles lnkReportProblem.LinkClicked
         OpenLink(usehttps & "://github.com/Walkman100/YTVL/issues/new")
     End Sub
 
-    Private Sub OpenReleases(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkReleases.LinkClicked
+    Private Sub OpenReleases() Handles lnkReleases.LinkClicked
         OpenLink(usehttps & "://github.com/Walkman100/YTVL/releases/latest")
     End Sub
 
-    Private Sub OpenDeveloperPage(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkDeveloper.LinkClicked
+    Private Sub OpenDeveloperPage() Handles lnkDeveloper.LinkClicked
         OpenLink(usehttps & "://google.com/+MatthewCarterWalkman/about")
     End Sub
 
     ' Text control
 
-    Private Sub txtComboVID_Enter(sender As Object, e As EventArgs) Handles txtComboVID.MouseDown
+    Private Sub txtComboVID_Enter() Handles txtComboVID.MouseDown
         If txtComboVID.Text = "Video ID" Then
             txtComboVID.Text = ""
         Else
@@ -523,7 +523,7 @@
         End If
     End Sub
 
-    Private Sub txtComboVID_Leave(sender As Object, e As EventArgs) Handles txtComboVID.Leave
+    Private Sub txtComboVID_Leave() Handles txtComboVID.Leave
         If txtComboVID.Text = "" Then
             txtComboVID.Text = "Video ID"
         ElseIf txtComboVID.Text <> "Video ID" Then
@@ -533,7 +533,7 @@
         End If
     End Sub
 
-    Private Sub txtTime_Enter(sender As Object, e As EventArgs) Handles txtTime.MouseDown
+    Private Sub txtTime_Enter() Handles txtTime.MouseDown
         If txtTime.Text = "Time (e.g. 1m5s)" Then
             txtTime.Text = ""
         Else
@@ -541,13 +541,13 @@
         End If
     End Sub
 
-    Private Sub txtTime_Leave(sender As Object, e As EventArgs) Handles txtTime.Leave
+    Private Sub txtTime_Leave() Handles txtTime.Leave
         If txtTime.Text = "" Then
             txtTime.Text = "Time (e.g. 1m5s)"
         End If
     End Sub
 
-    Private Sub txtList_Enter(sender As Object, e As EventArgs) Handles txtList.MouseDown
+    Private Sub txtList_Enter() Handles txtList.MouseDown
         If txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)" Then
             txtList.Text = ""
         Else
@@ -555,13 +555,13 @@
         End If
     End Sub
 
-    Private Sub txtList_Leave(sender As Object, e As EventArgs) Handles txtList.Leave
+    Private Sub txtList_Leave() Handles txtList.Leave
         If txtList.Text = "" Then
             txtList.Text = "List (e.g. LLGqoiAgPKop0NEymu9WZxkQ)"
         End If
     End Sub
 
-    Private Sub txtOrigin_Enter(sender As Object, e As EventArgs) Handles txtOrigin.MouseDown
+    Private Sub txtOrigin_Enter() Handles txtOrigin.MouseDown
         If txtOrigin.Text = "(e.g. http://9gag.tv)" Then
             txtOrigin.Text = ""
         Else
@@ -569,7 +569,7 @@
         End If
     End Sub
 
-    Private Sub txtOrigin_Leave(sender As Object, e As EventArgs) Handles txtOrigin.Leave
+    Private Sub txtOrigin_Leave() Handles txtOrigin.Leave
         If txtOrigin.Text = "" Then
             txtOrigin.Text = "(e.g. http://9gag.tv)"
         End If
