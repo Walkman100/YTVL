@@ -81,6 +81,7 @@ Partial Class YTVL
         Me.chkRememberBrowser = New System.Windows.Forms.CheckBox()
         Me.chkKeepOnTop = New System.Windows.Forms.CheckBox()
         Me.grpBoxOutputs = New System.Windows.Forms.GroupBox()
+        Me.btnConvert = New System.Windows.Forms.Button()
         Me.WebBrowserVideoLoad = New System.Windows.Forms.WebBrowser()
         Me.WebBrowserVersionCheck = New System.Windows.Forms.WebBrowser()
         Me.btnThumbnail = New System.Windows.Forms.Button()
@@ -580,6 +581,7 @@ Partial Class YTVL
         'grpBoxOutputs
         '
         resources.ApplyResources(Me.grpBoxOutputs, "grpBoxOutputs")
+        Me.grpBoxOutputs.Controls.Add(Me.btnConvert)
         Me.grpBoxOutputs.Controls.Add(Me.WebBrowserVideoLoad)
         Me.grpBoxOutputs.Controls.Add(Me.WebBrowserVersionCheck)
         Me.grpBoxOutputs.Controls.Add(Me.btnThumbnail)
@@ -594,6 +596,12 @@ Partial Class YTVL
         Me.grpBoxOutputs.Name = "grpBoxOutputs"
         Me.grpBoxOutputs.TabStop = false
         Me.ToolTip.SetToolTip(Me.grpBoxOutputs, resources.GetString("grpBoxOutputs.ToolTip"))
+        '
+        'btnConvert
+        '
+        resources.ApplyResources(Me.btnConvert, "btnConvert")
+        Me.btnConvert.Name = "btnConvert"
+        Me.btnConvert.UseVisualStyleBackColor = true
         '
         'WebBrowserVideoLoad
         '
@@ -984,6 +992,7 @@ Partial Class YTVL
         Me.ResumeLayout(false)
         Me.PerformLayout
     End Sub
+    Friend WithEvents btnConvert As System.Windows.Forms.Button
     Friend WithEvents ContextDownloadCopyFromGenerated As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btnThumbnail As System.Windows.Forms.Button
     Friend WithEvents ContextDownloadKeepVid As System.Windows.Forms.ToolStripMenuItem

@@ -215,6 +215,26 @@
         End If
     End Sub
     
+    Dim IDIndex As Byte
+    Private Sub ConvertString() Handles btnConvert.Click
+        Vars = InputBox("Type full YouTube URL here:", "Full URL cleaner", Clipboard.GetText)
+        If Vars <> "" Then
+            If Vars.Contains("v=") Then
+                IDIndex = 2
+                Do Until Vars.Chars(IDIndex-2) = "v" And Vars.Chars(IDIndex-1) = "="
+                    IDIndex = Vars.IndexOf("v",IDIndex)+2
+                Loop
+                If Vars.Substring(IDIndex).Length < 12 Then
+                    txtComboVID.Text = Vars.Substring(IDIndex)
+                Else
+                    txtComboVID.Text = Vars.Substring(IDIndex).Remove(11)
+                End If
+            Else
+                MsgBox("No ""v=[Video_ID]"" string found in entered text!", MsgBoxStyle.Exclamation)
+            End If
+        End If
+    End Sub
+    
         ' copying stuff
     
     Private Sub Inputs_MouseDown(sender As Object, e As MouseEventArgs) Handles btnVideo.MouseDown, btnComments.MouseDown, btnVideoInfo.MouseDown, btnEmbed.MouseDown

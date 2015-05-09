@@ -1816,7 +1816,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chkKeepOnTop.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="grpBoxOutputs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -1824,35 +1824,17 @@
   <data name="btnConvert.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <metadata name="ContextConvert.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>248, 8</value>
-  </metadata>
-  <data name="ContextConvertClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 22</value>
-  </data>
-  <data name="ContextConvertClipboard.Text" xml:space="preserve">
-    <value>Convert from Clipboard...</value>
-  </data>
-  <data name="ContextConvert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 26</value>
-  </data>
-  <data name="&gt;&gt;ContextConvert.Name" xml:space="preserve">
-    <value>ContextConvert</value>
-  </data>
-  <data name="&gt;&gt;ContextConvert.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="btnConvert.Location" type="System.Drawing.Point, System.Drawing">
     <value>267, 48</value>
   </data>
   <data name="btnConvert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 23</value>
+    <value>111, 23</value>
   </data>
   <data name="btnConvert.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="btnConvert.Text" xml:space="preserve">
-    <value>Clean string...</value>
+    <value>Convert from URL...</value>
   </data>
   <data name="btnConvert.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
@@ -2284,7 +2266,7 @@
     <value>False</value>
   </data>
   <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 70</value>
+    <value>228, 48</value>
   </data>
   <data name="&gt;&gt;ContextClipboard.Name" xml:space="preserve">
     <value>ContextClipboard</value>
@@ -2473,7 +2455,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxOutputs.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="grpBoxAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -2722,7 +2704,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxAbout.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="lblCurrentVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
@@ -2758,7 +2740,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblCurrentVersion.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <metadata name="NotificationIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>137, 7</value>
@@ -5191,7 +5173,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chkUpdate.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <metadata name="openFileDialogBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>137, 45</value>
@@ -7513,12 +7495,6 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>YouTube Video Linker</value>
-  </data>
-  <data name="&gt;&gt;ContextConvertClipboard.Name" xml:space="preserve">
-    <value>ContextConvertClipboard</value>
-  </data>
-  <data name="&gt;&gt;ContextConvertClipboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ContextDownloadCopyFromGenerated.Name" xml:space="preserve">
     <value>ContextDownloadCopyFromGenerated</value>
