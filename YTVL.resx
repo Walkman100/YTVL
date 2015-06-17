@@ -1774,7 +1774,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="chkKeepOnTop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -2748,6 +2748,9 @@
   <metadata name="NotificationMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>3, 4</value>
   </metadata>
+  <data name="NotificationMenuStripShowYTVL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
   <data name="NotificationMenuStripShowYTVL.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 22</value>
   </data>
@@ -2830,7 +2833,7 @@
     <value>Quit YTVL</value>
   </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 192</value>
+    <value>180, 214</value>
   </data>
   <data name="NotificationMenuStrip.Text" xml:space="preserve">
     <value>YTVL Context Menu</value>

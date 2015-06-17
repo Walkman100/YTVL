@@ -865,9 +865,9 @@ Partial Class YTVL
         'NotificationMenuStripShowYTVL
         '
         Me.NotificationMenuStripShowYTVL.AutoToolTip = true
+        resources.ApplyResources(Me.NotificationMenuStripShowYTVL, "NotificationMenuStripShowYTVL")
         Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
         Me.NotificationMenuStripShowYTVL.Name = "NotificationMenuStripShowYTVL"
-        resources.ApplyResources(Me.NotificationMenuStripShowYTVL, "NotificationMenuStripShowYTVL")
         '
         'NotificationMenuStripKeepOnTop
         '
