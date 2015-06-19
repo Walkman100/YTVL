@@ -211,7 +211,7 @@
             MsgNoVID()
         Else
             ThumbnailViewer.Show()
-            ThumbnailViewer.WindowState = WindowState.Normal
+            ThumbnailViewer.WindowState = FormWindowState.Normal
             ThumbnailViewer.BringToFront()
         End If
     End Sub
