@@ -1776,6 +1776,78 @@
   <data name="&gt;&gt;grpBoxInputs.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <metadata name="ContextClipboard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>4, 25</value>
+  </metadata>
+  <data name="ContextClipboardCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextClipboardCopyFromGenerated.Text" xml:space="preserve">
+    <value>Generate URL to Clipboard</value>
+  </data>
+  <data name="ContextClipboardCopyFromGenerated.ToolTipText" xml:space="preserve">
+    <value>Generate the URL and copy it to the clipboard instead of opening it in the browser</value>
+  </data>
+  <data name="ContextClipboardCopyCodeHTML.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeHTML.Text" xml:space="preserve">
+    <value>HTML Embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCodeHTML.ToolTipText" xml:space="preserve">
+    <value>Copy HTML Embed code to clipboard</value>
+  </data>
+  <data name="ContextClipboardCopyCodeBB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeBB.Text" xml:space="preserve">
+    <value>BB Embed code (for forums)</value>
+  </data>
+  <data name="ContextClipboardCopyCodeBB.ToolTipText" xml:space="preserve">
+    <value>Copy BB Embed code to clipboard</value>
+  </data>
+  <data name="ContextClipboardCopyCodeSeperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 6</value>
+  </data>
+  <data name="ContextClipboardCopyCodeStandard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeStandard.Text" xml:space="preserve">
+    <value>Standard Embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCodeStandard.ToolTipText" xml:space="preserve">
+    <value>Use Standard (not old) HTML embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCodeOldCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCodeOldCode.Text" xml:space="preserve">
+    <value>Old Embed code (more compatible)</value>
+  </data>
+  <data name="ContextClipboardCopyCodeOldCode.ToolTipText" xml:space="preserve">
+    <value>Use old HTML embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 22</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Text" xml:space="preserve">
+    <value>Copy code &gt;</value>
+  </data>
+  <data name="ContextClipboardCopyCode.ToolTipText" xml:space="preserve">
+    <value>Options to copy Embed code</value>
+  </data>
+  <data name="ContextClipboardCopyCode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 48</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboard.Name" xml:space="preserve">
+    <value>ContextClipboard</value>
+  </data>
+  <data name="&gt;&gt;ContextClipboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="chkKeepOnTop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -2201,78 +2273,6 @@
   </data>
   <data name="btnEmbed.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <metadata name="ContextClipboard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>4, 25</value>
-  </metadata>
-  <data name="ContextClipboardCopyFromGenerated.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
-  </data>
-  <data name="ContextClipboardCopyFromGenerated.Text" xml:space="preserve">
-    <value>Generate URL to Clipboard</value>
-  </data>
-  <data name="ContextClipboardCopyFromGenerated.ToolTipText" xml:space="preserve">
-    <value>Generate the URL and copy it to the clipboard instead of opening it in the browser</value>
-  </data>
-  <data name="ContextClipboardCopyCodeHTML.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCodeHTML.Text" xml:space="preserve">
-    <value>HTML Embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCodeHTML.ToolTipText" xml:space="preserve">
-    <value>Copy HTML Embed code to clipboard</value>
-  </data>
-  <data name="ContextClipboardCopyCodeBB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCodeBB.Text" xml:space="preserve">
-    <value>BB Embed code (for forums)</value>
-  </data>
-  <data name="ContextClipboardCopyCodeBB.ToolTipText" xml:space="preserve">
-    <value>Copy BB Embed code to clipboard</value>
-  </data>
-  <data name="ContextClipboardCopyCodeSeperator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 6</value>
-  </data>
-  <data name="ContextClipboardCopyCodeStandard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCodeStandard.Text" xml:space="preserve">
-    <value>Standard Embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCodeStandard.ToolTipText" xml:space="preserve">
-    <value>Use Standard (not old) HTML embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCodeOldCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCodeOldCode.Text" xml:space="preserve">
-    <value>Old Embed code (more compatible)</value>
-  </data>
-  <data name="ContextClipboardCopyCodeOldCode.ToolTipText" xml:space="preserve">
-    <value>Use old HTML embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
-  </data>
-  <data name="ContextClipboardCopyCode.Text" xml:space="preserve">
-    <value>Copy code &gt;</value>
-  </data>
-  <data name="ContextClipboardCopyCode.ToolTipText" xml:space="preserve">
-    <value>Options to copy Embed code</value>
-  </data>
-  <data name="ContextClipboardCopyCode.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ContextClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 48</value>
-  </data>
-  <data name="&gt;&gt;ContextClipboard.Name" xml:space="preserve">
-    <value>ContextClipboard</value>
-  </data>
-  <data name="&gt;&gt;ContextClipboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnEmbed.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2833,7 +2833,7 @@
     <value>Quit YTVL</value>
   </data>
   <data name="NotificationMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 214</value>
+    <value>180, 192</value>
   </data>
   <data name="NotificationMenuStrip.Text" xml:space="preserve">
     <value>YTVL Context Menu</value>
@@ -7499,36 +7499,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>YouTube Video Linker</value>
   </data>
-  <data name="&gt;&gt;ContextDownloadCopyFromGenerated.Name" xml:space="preserve">
-    <value>ContextDownloadCopyFromGenerated</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadCopyFromGenerated.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripVideo.Name" xml:space="preserve">
-    <value>ContextDownloadFullripVideo</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Name" xml:space="preserve">
-    <value>ContextDownloadFullripVideoAlternate</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripMP3.Name" xml:space="preserve">
-    <value>ContextDownloadFullripMP3</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadFullripMP3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadKeepVid.Name" xml:space="preserve">
-    <value>ContextDownloadKeepVid</value>
-  </data>
-  <data name="&gt;&gt;ContextDownloadKeepVid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;ContextClipboardCopyFromGenerated.Name" xml:space="preserve">
     <value>ContextClipboardCopyFromGenerated</value>
   </data>
@@ -7569,6 +7539,36 @@
     <value>ContextClipboardCopyCodeOldCode</value>
   </data>
   <data name="&gt;&gt;ContextClipboardCopyCodeOldCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadCopyFromGenerated.Name" xml:space="preserve">
+    <value>ContextDownloadCopyFromGenerated</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadCopyFromGenerated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideo.Name" xml:space="preserve">
+    <value>ContextDownloadFullripVideo</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Name" xml:space="preserve">
+    <value>ContextDownloadFullripVideoAlternate</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripVideoAlternate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripMP3.Name" xml:space="preserve">
+    <value>ContextDownloadFullripMP3</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadFullripMP3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadKeepVid.Name" xml:space="preserve">
+    <value>ContextDownloadKeepVid</value>
+  </data>
+  <data name="&gt;&gt;ContextDownloadKeepVid.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NotificationIcon.Name" xml:space="preserve">

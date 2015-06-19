@@ -5,6 +5,7 @@
     Dim currentVer As String = My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build
     Dim VerString As String
     Dim CopyWhat As String
+    Dim CopyWhatEntire As String = "Nothing yet"
 
     Private Sub LoadYTVL() Handles Me.Load, MyBase.Load
         'apply settings to where they are changed
@@ -270,12 +271,26 @@
     
         ' copying stuff
     
-    Private Sub Inputs_MouseDown(sender As Object, e As MouseEventArgs) Handles btnVideo.MouseDown, btnComments.MouseDown, btnVideoInfo.MouseDown, btnEmbed.MouseDown
-        CopyWhat = Mid(sender.ToString, 36)
-        If CopyWhat = "&Embed Page Handler" Then
-            ContextClipboardCopyCode.Visible = True
-        Else
-            ContextClipboardCopyCode.Visible = False
+    Private Sub MouseDownOnAnything(sender As Object, e As MouseEventArgs) Handles chkKeepOnTop.MouseDown,grpBoxInputs.MouseDown,txtComboVID.MouseDown,txtTime.MouseDown, _
+  txtList.MouseDown,imgLoading.MouseDown,lblVideoTitle.MouseDown,chkHL.MouseDown,lblHL.MouseDown,btnAdvanced.MouseDown,pnlQuality.MouseDown,optQuality360.MouseDown, _
+  optQuality720.MouseDown,chkFeature.MouseDown,lblAutoplay.MouseDown,pnlAutoplay.MouseDown,optAutoplay0.MouseDown,optAutoplay1.MouseDown,lblFs.MouseDown,pnlFs.MouseDown, _
+  optFs0.MouseDown,optFs1.MouseDown,lblAutohide.MouseDown,pnlAutohide.MouseDown,optAutohide0.MouseDown,optAutohide1.MouseDown,lblEnableJsApi.MouseDown, _
+  pnlEnableJsApi.MouseDown,optEnableJsApi0.MouseDown,optEnableJsApi1.MouseDown,lblIvLP.MouseDown,optIvLP.MouseDown,lblMdstBrndng.MouseDown,pnlRight1.MouseDown, _
+  optMdstBrndng0.MouseDown,optMdstBrndng1.MouseDown,lblRel.MouseDown,pnlRight2.MouseDown,optRel0.MouseDown,optRel1.MouseDown,lblShowinfo.MouseDown,pnlRight3.MouseDown, _
+  optShowinfo0.MouseDown,optShowinfo1.MouseDown,lblShowSearch.MouseDown,pnlRight4.MouseDown,optShowsearch0.MouseDown,optShowsearch1.MouseDown, _
+  chkThemeDark.MouseDown,chkWmode.MouseDown,chkOrigin.MouseDown,txtOrigin.MouseDown,chkHttps.MouseDown,lblBrowser.MouseDown,txtComboBrowser.MouseDown, _
+  chkRememberBrowser.MouseDown,grpBoxOutputs.MouseDown,chkShowNotification.MouseDown,btnVideo.MouseDown,btnComments.MouseDown,btnVideoInfo.MouseDown,btnEmbed.MouseDown, _
+  btnReset.MouseDown,btnExit.MouseDown,btnDeturl.MouseDown,btnThumbnail.MouseDown,btnConvert.MouseDown,btnDebug.MouseDown,grpBoxAbout.MouseDown,lnkOriginalPage.MouseDown, _
+  lnkSourceCode.MouseDown,lnkReportProblem.MouseDown,lnkReleases.MouseDown,lnkDeveloper.MouseDown,chkUpdate.MouseDown,lblCurrentVersion.MouseDown
+        
+        If e.Button = MouseButtons.Right Then
+            CopyWhat = Mid(sender.ToString, 36)
+            CopyWhatEntire = sender.name
+            If CopyWhat = "&Embed Page Handler" Then
+                ContextClipboardCopyCode.Visible = True
+            Else
+                ContextClipboardCopyCode.Visible = False
+            End If
         End If
     End Sub
 
@@ -314,7 +329,8 @@
                     MsgBox("Copy failed!" & vbNewLine & "Error: " & ex.ToString, MsgBoxStyle.Critical, "Copy failed!")
                 End Try
               Case Else
-                MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" & sender.ToString & "'", , "Error")
+                MsgBox("Cannot determine what was right-clicked, please try again!" & vbNewLine & "This was right-clicked: '" _
+                        & CopyWhatEntire & "'", MsgBoxStyle.Exclamation, "Error")
             End Select
         End If
     End Sub
@@ -547,7 +563,7 @@
     ' Links
 
     Private Sub OpenOriginalPage() Handles lnkOriginalPage.LinkClicked
-        OpenLink("http://walkman100.github.io/Walkman/HTML/YTVL.html") ' *.github.io doesn't support https!)
+        OpenLink("http://walkman100.github.io/Walkman/HTML/YTVL.html") ' *.github.io doesn't support https!
     End Sub
 
     Private Sub OpenSourceCode() Handles lnkSourceCode.LinkClicked

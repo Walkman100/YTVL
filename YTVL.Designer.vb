@@ -30,6 +30,14 @@ Partial Class YTVL
         Me.txtComboVID = New System.Windows.Forms.ComboBox()
         Me.imgLoading = New System.Windows.Forms.PictureBox()
         Me.btnAdvanced = New System.Windows.Forms.Button()
+        Me.ContextClipboard = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ContextClipboardCopyFromGenerated = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCode = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCodeHTML = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCodeBB = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCodeSeperator = New System.Windows.Forms.ToolStripSeparator()
+        Me.ContextClipboardCopyCodeStandard = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextClipboardCopyCodeOldCode = New System.Windows.Forms.ToolStripMenuItem()
         Me.pnlRight1 = New System.Windows.Forms.Panel()
         Me.optMdstBrndng0 = New System.Windows.Forms.RadioButton()
         Me.optMdstBrndng1 = New System.Windows.Forms.RadioButton()
@@ -96,14 +104,6 @@ Partial Class YTVL
         Me.chkShowNotification = New System.Windows.Forms.CheckBox()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnEmbed = New System.Windows.Forms.Button()
-        Me.ContextClipboard = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ContextClipboardCopyFromGenerated = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCode = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCodeHTML = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCodeBB = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCodeSeperator = New System.Windows.Forms.ToolStripSeparator()
-        Me.ContextClipboardCopyCodeStandard = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ContextClipboardCopyCodeOldCode = New System.Windows.Forms.ToolStripMenuItem()
         Me.btnVideoInfo = New System.Windows.Forms.Button()
         Me.btnComments = New System.Windows.Forms.Button()
         Me.btnVideo = New System.Windows.Forms.Button()
@@ -132,6 +132,7 @@ Partial Class YTVL
         Me.openFileDialogBrowser = New System.Windows.Forms.OpenFileDialog()
         Me.grpBoxInputs.SuspendLayout
         CType(Me.imgLoading,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.ContextClipboard.SuspendLayout
         Me.pnlRight1.SuspendLayout
         Me.pnlRight2.SuspendLayout
         Me.pnlRight3.SuspendLayout
@@ -143,7 +144,6 @@ Partial Class YTVL
         Me.pnlQuality.SuspendLayout
         Me.grpBoxOutputs.SuspendLayout
         Me.ContextDownload.SuspendLayout
-        Me.ContextClipboard.SuspendLayout
         Me.grpBoxAbout.SuspendLayout
         Me.NotificationMenuStrip.SuspendLayout
         Me.SuspendLayout
@@ -228,6 +228,56 @@ Partial Class YTVL
         Me.btnAdvanced.Name = "btnAdvanced"
         Me.ToolTip.SetToolTip(Me.btnAdvanced, resources.GetString("btnAdvanced.ToolTip"))
         Me.btnAdvanced.UseVisualStyleBackColor = false
+        '
+        'ContextClipboard
+        '
+        Me.ContextClipboard.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyFromGenerated, Me.ContextClipboardCopyCode})
+        Me.ContextClipboard.Name = "ContextClipboard"
+        resources.ApplyResources(Me.ContextClipboard, "ContextClipboard")
+        '
+        'ContextClipboardCopyFromGenerated
+        '
+        Me.ContextClipboardCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextClipboardCopyFromGenerated.Name = "ContextClipboardCopyFromGenerated"
+        resources.ApplyResources(Me.ContextClipboardCopyFromGenerated, "ContextClipboardCopyFromGenerated")
+        '
+        'ContextClipboardCopyCode
+        '
+        Me.ContextClipboardCopyCode.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyCodeHTML, Me.ContextClipboardCopyCodeBB, Me.ContextClipboardCopyCodeSeperator, Me.ContextClipboardCopyCodeStandard, Me.ContextClipboardCopyCodeOldCode})
+        Me.ContextClipboardCopyCode.Image = Global.YTVL.My.Resources.Resources.page_code
+        Me.ContextClipboardCopyCode.Name = "ContextClipboardCopyCode"
+        resources.ApplyResources(Me.ContextClipboardCopyCode, "ContextClipboardCopyCode")
+        '
+        'ContextClipboardCopyCodeHTML
+        '
+        Me.ContextClipboardCopyCodeHTML.Image = Global.YTVL.My.Resources.Resources.HTML
+        Me.ContextClipboardCopyCodeHTML.Name = "ContextClipboardCopyCodeHTML"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeHTML, "ContextClipboardCopyCodeHTML")
+        '
+        'ContextClipboardCopyCodeBB
+        '
+        Me.ContextClipboardCopyCodeBB.Image = Global.YTVL.My.Resources.Resources.bbcode
+        Me.ContextClipboardCopyCodeBB.Name = "ContextClipboardCopyCodeBB"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeBB, "ContextClipboardCopyCodeBB")
+        '
+        'ContextClipboardCopyCodeSeperator
+        '
+        Me.ContextClipboardCopyCodeSeperator.Name = "ContextClipboardCopyCodeSeperator"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeSeperator, "ContextClipboardCopyCodeSeperator")
+        '
+        'ContextClipboardCopyCodeStandard
+        '
+        Me.ContextClipboardCopyCodeStandard.Checked = true
+        Me.ContextClipboardCopyCodeStandard.CheckOnClick = true
+        Me.ContextClipboardCopyCodeStandard.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.ContextClipboardCopyCodeStandard.Name = "ContextClipboardCopyCodeStandard"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeStandard, "ContextClipboardCopyCodeStandard")
+        '
+        'ContextClipboardCopyCodeOldCode
+        '
+        Me.ContextClipboardCopyCodeOldCode.CheckOnClick = true
+        Me.ContextClipboardCopyCodeOldCode.Name = "ContextClipboardCopyCodeOldCode"
+        resources.ApplyResources(Me.ContextClipboardCopyCodeOldCode, "ContextClipboardCopyCodeOldCode")
         '
         'pnlRight1
         '
@@ -702,56 +752,6 @@ Partial Class YTVL
         Me.ToolTip.SetToolTip(Me.btnEmbed, resources.GetString("btnEmbed.ToolTip"))
         Me.btnEmbed.UseVisualStyleBackColor = false
         '
-        'ContextClipboard
-        '
-        Me.ContextClipboard.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyFromGenerated, Me.ContextClipboardCopyCode})
-        Me.ContextClipboard.Name = "ContextClipboard"
-        resources.ApplyResources(Me.ContextClipboard, "ContextClipboard")
-        '
-        'ContextClipboardCopyFromGenerated
-        '
-        Me.ContextClipboardCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.EditCopy
-        Me.ContextClipboardCopyFromGenerated.Name = "ContextClipboardCopyFromGenerated"
-        resources.ApplyResources(Me.ContextClipboardCopyFromGenerated, "ContextClipboardCopyFromGenerated")
-        '
-        'ContextClipboardCopyCode
-        '
-        Me.ContextClipboardCopyCode.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextClipboardCopyCodeHTML, Me.ContextClipboardCopyCodeBB, Me.ContextClipboardCopyCodeSeperator, Me.ContextClipboardCopyCodeStandard, Me.ContextClipboardCopyCodeOldCode})
-        Me.ContextClipboardCopyCode.Image = Global.YTVL.My.Resources.Resources.page_code
-        Me.ContextClipboardCopyCode.Name = "ContextClipboardCopyCode"
-        resources.ApplyResources(Me.ContextClipboardCopyCode, "ContextClipboardCopyCode")
-        '
-        'ContextClipboardCopyCodeHTML
-        '
-        Me.ContextClipboardCopyCodeHTML.Image = Global.YTVL.My.Resources.Resources.HTML
-        Me.ContextClipboardCopyCodeHTML.Name = "ContextClipboardCopyCodeHTML"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeHTML, "ContextClipboardCopyCodeHTML")
-        '
-        'ContextClipboardCopyCodeBB
-        '
-        Me.ContextClipboardCopyCodeBB.Image = Global.YTVL.My.Resources.Resources.bbcode
-        Me.ContextClipboardCopyCodeBB.Name = "ContextClipboardCopyCodeBB"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeBB, "ContextClipboardCopyCodeBB")
-        '
-        'ContextClipboardCopyCodeSeperator
-        '
-        Me.ContextClipboardCopyCodeSeperator.Name = "ContextClipboardCopyCodeSeperator"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeSeperator, "ContextClipboardCopyCodeSeperator")
-        '
-        'ContextClipboardCopyCodeStandard
-        '
-        Me.ContextClipboardCopyCodeStandard.Checked = true
-        Me.ContextClipboardCopyCodeStandard.CheckOnClick = true
-        Me.ContextClipboardCopyCodeStandard.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.ContextClipboardCopyCodeStandard.Name = "ContextClipboardCopyCodeStandard"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeStandard, "ContextClipboardCopyCodeStandard")
-        '
-        'ContextClipboardCopyCodeOldCode
-        '
-        Me.ContextClipboardCopyCodeOldCode.CheckOnClick = true
-        Me.ContextClipboardCopyCodeOldCode.Name = "ContextClipboardCopyCodeOldCode"
-        resources.ApplyResources(Me.ContextClipboardCopyCodeOldCode, "ContextClipboardCopyCodeOldCode")
-        '
         'btnVideoInfo
         '
         resources.ApplyResources(Me.btnVideoInfo, "btnVideoInfo")
@@ -964,6 +964,7 @@ Partial Class YTVL
         Me.grpBoxInputs.ResumeLayout(false)
         Me.grpBoxInputs.PerformLayout
         CType(Me.imgLoading,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ContextClipboard.ResumeLayout(false)
         Me.pnlRight1.ResumeLayout(false)
         Me.pnlRight1.PerformLayout
         Me.pnlRight2.ResumeLayout(false)
@@ -985,7 +986,6 @@ Partial Class YTVL
         Me.grpBoxOutputs.ResumeLayout(false)
         Me.grpBoxOutputs.PerformLayout
         Me.ContextDownload.ResumeLayout(false)
-        Me.ContextClipboard.ResumeLayout(false)
         Me.grpBoxAbout.ResumeLayout(false)
         Me.grpBoxAbout.PerformLayout
         Me.NotificationMenuStrip.ResumeLayout(false)
