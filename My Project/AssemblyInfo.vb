@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("YouTube Video Linker")> 
 <Assembly: AssemblyDescription("YouTube Video Linker, original page: http://walkman100.github.io/Walkman/HTML/YTVL.html")> 
-<Assembly: AssemblyCompany("DeavmiOSS")> 
+<Assembly: AssemblyCompany("WalkmanOSS")> 
 <Assembly: AssemblyProduct("YTVL")> 
 <Assembly: AssemblyCopyright("FOSS from Walkman 2014-15")> 
 <Assembly: AssemblyTrademark("")> 
