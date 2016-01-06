@@ -13,7 +13,7 @@ LicenseData "LICENSE.md"
 LicenseForceSelection checkbox "I have read and understand this notice"
 LicenseText "Please read the notice below before installing YTVL. If you understand the notice, click the checkbox below and click Next."
 
-InstallDir $PROGRAMFILES\DeavmiOSS
+InstallDir $PROGRAMFILES\WalkmanOSS
 
 OutFile "bin\Release\YTVL-Installer.exe"
 
@@ -35,10 +35,20 @@ Section "YTVL Executable & Uninstaller"
   WriteUninstaller "YTVL-Uninst.exe"
 SectionEnd
 
+Section "Remove old files in DeavmiOSS"
+  Delete "$PROGRAMFILES\DeavmiOSS\YTVL-Uninst.exe"
+  Delete "$PROGRAMFILES\DeavmiOSS\YTVL.exe"
+  RMDir "$PROGRAMFILES\DeavmiOSS"
+  
+  Delete "$SMPROGRAMS\DeavmiOSS\YTVL.lnk"
+  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
+  RMDir "$SMPROGRAMS\DeavmiOSS"
+SectionEnd
+
 Section "YTVL Start Menu Shortcuts"
-  CreateDirectory "$SMPROGRAMS\DeavmiOSS"
-  CreateShortCut "$SMPROGRAMS\DeavmiOSS\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
-  CreateShortCut "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk" "$INSTDIR\YTVL-Uninst.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
+  CreateDirectory "$SMPROGRAMS\WalkmanOSS"
+  CreateShortCut "$SMPROGRAMS\WalkmanOSS\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
+  CreateShortCut "$SMPROGRAMS\WalkmanOSS\Uninstall YTVL.lnk" "$INSTDIR\YTVL-Uninst.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
   ;Syntax for CreateShortCut: link.lnk target.file [parameters [icon.file [icon_index_number [start_options [keyboard_shortcut [description]]]]]]
 SectionEnd
 
@@ -49,10 +59,6 @@ SectionEnd
 Section "YTVL Quick Launch Shortcut"
   CreateShortCut "$QUICKLAUNCH\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
 SectionEnd
-
-;Section "More apps from DeavmiOSS"
-; this should have sub options for available apps, that are downloaded
-;SectionEnd
 
 ; Functions
 
@@ -77,12 +83,21 @@ Section "Uninstall"
   Delete "$INSTDIR\YTVL.exe"
   RMDir "$INSTDIR"
   
-  Delete "$SMPROGRAMS\DeavmiOSS\YTVL.lnk"   ; Remove Start Menu Shortcuts & Folder
-  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
-  RMDir "$SMPROGRAMS\DeavmiOSS"
+  Delete "$SMPROGRAMS\WalkmanOSS\YTVL.lnk"   ; Remove Start Menu Shortcuts & Folder
+  Delete "$SMPROGRAMS\WalkmanOSS\Uninstall YTVL.lnk"
+  RMDir "$SMPROGRAMS\WalkmanOSS"
   
   Delete "$DESKTOP\YTVL.lnk"   ; Remove Desktop Shortcut
   Delete "$QUICKLAUNCH\YTVL.lnk"   ; Remove Quick Launch shortcut
+  
+  ; Remove old files in DeavmiOSS
+  Delete "$PROGRAMFILES\DeavmiOSS\YTVL-Uninst.exe"
+  Delete "$PROGRAMFILES\DeavmiOSS\YTVL.exe"
+  RMDir "$PROGRAMFILES\DeavmiOSS"
+  
+  Delete "$SMPROGRAMS\DeavmiOSS\YTVL.lnk"
+  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
+  RMDir "$SMPROGRAMS\DeavmiOSS"
 SectionEnd
 
 ; Uninstaller Functions
