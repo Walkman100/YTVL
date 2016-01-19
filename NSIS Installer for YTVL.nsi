@@ -5,6 +5,7 @@
 Icon "Resources\YTVL.ico"
 Caption "YTVL Installer"
 Name "YTVL"
+XPStyle on
 AutoCloseWindow true
 ShowInstDetails show
 
