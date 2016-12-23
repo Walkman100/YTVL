@@ -201,7 +201,7 @@ Partial Class YTVL
         Me.txtComboBrowser.AllowDrop = true
         resources.ApplyResources(Me.txtComboBrowser, "txtComboBrowser")
         Me.txtComboBrowser.FormattingEnabled = true
-        Me.txtComboBrowser.Items.AddRange(New Object() {resources.GetString("txtComboBrowser.Items"), resources.GetString("txtComboBrowser.Items1"), resources.GetString("txtComboBrowser.Items2"), resources.GetString("txtComboBrowser.Items3"), resources.GetString("txtComboBrowser.Items4"), resources.GetString("txtComboBrowser.Items5"), resources.GetString("txtComboBrowser.Items6"), resources.GetString("txtComboBrowser.Items7"), resources.GetString("txtComboBrowser.Items8"), resources.GetString("txtComboBrowser.Items9"), resources.GetString("txtComboBrowser.Items10"), resources.GetString("txtComboBrowser.Items11"), resources.GetString("txtComboBrowser.Items12")})
+        Me.txtComboBrowser.Items.AddRange(New Object() {resources.GetString("txtComboBrowser.Items"), resources.GetString("txtComboBrowser.Items1"), resources.GetString("txtComboBrowser.Items2"), resources.GetString("txtComboBrowser.Items3"), resources.GetString("txtComboBrowser.Items4"), resources.GetString("txtComboBrowser.Items5"), resources.GetString("txtComboBrowser.Items6"), resources.GetString("txtComboBrowser.Items7"), resources.GetString("txtComboBrowser.Items8"), resources.GetString("txtComboBrowser.Items9"), resources.GetString("txtComboBrowser.Items10"), resources.GetString("txtComboBrowser.Items11"), resources.GetString("txtComboBrowser.Items12"), resources.GetString("txtComboBrowser.Items13")})
         Me.txtComboBrowser.Name = "txtComboBrowser"
         '
         'txtComboVID

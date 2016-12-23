@@ -95,6 +95,8 @@
             Process.Start(ProgramFilesDir & "\Mozilla Firefox\firefox.exe", link)
         ElseIf txtComboBrowser.Text = "Google Chrome (%ProgramFiles%\Google\Chrome\Application\chrome.exe)" Then
             Process.Start(ProgramFilesDir & "\Google\Chrome\Application\chrome.exe", link)
+        ElseIf txtComboBrowser.Text = "Vivaldi (%ProgramFiles%\Vivaldi\Application\vivaldi.exe)" Then
+            Process.Start(ProgramFilesDir & "\Vivaldi\Application\vivaldi.exe", link)
         ElseIf txtComboBrowser.Text = "Opera 22 (%ProgramFiles%\Opera\launcher.exe)" Then
             Process.Start(ProgramFilesDir & "\Opera\launcher.exe", link)
         ElseIf txtComboBrowser.Text = "Opera 12 (%ProgramFiles%\Opera\opera.exe)" Then
@@ -438,7 +440,7 @@
         Application.Exit()
     End Sub
 
-    Private Sub ShowYTVL() Handles NotificationMenuStripShowYTVL.Click, NotificationIcon.DoubleClick
+    Private Sub ShowYTVL() Handles NotificationMenuStripShowYTVL.Click, NotificationIcon.DoubleClick, NotificationIcon.MouseDoubleClick
         WindowState = FormWindowState.Normal
         Me.BringToFront()
     End Sub

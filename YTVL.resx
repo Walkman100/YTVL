@@ -163,33 +163,36 @@
     <value>Google Chrome (%ProgramFiles%\Google\Chrome\Application\chrome.exe)</value>
   </data>
   <data name="txtComboBrowser.Items3" xml:space="preserve">
-    <value>Opera 22 (%ProgramFiles%\Opera\launcher.exe)</value>
+    <value>Vivaldi (%ProgramFiles%\Vivaldi\Application\vivaldi.exe)</value>
   </data>
   <data name="txtComboBrowser.Items4" xml:space="preserve">
-    <value>Opera 12 (%ProgramFiles%\Opera\opera.exe)</value>
+    <value>Opera 22 (%ProgramFiles%\Opera\launcher.exe)</value>
   </data>
   <data name="txtComboBrowser.Items5" xml:space="preserve">
-    <value>Safari (%ProgramFiles%\Safari\Safari.exe)</value>
+    <value>Opera 12 (%ProgramFiles%\Opera\opera.exe)</value>
   </data>
   <data name="txtComboBrowser.Items6" xml:space="preserve">
-    <value>Avant Browser (%ProgramFiles%\Avant Browser\avant.exe)</value>
+    <value>Safari (%ProgramFiles%\Safari\Safari.exe)</value>
   </data>
   <data name="txtComboBrowser.Items7" xml:space="preserve">
-    <value>Lunascape6 (%ProgramFiles%\Lunascape\Lunascape6\Luna.exe)</value>
+    <value>Avant Browser (%ProgramFiles%\Avant Browser\avant.exe)</value>
   </data>
   <data name="txtComboBrowser.Items8" xml:space="preserve">
-    <value>Sea Monkey (%ProgramFiles%\SeaMonkey\seamonkey.exe)</value>
+    <value>Lunascape6 (%ProgramFiles%\Lunascape\Lunascape6\Luna.exe)</value>
   </data>
   <data name="txtComboBrowser.Items9" xml:space="preserve">
-    <value>Internet Explorer (%ProgramFiles%\Internet Explorer\iexplore.exe)</value>
+    <value>Sea Monkey (%ProgramFiles%\SeaMonkey\seamonkey.exe)</value>
   </data>
   <data name="txtComboBrowser.Items10" xml:space="preserve">
-    <value>Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)</value>
+    <value>Internet Explorer (%ProgramFiles%\Internet Explorer\iexplore.exe)</value>
   </data>
   <data name="txtComboBrowser.Items11" xml:space="preserve">
-    <value>Send to Clipboard</value>
+    <value>Netscape Navigator 9 (%ProgramFiles%\Netscape\Navigator 9\navigator.exe)</value>
   </data>
   <data name="txtComboBrowser.Items12" xml:space="preserve">
+    <value>Send to Clipboard</value>
+  </data>
+  <data name="txtComboBrowser.Items13" xml:space="preserve">
     <value>Browse...</value>
   </data>
   <data name="txtComboBrowser.Location" type="System.Drawing.Point, System.Drawing">

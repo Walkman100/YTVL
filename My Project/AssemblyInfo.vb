@@ -11,10 +11,10 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("YouTube Video Linker")> 
-<Assembly: AssemblyDescription("YouTube Video Linker, original page: http://walkman100.github.io/Walkman/HTML/YTVL.html")> 
+<Assembly: AssemblyDescription("YouTube Video Linker, original page: https://walkman100.github.io/ytvl")> 
 <Assembly: AssemblyCompany("WalkmanOSS")> 
 <Assembly: AssemblyProduct("YTVL")> 
-<Assembly: AssemblyCopyright("FOSS from Walkman 2014-15")> 
+<Assembly: AssemblyCopyright("FOSS from Walkman 2014-16")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
