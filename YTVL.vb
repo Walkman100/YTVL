@@ -1,4 +1,4 @@
-﻿Public Class YTVL
+Public Class YTVL
     Dim ProgramFilesDir As String = Environment.GetEnvironmentVariable("ProgramFiles")
     Dim Vars As String = ""
     Dim usehttps As String = "https"
