@@ -1,5 +1,5 @@
 # YouTube Video Linker [<img src="http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg" title="YTVL Icon" width="70" height="36" alt="YTVL Icon">](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg)
-YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/Walkman/HTML/YTVL.html)
+YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/ytvl)
 
 Many thanks to [Deavmi](http://github.com/Deavmi) for his code, quite a bit of the code used in this project I learnt from his projects
 
@@ -11,10 +11,10 @@ Jump to:
 - <a href="#debugging">Debugging</a>
 
 External links:
-- [Screenshots](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html)
-- [Donate](http://walkman100.github.io/Walkman/HTML/Donate.html)
-- [Future releases/ideas](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl)
-- [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Walkman100/Walkman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+- [Screenshots](https://walkman100.github.io/ytvl-screenshots)
+- [Donate](https://walkman100.github.io/donate)
+- [Future releases/ideas](https://github.com/Walkman100/gists/blob/master/ProjectsAndFeatures.md#ytvl)
+- [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Walkman100/Walkman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 - [AppVeyor](http://ci.appveyor.com/) build status:
 [![Build status](https://ci.appveyor.com/api/projects/status/ao70dapbuoho2yk2)](https://ci.appveyor.com/project/Walkman100/ytvl)
 - The source code is also available on [Visual Studio online](https://walkman.visualstudio.com/DefaultCollection/YTVL).
@@ -25,7 +25,7 @@ External links:
 - In order for the update checker and the video name loader to work, you need an active internet connection and at least Internet Explorer 7 installed and enabled (even if you don't use it. ever.)
 
 ## Compile requirements
-See [CompileInstructions.md](https://github.com/Walkman100/WinCompile/blob/master/CompileInstructions.md)
+See [CompileInstructions.md](https://github.com/Walkman100/gists/blob/master/CompileInstructions.md)
 
 # How to use
 It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you watched the video in Embedded mode); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweight than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup> was; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
@@ -68,14 +68,12 @@ Press <kbd>Alt</kbd> + <kbd>D</kbd> to show the Browser windows to the right of 
 - The first one shows the object that is loaded to get the video title. It is possible to play videos from this object.
 - The second one shows the page that is loaded to get the current version. If this page does not show a valid page, then the program might give an error message. Unchecking the `Check for updates automatically` checkbox will prevent this page from ever being loaded until you select the checkbox again.
 
-[![Screenshot with Debugging info shown](http://walkman100.github.io/Walkman/Images/WindowsProjectsScreenshots/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown")](http://walkman100.github.io/Walkman/Images/WindowsProjectsScreenshots/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png)
+[![Screenshot with Debugging info shown][DebuggingScreenshot]][DebuggingScreenshot]
+
+  [DebuggingScreenshot]: http://walkman100.github.io/images/Screenshots/My_Projects/YTVL/AdvancedOptionsWithDebugKeyCombinationPressed.png "Screenshot with Debugging info shown"
 
 ### Screenshots
-Screenshots available [here](http://walkman100.github.io/Walkman/HTML/YTVLWindowsScreenshots.html).
+Screenshots available [here](https://walkman100.github.io/ytvl-screenshots).
 
 ### Future releases/ideas
-See [this gist](https://gist.github.com/Walkman100/5b4103857f8f3a7a3f57#ytvl).
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Walkman100/ytvl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+See [this gist](https://github.com/Walkman100/gists/blob/master/ProjectsAndFeatures.md#ytvl).
