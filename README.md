@@ -1,4 +1,4 @@
-# YouTube Video Linker [<img src="http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg" title="YTVL Icon" width="70" height="36" alt="YTVL Icon">](http://walkman100.github.io/Walkman/Images/WindowsProjectsOriginalImages/YouTube-Logo-Statistics-Media_withLink.jpg)
+# YouTube Video Linker [<img src="http://walkman100.github.io/images/other/youtube-Logo-Statistics-Media_withLink.jpg" title="YTVL Icon" width="70" height="36" alt="YTVL Icon">](http://walkman100.github.io/images/other/youtube-Logo-Statistics-Media_withLink.jpg)
 YouTube Video Linker - MS Windows version of [YTVAL](http://walkman100.github.io/ytvl)
 
 Many thanks to [Deavmi](http://github.com/Deavmi) for his code, quite a bit of the code used in this project I learnt from his projects
