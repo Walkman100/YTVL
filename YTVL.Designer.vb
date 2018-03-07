@@ -23,7 +23,6 @@ Partial Class YTVL
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(YTVL))
         Me.grpBoxInputs = New System.Windows.Forms.GroupBox()
         Me.lblBrowser = New System.Windows.Forms.Label()
         Me.txtComboBrowser = New System.Windows.Forms.ComboBox()
@@ -826,7 +825,7 @@ Partial Class YTVL
         '
         'ContextClipboardCopyFromGenerated
         '
-        Me.ContextClipboardCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextClipboardCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.edit_copy
         Me.ContextClipboardCopyFromGenerated.Name = "ContextClipboardCopyFromGenerated"
         Me.ContextClipboardCopyFromGenerated.Size = New System.Drawing.Size(214, 22)
         Me.ContextClipboardCopyFromGenerated.Text = "Generate URL to Clipboard"
@@ -845,7 +844,7 @@ Partial Class YTVL
         '
         'ContextClipboardCopyCodeHTML
         '
-        Me.ContextClipboardCopyCodeHTML.Image = Global.YTVL.My.Resources.Resources.HTML
+        Me.ContextClipboardCopyCodeHTML.Image = Global.YTVL.My.Resources.Resources.html
         Me.ContextClipboardCopyCodeHTML.Name = "ContextClipboardCopyCodeHTML"
         Me.ContextClipboardCopyCodeHTML.Size = New System.Drawing.Size(264, 22)
         Me.ContextClipboardCopyCodeHTML.Text = "HTML Embed code"
@@ -969,7 +968,7 @@ Partial Class YTVL
         '
         Me.btnThumbnail.AutoSize = true
         Me.btnThumbnail.Enabled = false
-        Me.btnThumbnail.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
+        Me.btnThumbnail.Image = Global.YTVL.My.Resources.Resources.video_display
         Me.btnThumbnail.Location = New System.Drawing.Point(149, 48)
         Me.btnThumbnail.Name = "btnThumbnail"
         Me.btnThumbnail.Size = New System.Drawing.Size(112, 23)
@@ -983,7 +982,7 @@ Partial Class YTVL
         Me.btnDeturl.AutoSize = true
         Me.btnDeturl.ContextMenuStrip = Me.ContextDownload
         Me.btnDeturl.Enabled = false
-        Me.btnDeturl.Image = CType(resources.GetObject("btnDeturl.Image"),System.Drawing.Image)
+        Me.btnDeturl.Image = Global.YTVL.My.Resources.Resources.deturl
         Me.btnDeturl.Location = New System.Drawing.Point(6, 48)
         Me.btnDeturl.Name = "btnDeturl"
         Me.btnDeturl.Size = New System.Drawing.Size(137, 23)
@@ -1000,35 +999,35 @@ Partial Class YTVL
         '
         'ContextDownloadCopyFromGenerated
         '
-        Me.ContextDownloadCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.EditCopy
+        Me.ContextDownloadCopyFromGenerated.Image = Global.YTVL.My.Resources.Resources.edit_copy
         Me.ContextDownloadCopyFromGenerated.Name = "ContextDownloadCopyFromGenerated"
         Me.ContextDownloadCopyFromGenerated.Size = New System.Drawing.Size(214, 22)
         Me.ContextDownloadCopyFromGenerated.Text = "Generate URL to Clipboard"
         '
         'ContextDownloadFullripVideo
         '
-        Me.ContextDownloadFullripVideo.Image = CType(resources.GetObject("ContextDownloadFullripVideo.Image"),System.Drawing.Image)
+        Me.ContextDownloadFullripVideo.Image = Global.YTVL.My.Resources.Resources.fullrip
         Me.ContextDownloadFullripVideo.Name = "ContextDownloadFullripVideo"
         Me.ContextDownloadFullripVideo.Size = New System.Drawing.Size(214, 22)
         Me.ContextDownloadFullripVideo.Text = "FullRip: Video"
         '
         'ContextDownloadFullripVideoAlternate
         '
-        Me.ContextDownloadFullripVideoAlternate.Image = CType(resources.GetObject("ContextDownloadFullripVideoAlternate.Image"),System.Drawing.Image)
+        Me.ContextDownloadFullripVideoAlternate.Image = Global.YTVL.My.Resources.Resources.fullrip
         Me.ContextDownloadFullripVideoAlternate.Name = "ContextDownloadFullripVideoAlternate"
         Me.ContextDownloadFullripVideoAlternate.Size = New System.Drawing.Size(214, 22)
         Me.ContextDownloadFullripVideoAlternate.Text = "FullRip: Video Alternate"
         '
         'ContextDownloadFullripMP3
         '
-        Me.ContextDownloadFullripMP3.Image = CType(resources.GetObject("ContextDownloadFullripMP3.Image"),System.Drawing.Image)
+        Me.ContextDownloadFullripMP3.Image = Global.YTVL.My.Resources.Resources.fullrip
         Me.ContextDownloadFullripMP3.Name = "ContextDownloadFullripMP3"
         Me.ContextDownloadFullripMP3.Size = New System.Drawing.Size(214, 22)
         Me.ContextDownloadFullripMP3.Text = "FullRip: MP3"
         '
         'ContextDownloadKeepVid
         '
-        Me.ContextDownloadKeepVid.Image = CType(resources.GetObject("ContextDownloadKeepVid.Image"),System.Drawing.Image)
+        Me.ContextDownloadKeepVid.Image = Global.YTVL.My.Resources.Resources.keepvid
         Me.ContextDownloadKeepVid.Name = "ContextDownloadKeepVid"
         Me.ContextDownloadKeepVid.Size = New System.Drawing.Size(214, 22)
         Me.ContextDownloadKeepVid.Text = "KeepVid"
@@ -1036,7 +1035,7 @@ Partial Class YTVL
         'btnExit
         '
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnExit.Image = Global.YTVL.My.Resources.Resources.Exit2
+        Me.btnExit.Image = Global.YTVL.My.Resources.Resources._exit
         Me.btnExit.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnExit.Location = New System.Drawing.Point(466, 19)
         Me.btnExit.Name = "btnExit"
@@ -1067,7 +1066,7 @@ Partial Class YTVL
         '
         Me.btnReset.AutoSize = true
         Me.btnReset.BackColor = System.Drawing.Color.Transparent
-        Me.btnReset.Image = Global.YTVL.My.Resources.Resources._1371833577_view_refresh
+        Me.btnReset.Image = Global.YTVL.My.Resources.Resources.refresh
         Me.btnReset.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnReset.Location = New System.Drawing.Point(385, 19)
         Me.btnReset.Name = "btnReset"
@@ -1100,7 +1099,7 @@ Partial Class YTVL
         Me.btnVideoInfo.BackColor = System.Drawing.Color.Transparent
         Me.btnVideoInfo.ContextMenuStrip = Me.ContextClipboard
         Me.btnVideoInfo.Enabled = false
-        Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
+        Me.btnVideoInfo.Image = Global.YTVL.My.Resources.Resources.document_info
         Me.btnVideoInfo.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnVideoInfo.Location = New System.Drawing.Point(171, 19)
         Me.btnVideoInfo.Name = "btnVideoInfo"
@@ -1134,8 +1133,7 @@ Partial Class YTVL
         Me.btnVideo.BackColor = System.Drawing.Color.Transparent
         Me.btnVideo.ContextMenuStrip = Me.ContextClipboard
         Me.btnVideo.Enabled = false
-        Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
-        Me.btnVideo.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnVideo.Image = Global.YTVL.My.Resources.Resources.youtube_android
         Me.btnVideo.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnVideo.Location = New System.Drawing.Point(6, 19)
         Me.btnVideo.Name = "btnVideo"
@@ -1267,7 +1265,7 @@ Partial Class YTVL
         'NotificationIcon
         '
         Me.NotificationIcon.ContextMenuStrip = Me.NotificationMenuStrip
-        Me.NotificationIcon.Icon = CType(resources.GetObject("NotificationIcon.Icon"),System.Drawing.Icon)
+        Me.NotificationIcon.Icon = Global.YTVL.My.Resources.Resources.icon_ytvl
         Me.NotificationIcon.Text = "YouTube Video Linker"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)
         '
         'NotificationMenuStrip
@@ -1281,7 +1279,7 @@ Partial Class YTVL
         '
         Me.NotificationMenuStripShowYTVL.AutoToolTip = true
         Me.NotificationMenuStripShowYTVL.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources._1387147104_video_display
+        Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources.video_display
         Me.NotificationMenuStripShowYTVL.Name = "NotificationMenuStripShowYTVL"
         Me.NotificationMenuStripShowYTVL.Size = New System.Drawing.Size(172, 22)
         Me.NotificationMenuStripShowYTVL.Text = "&Show YTVL"
@@ -1303,7 +1301,7 @@ Partial Class YTVL
         'NotificationMenuStripVideo
         '
         Me.NotificationMenuStripVideo.AutoToolTip = true
-        Me.NotificationMenuStripVideo.Image = Global.YTVL.My.Resources.Resources.android_app_20x14
+        Me.NotificationMenuStripVideo.Image = Global.YTVL.My.Resources.Resources.youtube_android
         Me.NotificationMenuStripVideo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.NotificationMenuStripVideo.Name = "NotificationMenuStripVideo"
         Me.NotificationMenuStripVideo.Size = New System.Drawing.Size(172, 22)
@@ -1320,7 +1318,7 @@ Partial Class YTVL
         '
         'NotificationMenuStripVideoInfo
         '
-        Me.NotificationMenuStripVideoInfo.Image = Global.YTVL.My.Resources.Resources.documentinfo
+        Me.NotificationMenuStripVideoInfo.Image = Global.YTVL.My.Resources.Resources.document_info
         Me.NotificationMenuStripVideoInfo.Name = "NotificationMenuStripVideoInfo"
         Me.NotificationMenuStripVideoInfo.Size = New System.Drawing.Size(172, 22)
         Me.NotificationMenuStripVideoInfo.Text = "» Video &Info"
@@ -1328,7 +1326,7 @@ Partial Class YTVL
         '
         'NotificationMenuStripEmbed
         '
-        Me.NotificationMenuStripEmbed.Image = Global.YTVL.My.Resources.Resources._1387139872_window_new
+        Me.NotificationMenuStripEmbed.Image = Global.YTVL.My.Resources.Resources.new_window
         Me.NotificationMenuStripEmbed.Name = "NotificationMenuStripEmbed"
         Me.NotificationMenuStripEmbed.Size = New System.Drawing.Size(172, 22)
         Me.NotificationMenuStripEmbed.Text = "» &Embedded"
@@ -1341,7 +1339,7 @@ Partial Class YTVL
         '
         'NotificationMenuStripHideIcon
         '
-        Me.NotificationMenuStripHideIcon.Image = Global.YTVL.My.Resources.Resources.Exit2
+        Me.NotificationMenuStripHideIcon.Image = Global.YTVL.My.Resources.Resources.process_stop
         Me.NotificationMenuStripHideIcon.Name = "NotificationMenuStripHideIcon"
         Me.NotificationMenuStripHideIcon.Size = New System.Drawing.Size(172, 22)
         Me.NotificationMenuStripHideIcon.Text = "&Hide Icon"
@@ -1349,7 +1347,7 @@ Partial Class YTVL
         '
         'NotificationMenuStripClose
         '
-        Me.NotificationMenuStripClose.Image = Global.YTVL.My.Resources.Resources._1387140136_process_stop
+        Me.NotificationMenuStripClose.Image = Global.YTVL.My.Resources.Resources._exit
         Me.NotificationMenuStripClose.Name = "NotificationMenuStripClose"
         Me.NotificationMenuStripClose.Size = New System.Drawing.Size(172, 22)
         Me.NotificationMenuStripClose.Text = "Cl&ose"
@@ -1401,7 +1399,7 @@ Partial Class YTVL
         Me.Controls.Add(Me.grpBoxOutputs)
         Me.Controls.Add(Me.grpBoxInputs)
         Me.HelpButton = true
-        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Icon = Global.YTVL.My.Resources.Resources.icon_ytvl
         Me.Name = "YTVL"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "YouTube Video Linker"

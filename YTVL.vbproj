@@ -94,9 +94,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="YTVL.resx">
-      <DependentUpon>YTVL.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -143,12 +140,6 @@
     <Import Include="System.Diagnostics" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\image-not-found.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\YTVL.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -17,7 +17,6 @@ Public Class ThumbnailViewer
     Private components As System.ComponentModel.IContainer
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ThumbnailViewer))
         Me.imgThumbnail = New System.Windows.Forms.PictureBox()
         Me.lblS1 = New System.Windows.Forms.LinkLabel()
         Me.lblS2 = New System.Windows.Forms.LinkLabel()
@@ -33,7 +32,7 @@ Public Class ThumbnailViewer
           Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
         Me.imgThumbnail.Cursor = System.Windows.Forms.Cursors.Default
         Me.imgThumbnail.ErrorImage = Global.YTVL.My.Resources.Resources.image_not_found
-        Me.imgThumbnail.ImageLocation = "http://walkman100.github.io/Walkman/Images/loading1.gif"
+        Me.imgThumbnail.ImageLocation = "http://walkman100.github.io/images/gif/loading1.gif"
         Me.imgThumbnail.InitialImage = Global.YTVL.My.Resources.Resources.loading6
         Me.imgThumbnail.Location = New System.Drawing.Point(12, 12)
         Me.imgThumbnail.Name = "imgThumbnail"
@@ -105,7 +104,7 @@ Public Class ThumbnailViewer
         Me.Controls.Add(Me.lblS2)
         Me.Controls.Add(Me.lblS1)
         Me.Controls.Add(Me.imgThumbnail)
-        Me.Icon = Global.YTVL.My.Resources.Resources.Video_display
+        Me.Icon = Global.YTVL.My.Resources.Resources.icon_video_display
         Me.Name = "ThumbnailViewer"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.Text = "Thumbnail Viewer (Double-click to open in browser)"
