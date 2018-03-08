@@ -924,12 +924,13 @@ Partial Class YTVL
         'btnConvert
         '
         Me.btnConvert.AutoSize = true
-        Me.btnConvert.Location = New System.Drawing.Point(267, 48)
+        Me.btnConvert.Location = New System.Drawing.Point(267, 47)
         Me.btnConvert.Name = "btnConvert"
-        Me.btnConvert.Size = New System.Drawing.Size(111, 23)
+        Me.btnConvert.Size = New System.Drawing.Size(111, 24)
         Me.btnConvert.TabIndex = 9
         Me.btnConvert.Text = "Convert from URL..."
         Me.btnConvert.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.ToolTip.SetToolTip(Me.btnConvert, "Fill options from a video URL")
         Me.btnConvert.UseVisualStyleBackColor = true
         '
         'WebBrowserVideoLoad
@@ -969,12 +970,13 @@ Partial Class YTVL
         Me.btnThumbnail.AutoSize = true
         Me.btnThumbnail.Enabled = false
         Me.btnThumbnail.Image = Global.YTVL.My.Resources.Resources.video_display
-        Me.btnThumbnail.Location = New System.Drawing.Point(149, 48)
+        Me.btnThumbnail.Location = New System.Drawing.Point(149, 47)
         Me.btnThumbnail.Name = "btnThumbnail"
-        Me.btnThumbnail.Size = New System.Drawing.Size(112, 23)
+        Me.btnThumbnail.Size = New System.Drawing.Size(112, 24)
         Me.btnThumbnail.TabIndex = 8
         Me.btnThumbnail.Text = "Show Thumbnail"
         Me.btnThumbnail.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.ToolTip.SetToolTip(Me.btnThumbnail, "Open video thumbnail viewer")
         Me.btnThumbnail.UseVisualStyleBackColor = true
         '
         'btnDeturl
@@ -983,12 +985,14 @@ Partial Class YTVL
         Me.btnDeturl.ContextMenuStrip = Me.ContextDownload
         Me.btnDeturl.Enabled = false
         Me.btnDeturl.Image = Global.YTVL.My.Resources.Resources.deturl
-        Me.btnDeturl.Location = New System.Drawing.Point(6, 48)
+        Me.btnDeturl.Location = New System.Drawing.Point(6, 47)
         Me.btnDeturl.Name = "btnDeturl"
-        Me.btnDeturl.Size = New System.Drawing.Size(137, 23)
+        Me.btnDeturl.Size = New System.Drawing.Size(137, 24)
         Me.btnDeturl.TabIndex = 7
         Me.btnDeturl.Text = "Download from deturl"
         Me.btnDeturl.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.ToolTip.SetToolTip(Me.btnDeturl, "Open webpage to choose a site to download the video, right-click for specific sit"& _ 
+                "es")
         Me.btnDeturl.UseVisualStyleBackColor = true
         '
         'ContextDownload
@@ -1037,9 +1041,9 @@ Partial Class YTVL
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnExit.Image = Global.YTVL.My.Resources.Resources._exit
         Me.btnExit.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.btnExit.Location = New System.Drawing.Point(466, 19)
+        Me.btnExit.Location = New System.Drawing.Point(385, 47)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.Size = New System.Drawing.Size(75, 24)
         Me.btnExit.TabIndex = 6
         Me.btnExit.Text = "Exit"
         Me.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1070,7 +1074,7 @@ Partial Class YTVL
         Me.btnReset.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnReset.Location = New System.Drawing.Point(385, 19)
         Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(75, 23)
+        Me.btnReset.Size = New System.Drawing.Size(75, 24)
         Me.btnReset.TabIndex = 4
         Me.btnReset.Text = "&Reset"
         Me.btnReset.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1086,7 +1090,7 @@ Partial Class YTVL
         Me.btnEmbed.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnEmbed.Location = New System.Drawing.Point(258, 19)
         Me.btnEmbed.Name = "btnEmbed"
-        Me.btnEmbed.Size = New System.Drawing.Size(121, 23)
+        Me.btnEmbed.Size = New System.Drawing.Size(121, 24)
         Me.btnEmbed.TabIndex = 3
         Me.btnEmbed.Text = "&Embed Page Handler"
         Me.btnEmbed.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1103,7 +1107,7 @@ Partial Class YTVL
         Me.btnVideoInfo.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnVideoInfo.Location = New System.Drawing.Point(171, 19)
         Me.btnVideoInfo.Name = "btnVideoInfo"
-        Me.btnVideoInfo.Size = New System.Drawing.Size(81, 23)
+        Me.btnVideoInfo.Size = New System.Drawing.Size(81, 24)
         Me.btnVideoInfo.TabIndex = 2
         Me.btnVideoInfo.Text = "Video &Info"
         Me.btnVideoInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1120,7 +1124,7 @@ Partial Class YTVL
         Me.btnComments.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnComments.Location = New System.Drawing.Point(87, 19)
         Me.btnComments.Name = "btnComments"
-        Me.btnComments.Size = New System.Drawing.Size(78, 23)
+        Me.btnComments.Size = New System.Drawing.Size(78, 24)
         Me.btnComments.TabIndex = 1
         Me.btnComments.Text = "&Comments"
         Me.btnComments.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1137,7 +1141,7 @@ Partial Class YTVL
         Me.btnVideo.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.btnVideo.Location = New System.Drawing.Point(6, 19)
         Me.btnVideo.Name = "btnVideo"
-        Me.btnVideo.Size = New System.Drawing.Size(75, 23)
+        Me.btnVideo.Size = New System.Drawing.Size(75, 24)
         Me.btnVideo.TabIndex = 0
         Me.btnVideo.Text = "&Video"
         Me.btnVideo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1261,6 +1265,7 @@ Partial Class YTVL
         Me.lblCurrentVersion.Size = New System.Drawing.Size(52, 12)
         Me.lblCurrentVersion.TabIndex = 3
         Me.lblCurrentVersion.Text = "Current: v1"
+        Me.ToolTip.SetToolTip(Me.lblCurrentVersion, "Current YTVL version")
         '
         'NotificationIcon
         '
