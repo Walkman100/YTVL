@@ -252,13 +252,13 @@ Partial Class YTVL
         Me.btnAdvanced.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.btnAdvanced.BackColor = System.Drawing.Color.Transparent
         Me.btnAdvanced.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.btnAdvanced.Location = New System.Drawing.Point(404, 43)
+        Me.btnAdvanced.Location = New System.Drawing.Point(410, 43)
         Me.btnAdvanced.Name = "btnAdvanced"
-        Me.btnAdvanced.Size = New System.Drawing.Size(56, 23)
+        Me.btnAdvanced.Size = New System.Drawing.Size(50, 23)
         Me.btnAdvanced.TabIndex = 7
         Me.btnAdvanced.Text = "More ↓"
         Me.ToolTip.SetToolTip(Me.btnAdvanced, "Show More options")
-        Me.btnAdvanced.UseVisualStyleBackColor = false
+        Me.btnAdvanced.UseVisualStyleBackColor = true
         '
         'pnlRight1
         '
@@ -280,7 +280,7 @@ Partial Class YTVL
         Me.optMdstBrndng0.Size = New System.Drawing.Size(31, 17)
         Me.optMdstBrndng0.TabIndex = 26
         Me.optMdstBrndng0.Text = "0"
-        Me.optMdstBrndng0.UseVisualStyleBackColor = false
+        Me.optMdstBrndng0.UseVisualStyleBackColor = true
         '
         'optMdstBrndng1
         '
@@ -292,7 +292,7 @@ Partial Class YTVL
         Me.optMdstBrndng1.Size = New System.Drawing.Size(31, 17)
         Me.optMdstBrndng1.TabIndex = 27
         Me.optMdstBrndng1.Text = "1"
-        Me.optMdstBrndng1.UseVisualStyleBackColor = false
+        Me.optMdstBrndng1.UseVisualStyleBackColor = true
         '
         'pnlRight2
         '
@@ -314,7 +314,7 @@ Partial Class YTVL
         Me.optRel0.Size = New System.Drawing.Size(31, 17)
         Me.optRel0.TabIndex = 29
         Me.optRel0.Text = "0"
-        Me.optRel0.UseVisualStyleBackColor = false
+        Me.optRel0.UseVisualStyleBackColor = true
         '
         'optRel1
         '
@@ -326,7 +326,7 @@ Partial Class YTVL
         Me.optRel1.Size = New System.Drawing.Size(31, 17)
         Me.optRel1.TabIndex = 30
         Me.optRel1.Text = "1"
-        Me.optRel1.UseVisualStyleBackColor = false
+        Me.optRel1.UseVisualStyleBackColor = true
         '
         'pnlRight3
         '
@@ -348,7 +348,7 @@ Partial Class YTVL
         Me.optShowinfo0.Size = New System.Drawing.Size(31, 17)
         Me.optShowinfo0.TabIndex = 32
         Me.optShowinfo0.Text = "0"
-        Me.optShowinfo0.UseVisualStyleBackColor = false
+        Me.optShowinfo0.UseVisualStyleBackColor = true
         '
         'optShowinfo1
         '
@@ -360,7 +360,7 @@ Partial Class YTVL
         Me.optShowinfo1.Size = New System.Drawing.Size(31, 17)
         Me.optShowinfo1.TabIndex = 33
         Me.optShowinfo1.Text = "1"
-        Me.optShowinfo1.UseVisualStyleBackColor = false
+        Me.optShowinfo1.UseVisualStyleBackColor = true
         '
         'pnlRight4
         '
@@ -382,7 +382,7 @@ Partial Class YTVL
         Me.optShowsearch0.Size = New System.Drawing.Size(31, 17)
         Me.optShowsearch0.TabIndex = 35
         Me.optShowsearch0.Text = "0"
-        Me.optShowsearch0.UseVisualStyleBackColor = false
+        Me.optShowsearch0.UseVisualStyleBackColor = true
         '
         'optShowsearch1
         '
@@ -394,7 +394,7 @@ Partial Class YTVL
         Me.optShowsearch1.Size = New System.Drawing.Size(31, 17)
         Me.optShowsearch1.TabIndex = 36
         Me.optShowsearch1.Text = "1"
-        Me.optShowsearch1.UseVisualStyleBackColor = false
+        Me.optShowsearch1.UseVisualStyleBackColor = true
         '
         'pnlEnableJsApi
         '
@@ -416,7 +416,7 @@ Partial Class YTVL
         Me.optEnableJsApi0.Size = New System.Drawing.Size(31, 17)
         Me.optEnableJsApi0.TabIndex = 21
         Me.optEnableJsApi0.Text = "0"
-        Me.optEnableJsApi0.UseVisualStyleBackColor = false
+        Me.optEnableJsApi0.UseVisualStyleBackColor = true
         '
         'optEnableJsApi1
         '
@@ -428,7 +428,7 @@ Partial Class YTVL
         Me.optEnableJsApi1.Size = New System.Drawing.Size(31, 17)
         Me.optEnableJsApi1.TabIndex = 22
         Me.optEnableJsApi1.Text = "1"
-        Me.optEnableJsApi1.UseVisualStyleBackColor = false
+        Me.optEnableJsApi1.UseVisualStyleBackColor = true
         '
         'pnlAutoplay
         '
@@ -450,7 +450,7 @@ Partial Class YTVL
         Me.optAutoplay0.Size = New System.Drawing.Size(31, 17)
         Me.optAutoplay0.TabIndex = 12
         Me.optAutoplay0.Text = "0"
-        Me.optAutoplay0.UseVisualStyleBackColor = false
+        Me.optAutoplay0.UseVisualStyleBackColor = true
         '
         'optAutoplay1
         '
@@ -462,7 +462,7 @@ Partial Class YTVL
         Me.optAutoplay1.Size = New System.Drawing.Size(31, 17)
         Me.optAutoplay1.TabIndex = 13
         Me.optAutoplay1.Text = "1"
-        Me.optAutoplay1.UseVisualStyleBackColor = false
+        Me.optAutoplay1.UseVisualStyleBackColor = true
         '
         'pnlAutohide
         '
@@ -484,7 +484,7 @@ Partial Class YTVL
         Me.optAutohide0.Size = New System.Drawing.Size(31, 17)
         Me.optAutohide0.TabIndex = 18
         Me.optAutohide0.Text = "0"
-        Me.optAutohide0.UseVisualStyleBackColor = false
+        Me.optAutohide0.UseVisualStyleBackColor = true
         '
         'optAutohide1
         '
@@ -496,7 +496,7 @@ Partial Class YTVL
         Me.optAutohide1.Size = New System.Drawing.Size(31, 17)
         Me.optAutohide1.TabIndex = 19
         Me.optAutohide1.Text = "1"
-        Me.optAutohide1.UseVisualStyleBackColor = false
+        Me.optAutohide1.UseVisualStyleBackColor = true
         '
         'pnlFs
         '
@@ -518,7 +518,7 @@ Partial Class YTVL
         Me.optFs0.Size = New System.Drawing.Size(31, 17)
         Me.optFs0.TabIndex = 15
         Me.optFs0.Text = "0"
-        Me.optFs0.UseVisualStyleBackColor = false
+        Me.optFs0.UseVisualStyleBackColor = true
         '
         'optFs1
         '
@@ -530,7 +530,7 @@ Partial Class YTVL
         Me.optFs1.Size = New System.Drawing.Size(31, 17)
         Me.optFs1.TabIndex = 16
         Me.optFs1.Text = "1"
-        Me.optFs1.UseVisualStyleBackColor = false
+        Me.optFs1.UseVisualStyleBackColor = true
         '
         'pnlQuality
         '
@@ -546,7 +546,7 @@ Partial Class YTVL
         '
         Me.optQuality360.AutoSize = true
         Me.optQuality360.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.optQuality360.Location = New System.Drawing.Point(0, 0)
+        Me.optQuality360.Location = New System.Drawing.Point(0, -1)
         Me.optQuality360.Name = "optQuality360"
         Me.optQuality360.Size = New System.Drawing.Size(71, 17)
         Me.optQuality360.TabIndex = 8
@@ -577,7 +577,7 @@ Partial Class YTVL
         Me.chkHttps.TabIndex = 41
         Me.chkHttps.Text = "Use https (Secure connection)"
         Me.ToolTip.SetToolTip(Me.chkHttps, "Use HTTPS for all links")
-        Me.chkHttps.UseVisualStyleBackColor = false
+        Me.chkHttps.UseVisualStyleBackColor = true
         '
         'txtOrigin
         '
@@ -600,7 +600,7 @@ Partial Class YTVL
         Me.chkOrigin.Size = New System.Drawing.Size(79, 17)
         Me.chkOrigin.TabIndex = 39
         Me.chkOrigin.Text = "Use origin="
-        Me.chkOrigin.UseVisualStyleBackColor = false
+        Me.chkOrigin.UseVisualStyleBackColor = true
         '
         'chkWmode
         '
@@ -612,7 +612,7 @@ Partial Class YTVL
         Me.chkWmode.Size = New System.Drawing.Size(141, 17)
         Me.chkWmode.TabIndex = 38
         Me.chkWmode.Text = "Use wmode=transparent"
-        Me.chkWmode.UseVisualStyleBackColor = false
+        Me.chkWmode.UseVisualStyleBackColor = true
         '
         'chkThemeDark
         '
@@ -624,7 +624,7 @@ Partial Class YTVL
         Me.chkThemeDark.Size = New System.Drawing.Size(104, 17)
         Me.chkThemeDark.TabIndex = 37
         Me.chkThemeDark.Text = "Use theme=dark"
-        Me.chkThemeDark.UseVisualStyleBackColor = false
+        Me.chkThemeDark.UseVisualStyleBackColor = true
         '
         'lblShowSearch
         '
@@ -744,7 +744,7 @@ Partial Class YTVL
         Me.chkFeature.Size = New System.Drawing.Size(174, 17)
         Me.chkFeature.TabIndex = 10
         Me.chkFeature.Text = "Use feature=player_embedded "
-        Me.chkFeature.UseVisualStyleBackColor = false
+        Me.chkFeature.UseVisualStyleBackColor = true
         '
         'txtList
         '
@@ -782,7 +782,7 @@ Partial Class YTVL
         Me.chkHL.Size = New System.Drawing.Size(74, 17)
         Me.chkHL.TabIndex = 5
         Me.chkHL.Text = "Use &hl=en"
-        Me.chkHL.UseVisualStyleBackColor = false
+        Me.chkHL.UseVisualStyleBackColor = true
         '
         'txtTime
         '
@@ -895,7 +895,7 @@ Partial Class YTVL
         Me.chkKeepOnTop.Text = "Keep window on &top"
         Me.chkKeepOnTop.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         Me.ToolTip.SetToolTip(Me.chkKeepOnTop, "Keep window on top of all other windows")
-        Me.chkKeepOnTop.UseVisualStyleBackColor = false
+        Me.chkKeepOnTop.UseVisualStyleBackColor = true
         '
         'grpBoxOutputs
         '
@@ -1060,7 +1060,7 @@ Partial Class YTVL
         Me.chkShowNotification.TabIndex = 5
         Me.chkShowNotification.Text = "Show &Notification Icon"
         Me.ToolTip.SetToolTip(Me.chkShowNotification, "Show notification icon in System tray")
-        Me.chkShowNotification.UseVisualStyleBackColor = false
+        Me.chkShowNotification.UseVisualStyleBackColor = true
         '
         'btnReset
         '
@@ -1075,7 +1075,7 @@ Partial Class YTVL
         Me.btnReset.Text = "&Reset"
         Me.btnReset.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.ToolTip.SetToolTip(Me.btnReset, "Resets all form objects, including the size of the form but not options.")
-        Me.btnReset.UseVisualStyleBackColor = false
+        Me.btnReset.UseVisualStyleBackColor = true
         '
         'btnEmbed
         '
@@ -1091,7 +1091,7 @@ Partial Class YTVL
         Me.btnEmbed.Text = "&Embed Page Handler"
         Me.btnEmbed.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.ToolTip.SetToolTip(Me.btnEmbed, "Open a page with just the Embedded video")
-        Me.btnEmbed.UseVisualStyleBackColor = false
+        Me.btnEmbed.UseVisualStyleBackColor = true
         '
         'btnVideoInfo
         '
@@ -1108,7 +1108,7 @@ Partial Class YTVL
         Me.btnVideoInfo.Text = "Video &Info"
         Me.btnVideoInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.ToolTip.SetToolTip(Me.btnVideoInfo, "Download the Video Info file for  the chosen video")
-        Me.btnVideoInfo.UseVisualStyleBackColor = false
+        Me.btnVideoInfo.UseVisualStyleBackColor = true
         '
         'btnComments
         '
@@ -1125,7 +1125,7 @@ Partial Class YTVL
         Me.btnComments.Text = "&Comments"
         Me.btnComments.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.ToolTip.SetToolTip(Me.btnComments, "Show a page with just the comments for the specified video")
-        Me.btnComments.UseVisualStyleBackColor = false
+        Me.btnComments.UseVisualStyleBackColor = true
         '
         'btnVideo
         '
@@ -1142,7 +1142,7 @@ Partial Class YTVL
         Me.btnVideo.Text = "&Video"
         Me.btnVideo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.ToolTip.SetToolTip(Me.btnVideo, "Open the standard video page")
-        Me.btnVideo.UseVisualStyleBackColor = false
+        Me.btnVideo.UseVisualStyleBackColor = true
         '
         'grpBoxAbout
         '
@@ -1272,7 +1272,7 @@ Partial Class YTVL
         '
         Me.NotificationMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NotificationMenuStripShowYTVL, Me.NotificationMenuStripKeepOnTop, Me.NotificationMenuStripSeparator1, Me.NotificationMenuStripVideo, Me.NotificationMenuStripComments, Me.NotificationMenuStripVideoInfo, Me.NotificationMenuStripEmbed, Me.NotificationMenuStripSeparator2, Me.NotificationMenuStripHideIcon, Me.NotificationMenuStripClose})
         Me.NotificationMenuStrip.Name = "NotificationMenuStrip"
-        Me.NotificationMenuStrip.Size = New System.Drawing.Size(173, 192)
+        Me.NotificationMenuStrip.Size = New System.Drawing.Size(169, 192)
         Me.NotificationMenuStrip.Text = "YTVL Context Menu"
         '
         'NotificationMenuStripShowYTVL
@@ -1281,7 +1281,7 @@ Partial Class YTVL
         Me.NotificationMenuStripShowYTVL.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Bold)
         Me.NotificationMenuStripShowYTVL.Image = Global.YTVL.My.Resources.Resources.video_display
         Me.NotificationMenuStripShowYTVL.Name = "NotificationMenuStripShowYTVL"
-        Me.NotificationMenuStripShowYTVL.Size = New System.Drawing.Size(172, 22)
+        Me.NotificationMenuStripShowYTVL.Size = New System.Drawing.Size(168, 22)
         Me.NotificationMenuStripShowYTVL.Text = "&Show YTVL"
         Me.NotificationMenuStripShowYTVL.ToolTipText = "Bring YTVL to the front"
         '
@@ -1289,14 +1289,14 @@ Partial Class YTVL
         '
         Me.NotificationMenuStripKeepOnTop.CheckOnClick = true
         Me.NotificationMenuStripKeepOnTop.Name = "NotificationMenuStripKeepOnTop"
-        Me.NotificationMenuStripKeepOnTop.Size = New System.Drawing.Size(172, 22)
+        Me.NotificationMenuStripKeepOnTop.Size = New System.Drawing.Size(168, 22)
         Me.NotificationMenuStripKeepOnTop.Text = "Keep YTVL on top"
         Me.NotificationMenuStripKeepOnTop.ToolTipText = "Keep YTVL on top of all other windows"
         '
         'NotificationMenuStripSeparator1
         '
         Me.NotificationMenuStripSeparator1.Name = "NotificationMenuStripSeparator1"
-        Me.NotificationMenuStripSeparator1.Size = New System.Drawing.Size(169, 6)
+        Me.NotificationMenuStripSeparator1.Size = New System.Drawing.Size(165, 6)
         '
         'NotificationMenuStripVideo
         '
@@ -1304,7 +1304,7 @@ Partial Class YTVL
         Me.NotificationMenuStripVideo.Image = Global.YTVL.My.Resources.Resources.youtube_android
         Me.NotificationMenuStripVideo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.NotificationMenuStripVideo.Name = "NotificationMenuStripVideo"
-        Me.NotificationMenuStripVideo.Size = New System.Drawing.Size(172, 22)
+        Me.NotificationMenuStripVideo.Size = New System.Drawing.Size(168, 22)
         Me.NotificationMenuStripVideo.Text = "» &Video"
         Me.NotificationMenuStripVideo.ToolTipText = "Open the standard video page"
         '
@@ -1312,7 +1312,7 @@ Partial Class YTVL
         '
         Me.NotificationMenuStripComments.Image = Global.YTVL.My.Resources.Resources.facebook_messages
         Me.NotificationMenuStripComments.Name = "NotificationMenuStripComments"
-        Me.NotificationMenuStripComments.Size = New System.Drawing.Size(172, 22)
+        Me.NotificationMenuStripComments.Size = New System.Drawing.Size(168, 22)
         Me.NotificationMenuStripComments.Text = "» &Comments"
         Me.NotificationMenuStripComments.ToolTipText = "Show a page with just the comments for the specified video"
         '
@@ -1320,7 +1320,7 @@ Partial Class YTVL
         '
         Me.NotificationMenuStripVideoInfo.Image = Global.YTVL.My.Resources.Resources.document_info
         Me.NotificationMenuStripVideoInfo.Name = "NotificationMenuStripVideoInfo"
-        Me.NotificationMenuStripVideoInfo.Size = New System.Drawing.Size(172, 22)
+        Me.NotificationMenuStripVideoInfo.Size = New System.Drawing.Size(168, 22)
         Me.NotificationMenuStripVideoInfo.Text = "» Video &Info"
         Me.NotificationMenuStripVideoInfo.ToolTipText = "Download the Video Info file for  the chosen video"
         '
@@ -1328,20 +1328,20 @@ Partial Class YTVL
         '
         Me.NotificationMenuStripEmbed.Image = Global.YTVL.My.Resources.Resources.new_window
         Me.NotificationMenuStripEmbed.Name = "NotificationMenuStripEmbed"
-        Me.NotificationMenuStripEmbed.Size = New System.Drawing.Size(172, 22)
+        Me.NotificationMenuStripEmbed.Size = New System.Drawing.Size(168, 22)
         Me.NotificationMenuStripEmbed.Text = "» &Embedded"
         Me.NotificationMenuStripEmbed.ToolTipText = "Open a page with just the Embedded video"
         '
         'NotificationMenuStripSeparator2
         '
         Me.NotificationMenuStripSeparator2.Name = "NotificationMenuStripSeparator2"
-        Me.NotificationMenuStripSeparator2.Size = New System.Drawing.Size(169, 6)
+        Me.NotificationMenuStripSeparator2.Size = New System.Drawing.Size(165, 6)
         '
         'NotificationMenuStripHideIcon
         '
         Me.NotificationMenuStripHideIcon.Image = Global.YTVL.My.Resources.Resources.process_stop
         Me.NotificationMenuStripHideIcon.Name = "NotificationMenuStripHideIcon"
-        Me.NotificationMenuStripHideIcon.Size = New System.Drawing.Size(172, 22)
+        Me.NotificationMenuStripHideIcon.Size = New System.Drawing.Size(168, 22)
         Me.NotificationMenuStripHideIcon.Text = "&Hide Icon"
         Me.NotificationMenuStripHideIcon.ToolTipText = "Hide the taskbar icon"
         '
@@ -1349,7 +1349,7 @@ Partial Class YTVL
         '
         Me.NotificationMenuStripClose.Image = Global.YTVL.My.Resources.Resources._exit
         Me.NotificationMenuStripClose.Name = "NotificationMenuStripClose"
-        Me.NotificationMenuStripClose.Size = New System.Drawing.Size(172, 22)
+        Me.NotificationMenuStripClose.Size = New System.Drawing.Size(168, 22)
         Me.NotificationMenuStripClose.Text = "Cl&ose"
         Me.NotificationMenuStripClose.ToolTipText = "Quit YTVL"
         '
@@ -1367,7 +1367,7 @@ Partial Class YTVL
         Me.chkUpdate.TabIndex = 4
         Me.chkUpdate.Text = "Check for &updates automatically"
         Me.ToolTip.SetToolTip(Me.chkUpdate, "Automatically check for updates on startup")
-        Me.chkUpdate.UseVisualStyleBackColor = false
+        Me.chkUpdate.UseVisualStyleBackColor = true
         '
         'ToolTip
         '
