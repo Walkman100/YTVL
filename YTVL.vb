@@ -1,4 +1,4 @@
-Public Class YTVL
+﻿Public Class YTVL
     Dim ProgramFilesDir As String = Environment.GetEnvironmentVariable("ProgramFiles")
     Dim Vars As String = ""
     Dim usehttps As String = "https"
@@ -443,6 +443,7 @@ Public Class YTVL
     Private Sub ShowYTVL() Handles NotificationMenuStripShowYTVL.Click, NotificationIcon.DoubleClick, NotificationIcon.MouseDoubleClick
         WindowState = FormWindowState.Normal
         Me.BringToFront()
+        Me.Activate()
     End Sub
 
     Private Sub DEBUG() Handles btnDebug.Click
