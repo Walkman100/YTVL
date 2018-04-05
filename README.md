@@ -27,6 +27,11 @@ External links:
 ## Compile requirements
 See [CompileInstructions.md](https://github.com/Walkman100/gists/blob/master/CompileInstructions.md)
 
+## Download
+Get the latest version [here](https://github.com/Walkman100/YTVL/releases), and the latest build from commit
+[here](https://ci.appveyor.com/project/Walkman100/YTVL/build/artifacts)
+(note that these builds are built for the Debug config and so are not optimised)
+
 # How to use
 It is very simple to use this program. Simply paste your YouTube Video ID<sup>(<a href="#f-note-1" name="ref1" id="ref1">1</a>)</sup> into the first box, and click the `Video` button to open the page with the video, sharing options and comments; click the `comments` option to view only the comments (useful if you watched the video in Embedded mode); click the `Video Info` button to download a file with the video's info in it; click the `Embed Page Handler` button to open a page that has JUST the video on it, which is even more lightweight than YouTube Feather<sup>(<a href="#f-note-2" name="ref2" id="ref2">2</a>)</sup> was; click the `Reset` button to reset the form to how it was  when you opened it. If you expand the window to the right, you will see an `Exit` button, which is not visible by default since it allows you to press <kbd>Esc</kbd> to close the program.
 
