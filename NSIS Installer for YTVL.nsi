@@ -2,21 +2,22 @@
 ; get NSIS at http://nsis.sourceforge.net/Download
 ; As a program that all Power PC users should have, Notepad++ is recommended to edit this file
 
-Icon "Resources\YTVL.ico"
-Caption "YTVL Installer"
-Name "YTVL"
+!define ProgramName "YTVL"
+Icon "Resources\${ProgramName}.ico"
+
+Name "${ProgramName}"
+Caption "${ProgramName} Installer"
 XPStyle on
-AutoCloseWindow true
 ShowInstDetails show
+AutoCloseWindow true
 
 LicenseBkColor /windows
 LicenseData "LICENSE.md"
 LicenseForceSelection checkbox "I have read and understand this notice"
-LicenseText "Please read the notice below before installing YTVL. If you understand the notice, click the checkbox below and click Next."
+LicenseText "Please read the notice below before installing ${ProgramName}. If you understand the notice, click the checkbox below and click Next."
 
 InstallDir $PROGRAMFILES\WalkmanOSS
-
-OutFile "bin\Release\YTVL-Installer.exe"
+OutFile "bin\Release\${ProgramName}-Installer.exe"
 
 ; Pages
 
@@ -24,97 +25,136 @@ Page license
 Page components
 Page directory
 Page instfiles
+Page custom postInstallShow postInstallFinish ": Install Complete"
 UninstPage uninstConfirm
 UninstPage instfiles
 
 ; Sections
 
-Section "YTVL Executable & Uninstaller"
+Section "${ProgramName} Executable & Uninstaller"
   SectionIn RO
   SetOutPath $INSTDIR
-  File "bin\Release\YTVL.exe"
-  WriteUninstaller "YTVL-Uninst.exe"
+  File "bin\Release\${ProgramName}.exe"
+  WriteUninstaller "${ProgramName}-Uninst.exe"
 SectionEnd
 
 Section "Remove old files in DeavmiOSS"
-  Delete "$PROGRAMFILES\DeavmiOSS\YTVL-Uninst.exe"
-  Delete "$PROGRAMFILES\DeavmiOSS\YTVL.exe"
+  Delete "$PROGRAMFILES\DeavmiOSS\${ProgramName}-Uninst.exe"
+  Delete "$PROGRAMFILES\DeavmiOSS\${ProgramName}.exe"
   RMDir "$PROGRAMFILES\DeavmiOSS"
   
-  Delete "$SMPROGRAMS\DeavmiOSS\YTVL.lnk"
-  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
+  Delete "$SMPROGRAMS\DeavmiOSS\${ProgramName}.lnk"
+  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall ${ProgramName}.lnk"
   RMDir "$SMPROGRAMS\DeavmiOSS"
 SectionEnd
 
-Section "YTVL Start Menu Shortcuts"
+Section "${ProgramName} Start Menu Shortcuts"
   CreateDirectory "$SMPROGRAMS\WalkmanOSS"
-  CreateShortCut "$SMPROGRAMS\WalkmanOSS\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
-  CreateShortCut "$SMPROGRAMS\WalkmanOSS\Uninstall YTVL.lnk" "$INSTDIR\YTVL-Uninst.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
+  CreateShortCut "$SMPROGRAMS\WalkmanOSS\${ProgramName}.lnk" "$INSTDIR\${ProgramName}.exe" "" "$INSTDIR\${ProgramName}.exe" "" "" "" "YouTube Video Linker"
+  CreateShortCut "$SMPROGRAMS\WalkmanOSS\Uninstall ${ProgramName}.lnk" "$INSTDIR\${ProgramName}-Uninst.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
   ;Syntax for CreateShortCut: link.lnk target.file [parameters [icon.file [icon_index_number [start_options [keyboard_shortcut [description]]]]]]
 SectionEnd
 
-Section "YTVL Desktop Shortcut"
-  CreateShortCut "$DESKTOP\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
+Section "${ProgramName} Desktop Shortcut"
+  CreateShortCut "$DESKTOP\${ProgramName}.lnk" "$INSTDIR\${ProgramName}.exe" "" "$INSTDIR\${ProgramName}.exe" "" "" "" "YouTube Video Linker"
 SectionEnd
 
-Section "YTVL Quick Launch Shortcut"
-  CreateShortCut "$QUICKLAUNCH\YTVL.lnk" "$INSTDIR\YTVL.exe" "" "$INSTDIR\YTVL.exe" "" "" "" "YouTube Video Linker"
+Section "${ProgramName} Quick Launch Shortcut"
+  CreateShortCut "$QUICKLAUNCH\${ProgramName}.lnk" "$INSTDIR\${ProgramName}.exe" "" "$INSTDIR\${ProgramName}.exe" "" "" "" "YouTube Video Linker"
 SectionEnd
 
 ; Functions
 
 Function .onInit
-  MessageBox MB_YESNO "This will install YTVL. Do you wish to continue?" IDYES gogogo
-    Abort
-  gogogo:
   SetShellVarContext all
   SetAutoClose true
 FunctionEnd
 
-Function .onInstSuccess
-    MessageBox MB_YESNO "Install Succeeded! Open ReadMe?" IDNO NoReadme
-      ExecShell "open" "https://github.com/Walkman100/YTVL/blob/master/README.md#youtube-video-linker-"
-    NoReadme:
+; Custom Install Complete page
+
+!include nsDialogs.nsh
+!include LogicLib.nsh ; For ${IF} logic
+Var Dialog
+Var Label
+Var CheckboxReadme
+Var CheckboxReadme_State
+Var CheckboxRunProgram
+Var CheckboxRunProgram_State
+
+Function postInstallShow
+  nsDialogs::Create 1018
+  Pop $Dialog
+  ${If} $Dialog == error
+    Abort
+  ${EndIf}
+  
+  ${NSD_CreateLabel} 0 0 100% 12u "Setup will launch these tasks when you click close:"
+  Pop $Label
+  
+  ${NSD_CreateCheckbox} 10u 30u 100% 10u "&Open Readme"
+  Pop $CheckboxReadme
+  ${If} $CheckboxReadme_State == ${BST_CHECKED}
+    ${NSD_Check} $CheckboxReadme
+  ${EndIf}
+  
+  ${NSD_CreateCheckbox} 10u 50u 100% 10u "&Launch ${ProgramName}"
+  Pop $CheckboxRunProgram
+  ${If} $CheckboxRunProgram_State == ${BST_CHECKED}
+    ${NSD_Check} $CheckboxRunProgram
+  ${EndIf}
+  
+  # alternative for the above ${If}:
+  #${NSD_SetState} $Checkbox_State
+  nsDialogs::Show
+FunctionEnd
+
+Function postInstallFinish
+  ${NSD_GetState} $CheckboxReadme $CheckboxReadme_State
+  ${NSD_GetState} $CheckboxRunProgram $CheckboxRunProgram_State
+  
+  ${If} $CheckboxReadme_State == ${BST_CHECKED}
+    ExecShell "open" "https://github.com/Walkman100/${ProgramName}/blob/master/README.md#youtube-video-linker-"
+  ${EndIf}
+  ${If} $CheckboxRunProgram_State == ${BST_CHECKED}
+    ExecShell "open" "$INSTDIR\${ProgramName}.exe"
+  ${EndIf}
 FunctionEnd
 
 ; Uninstaller
 
 Section "Uninstall"
-  Delete "$INSTDIR\YTVL-Uninst.exe"   ; Remove Application Files
-  Delete "$INSTDIR\YTVL.exe"
+  Delete "$INSTDIR\${ProgramName}-Uninst.exe"   ; Remove Application Files
+  Delete "$INSTDIR\${ProgramName}.exe"
   RMDir "$INSTDIR"
   
-  Delete "$SMPROGRAMS\WalkmanOSS\YTVL.lnk"   ; Remove Start Menu Shortcuts & Folder
-  Delete "$SMPROGRAMS\WalkmanOSS\Uninstall YTVL.lnk"
+  Delete "$SMPROGRAMS\WalkmanOSS\${ProgramName}.lnk"   ; Remove Start Menu Shortcuts & Folder
+  Delete "$SMPROGRAMS\WalkmanOSS\Uninstall ${ProgramName}.lnk"
   RMDir "$SMPROGRAMS\WalkmanOSS"
   
-  Delete "$DESKTOP\YTVL.lnk"   ; Remove Desktop Shortcut
-  Delete "$QUICKLAUNCH\YTVL.lnk"   ; Remove Quick Launch shortcut
+  Delete "$DESKTOP\${ProgramName}.lnk"   ; Remove Desktop Shortcut
+  Delete "$QUICKLAUNCH\${ProgramName}.lnk"   ; Remove Quick Launch shortcut
   
   ; Remove old files in DeavmiOSS
-  Delete "$PROGRAMFILES\DeavmiOSS\YTVL-Uninst.exe"
-  Delete "$PROGRAMFILES\DeavmiOSS\YTVL.exe"
+  Delete "$PROGRAMFILES\DeavmiOSS\${ProgramName}-Uninst.exe"
+  Delete "$PROGRAMFILES\DeavmiOSS\${ProgramName}.exe"
   RMDir "$PROGRAMFILES\DeavmiOSS"
   
-  Delete "$SMPROGRAMS\DeavmiOSS\YTVL.lnk"
-  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall YTVL.lnk"
+  Delete "$SMPROGRAMS\DeavmiOSS\${ProgramName}.lnk"
+  Delete "$SMPROGRAMS\DeavmiOSS\Uninstall ${ProgramName}.lnk"
   RMDir "$SMPROGRAMS\DeavmiOSS"
 SectionEnd
 
 ; Uninstaller Functions
 
 Function un.onInit
-    MessageBox MB_YESNO "This will uninstall YTVL. Continue?" IDYES NoAbort
-      Abort ; causes uninstaller to quit.
-    NoAbort:
-    SetShellVarContext all
-    SetAutoClose true
+  SetShellVarContext all
+  SetAutoClose true
 FunctionEnd
 
 Function un.onUninstFailed
-    MessageBox MB_OK "Uninstall Cancelled"
+  MessageBox MB_OK "Uninstall Cancelled"
 FunctionEnd
 
 Function un.onUninstSuccess
-    MessageBox MB_OK "Uninstall Completed"
+  MessageBox MB_OK "Uninstall Completed"
 FunctionEnd
