@@ -31,11 +31,27 @@ UninstPage instfiles
 
 ; Sections
 
-Section "${ProgramName} Executable & Uninstaller"
+Section "Executable & Uninstaller"
   SectionIn RO
   SetOutPath $INSTDIR
   File "bin\Release\${ProgramName}.exe"
   WriteUninstaller "${ProgramName}-Uninst.exe"
+SectionEnd
+
+Section "Add to Windows Programs & Features"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "DisplayName" "${ProgramName}"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "Publisher" "WalkmanOSS"
+  
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "DisplayIcon" "$INSTDIR\${ProgramName}.exe"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "InstallLocation" "$INSTDIR\"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "UninstallString" "$INSTDIR\${ProgramName}-Uninst.exe"
+  
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "NoModify" 1
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "NoRepair" 1
+  
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "HelpLink" "https://github.com/Walkman100/${ProgramName}/issues/new"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "URLInfoAbout" "https://github.com/Walkman100/${ProgramName}" ; Support Link
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" "URLUpdateInfo" "https://github.com/Walkman100/${ProgramName}/releases" ; Update Info Link
 SectionEnd
 
 Section "Remove old files in DeavmiOSS"
@@ -48,18 +64,18 @@ Section "Remove old files in DeavmiOSS"
   RMDir "$SMPROGRAMS\DeavmiOSS"
 SectionEnd
 
-Section "${ProgramName} Start Menu Shortcuts"
+Section "Start Menu Shortcuts"
   CreateDirectory "$SMPROGRAMS\WalkmanOSS"
   CreateShortCut "$SMPROGRAMS\WalkmanOSS\${ProgramName}.lnk" "$INSTDIR\${ProgramName}.exe" "" "$INSTDIR\${ProgramName}.exe" "" "" "" "YouTube Video Linker"
   CreateShortCut "$SMPROGRAMS\WalkmanOSS\Uninstall ${ProgramName}.lnk" "$INSTDIR\${ProgramName}-Uninst.exe" "" "" "" "" "" "Uninstall YouTube Video Linker"
   ;Syntax for CreateShortCut: link.lnk target.file [parameters [icon.file [icon_index_number [start_options [keyboard_shortcut [description]]]]]]
 SectionEnd
 
-Section "${ProgramName} Desktop Shortcut"
+Section "Desktop Shortcut"
   CreateShortCut "$DESKTOP\${ProgramName}.lnk" "$INSTDIR\${ProgramName}.exe" "" "$INSTDIR\${ProgramName}.exe" "" "" "" "YouTube Video Linker"
 SectionEnd
 
-Section "${ProgramName} Quick Launch Shortcut"
+Section "Quick Launch Shortcut"
   CreateShortCut "$QUICKLAUNCH\${ProgramName}.lnk" "$INSTDIR\${ProgramName}.exe" "" "$INSTDIR\${ProgramName}.exe" "" "" "" "YouTube Video Linker"
 SectionEnd
 
@@ -126,6 +142,8 @@ Section "Uninstall"
   Delete "$INSTDIR\${ProgramName}-Uninst.exe"   ; Remove Application Files
   Delete "$INSTDIR\${ProgramName}.exe"
   RMDir "$INSTDIR"
+  
+  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${ProgramName}" ; Remove Windows Programs & Features integration (uninstall info)
   
   Delete "$SMPROGRAMS\WalkmanOSS\${ProgramName}.lnk"   ; Remove Start Menu Shortcuts & Folder
   Delete "$SMPROGRAMS\WalkmanOSS\Uninstall ${ProgramName}.lnk"
