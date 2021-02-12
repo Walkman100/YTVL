@@ -14,7 +14,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("YouTube Video Linker, original page: https://walkman100.github.io/ytvl")> 
 <Assembly: AssemblyCompany("WalkmanOSS")> 
 <Assembly: AssemblyProduct("YTVL")> 
-<Assembly: AssemblyCopyright("FOSS from Walkman 2014-16")> 
+<Assembly: AssemblyCopyright("FOSS from Walkman 2014-21")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
